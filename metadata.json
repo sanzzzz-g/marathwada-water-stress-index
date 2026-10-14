@@ -1,0 +1,8 @@
+{
+  "name": "Marathwada WSI Intelligence",
+  "description": "Hydroclimatic Water Stress Monitoring, Forecasting & Simulation Platform for Marathwada, Maharashtra",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
