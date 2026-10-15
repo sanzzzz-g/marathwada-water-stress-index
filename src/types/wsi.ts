@@ -61,7 +61,7 @@ export interface WsiRecord {
   date: string; // YYYY-MM
   year: number;
   month: number;
-  split: 'train' | 'val' | 'test';
+  split: 'train' | 'val' | 'validation' | 'test';
   districtId: DistrictId;
   districtName: string;
   components: WsiComponents;

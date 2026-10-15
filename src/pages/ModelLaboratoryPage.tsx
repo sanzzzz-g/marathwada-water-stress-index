@@ -308,7 +308,7 @@ export const ModelLaboratoryPage: React.FC = () => {
         <div className="p-3 bg-black/80 rounded border border-slate-800 font-mono text-xs text-slate-300 overflow-x-auto">
           <code>
             # Run expanding-window rolling-origin training on Marathwada dataset<br />
-            python backend/train_models.py --data datasets/Marathwada_FINAL_MODEL_DATASET_2003_2024.csv \<br />
+            python backend/train_models.py --data outputs/Marathwada_MODEL_DATASET_2003_2024.csv \<br />
             &nbsp;&nbsp;--train-end 2017-09 --val-end 2020-09 --test-end 2024-09 \<br />
             &nbsp;&nbsp;--models M0 M1 M2 M3 M4 M5 M6 --horizons 1 2 3
           </code>
