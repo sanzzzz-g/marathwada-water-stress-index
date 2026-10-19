@@ -1,16 +1,25 @@
 import { runAllPlatformTests } from './src/__tests__/wsiPlatform.test';
 
 async function main() {
-  console.log('Running MARATHWADA WSI INTELLIGENCE Scientific Invariant & GitHub Retrieval Tests...');
-  const { passed, failed, errors } = await runAllPlatformTests();
-  console.log(`Results: ${passed} assertions passed, ${failed} failed.`);
+  console.log('======================================================================');
+  console.log('MARATHWADA WSI INTELLIGENCE: TEST SUITE VERIFICATION');
+  console.log('======================================================================');
+  
+  const { passed, failed, errors, unitPassed, integrationPassed } = await runAllPlatformTests();
+  
+  console.log('----------------------------------------------------------------------');
+  console.log(`Test Execution Summary:`);
+  console.log(`- Offline Unit & Mock Assertions:      ${unitPassed} passed`);
+  console.log(`- Live GitHub Network Integration:     ${integrationPassed} passed`);
+  console.log(`- Total Assertions Passed:             ${passed} / ${passed + failed}`);
+  console.log('----------------------------------------------------------------------');
 
   if (failed > 0) {
-    console.error('FAILED TESTS:');
-    errors.forEach(e => console.error(e));
+    console.error('FAILED ASSERTIONS:');
+    errors.forEach(e => console.error(`  ✖ ${e}`));
     process.exit(1);
   } else {
-    console.log('ALL INVARIANT & GITHUB FETCH TESTS PASSED SUCCESSFULLY! ✓');
+    console.log('ALL TESTS PASSED: Both unit invariants and live GitHub integration verified. ✓');
     process.exit(0);
   }
 }
