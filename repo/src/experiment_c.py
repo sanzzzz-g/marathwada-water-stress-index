@@ -132,12 +132,12 @@ def load_allowed_data() -> Tuple[Dict[str, np.ndarray], Set[Path]]:
 
     # Shape contracts
     assert x_train.shape == (1328, 12, 6), f"Unexpected x_train shape: {x_train.shape}"
-    assert x_val.shape == (288, 12, 6), f"Unexpected x_val shape: {x_val.shape}"
-    assert y_val_original.shape == (288, 3), f"Unexpected y_val_original shape: {y_val_original.shape}"
+    assert x_val.shape == (272, 12, 6), f"Unexpected x_val shape: {x_val.shape}"
+    assert y_val_original.shape == (len(x_val), 3), f"Unexpected y_val_original shape: {y_val_original.shape}"
     assert y_train_residual.shape == (1328, 3), f"Unexpected y_train_residual shape: {y_train_residual.shape}"
-    assert y_val_residual.shape == (288, 3), f"Unexpected y_val_residual shape: {y_val_residual.shape}"
+    assert y_val_residual.shape == (len(x_val), 3), f"Unexpected y_val_residual shape: {y_val_residual.shape}"
     assert wsi_origin_train.shape == (1328,), f"Unexpected wsi_origin_train shape: {wsi_origin_train.shape}"
-    assert wsi_origin_val.shape == (288,), f"Unexpected wsi_origin_val shape: {wsi_origin_val.shape}"
+    assert wsi_origin_val.shape == (len(x_val),), f"Unexpected wsi_origin_val shape: {wsi_origin_val.shape}"
 
     data = {
         "x_train": x_train,
@@ -238,12 +238,12 @@ def evaluate_predictions(
     data: Dict[str, np.ndarray],
 ) -> Dict[str, float]:
     """Computes comprehensive MAE and RMSE metrics on reconstructed WSI and verifies residual equivalence."""
-    assert pred_residuals.shape == (288, 3), f"Unexpected pred_residuals shape: {pred_residuals.shape}"
+    assert pred_residuals.shape == (len(data["x_val"]), 3), f"Unexpected pred_residuals shape: {pred_residuals.shape}"
     assert np.isfinite(pred_residuals).all(), "Non-finite residual predictions encountered"
 
     # WSI Reconstruction: WSI_hat(t+h) = WSI(t) + r_hat(t, h)
     pred_wsi = data["wsi_origin_val"][:, None] + pred_residuals
-    assert pred_wsi.shape == (288, 3), f"Unexpected pred_wsi shape: {pred_wsi.shape}"
+    assert pred_wsi.shape == (len(data["x_val"]), 3), f"Unexpected pred_wsi shape: {pred_wsi.shape}"
     assert np.isfinite(pred_wsi).all(), "Non-finite reconstructed WSI predictions encountered"
 
     # Metric calculations on reconstructed WSI vs y_val_original

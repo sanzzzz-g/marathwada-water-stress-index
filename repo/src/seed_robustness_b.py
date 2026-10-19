@@ -102,11 +102,11 @@ def load_allowed_data() -> Tuple[Dict[str, np.ndarray], Set[Path]]:
 
     # Shape contracts
     assert x_train.shape == (1328, 12, 6), f"Unexpected x_train shape: {x_train.shape}"
-    assert x_val.shape == (288, 12, 6), f"Unexpected x_val shape: {x_val.shape}"
+    assert x_val.shape == (272, 12, 6), f"Unexpected x_val shape: {x_val.shape}"
     assert y_train_residual.shape == (1328, 3), f"Unexpected y_train_residual shape: {y_train_residual.shape}"
-    assert y_val_residual.shape == (288, 3), f"Unexpected y_val_residual shape: {y_val_residual.shape}"
-    assert wsi_origin_val.shape == (288,), f"Unexpected wsi_origin_val shape: {wsi_origin_val.shape}"
-    assert y_val_original.shape == (288, 3), f"Unexpected y_val_original shape: {y_val_original.shape}"
+    assert y_val_residual.shape == (len(x_val), 3), f"Unexpected y_val_residual shape: {y_val_residual.shape}"
+    assert wsi_origin_val.shape == (len(x_val),), f"Unexpected wsi_origin_val shape: {wsi_origin_val.shape}"
+    assert y_val_original.shape == (len(x_val), 3), f"Unexpected y_val_original shape: {y_val_original.shape}"
 
     data = {
         "x_train": x_train,
@@ -181,12 +181,12 @@ def run_seed_diagnostic(seed: int, data: Dict[str, np.ndarray]) -> Dict[str, Any
 
     # Validation predictions (residuals)
     pred_residuals = model.predict(data["x_val"], batch_size=BATCH_SIZE, verbose=0)
-    assert pred_residuals.shape == (288, 3), f"Unexpected pred_residuals shape: {pred_residuals.shape}"
+    assert pred_residuals.shape == (len(data["x_val"]), 3), f"Unexpected pred_residuals shape: {pred_residuals.shape}"
     assert np.isfinite(pred_residuals).all(), f"Seed {seed} produced non-finite residual predictions"
 
     # WSI Reconstruction: WSI_hat(t+h) = WSI(t) + r_hat(t, h)
     pred_wsi = data["wsi_origin_val"][:, None] + pred_residuals
-    assert pred_wsi.shape == (288, 3), f"Unexpected pred_wsi shape: {pred_wsi.shape}"
+    assert pred_wsi.shape == (len(data["x_val"]), 3), f"Unexpected pred_wsi shape: {pred_wsi.shape}"
     assert np.isfinite(pred_wsi).all(), f"Seed {seed} produced non-finite reconstructed WSI predictions"
 
     # Metric calculations on reconstructed WSI vs y_val_original
