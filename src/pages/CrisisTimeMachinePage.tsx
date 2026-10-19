@@ -227,7 +227,7 @@ export const CrisisTimeMachinePage: React.FC = () => {
                   <span className="font-semibold text-slate-200 truncate">{dInfo.name}</span>
                   <span
                     className="font-mono font-bold"
-                    style={{ color: getStressColor(r.wsi) }}
+                    style={{ color: getStressColor(getStressCategory(r.wsi)).hex }}
                   >
                     {r.wsi.toFixed(2)}
                   </span>
@@ -376,10 +376,10 @@ export const CrisisTimeMachinePage: React.FC = () => {
                 return (
                   <tr key={dist.id} className="hover:bg-slate-800/30 transition-colors">
                     <td className="py-3 px-3 font-semibold text-slate-200">{dist.name}</td>
-                    <td className="py-3 px-3 font-mono" style={{ color: getStressColor(valA) }}>
+                    <td className="py-3 px-3 font-mono" style={{ color: getStressColor(getStressCategory(valA)).hex }}>
                       {valA.toFixed(2)} ({getStressCategory(valA)})
                     </td>
-                    <td className="py-3 px-3 font-mono" style={{ color: getStressColor(valB) }}>
+                    <td className="py-3 px-3 font-mono" style={{ color: getStressColor(getStressCategory(valB)).hex }}>
                       {valB.toFixed(2)} ({getStressCategory(valB)})
                     </td>
                     <td className="py-3 px-3 font-mono font-bold">

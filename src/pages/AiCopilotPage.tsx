@@ -63,10 +63,12 @@ export const AiCopilotPage: React.FC<AiCopilotPageProps> = ({
       ? currentRecord.wsi
       : (currentRecord.wsi_w1_experimental ?? currentRecord.wsi);
 
-  const forecast = OPERATIONAL_FORECASTS[selectedDistrictId];
-  const h1 = forecast ? forecast.h1.predictedWsi : currentWsi;
-  const h2 = forecast ? forecast.h2.predictedWsi : currentWsi;
-  const h3 = forecast ? forecast.h3.predictedWsi : currentWsi;
+  const h1Forecast = OPERATIONAL_FORECASTS.find(f => f.districtId === selectedDistrictId && f.horizon === 1);
+  const h2Forecast = OPERATIONAL_FORECASTS.find(f => f.districtId === selectedDistrictId && f.horizon === 2);
+  const h3Forecast = OPERATIONAL_FORECASTS.find(f => f.districtId === selectedDistrictId && f.horizon === 3);
+  const h1 = h1Forecast ? h1Forecast.predictedWsi : currentWsi;
+  const h2 = h2Forecast ? h2Forecast.predictedWsi : currentWsi;
+  const h3 = h3Forecast ? h3Forecast.predictedWsi : currentWsi;
 
   const handleGenerateSitrep = async () => {
     setIsGenerating(true);
@@ -225,7 +227,7 @@ ${sitrep.marathiBriefing}
           <span className="text-xs text-slate-400">Observed WSI</span>
           <div
             className="mt-1 text-2xl font-bold font-mono"
-            style={{ color: getStressColor(currentWsi) }}
+            style={{ color: getStressColor(getStressCategory(currentWsi)).hex }}
           >
             {currentWsi.toFixed(2)}
           </div>

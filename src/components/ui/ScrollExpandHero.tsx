@@ -3,10 +3,7 @@ import React, {
   useRef,
   useState,
   ReactNode,
-  TouchEvent,
-  WheelEvent,
 } from 'react';
-import { motion } from 'framer-motion';
 
 export interface ScrollExpandMediaProps {
   mediaType?: 'video' | 'image';
@@ -27,14 +24,13 @@ export const ScrollExpandMedia: React.FC<ScrollExpandMediaProps> = ({
   bgImageSrc,
   title = 'MARATHWADA WATER INTELLIGENCE',
   date = 'Godavari Basin & 8 Districts',
-  scrollToExpand = 'Scroll down to expand platform',
+  scrollToExpand = 'Scroll down or click to expand platform telemetry',
   textBlend = false,
   children,
 }) => {
   const [scrollProgress, setScrollProgress] = useState<number>(0);
   const [showContent, setShowContent] = useState<boolean>(false);
   const [mediaFullyExpanded, setMediaFullyExpanded] = useState<boolean>(false);
-  const [touchStartY, setTouchStartY] = useState<number>(0);
   const [isMobileState, setIsMobileState] = useState<boolean>(false);
 
   const sectionRef = useRef<HTMLDivElement | null>(null);
@@ -46,80 +42,88 @@ export const ScrollExpandMedia: React.FC<ScrollExpandMediaProps> = ({
   }, [mediaType]);
 
   useEffect(() => {
-    const handleWheel = (e: any) => {
-      if (mediaFullyExpanded && e.deltaY < 0 && window.scrollY <= 10) {
-        setMediaFullyExpanded(false);
-        e.preventDefault();
-      } else if (!mediaFullyExpanded) {
-        e.preventDefault();
-        const scrollDelta = e.deltaY * 0.001;
-        const newProgress = Math.min(Math.max(scrollProgress + scrollDelta, 0), 1);
-        setScrollProgress(newProgress);
+    let touchStartY = 0;
 
-        if (newProgress >= 1) {
-          setMediaFullyExpanded(true);
-          setShowContent(true);
-        } else if (newProgress < 0.75) {
+    const handleWheel = (e: WheelEvent) => {
+      if (mediaFullyExpanded) {
+        if (e.deltaY < 0 && window.scrollY <= 10) {
+          setMediaFullyExpanded(false);
           setShowContent(false);
+          setScrollProgress(0.9);
+          e.preventDefault();
+        }
+      } else {
+        const scrollDelta = e.deltaY * 0.0015;
+        setScrollProgress(prev => {
+          const next = Math.min(Math.max(prev + scrollDelta, 0), 1);
+          if (next >= 0.98) {
+            setMediaFullyExpanded(true);
+            setShowContent(true);
+            return 1;
+          } else if (next < 0.75) {
+            setShowContent(false);
+          }
+          return next;
+        });
+        if (scrollProgress < 1) {
+          e.preventDefault();
         }
       }
     };
 
-    const handleTouchStart = (e: any) => {
-      setTouchStartY(e.touches[0].clientY);
+    const handleTouchStart = (e: TouchEvent) => {
+      touchStartY = e.touches[0].clientY;
     };
 
-    const handleTouchMove = (e: any) => {
+    const handleTouchMove = (e: TouchEvent) => {
       if (!touchStartY) return;
-
       const touchY = e.touches[0].clientY;
       const deltaY = touchStartY - touchY;
 
-      if (mediaFullyExpanded && deltaY < -20 && window.scrollY <= 10) {
-        setMediaFullyExpanded(false);
-        e.preventDefault();
-      } else if (!mediaFullyExpanded) {
-        e.preventDefault();
-        const scrollFactor = deltaY < 0 ? 0.008 : 0.005;
-        const scrollDelta = deltaY * scrollFactor;
-        const newProgress = Math.min(Math.max(scrollProgress + scrollDelta, 0), 1);
-        setScrollProgress(newProgress);
-
-        if (newProgress >= 1) {
-          setMediaFullyExpanded(true);
-          setShowContent(true);
-        } else if (newProgress < 0.75) {
+      if (mediaFullyExpanded) {
+        if (deltaY < -25 && window.scrollY <= 10) {
+          setMediaFullyExpanded(false);
           setShowContent(false);
+          setScrollProgress(0.9);
+          e.preventDefault();
         }
-
-        setTouchStartY(touchY);
+      } else {
+        const factor = deltaY < 0 ? 0.006 : 0.004;
+        const scrollDelta = deltaY * factor;
+        setScrollProgress(prev => {
+          const next = Math.min(Math.max(prev + scrollDelta, 0), 1);
+          if (next >= 0.98) {
+            setMediaFullyExpanded(true);
+            setShowContent(true);
+            return 1;
+          } else if (next < 0.75) {
+            setShowContent(false);
+          }
+          return next;
+        });
+        if (scrollProgress < 1) {
+          e.preventDefault();
+        }
+        touchStartY = touchY;
       }
     };
 
-    const handleTouchEnd = (): void => {
-      setTouchStartY(0);
-    };
-
-    const handleScroll = (): void => {
-      if (!mediaFullyExpanded) {
-        window.scrollTo(0, 0);
-      }
+    const handleTouchEnd = () => {
+      touchStartY = 0;
     };
 
     window.addEventListener('wheel', handleWheel, { passive: false });
-    window.addEventListener('scroll', handleScroll);
     window.addEventListener('touchstart', handleTouchStart, { passive: false });
     window.addEventListener('touchmove', handleTouchMove, { passive: false });
     window.addEventListener('touchend', handleTouchEnd);
 
     return () => {
       window.removeEventListener('wheel', handleWheel);
-      window.removeEventListener('scroll', handleScroll);
       window.removeEventListener('touchstart', handleTouchStart);
       window.removeEventListener('touchmove', handleTouchMove);
       window.removeEventListener('touchend', handleTouchEnd);
     };
-  }, [scrollProgress, mediaFullyExpanded, touchStartY]);
+  }, [scrollProgress, mediaFullyExpanded]);
 
   useEffect(() => {
     const checkIfMobile = (): void => {
@@ -128,9 +132,14 @@ export const ScrollExpandMedia: React.FC<ScrollExpandMediaProps> = ({
 
     checkIfMobile();
     window.addEventListener('resize', checkIfMobile);
-
     return () => window.removeEventListener('resize', checkIfMobile);
   }, []);
+
+  const triggerExpand = () => {
+    setScrollProgress(1);
+    setMediaFullyExpanded(true);
+    setShowContent(true);
+  };
 
   const mediaWidth = 320 + scrollProgress * (isMobileState ? 600 : 1200);
   const mediaHeight = 380 + scrollProgress * (isMobileState ? 220 : 380);
@@ -144,11 +153,9 @@ export const ScrollExpandMedia: React.FC<ScrollExpandMediaProps> = ({
       <section className="relative flex flex-col items-center justify-start min-h-[100dvh]">
         <div className="relative w-full flex flex-col items-center min-h-[100dvh]">
           {/* Background Image with smooth fade out on expand */}
-          <motion.div
-            className="absolute inset-0 z-0 h-full overflow-hidden"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 - scrollProgress }}
-            transition={{ duration: 0.1 }}
+          <div
+            className="absolute inset-0 z-0 h-full overflow-hidden transition-opacity duration-200"
+            style={{ opacity: Math.max(0, 1 - scrollProgress) }}
           >
             <img
               src={bgImageSrc}
@@ -156,13 +163,14 @@ export const ScrollExpandMedia: React.FC<ScrollExpandMediaProps> = ({
               className="w-screen h-screen object-cover object-center filter brightness-40"
             />
             <div className="absolute inset-0 bg-[#080d1a]/60 backdrop-blur-xs" />
-          </motion.div>
+          </div>
 
           {/* Expanding Media Container */}
           <div className="container mx-auto flex flex-col items-center justify-start relative z-10">
             <div className="flex flex-col items-center justify-center w-full h-[100dvh] relative">
               <div
-                className="absolute z-0 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-none rounded-2xl overflow-hidden border border-cyan-500/30"
+                onClick={!mediaFullyExpanded ? triggerExpand : undefined}
+                className="absolute z-0 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-150 rounded-2xl overflow-hidden border border-cyan-500/30 cursor-pointer"
                 style={{
                   width: `${mediaWidth}px`,
                   height: `${mediaHeight}px`,
@@ -170,6 +178,7 @@ export const ScrollExpandMedia: React.FC<ScrollExpandMediaProps> = ({
                   maxHeight: '86vh',
                   boxShadow: '0px 0px 60px rgba(6, 182, 212, 0.25)',
                 }}
+                title={!mediaFullyExpanded ? 'Click to expand' : undefined}
               >
                 {mediaType === 'video' ? (
                   <div className="relative w-full h-full pointer-events-none">
@@ -184,11 +193,9 @@ export const ScrollExpandMedia: React.FC<ScrollExpandMediaProps> = ({
                       className="w-full h-full object-cover rounded-xl"
                       controls={false}
                     />
-                    <motion.div
-                      className="absolute inset-0 bg-slate-950/40 rounded-xl"
-                      initial={{ opacity: 0.7 }}
-                      animate={{ opacity: 0.5 - scrollProgress * 0.3 }}
-                      transition={{ duration: 0.2 }}
+                    <div
+                      className="absolute inset-0 bg-slate-950/40 rounded-xl transition-opacity duration-200"
+                      style={{ opacity: Math.max(0.2, 0.5 - scrollProgress * 0.3) }}
                     />
                   </div>
                 ) : (
@@ -198,17 +205,15 @@ export const ScrollExpandMedia: React.FC<ScrollExpandMediaProps> = ({
                       alt={title || 'Hydroclimatic Intelligence'}
                       className="w-full h-full object-cover rounded-xl"
                     />
-                    <motion.div
-                      className="absolute inset-0 bg-slate-950/40 rounded-xl"
-                      initial={{ opacity: 0.6 }}
-                      animate={{ opacity: 0.5 - scrollProgress * 0.3 }}
-                      transition={{ duration: 0.2 }}
+                    <div
+                      className="absolute inset-0 bg-slate-950/40 rounded-xl transition-opacity duration-200"
+                      style={{ opacity: Math.max(0.2, 0.5 - scrollProgress * 0.3) }}
                     />
                   </div>
                 )}
 
                 {/* Subtitle / Expansion prompt */}
-                <div className="flex flex-col items-center text-center relative z-10 mt-4 px-4 transition-none">
+                <div className="flex flex-col items-center text-center relative z-10 mt-4 px-4 transition-transform duration-150">
                   {date && (
                     <p
                       className="text-lg md:text-xl font-mono text-cyan-300 font-semibold drop-shadow-md"
@@ -234,30 +239,31 @@ export const ScrollExpandMedia: React.FC<ScrollExpandMediaProps> = ({
                   textBlend ? 'mix-blend-difference' : 'mix-blend-normal'
                 }`}
               >
-                <motion.h2
-                  className="text-3xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-cyan-200 drop-shadow-lg transition-none"
+                <h2
+                  className="text-3xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-cyan-200 drop-shadow-lg transition-transform duration-150"
                   style={{ transform: `translateX(-${textTranslateX}vw)` }}
                 >
                   {firstWord}
-                </motion.h2>
-                <motion.h2
-                  className="text-3xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-center text-slate-100 drop-shadow-lg transition-none"
+                </h2>
+                <h2
+                  className="text-3xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-center text-slate-100 drop-shadow-lg transition-transform duration-150"
                   style={{ transform: `translateX(${textTranslateX}vw)` }}
                 >
                   {restOfTitle}
-                </motion.h2>
+                </h2>
               </div>
             </div>
 
             {/* Revealed Children Content */}
-            <motion.section
-              className="flex flex-col w-full px-4 py-8 md:px-12 lg:py-16"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: showContent ? 1 : 0 }}
-              transition={{ duration: 0.6 }}
+            <section
+              className="flex flex-col w-full px-4 py-8 md:px-12 lg:py-16 transition-opacity duration-500 ease-in-out"
+              style={{
+                opacity: showContent ? 1 : 0,
+                pointerEvents: showContent ? 'auto' : 'none',
+              }}
             >
               {children}
-            </motion.section>
+            </section>
           </div>
         </div>
       </section>

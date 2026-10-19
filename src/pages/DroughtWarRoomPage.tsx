@@ -61,8 +61,8 @@ export const DroughtWarRoomPage: React.FC<DroughtWarRoomPageProps> = ({
 
   const activeWsi = Math.max(-2, Math.min(3.5, baseWsi + customWsiOffset));
 
-  const forecast = OPERATIONAL_FORECASTS[selectedDistrictId];
-  const forecastH1 = forecast ? forecast.h1.predictedWsi : activeWsi;
+  const h1Forecast = OPERATIONAL_FORECASTS.find(f => f.districtId === selectedDistrictId && f.horizon === 1);
+  const forecastH1 = h1Forecast ? h1Forecast.predictedWsi : activeWsi;
 
   // Real-time weather fetch
   useEffect(() => {
@@ -218,7 +218,7 @@ export const DroughtWarRoomPage: React.FC<DroughtWarRoomPageProps> = ({
             </span>
             <div
               className="mt-2 text-2xl font-bold font-mono"
-              style={{ color: getStressColor(activeWsi) }}
+              style={{ color: getStressColor(getStressCategory(activeWsi)).hex }}
             >
               {activeWsi.toFixed(2)}
             </div>
