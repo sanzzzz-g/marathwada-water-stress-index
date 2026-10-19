@@ -15,6 +15,7 @@ import { DISTRICT_LIST, MARATHWADA_DISTRICTS } from '../data/districts';
 import {
   DISTRICT_EVALUATION_METRICS_M5,
   MODEL_EVALUATION_SUMMARIES,
+  MODEL_VALIDATION_SUMMARIES,
   MODEL_LIST,
 } from '../data/modelMetrics';
 import { getScarcityValidationSummary } from '../data/scarcityEvents';
@@ -22,18 +23,30 @@ import { ForecastHorizon, ModelId } from '../types/wsi';
 
 export const ValidationMetricsPage: React.FC = () => {
   const [activeHorizon, setActiveHorizon] = useState<ForecastHorizon>(1);
+  const [selectedSplit, setSelectedSplit] = useState<'test' | 'validation'>('test');
 
-  // Leaderboard table sorted by MAE on active horizon
+  // Leaderboard table sorted by MAE on active horizon and selected split
   const leaderboard = useMemo(() => {
+    const summarySource = selectedSplit === 'test' ? MODEL_EVALUATION_SUMMARIES : MODEL_VALIDATION_SUMMARIES;
     const list = MODEL_LIST.map(m => {
-      const metrics = MODEL_EVALUATION_SUMMARIES[m.id].horizons[activeHorizon];
+      const summary = summarySource[m.id];
+      const metrics = summary.horizons[activeHorizon];
       return {
         model: m,
+        summary,
         metrics,
       };
     });
-    return list.sort((a, b) => a.metrics.mae - b.metrics.mae);
-  }, [activeHorizon]);
+    // If a model has no metrics for the selected split, sort it to the bottom
+    return list.sort((a, b) => {
+      const aAvail = a.metrics.mae !== null && (selectedSplit === 'validation' || a.summary.isTestAvailable !== false);
+      const bAvail = b.metrics.mae !== null && (selectedSplit === 'validation' || b.summary.isTestAvailable !== false);
+      if (!aAvail && bAvail) return 1;
+      if (aAvail && !bAvail) return -1;
+      if (!aAvail && !bAvail) return 0;
+      return (a.metrics.mae ?? 999) - (b.metrics.mae ?? 999);
+    });
+  }, [activeHorizon, selectedSplit]);
 
   // Scarcity validation summary
   const scarcity = useMemo(() => {
@@ -48,7 +61,7 @@ export const ValidationMetricsPage: React.FC = () => {
           <div className="flex items-center gap-2 text-xs font-mono text-slate-400 mb-1">
             <span>Rigorous Model Evaluation</span>
             <span aria-hidden="true">·</span>
-            <span>Test Split 2021–2024 (368 sequences)</span>
+            <span>{selectedSplit === 'test' ? 'Test Split 2021–2024' : 'Validation Split 2018–2020'}</span>
             <span aria-hidden="true">·</span>
             <span className="text-cyan-400">Persistence-Relative Skill</span>
           </div>
@@ -56,13 +69,33 @@ export const ValidationMetricsPage: React.FC = () => {
             Forecast Performance & Independent Scarcity Grounding
           </h1>
           <p className="text-xs text-slate-400 mt-0.5">
-            Statistical regression benchmarks compared alongside official Maharashtra government drinking water tanker deployments.
+            Statistical regression benchmarks evaluated separately on Validation (2018–2020) and Test (2021–2024).
           </p>
         </div>
 
-        <div className="flex items-center gap-2 text-xs font-mono text-slate-400 bg-slate-900/90 px-3 py-2 rounded-md border border-slate-800">
-          <span>Target Window:</span>
-          <span className="text-teal-400">Jan 2021 – Dec 2024 Test</span>
+        {/* Split Selector */}
+        <div className="flex items-center gap-2 bg-slate-900/90 p-1.5 rounded-md border border-slate-800 text-xs font-mono">
+          <span className="text-slate-400 px-2">Split:</span>
+          <button
+            onClick={() => setSelectedSplit('test')}
+            className={`px-3 py-1 rounded transition-colors ${
+              selectedSplit === 'test'
+                ? 'bg-cyan-500 text-slate-950 font-bold'
+                : 'text-slate-400 hover:text-white'
+            }`}
+          >
+            Test (2021–2024)
+          </button>
+          <button
+            onClick={() => setSelectedSplit('validation')}
+            className={`px-3 py-1 rounded transition-colors ${
+              selectedSplit === 'validation'
+                ? 'bg-teal-500 text-slate-950 font-bold'
+                : 'text-slate-400 hover:text-white'
+            }`}
+          >
+            Validation (2018–2020)
+          </button>
         </div>
       </div>
 
@@ -71,10 +104,12 @@ export const ValidationMetricsPage: React.FC = () => {
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-slate-800">
           <div>
             <h2 className="text-sm font-semibold text-white tracking-wide uppercase font-mono">
-              Horizon-by-Horizon Model Benchmark Leaderboard
+              Horizon-by-Horizon Model Benchmark Leaderboard ({selectedSplit === 'test' ? 'Out-of-Sample Test' : 'Validation Split'})
             </h2>
             <div className="text-xs text-slate-400 mt-0.5 font-mono">
-              All models scored on the exact same 368 target windows using expanding-window backtesting.
+              {selectedSplit === 'test'
+                ? 'All evaluated models scored on held-out 2021–2024 test split (368 windows / 1,104 prediction points across 8 districts).'
+                : 'Scored on 2018–2020 validation split (272 windows / 816 prediction points). WSI-AR and Residual LSTM outperform Persistence.'}
             </div>
           </div>
 
@@ -107,21 +142,24 @@ export const ValidationMetricsPage: React.FC = () => {
                 <th className="py-2.5 px-3 text-right">RMSE</th>
                 <th className="py-2.5 px-3 text-right">Bias</th>
                 <th className="py-2.5 px-3 text-right">R²</th>
-                <th className="py-2.5 px-3 text-right">Skill_MAE vs M1</th>
-                <th className="py-2.5 px-3 text-right">High-Stress MAE (≥1.5)</th>
+                <th className="py-2.5 px-3 text-right">Skill_MAE vs Persistence</th>
+                <th className="py-2.5 px-3 text-right">Status / Note</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-800/60">
               {leaderboard.map((item, idx) => {
-                const isBest = idx === 0;
-                const isPersistence = item.model.id === 'Persistence' || (item.model.id as string) === 'M1_Persistence';
+                const isUnavailable = item.metrics.mae === null || (selectedSplit === 'test' && item.summary.isTestAvailable === false);
+                const isBest = idx === 0 && !isUnavailable;
+                const isPersistence = item.model.id === 'Persistence';
                 const skill = item.metrics.skillMaeVsPersistence;
 
                 return (
                   <tr
                     key={item.model.id}
                     className={`transition-colors ${
-                      isBest
+                      isUnavailable
+                        ? 'bg-slate-900/40 text-slate-400 opacity-75'
+                        : isBest
                         ? 'bg-cyan-950/30 text-white font-semibold'
                         : isPersistence
                         ? 'bg-slate-900/60 text-slate-300'
@@ -129,7 +167,13 @@ export const ValidationMetricsPage: React.FC = () => {
                     }`}
                   >
                     <td className="py-2.5 px-3 font-bold text-slate-400">
-                      {isBest ? <span className="text-cyan-400">#1 Top</span> : `#${idx + 1}`}
+                      {isUnavailable ? (
+                        <span className="text-amber-400/80">N/A</span>
+                      ) : isBest ? (
+                        <span className="text-cyan-400">#1 Top</span>
+                      ) : (
+                        `#${idx + 1}`
+                      )}
                     </td>
                     <td className="py-2.5 px-3">
                       <div className="font-sans font-semibold text-slate-200">
@@ -141,22 +185,40 @@ export const ValidationMetricsPage: React.FC = () => {
                     </td>
                     <td className="py-2.5 px-3 text-slate-400">{item.model.family}</td>
                     <td className="py-2.5 px-3 text-right font-bold text-white">
-                      {item.metrics.mae.toFixed(3)}
+                      {isUnavailable || item.metrics.mae === null ? (
+                        <span className="text-amber-400/80 font-mono italic">Unavailable</span>
+                      ) : (
+                        item.metrics.mae.toFixed(3)
+                      )}
                     </td>
-                    <td className="py-2.5 px-3 text-right">{item.metrics.rmse.toFixed(3)}</td>
+                    <td className="py-2.5 px-3 text-right">
+                      {isUnavailable || item.metrics.rmse === null ? '—' : item.metrics.rmse.toFixed(3)}
+                    </td>
                     <td className="py-2.5 px-3 text-right text-slate-400">
-                      {item.metrics.bias > 0 ? `+${item.metrics.bias.toFixed(3)}` : item.metrics.bias.toFixed(3)}
+                      {isUnavailable || item.metrics.bias === null ? '—' : item.metrics.bias > 0 ? `+${item.metrics.bias.toFixed(3)}` : item.metrics.bias.toFixed(3)}
                     </td>
                     <td className="py-2.5 px-3 text-right font-semibold text-cyan-300">
-                      {item.metrics.r2.toFixed(3)}
+                      {isUnavailable || item.metrics.r2 === null ? '—' : item.metrics.r2.toFixed(3)}
                     </td>
                     <td className="py-2.5 px-3 text-right font-bold">
-                      <span className={skill > 0 ? 'text-teal-400' : skill < 0 ? 'text-rose-400' : 'text-slate-400'}>
-                        {skill > 0 ? `+${(skill * 100).toFixed(1)}%` : `${(skill * 100).toFixed(1)}%`}
-                      </span>
+                      {isUnavailable || skill === null ? (
+                        <span className="text-slate-500 font-normal">—</span>
+                      ) : (
+                        <span className={skill > 0 ? 'text-teal-400' : skill < 0 ? 'text-rose-400' : 'text-slate-400'}>
+                          {skill > 0 ? `+${(skill * 100).toFixed(1)}%` : `${(skill * 100).toFixed(1)}%`}
+                        </span>
+                      )}
                     </td>
-                    <td className="py-2.5 px-3 text-right text-amber-300">
-                      {item.metrics.highStressMae?.toFixed(3) ?? 'N/A'}
+                    <td className="py-2.5 px-3 text-right text-xs">
+                      {isUnavailable ? (
+                        <span className="text-amber-400 bg-amber-950/60 px-2 py-0.5 rounded border border-amber-800 text-[10px]" title={item.summary.statusNote}>
+                          {item.summary.statusNote || 'Unavailable (v1 only)'}
+                        </span>
+                      ) : isBest ? (
+                        <span className="text-teal-400 font-mono text-[10px]">Lowest MAE</span>
+                      ) : (
+                        <span className="text-slate-500 font-mono text-[10px]">Evaluated</span>
+                      )}
                     </td>
                   </tr>
                 );
@@ -169,22 +231,22 @@ export const ValidationMetricsPage: React.FC = () => {
           <div>
             <strong>Skill Definition:</strong> Skill_MAE = 1 - MAE_model / MAE_persistence. Positive indicates lower error than persistence.
           </div>
-          <div>Scored sample size: N=368 windows per horizon</div>
+          <div>{selectedSplit === 'test' ? 'Scored sample size: 368 windows per horizon (1,104 predictions, 2021–2024)' : 'Validation sample size: 272 windows per horizon (816 predictions, 2018–2020)'}</div>
         </div>
       </div>
 
-      {/* District-by-District Metrics for Top Model (M5) */}
+      {/* District-by-District Metrics for Persistence Baseline */}
       <div className="p-5 bg-[#0a0f1d] border border-slate-800 rounded-lg space-y-4">
         <div className="flex items-center justify-between pb-3 border-b border-slate-800">
           <div>
             <h2 className="text-sm font-semibold text-white tracking-wide uppercase font-mono">
-              District-Wise Disaggregated Metrics (M5 Residual Ridge)
+              District-Wise Disaggregated Metrics (Persistence Baseline Benchmark)
             </h2>
             <div className="text-xs text-slate-400 mt-0.5 font-mono">
-              Evaluating spatial robustness across all 8 districts on the 2021–2024 test split.
+              Evaluating spatial robustness across all 8 districts on the 2021–2024 test split (Persistence Forecaster).
             </div>
           </div>
-          <span className="text-xs font-mono text-teal-400">N=46 per district</span>
+          <span className="text-xs font-mono text-teal-400">N=46 windows (138 forecasts) per district</span>
         </div>
 
         <div className="overflow-x-auto">

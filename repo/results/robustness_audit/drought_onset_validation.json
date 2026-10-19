@@ -1,0 +1,162 @@
+{
+  "Analysis_A": {
+    "total_episodes": 11,
+    "performance_by_horizon": {
+      "H+1": {
+        "strictly_eligible_onset_events": 11,
+        "model_performance": {
+          "Persistence": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "WSI_Autoregression": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "Residual_LSTM": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "XGBoost": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "Ridge_Regression": {
+            "hits": 0,
+            "pod_recall": 0.0
+          }
+        }
+      },
+      "H+2": {
+        "strictly_eligible_onset_events": 9,
+        "model_performance": {
+          "Persistence": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "WSI_Autoregression": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "Residual_LSTM": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "XGBoost": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "Ridge_Regression": {
+            "hits": 0,
+            "pod_recall": 0.0
+          }
+        }
+      },
+      "H+3": {
+        "strictly_eligible_onset_events": 10,
+        "model_performance": {
+          "Persistence": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "WSI_Autoregression": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "Residual_LSTM": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "XGBoost": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "Ridge_Regression": {
+            "hits": 0,
+            "pod_recall": 0.0
+          }
+        }
+      }
+    }
+  },
+  "Analysis_B": {
+    "total_episodes": 17,
+    "performance_by_horizon": {
+      "H+1": {
+        "strictly_eligible_onset_events": 17,
+        "model_performance": {
+          "Persistence": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "WSI_Autoregression": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "Residual_LSTM": {
+            "hits": 1,
+            "pod_recall": 0.0588
+          },
+          "XGBoost": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "Ridge_Regression": {
+            "hits": 1,
+            "pod_recall": 0.0588
+          }
+        }
+      },
+      "H+2": {
+        "strictly_eligible_onset_events": 16,
+        "model_performance": {
+          "Persistence": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "WSI_Autoregression": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "Residual_LSTM": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "XGBoost": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "Ridge_Regression": {
+            "hits": 0,
+            "pod_recall": 0.0
+          }
+        }
+      },
+      "H+3": {
+        "strictly_eligible_onset_events": 17,
+        "model_performance": {
+          "Persistence": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "WSI_Autoregression": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "Residual_LSTM": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "XGBoost": {
+            "hits": 0,
+            "pod_recall": 0.0
+          },
+          "Ridge_Regression": {
+            "hits": 0,
+            "pod_recall": 0.0
+          }
+        }
+      }
+    }
+  }
+}

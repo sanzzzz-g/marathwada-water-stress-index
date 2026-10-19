@@ -1,0 +1,4 @@
+horizon,analysis_a_raw_p,analysis_a_bonferroni_3,analysis_a_sig_05,analysis_b_raw_p,analysis_b_bonferroni_3,analysis_b_bonferroni_6,analysis_b_sig_05_bonf3,analysis_b_sig_05_bonf6
+h1,0.54811,1.0,False,0.10727,0.32181,0.64362,False,False
+h2,0.15349,0.46047,False,0.0096,0.0288,0.0576,True,False
+h3,0.33681,1.0,False,0.00051,0.00153,0.00306,True,True

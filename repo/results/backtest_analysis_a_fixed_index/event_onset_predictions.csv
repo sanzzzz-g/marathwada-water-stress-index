@@ -1,0 +1,199 @@
+district,episode_start,duration,lead_horizon,model,origin_wsi,actual_wsi,predicted_wsi,onset_hit
+Beed,2015-09-01,2,H+1,Persistence,1.4203,1.6077,1.4203,False
+Beed,2015-09-01,2,H+1,Residual_LSTM,1.4203,1.6077,0.9471,False
+Beed,2015-09-01,2,H+1,Ridge_Regression,1.4203,1.6077,0.8991,False
+Beed,2015-09-01,2,H+1,Seasonal_Persistence,1.4203,1.6077,0.3851,False
+Beed,2015-09-01,2,H+1,WSI_Autoregression,1.4203,1.6077,1.0011,False
+Beed,2015-09-01,2,H+1,XGBoost,1.4203,1.6077,0.7097,False
+Beed,2015-09-01,2,H+2,Persistence,1.426,1.6077,1.426,False
+Beed,2015-09-01,2,H+2,Residual_LSTM,1.426,1.6077,0.4711,False
+Beed,2015-09-01,2,H+2,Ridge_Regression,1.426,1.6077,0.4461,False
+Beed,2015-09-01,2,H+2,Seasonal_Persistence,1.426,1.6077,0.3851,False
+Beed,2015-09-01,2,H+2,WSI_Autoregression,1.426,1.6077,0.7999,False
+Beed,2015-09-01,2,H+2,XGBoost,1.426,1.6077,0.3772,False
+Beed,2015-09-01,2,H+3,Persistence,-0.0416,1.6077,-0.0416,False
+Beed,2015-09-01,2,H+3,Residual_LSTM,-0.0416,1.6077,-0.4806,False
+Beed,2015-09-01,2,H+3,Ridge_Regression,-0.0416,1.6077,-0.1071,False
+Beed,2015-09-01,2,H+3,Seasonal_Persistence,-0.0416,1.6077,0.3851,False
+Beed,2015-09-01,2,H+3,WSI_Autoregression,-0.0416,1.6077,-0.1893,False
+Beed,2015-09-01,2,H+3,XGBoost,-0.0416,1.6077,-0.0636,False
+Beed,2018-10-01,3,H+1,Persistence,1.3351,2.1372,1.3351,False
+Beed,2018-10-01,3,H+1,Residual_LSTM,1.3351,2.1372,1.2591,False
+Beed,2018-10-01,3,H+1,Ridge_Regression,1.3351,2.1372,0.8009,False
+Beed,2018-10-01,3,H+1,Seasonal_Persistence,1.3351,2.1372,-1.013,False
+Beed,2018-10-01,3,H+1,WSI_Autoregression,1.3351,2.1372,1.1381,False
+Beed,2018-10-01,3,H+1,XGBoost,1.3351,2.1372,0.9396,False
+Beed,2018-10-01,3,H+2,Persistence,-0.3437,2.1372,-0.3437,False
+Beed,2018-10-01,3,H+2,Residual_LSTM,-0.3437,2.1372,0.0354,False
+Beed,2018-10-01,3,H+2,Ridge_Regression,-0.3437,2.1372,-0.483,False
+Beed,2018-10-01,3,H+2,Seasonal_Persistence,-0.3437,2.1372,-1.013,False
+Beed,2018-10-01,3,H+2,WSI_Autoregression,-0.3437,2.1372,-0.1117,False
+Beed,2018-10-01,3,H+2,XGBoost,-0.3437,2.1372,-0.1459,False
+Beed,2018-10-01,3,H+3,Persistence,-0.8536,2.1372,-0.8536,False
+Beed,2018-10-01,3,H+3,Residual_LSTM,-0.8536,2.1372,-0.6419,False
+Beed,2018-10-01,3,H+3,Ridge_Regression,-0.8536,2.1372,-0.5677,False
+Beed,2018-10-01,3,H+3,Seasonal_Persistence,-0.8536,2.1372,-1.013,False
+Beed,2018-10-01,3,H+3,WSI_Autoregression,-0.8536,2.1372,-0.3888,False
+Beed,2018-10-01,3,H+3,XGBoost,-0.8536,2.1372,-0.4334,False
+Chhatrapati Sambhajinagar,2012-12-01,1,H+1,Persistence,1.4911,1.5551,1.4911,False
+Chhatrapati Sambhajinagar,2012-12-01,1,H+1,Residual_LSTM,1.4911,1.5551,1.4742,False
+Chhatrapati Sambhajinagar,2012-12-01,1,H+1,Ridge_Regression,1.4911,1.5551,1.4673,False
+Chhatrapati Sambhajinagar,2012-12-01,1,H+1,Seasonal_Persistence,1.4911,1.5551,0.0705,False
+Chhatrapati Sambhajinagar,2012-12-01,1,H+1,WSI_Autoregression,1.4911,1.5551,1.0387,False
+Chhatrapati Sambhajinagar,2012-12-01,1,H+1,XGBoost,1.4911,1.5551,0.6491,False
+Chhatrapati Sambhajinagar,2012-12-01,1,H+2,Persistence,1.4164,1.5551,1.4164,False
+Chhatrapati Sambhajinagar,2012-12-01,1,H+2,Residual_LSTM,1.4164,1.5551,1.2875,False
+Chhatrapati Sambhajinagar,2012-12-01,1,H+2,Ridge_Regression,1.4164,1.5551,1.4595,False
+Chhatrapati Sambhajinagar,2012-12-01,1,H+2,Seasonal_Persistence,1.4164,1.5551,0.0705,False
+Chhatrapati Sambhajinagar,2012-12-01,1,H+2,WSI_Autoregression,1.4164,1.5551,0.6795,False
+Chhatrapati Sambhajinagar,2012-12-01,1,H+2,XGBoost,1.4164,1.5551,0.5544,False
+Chhatrapati Sambhajinagar,2012-12-01,1,H+3,Persistence,1.0623,1.5551,1.0623,False
+Chhatrapati Sambhajinagar,2012-12-01,1,H+3,Residual_LSTM,1.0623,1.5551,1.0952,False
+Chhatrapati Sambhajinagar,2012-12-01,1,H+3,Ridge_Regression,1.0623,1.5551,1.1097,False
+Chhatrapati Sambhajinagar,2012-12-01,1,H+3,Seasonal_Persistence,1.0623,1.5551,0.0705,False
+Chhatrapati Sambhajinagar,2012-12-01,1,H+3,WSI_Autoregression,1.0623,1.5551,0.2822,False
+Chhatrapati Sambhajinagar,2012-12-01,1,H+3,XGBoost,1.0623,1.5551,0.3559,False
+Chhatrapati Sambhajinagar,2018-10-01,2,H+1,Persistence,1.2193,1.9659,1.2193,False
+Chhatrapati Sambhajinagar,2018-10-01,2,H+1,Residual_LSTM,1.2193,1.9659,1.2681,False
+Chhatrapati Sambhajinagar,2018-10-01,2,H+1,Ridge_Regression,1.2193,1.9659,0.5837,False
+Chhatrapati Sambhajinagar,2018-10-01,2,H+1,Seasonal_Persistence,1.2193,1.9659,-0.3824,False
+Chhatrapati Sambhajinagar,2018-10-01,2,H+1,WSI_Autoregression,1.2193,1.9659,0.9664,False
+Chhatrapati Sambhajinagar,2018-10-01,2,H+1,XGBoost,1.2193,1.9659,0.7874,False
+Chhatrapati Sambhajinagar,2018-10-01,2,H+2,Persistence,-0.2736,1.9659,-0.2736,False
+Chhatrapati Sambhajinagar,2018-10-01,2,H+2,Residual_LSTM,-0.2736,1.9659,-0.0657,False
+Chhatrapati Sambhajinagar,2018-10-01,2,H+2,Ridge_Regression,-0.2736,1.9659,-0.1783,False
+Chhatrapati Sambhajinagar,2018-10-01,2,H+2,Seasonal_Persistence,-0.2736,1.9659,-0.3824,False
+Chhatrapati Sambhajinagar,2018-10-01,2,H+2,WSI_Autoregression,-0.2736,1.9659,-0.1498,False
+Chhatrapati Sambhajinagar,2018-10-01,2,H+2,XGBoost,-0.2736,1.9659,0.0242,False
+Chhatrapati Sambhajinagar,2018-10-01,2,H+3,Persistence,0.234,1.9659,0.234,False
+Chhatrapati Sambhajinagar,2018-10-01,2,H+3,Residual_LSTM,0.234,1.9659,0.3478,False
+Chhatrapati Sambhajinagar,2018-10-01,2,H+3,Ridge_Regression,0.234,1.9659,-0.3867,False
+Chhatrapati Sambhajinagar,2018-10-01,2,H+3,Seasonal_Persistence,0.234,1.9659,-0.3824,False
+Chhatrapati Sambhajinagar,2018-10-01,2,H+3,WSI_Autoregression,0.234,1.9659,0.1443,False
+Chhatrapati Sambhajinagar,2018-10-01,2,H+3,XGBoost,0.234,1.9659,-0.1412,False
+Dharashiv,2015-07-01,2,H+1,Persistence,0.1241,1.5956,0.1241,False
+Dharashiv,2015-07-01,2,H+1,Residual_LSTM,0.1241,1.5956,-0.0637,False
+Dharashiv,2015-07-01,2,H+1,Ridge_Regression,0.1241,1.5956,-0.2089,False
+Dharashiv,2015-07-01,2,H+1,Seasonal_Persistence,0.1241,1.5956,0.2309,False
+Dharashiv,2015-07-01,2,H+1,WSI_Autoregression,0.1241,1.5956,0.0426,False
+Dharashiv,2015-07-01,2,H+1,XGBoost,0.1241,1.5956,-0.0624,False
+Dharashiv,2015-07-01,2,H+2,Persistence,-0.0692,1.5956,-0.0692,False
+Dharashiv,2015-07-01,2,H+2,Residual_LSTM,-0.0692,1.5956,-0.1655,False
+Dharashiv,2015-07-01,2,H+2,Ridge_Regression,-0.0692,1.5956,-0.285,False
+Dharashiv,2015-07-01,2,H+2,Seasonal_Persistence,-0.0692,1.5956,0.2309,False
+Dharashiv,2015-07-01,2,H+2,WSI_Autoregression,-0.0692,1.5956,-0.124,False
+Dharashiv,2015-07-01,2,H+2,XGBoost,-0.0692,1.5956,-0.135,False
+Dharashiv,2015-07-01,2,H+3,Persistence,-0.0008,1.5956,-0.0008,False
+Dharashiv,2015-07-01,2,H+3,Residual_LSTM,-0.0008,1.5956,-0.0389,False
+Dharashiv,2015-07-01,2,H+3,Ridge_Regression,-0.0008,1.5956,-0.1932,False
+Dharashiv,2015-07-01,2,H+3,Seasonal_Persistence,-0.0008,1.5956,0.2309,False
+Dharashiv,2015-07-01,2,H+3,WSI_Autoregression,-0.0008,1.5956,-0.084,False
+Dharashiv,2015-07-01,2,H+3,XGBoost,-0.0008,1.5956,-0.2161,False
+Jalna,2018-10-01,2,H+1,Persistence,1.0923,1.8161,1.0923,False
+Jalna,2018-10-01,2,H+1,Residual_LSTM,1.0923,1.8161,1.038,False
+Jalna,2018-10-01,2,H+1,Ridge_Regression,1.0923,1.8161,0.5843,False
+Jalna,2018-10-01,2,H+1,Seasonal_Persistence,1.0923,1.8161,-0.7997,False
+Jalna,2018-10-01,2,H+1,WSI_Autoregression,1.0923,1.8161,0.9414,False
+Jalna,2018-10-01,2,H+1,XGBoost,1.0923,1.8161,0.5848,False
+Jalna,2018-10-01,2,H+2,Persistence,-0.083,1.8161,-0.083,False
+Jalna,2018-10-01,2,H+2,Residual_LSTM,-0.083,1.8161,0.1851,False
+Jalna,2018-10-01,2,H+2,Ridge_Regression,-0.083,1.8161,-0.3369,False
+Jalna,2018-10-01,2,H+2,Seasonal_Persistence,-0.083,1.8161,-0.7997,False
+Jalna,2018-10-01,2,H+2,WSI_Autoregression,-0.083,1.8161,0.0511,False
+Jalna,2018-10-01,2,H+2,XGBoost,-0.083,1.8161,0.074,False
+Jalna,2018-10-01,2,H+3,Persistence,-0.809,1.8161,-0.809,False
+Jalna,2018-10-01,2,H+3,Residual_LSTM,-0.809,1.8161,-0.575,False
+Jalna,2018-10-01,2,H+3,Ridge_Regression,-0.809,1.8161,-0.6574,False
+Jalna,2018-10-01,2,H+3,Seasonal_Persistence,-0.809,1.8161,-0.7997,False
+Jalna,2018-10-01,2,H+3,WSI_Autoregression,-0.809,1.8161,-0.3896,False
+Jalna,2018-10-01,2,H+3,XGBoost,-0.809,1.8161,-0.0126,False
+Latur,2015-07-01,6,H+1,Persistence,0.1471,1.5693,0.1471,False
+Latur,2015-07-01,6,H+1,Residual_LSTM,0.1471,1.5693,-0.0127,False
+Latur,2015-07-01,6,H+1,Ridge_Regression,0.1471,1.5693,-0.0792,False
+Latur,2015-07-01,6,H+1,Seasonal_Persistence,0.1471,1.5693,0.6536,False
+Latur,2015-07-01,6,H+1,WSI_Autoregression,0.1471,1.5693,0.062,False
+Latur,2015-07-01,6,H+1,XGBoost,0.1471,1.5693,-0.109,False
+Latur,2015-07-01,6,H+2,Persistence,0.002,1.5693,0.002,False
+Latur,2015-07-01,6,H+2,Residual_LSTM,0.002,1.5693,0.045,False
+Latur,2015-07-01,6,H+2,Ridge_Regression,0.002,1.5693,-0.0388,False
+Latur,2015-07-01,6,H+2,Seasonal_Persistence,0.002,1.5693,0.6536,False
+Latur,2015-07-01,6,H+2,WSI_Autoregression,0.002,1.5693,-0.034,False
+Latur,2015-07-01,6,H+2,XGBoost,0.002,1.5693,-0.1023,False
+Latur,2015-07-01,6,H+3,Persistence,-0.16,1.5693,-0.16,False
+Latur,2015-07-01,6,H+3,Residual_LSTM,-0.16,1.5693,0.0686,False
+Latur,2015-07-01,6,H+3,Ridge_Regression,-0.16,1.5693,-0.0872,False
+Latur,2015-07-01,6,H+3,Seasonal_Persistence,-0.16,1.5693,0.6536,False
+Latur,2015-07-01,6,H+3,WSI_Autoregression,-0.16,1.5693,-0.0933,False
+Latur,2015-07-01,6,H+3,XGBoost,-0.16,1.5693,-0.087,False
+Nanded,2015-10-01,4,H+1,Persistence,1.4389,1.6436,1.4389,False
+Nanded,2015-10-01,4,H+1,Residual_LSTM,1.4389,1.6436,1.1262,False
+Nanded,2015-10-01,4,H+1,Ridge_Regression,1.4389,1.6436,0.8699,False
+Nanded,2015-10-01,4,H+1,Seasonal_Persistence,1.4389,1.6436,1.0346,False
+Nanded,2015-10-01,4,H+1,WSI_Autoregression,1.4389,1.6436,0.9413,False
+Nanded,2015-10-01,4,H+1,XGBoost,1.4389,1.6436,1.0308,False
+Nanded,2015-10-01,4,H+2,Persistence,0.8622,1.6436,0.8622,False
+Nanded,2015-10-01,4,H+2,Residual_LSTM,0.8622,1.6436,0.4646,False
+Nanded,2015-10-01,4,H+2,Ridge_Regression,0.8622,1.6436,0.0629,False
+Nanded,2015-10-01,4,H+2,Seasonal_Persistence,0.8622,1.6436,1.0346,False
+Nanded,2015-10-01,4,H+2,WSI_Autoregression,0.8622,1.6436,0.2846,False
+Nanded,2015-10-01,4,H+2,XGBoost,0.8622,1.6436,0.3432,False
+Nanded,2015-10-01,4,H+3,Persistence,1.1326,1.6436,1.1326,False
+Nanded,2015-10-01,4,H+3,Residual_LSTM,1.1326,1.6436,0.5814,False
+Nanded,2015-10-01,4,H+3,Ridge_Regression,1.1326,1.6436,0.0673,False
+Nanded,2015-10-01,4,H+3,Seasonal_Persistence,1.1326,1.6436,1.0346,False
+Nanded,2015-10-01,4,H+3,WSI_Autoregression,1.1326,1.6436,0.2533,False
+Nanded,2015-10-01,4,H+3,XGBoost,1.1326,1.6436,0.1858,False
+Parbhani,2015-07-01,1,H+1,Persistence,-0.129,1.5616,-0.129,False
+Parbhani,2015-07-01,1,H+1,Residual_LSTM,-0.129,1.5616,-0.0378,False
+Parbhani,2015-07-01,1,H+1,Ridge_Regression,-0.129,1.5616,-0.1162,False
+Parbhani,2015-07-01,1,H+1,Seasonal_Persistence,-0.129,1.5616,0.1561,False
+Parbhani,2015-07-01,1,H+1,WSI_Autoregression,-0.129,1.5616,-0.1766,False
+Parbhani,2015-07-01,1,H+1,XGBoost,-0.129,1.5616,-0.2714,False
+Parbhani,2015-07-01,1,H+2,Persistence,0.1446,1.5616,0.1446,False
+Parbhani,2015-07-01,1,H+2,Residual_LSTM,0.1446,1.5616,0.257,False
+Parbhani,2015-07-01,1,H+2,Ridge_Regression,0.1446,1.5616,0.2773,False
+Parbhani,2015-07-01,1,H+2,Seasonal_Persistence,0.1446,1.5616,0.1561,False
+Parbhani,2015-07-01,1,H+2,WSI_Autoregression,0.1446,1.5616,0.1116,False
+Parbhani,2015-07-01,1,H+2,XGBoost,0.1446,1.5616,0.1173,False
+Parbhani,2015-07-01,1,H+3,Persistence,-0.2085,1.5616,-0.2085,False
+Parbhani,2015-07-01,1,H+3,Residual_LSTM,-0.2085,1.5616,0.1455,False
+Parbhani,2015-07-01,1,H+3,Ridge_Regression,-0.2085,1.5616,0.2908,False
+Parbhani,2015-07-01,1,H+3,Seasonal_Persistence,-0.2085,1.5616,0.1561,False
+Parbhani,2015-07-01,1,H+3,WSI_Autoregression,-0.2085,1.5616,-0.0848,False
+Parbhani,2015-07-01,1,H+3,XGBoost,-0.2085,1.5616,-0.0505,False
+Parbhani,2015-09-01,2,H+1,Persistence,1.4,1.5165,1.4,False
+Parbhani,2015-09-01,2,H+1,Residual_LSTM,1.4,1.5165,0.9072,False
+Parbhani,2015-09-01,2,H+1,Ridge_Regression,1.4,1.5165,0.6971,False
+Parbhani,2015-09-01,2,H+1,Seasonal_Persistence,1.4,1.5165,0.4336,False
+Parbhani,2015-09-01,2,H+1,WSI_Autoregression,1.4,1.5165,1.0202,False
+Parbhani,2015-09-01,2,H+1,XGBoost,1.4,1.5165,0.7427,False
+Parbhani,2015-09-01,2,H+2,Persistence,1.5616,1.5165,1.5616,True
+Parbhani,2015-09-01,2,H+2,Residual_LSTM,1.5616,1.5165,0.6216,False
+Parbhani,2015-09-01,2,H+2,Ridge_Regression,1.5616,1.5165,0.4834,False
+Parbhani,2015-09-01,2,H+2,Seasonal_Persistence,1.5616,1.5165,0.4336,False
+Parbhani,2015-09-01,2,H+2,WSI_Autoregression,1.5616,1.5165,0.8953,False
+Parbhani,2015-09-01,2,H+2,XGBoost,1.5616,1.5165,0.3348,False
+Parbhani,2015-09-01,2,H+3,Persistence,-0.129,1.5165,-0.129,False
+Parbhani,2015-09-01,2,H+3,Residual_LSTM,-0.129,1.5165,-0.3979,False
+Parbhani,2015-09-01,2,H+3,Ridge_Regression,-0.129,1.5165,-0.3375,False
+Parbhani,2015-09-01,2,H+3,Seasonal_Persistence,-0.129,1.5165,0.4336,False
+Parbhani,2015-09-01,2,H+3,WSI_Autoregression,-0.129,1.5165,-0.2039,False
+Parbhani,2015-09-01,2,H+3,XGBoost,-0.129,1.5165,-0.3039,False
+Parbhani,2015-12-01,1,H+1,Persistence,1.385,1.6549,1.385,False
+Parbhani,2015-12-01,1,H+1,Residual_LSTM,1.385,1.6549,0.8381,False
+Parbhani,2015-12-01,1,H+1,Ridge_Regression,1.385,1.6549,1.0114,False
+Parbhani,2015-12-01,1,H+1,Seasonal_Persistence,1.385,1.6549,0.7194,False
+Parbhani,2015-12-01,1,H+1,WSI_Autoregression,1.385,1.6549,0.9855,False
+Parbhani,2015-12-01,1,H+1,XGBoost,1.385,1.6549,0.6971,False
+Parbhani,2015-12-01,1,H+2,Persistence,1.5832,1.6549,1.5832,True
+Parbhani,2015-12-01,1,H+2,Residual_LSTM,1.5832,1.6549,0.4388,False
+Parbhani,2015-12-01,1,H+2,Ridge_Regression,1.5832,1.6549,0.3496,False
+Parbhani,2015-12-01,1,H+2,Seasonal_Persistence,1.5832,1.6549,0.7194,False
+Parbhani,2015-12-01,1,H+2,WSI_Autoregression,1.5832,1.6549,0.8456,False
+Parbhani,2015-12-01,1,H+2,XGBoost,1.5832,1.6549,0.6607,False
+Parbhani,2015-12-01,1,H+3,Persistence,1.5165,1.6549,1.5165,True
+Parbhani,2015-12-01,1,H+3,Residual_LSTM,1.5165,1.6549,0.4003,False
+Parbhani,2015-12-01,1,H+3,Ridge_Regression,1.5165,1.6549,-0.1515,False
+Parbhani,2015-12-01,1,H+3,Seasonal_Persistence,1.5165,1.6549,0.7194,False
+Parbhani,2015-12-01,1,H+3,WSI_Autoregression,1.5165,1.6549,0.5029,False
+Parbhani,2015-12-01,1,H+3,XGBoost,1.5165,1.6549,0.4202,False

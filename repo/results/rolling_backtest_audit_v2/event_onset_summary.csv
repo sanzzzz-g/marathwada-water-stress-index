@@ -1,0 +1,7 @@
+model,total_episodes,episodes_detected_at_h1,episodes_detected_at_h2,episodes_detected_at_h3,unique_episodes_detected_any_horizon,onset_detection_rate_pct
+Persistence,11,0,1,1,2,18.18
+Seasonal_Persistence,11,0,0,0,0,0.0
+WSI_Autoregression,11,0,0,0,0,0.0
+Ridge_Regression,11,0,0,0,0,0.0
+XGBoost,11,0,0,0,0,0.0
+Residual_LSTM,11,0,0,0,0,0.0

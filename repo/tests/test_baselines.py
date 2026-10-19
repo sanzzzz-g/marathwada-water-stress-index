@@ -21,9 +21,9 @@ from src.baselines import (
 
 @pytest.fixture(scope="module")
 def sequence_arrays():
-    """Loads Step-5 sequence arrays and metadata."""
-    data_dir = "data_model"
-    assert os.path.exists(os.path.join(data_dir, "X_train.npy")), "data_model arrays missing! Run sequence_builder.py first."
+    """Loads authoritative sequence arrays and metadata from data_model_v2."""
+    data_dir = "data_model_v2" if os.path.exists(os.path.join("data_model_v2", "X_train.npy")) else "data_model"
+    assert os.path.exists(os.path.join(data_dir, "X_train.npy")), f"{data_dir} arrays missing! Run sequence_builder.py first."
     return load_sequence_arrays(data_dir=data_dir)
 
 

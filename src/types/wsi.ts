@@ -105,7 +105,10 @@ export type ModelId =
   | 'XGBoost'
   | 'Seasonal_Persistence'
   | 'LSTM'
-  | 'Residual_LSTM_ExpB';
+  | 'Residual_LSTM_ExpB'
+  | 'AR_Persistence_Ensemble'
+  | 'Ridge_Delta_Rolling'
+  | 'Ridge_Delta_Rolling_SEAS5';
 
 export interface ModelMeta {
   id: ModelId;
@@ -120,21 +123,24 @@ export interface ModelMeta {
 
 export interface ModelHorizonMetrics {
   horizon: ForecastHorizon;
-  mae: number;
-  rmse: number;
-  bias: number;
-  r2: number;
+  mae: number | null;
+  rmse: number | null;
+  bias: number | null;
+  r2: number | null;
   n: number;
-  skillMaeVsPersistence: number; // 1 - MAE_model / MAE_persistence
+  skillMaeVsPersistence: number | null; // 1 - MAE_model / MAE_persistence
   highStressMae?: number;
 }
 
 export interface ModelEvaluationSummary {
   modelId: ModelId;
-  overallMae: number;
-  overallRmse: number;
-  overallR2: number;
-  overallSkillMae: number;
+  overallMae: number | null;
+  overallRmse: number | null;
+  overallR2: number | null;
+  overallSkillMae: number | null;
+  split?: 'test' | 'validation';
+  isTestAvailable?: boolean;
+  statusNote?: string;
   horizons: Record<ForecastHorizon, ModelHorizonMetrics>;
 }
 

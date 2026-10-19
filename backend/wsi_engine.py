@@ -39,7 +39,11 @@ def get_stress_category(wsi: float) -> str:
         return 'Severe Stress'
     elif wsi >= THRESHOLD_MODERATE:
         return 'Moderate Stress'
-    return 'Low / Normal'
+    elif wsi >= -0.5:
+        return 'Normal'
+    elif wsi >= -1.5:
+        return 'Wet'
+    return 'Very Wet'
 
 
 def compute_persistence_skill(mae_model: float, mae_persistence: float) -> float:

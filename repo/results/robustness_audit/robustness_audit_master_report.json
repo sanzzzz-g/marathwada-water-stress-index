@@ -1,0 +1,563 @@
+{
+  "calibration_stability": {
+    "gamma_parameter_stability_sample": [
+      {
+        "district": "Beed",
+        "calendar_month": 1,
+        "n_samples_8yr": 8,
+        "alpha_8yr": 2.637,
+        "scale_8yr": 13.26,
+        "n_samples_15yr": 15,
+        "alpha_15yr": 2.259,
+        "scale_15yr": 15.557,
+        "alpha_pct_change": 16.8
+      },
+      {
+        "district": "Beed",
+        "calendar_month": 7,
+        "n_samples_8yr": 8,
+        "alpha_8yr": 16.147,
+        "scale_8yr": 22.803,
+        "n_samples_15yr": 15,
+        "alpha_15yr": 12.984,
+        "scale_15yr": 28.403,
+        "alpha_pct_change": 24.4
+      },
+      {
+        "district": "Beed",
+        "calendar_month": 10,
+        "n_samples_8yr": 8,
+        "alpha_8yr": 16.844,
+        "scale_8yr": 27.614,
+        "n_samples_15yr": 15,
+        "alpha_15yr": 21.512,
+        "scale_15yr": 20.47,
+        "alpha_pct_change": -21.7
+      },
+      {
+        "district": "Chhatrapati Sambhajinagar",
+        "calendar_month": 1,
+        "n_samples_8yr": 8,
+        "alpha_8yr": 1.538,
+        "scale_8yr": 24.593,
+        "n_samples_15yr": 15,
+        "alpha_15yr": 1.534,
+        "scale_15yr": 24.967,
+        "alpha_pct_change": 0.3
+      },
+      {
+        "district": "Chhatrapati Sambhajinagar",
+        "calendar_month": 7,
+        "n_samples_8yr": 8,
+        "alpha_8yr": 13.867,
+        "scale_8yr": 25.657,
+        "n_samples_15yr": 15,
+        "alpha_15yr": 12.955,
+        "scale_15yr": 28.28,
+        "alpha_pct_change": 7.0
+      },
+      {
+        "district": "Chhatrapati Sambhajinagar",
+        "calendar_month": 10,
+        "n_samples_8yr": 8,
+        "alpha_8yr": 14.952,
+        "scale_8yr": 29.911,
+        "n_samples_15yr": 15,
+        "alpha_15yr": 21.045,
+        "scale_15yr": 20.569,
+        "alpha_pct_change": -29.0
+      }
+    ],
+    "indicator_climatology_uncertainty_8yr": {
+      "soil_water_storage_mm": {
+        "mean_monthly_sd": 45.5816,
+        "mean_standard_error_8yr": 16.1155,
+        "relative_uncertainty_pct_of_sd": 35.4
+      },
+      "ndvi": {
+        "mean_monthly_sd": 0.0385,
+        "mean_standard_error_8yr": 0.0136,
+        "relative_uncertainty_pct_of_sd": 35.4
+      },
+      "lst_celsius": {
+        "mean_monthly_sd": 1.7474,
+        "mean_standard_error_8yr": 0.6178,
+        "relative_uncertainty_pct_of_sd": 35.4
+      },
+      "groundwater_as_of_depth_m_bgl": {
+        "mean_monthly_sd": 1.171,
+        "mean_standard_error_8yr": 0.414,
+        "relative_uncertainty_pct_of_sd": 35.4
+      },
+      "surface_water_frequency": {
+        "mean_monthly_sd": 0.0804,
+        "mean_standard_error_8yr": 0.0284,
+        "relative_uncertainty_pct_of_sd": 35.4
+      }
+    },
+    "climatological_standard_error_note": "A sample of N=8 years has SE = s/sqrt(8) = 0.354 * sigma. Reference climatologies have ~35% standard error relative to interannual standard deviation."
+  },
+  "baseline_period_sensitivity": [
+    {
+      "baseline": "2003-2010",
+      "cutoff_date": "2010-12-01",
+      "n_months_per_district": 96,
+      "mean_soil_storage_mm": 1034.77,
+      "mean_ndvi": 0.4078,
+      "mean_lst_celsius": 38.5,
+      "mean_gw_depth_m": 7.39,
+      "mean_sw_fraction": 0.3702
+    },
+    {
+      "baseline": "2003-2013",
+      "cutoff_date": "2013-12-01",
+      "n_months_per_district": 132,
+      "mean_soil_storage_mm": 1035.69,
+      "mean_ndvi": 0.4158,
+      "mean_lst_celsius": 38.27,
+      "mean_gw_depth_m": 7.37,
+      "mean_sw_fraction": 0.3695
+    },
+    {
+      "baseline": "2003-2016",
+      "cutoff_date": "2016-12-01",
+      "n_months_per_district": 168,
+      "mean_soil_storage_mm": 1033.31,
+      "mean_ndvi": 0.4149,
+      "mean_lst_celsius": 38.37,
+      "mean_gw_depth_m": 7.49,
+      "mean_sw_fraction": 0.3634
+    },
+    {
+      "baseline": "2003-2017",
+      "cutoff_date": "2017-12-01",
+      "n_months_per_district": 180,
+      "mean_soil_storage_mm": 1034.51,
+      "mean_ndvi": 0.4188,
+      "mean_lst_celsius": 38.3,
+      "mean_gw_depth_m": 7.44,
+      "mean_sw_fraction": 0.363
+    }
+  ],
+  "reproduced_comparisons": {
+    "Analysis_A": {
+      "total_evaluations": 2808,
+      "persistence_mae": 0.441,
+      "wsi_ar_mae": 0.4309,
+      "mean_mae_difference": 0.0101,
+      "skill_pct": 2.29,
+      "cluster_robust": {
+        "standard_error": 0.0154,
+        "t_stat": 0.6551,
+        "p_value": 0.5137,
+        "ci_95": [
+          -0.0204,
+          0.0406
+        ]
+      },
+      "by_horizon": {
+        "h1": {
+          "persistence_mae": 0.3278,
+          "wsi_ar_mae": 0.3249,
+          "mae_diff": 0.003,
+          "skill_pct": 0.9,
+          "hln_dm_stat": 0.6008,
+          "p_value_unadjusted": 0.54811,
+          "ci_95_diff": [
+            -0.0067,
+            0.0126
+          ]
+        },
+        "h2": {
+          "persistence_mae": 0.4544,
+          "wsi_ar_mae": 0.4408,
+          "mae_diff": 0.0136,
+          "skill_pct": 2.99,
+          "hln_dm_stat": 1.4285,
+          "p_value_unadjusted": 0.15349,
+          "ci_95_diff": [
+            -0.005,
+            0.0322
+          ]
+        },
+        "h3": {
+          "persistence_mae": 0.5408,
+          "wsi_ar_mae": 0.527,
+          "mae_diff": 0.0137,
+          "skill_pct": 2.54,
+          "hln_dm_stat": 0.961,
+          "p_value_unadjusted": 0.33681,
+          "ci_95_diff": [
+            -0.0143,
+            0.0417
+          ]
+        }
+      },
+      "by_district": {
+        "Beed": {
+          "persistence_mae": 0.4348,
+          "wsi_ar_mae": 0.4118,
+          "mae_diff": 0.023,
+          "skill_pct": 5.29
+        },
+        "Chhatrapati Sambhajinagar": {
+          "persistence_mae": 0.4463,
+          "wsi_ar_mae": 0.4532,
+          "mae_diff": -0.0068,
+          "skill_pct": -1.53
+        },
+        "Dharashiv": {
+          "persistence_mae": 0.3955,
+          "wsi_ar_mae": 0.385,
+          "mae_diff": 0.0105,
+          "skill_pct": 2.65
+        },
+        "Hingoli": {
+          "persistence_mae": 0.4604,
+          "wsi_ar_mae": 0.4571,
+          "mae_diff": 0.0033,
+          "skill_pct": 0.71
+        },
+        "Jalna": {
+          "persistence_mae": 0.4505,
+          "wsi_ar_mae": 0.4679,
+          "mae_diff": -0.0174,
+          "skill_pct": -3.87
+        },
+        "Latur": {
+          "persistence_mae": 0.4475,
+          "wsi_ar_mae": 0.4127,
+          "mae_diff": 0.0348,
+          "skill_pct": 7.78
+        },
+        "Nanded": {
+          "persistence_mae": 0.451,
+          "wsi_ar_mae": 0.4313,
+          "mae_diff": 0.0197,
+          "skill_pct": 4.37
+        },
+        "Parbhani": {
+          "persistence_mae": 0.4419,
+          "wsi_ar_mae": 0.4283,
+          "mae_diff": 0.0136,
+          "skill_pct": 3.09
+        }
+      }
+    },
+    "Analysis_B": {
+      "total_evaluations": 2808,
+      "persistence_mae": 0.5658,
+      "wsi_ar_mae": 0.5351,
+      "mean_mae_difference": 0.0308,
+      "skill_pct": 5.44,
+      "cluster_robust": {
+        "standard_error": 0.017,
+        "t_stat": 1.8071,
+        "p_value": 0.0733,
+        "ci_95": [
+          -0.003,
+          0.0645
+        ]
+      },
+      "by_horizon": {
+        "h1": {
+          "persistence_mae": 0.4251,
+          "wsi_ar_mae": 0.4156,
+          "mae_diff": 0.0095,
+          "skill_pct": 2.23,
+          "hln_dm_stat": 1.6121,
+          "p_value_unadjusted": 0.10727,
+          "ci_95_diff": [
+            -0.002,
+            0.021
+          ]
+        },
+        "h2": {
+          "persistence_mae": 0.5782,
+          "wsi_ar_mae": 0.5488,
+          "mae_diff": 0.0293,
+          "skill_pct": 5.07,
+          "hln_dm_stat": 2.5953,
+          "p_value_unadjusted": 0.0096,
+          "ci_95_diff": [
+            0.0072,
+            0.0515
+          ]
+        },
+        "h3": {
+          "persistence_mae": 0.6943,
+          "wsi_ar_mae": 0.6408,
+          "mae_diff": 0.0535,
+          "skill_pct": 7.7,
+          "hln_dm_stat": 3.4901,
+          "p_value_unadjusted": 0.00051,
+          "ci_95_diff": [
+            0.0234,
+            0.0835
+          ]
+        }
+      },
+      "by_district": {
+        "Beed": {
+          "persistence_mae": 0.5095,
+          "wsi_ar_mae": 0.4658,
+          "mae_diff": 0.0437,
+          "skill_pct": 8.58
+        },
+        "Chhatrapati Sambhajinagar": {
+          "persistence_mae": 0.5968,
+          "wsi_ar_mae": 0.5693,
+          "mae_diff": 0.0275,
+          "skill_pct": 4.61
+        },
+        "Dharashiv": {
+          "persistence_mae": 0.5031,
+          "wsi_ar_mae": 0.4679,
+          "mae_diff": 0.0351,
+          "skill_pct": 6.98
+        },
+        "Hingoli": {
+          "persistence_mae": 0.6012,
+          "wsi_ar_mae": 0.5735,
+          "mae_diff": 0.0278,
+          "skill_pct": 4.62
+        },
+        "Jalna": {
+          "persistence_mae": 0.5891,
+          "wsi_ar_mae": 0.5922,
+          "mae_diff": -0.003,
+          "skill_pct": -0.51
+        },
+        "Latur": {
+          "persistence_mae": 0.57,
+          "wsi_ar_mae": 0.5205,
+          "mae_diff": 0.0495,
+          "skill_pct": 8.69
+        },
+        "Nanded": {
+          "persistence_mae": 0.5876,
+          "wsi_ar_mae": 0.5491,
+          "mae_diff": 0.0385,
+          "skill_pct": 6.56
+        },
+        "Parbhani": {
+          "persistence_mae": 0.5694,
+          "wsi_ar_mae": 0.5425,
+          "mae_diff": 0.0269,
+          "skill_pct": 4.72
+        }
+      }
+    }
+  },
+  "multiple_comparisons": {
+    "table": [
+      {
+        "horizon": "h1",
+        "analysis_a_raw_p": 0.54811,
+        "analysis_a_bonferroni_3": 1.0,
+        "analysis_a_sig_05": false,
+        "analysis_b_raw_p": 0.10727,
+        "analysis_b_bonferroni_3": 0.32181,
+        "analysis_b_bonferroni_6": 0.64362,
+        "analysis_b_sig_05_bonf3": false,
+        "analysis_b_sig_05_bonf6": false
+      },
+      {
+        "horizon": "h2",
+        "analysis_a_raw_p": 0.15349,
+        "analysis_a_bonferroni_3": 0.46047,
+        "analysis_a_sig_05": false,
+        "analysis_b_raw_p": 0.0096,
+        "analysis_b_bonferroni_3": 0.0288,
+        "analysis_b_bonferroni_6": 0.0576,
+        "analysis_b_sig_05_bonf3": true,
+        "analysis_b_sig_05_bonf6": false
+      },
+      {
+        "horizon": "h3",
+        "analysis_a_raw_p": 0.33681,
+        "analysis_a_bonferroni_3": 1.0,
+        "analysis_a_sig_05": false,
+        "analysis_b_raw_p": 0.00051,
+        "analysis_b_bonferroni_3": 0.00153,
+        "analysis_b_bonferroni_6": 0.00306,
+        "analysis_b_sig_05_bonf3": true,
+        "analysis_b_sig_05_bonf6": true
+      }
+    ],
+    "disclosed_hypothesis_space": "5 models * 3 horizons * 2 calibrations = 30 total exploratory tests; 3 horizons for AR-12 candidate.",
+    "confirmatory_vs_exploratory": "Confirmatory test is the overall cluster-robust test across all horizons. Horizon-specific tests are exploratory and remain significant at H2 and H3 in Analysis B even after family-wise Bonferroni correction (m=3 or m=6)."
+  },
+  "drought_onset_validation": {
+    "Analysis_A": {
+      "total_episodes": 11,
+      "performance_by_horizon": {
+        "H+1": {
+          "strictly_eligible_onset_events": 11,
+          "model_performance": {
+            "Persistence": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "WSI_Autoregression": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "Residual_LSTM": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "XGBoost": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "Ridge_Regression": {
+              "hits": 0,
+              "pod_recall": 0.0
+            }
+          }
+        },
+        "H+2": {
+          "strictly_eligible_onset_events": 9,
+          "model_performance": {
+            "Persistence": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "WSI_Autoregression": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "Residual_LSTM": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "XGBoost": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "Ridge_Regression": {
+              "hits": 0,
+              "pod_recall": 0.0
+            }
+          }
+        },
+        "H+3": {
+          "strictly_eligible_onset_events": 10,
+          "model_performance": {
+            "Persistence": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "WSI_Autoregression": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "Residual_LSTM": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "XGBoost": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "Ridge_Regression": {
+              "hits": 0,
+              "pod_recall": 0.0
+            }
+          }
+        }
+      }
+    },
+    "Analysis_B": {
+      "total_episodes": 17,
+      "performance_by_horizon": {
+        "H+1": {
+          "strictly_eligible_onset_events": 17,
+          "model_performance": {
+            "Persistence": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "WSI_Autoregression": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "Residual_LSTM": {
+              "hits": 1,
+              "pod_recall": 0.0588
+            },
+            "XGBoost": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "Ridge_Regression": {
+              "hits": 1,
+              "pod_recall": 0.0588
+            }
+          }
+        },
+        "H+2": {
+          "strictly_eligible_onset_events": 16,
+          "model_performance": {
+            "Persistence": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "WSI_Autoregression": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "Residual_LSTM": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "XGBoost": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "Ridge_Regression": {
+              "hits": 0,
+              "pod_recall": 0.0
+            }
+          }
+        },
+        "H+3": {
+          "strictly_eligible_onset_events": 17,
+          "model_performance": {
+            "Persistence": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "WSI_Autoregression": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "Residual_LSTM": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "XGBoost": {
+              "hits": 0,
+              "pod_recall": 0.0
+            },
+            "Ridge_Regression": {
+              "hits": 0,
+              "pod_recall": 0.0
+            }
+          }
+        }
+      }
+    }
+  },
+  "deployment_readiness": {
+    "recommendation": "Adopt WSI Autoregression (AR-12) as primary candidate for numerical forecasting, retain Persistence as reference baseline and active-drought continuation tracker, and keep fresh-drought onset warning as an explicitly unresolved research objective.",
+    "historical_validation_status": "AR-12 was trained with expanding historical windows and selected on historical validation data without tuning against 2021-2024.",
+    "diagnostic_period_disclosure": "2021-2024 is documented as an inspected historical diagnostic period, not a blind future test.",
+    "deployment_limitations": [
+      "No model reliably provides advance warning of fresh drought onset (0% POD at H+1 in Analysis A; 11% in Analysis B).",
+      "AR-12 numerical advantage is marginal in Analysis A (+2.29%, cluster p=0.51) and strong in Analysis B (+5.44%, cluster p=0.07, DM p<0.01 at H2/H3).",
+      "Prospective shadow evaluation on incoming live observations is required before operational deployment."
+    ]
+  }
+}

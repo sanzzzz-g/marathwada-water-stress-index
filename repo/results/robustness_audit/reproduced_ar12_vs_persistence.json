@@ -1,0 +1,210 @@
+{
+  "Analysis_A": {
+    "total_evaluations": 2808,
+    "persistence_mae": 0.441,
+    "wsi_ar_mae": 0.4309,
+    "mean_mae_difference": 0.0101,
+    "skill_pct": 2.29,
+    "cluster_robust": {
+      "standard_error": 0.0154,
+      "t_stat": 0.6551,
+      "p_value": 0.5137,
+      "ci_95": [
+        -0.0204,
+        0.0406
+      ]
+    },
+    "by_horizon": {
+      "h1": {
+        "persistence_mae": 0.3278,
+        "wsi_ar_mae": 0.3249,
+        "mae_diff": 0.003,
+        "skill_pct": 0.9,
+        "hln_dm_stat": 0.6008,
+        "p_value_unadjusted": 0.54811,
+        "ci_95_diff": [
+          -0.0067,
+          0.0126
+        ]
+      },
+      "h2": {
+        "persistence_mae": 0.4544,
+        "wsi_ar_mae": 0.4408,
+        "mae_diff": 0.0136,
+        "skill_pct": 2.99,
+        "hln_dm_stat": 1.4285,
+        "p_value_unadjusted": 0.15349,
+        "ci_95_diff": [
+          -0.005,
+          0.0322
+        ]
+      },
+      "h3": {
+        "persistence_mae": 0.5408,
+        "wsi_ar_mae": 0.527,
+        "mae_diff": 0.0137,
+        "skill_pct": 2.54,
+        "hln_dm_stat": 0.961,
+        "p_value_unadjusted": 0.33681,
+        "ci_95_diff": [
+          -0.0143,
+          0.0417
+        ]
+      }
+    },
+    "by_district": {
+      "Beed": {
+        "persistence_mae": 0.4348,
+        "wsi_ar_mae": 0.4118,
+        "mae_diff": 0.023,
+        "skill_pct": 5.29
+      },
+      "Chhatrapati Sambhajinagar": {
+        "persistence_mae": 0.4463,
+        "wsi_ar_mae": 0.4532,
+        "mae_diff": -0.0068,
+        "skill_pct": -1.53
+      },
+      "Dharashiv": {
+        "persistence_mae": 0.3955,
+        "wsi_ar_mae": 0.385,
+        "mae_diff": 0.0105,
+        "skill_pct": 2.65
+      },
+      "Hingoli": {
+        "persistence_mae": 0.4604,
+        "wsi_ar_mae": 0.4571,
+        "mae_diff": 0.0033,
+        "skill_pct": 0.71
+      },
+      "Jalna": {
+        "persistence_mae": 0.4505,
+        "wsi_ar_mae": 0.4679,
+        "mae_diff": -0.0174,
+        "skill_pct": -3.87
+      },
+      "Latur": {
+        "persistence_mae": 0.4475,
+        "wsi_ar_mae": 0.4127,
+        "mae_diff": 0.0348,
+        "skill_pct": 7.78
+      },
+      "Nanded": {
+        "persistence_mae": 0.451,
+        "wsi_ar_mae": 0.4313,
+        "mae_diff": 0.0197,
+        "skill_pct": 4.37
+      },
+      "Parbhani": {
+        "persistence_mae": 0.4419,
+        "wsi_ar_mae": 0.4283,
+        "mae_diff": 0.0136,
+        "skill_pct": 3.09
+      }
+    }
+  },
+  "Analysis_B": {
+    "total_evaluations": 2808,
+    "persistence_mae": 0.5658,
+    "wsi_ar_mae": 0.5351,
+    "mean_mae_difference": 0.0308,
+    "skill_pct": 5.44,
+    "cluster_robust": {
+      "standard_error": 0.017,
+      "t_stat": 1.8071,
+      "p_value": 0.0733,
+      "ci_95": [
+        -0.003,
+        0.0645
+      ]
+    },
+    "by_horizon": {
+      "h1": {
+        "persistence_mae": 0.4251,
+        "wsi_ar_mae": 0.4156,
+        "mae_diff": 0.0095,
+        "skill_pct": 2.23,
+        "hln_dm_stat": 1.6121,
+        "p_value_unadjusted": 0.10727,
+        "ci_95_diff": [
+          -0.002,
+          0.021
+        ]
+      },
+      "h2": {
+        "persistence_mae": 0.5782,
+        "wsi_ar_mae": 0.5488,
+        "mae_diff": 0.0293,
+        "skill_pct": 5.07,
+        "hln_dm_stat": 2.5953,
+        "p_value_unadjusted": 0.0096,
+        "ci_95_diff": [
+          0.0072,
+          0.0515
+        ]
+      },
+      "h3": {
+        "persistence_mae": 0.6943,
+        "wsi_ar_mae": 0.6408,
+        "mae_diff": 0.0535,
+        "skill_pct": 7.7,
+        "hln_dm_stat": 3.4901,
+        "p_value_unadjusted": 0.00051,
+        "ci_95_diff": [
+          0.0234,
+          0.0835
+        ]
+      }
+    },
+    "by_district": {
+      "Beed": {
+        "persistence_mae": 0.5095,
+        "wsi_ar_mae": 0.4658,
+        "mae_diff": 0.0437,
+        "skill_pct": 8.58
+      },
+      "Chhatrapati Sambhajinagar": {
+        "persistence_mae": 0.5968,
+        "wsi_ar_mae": 0.5693,
+        "mae_diff": 0.0275,
+        "skill_pct": 4.61
+      },
+      "Dharashiv": {
+        "persistence_mae": 0.5031,
+        "wsi_ar_mae": 0.4679,
+        "mae_diff": 0.0351,
+        "skill_pct": 6.98
+      },
+      "Hingoli": {
+        "persistence_mae": 0.6012,
+        "wsi_ar_mae": 0.5735,
+        "mae_diff": 0.0278,
+        "skill_pct": 4.62
+      },
+      "Jalna": {
+        "persistence_mae": 0.5891,
+        "wsi_ar_mae": 0.5922,
+        "mae_diff": -0.003,
+        "skill_pct": -0.51
+      },
+      "Latur": {
+        "persistence_mae": 0.57,
+        "wsi_ar_mae": 0.5205,
+        "mae_diff": 0.0495,
+        "skill_pct": 8.69
+      },
+      "Nanded": {
+        "persistence_mae": 0.5876,
+        "wsi_ar_mae": 0.5491,
+        "mae_diff": 0.0385,
+        "skill_pct": 6.56
+      },
+      "Parbhani": {
+        "persistence_mae": 0.5694,
+        "wsi_ar_mae": 0.5425,
+        "mae_diff": 0.0269,
+        "skill_pct": 4.72
+      }
+    }
+  }
+}
