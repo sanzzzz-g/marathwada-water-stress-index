@@ -1,0 +1,270 @@
+{
+  "model_name": "AR_Persistence_Ensemble",
+  "description": "Validation-trained ensemble blending WSI-AR(12) and Persistence per horizon",
+  "formula": "ensemble_prediction = alpha_h * ar12_prediction + (1 - alpha_h) * persistence_prediction",
+  "learned_weights": {
+    "h1": 0.999996,
+    "h2": 0.762551,
+    "h3": 0.793288
+  },
+  "weights_constraints": "[0.0, 1.0]",
+  "training_dataset": "Chronological validation partition (2018-01 to 2020-12, N=272 per horizon, 816 total points)",
+  "diagnostic_dataset": "Historical diagnostic partition (2021-01 to 2024-12, N=368 per horizon, 1,104 total points)",
+  "objective_function": "Mean Absolute Error (MAE)",
+  "pooling": "Cross-district pooled observations per horizon",
+  "validation_performance": {
+    "ensemble": {
+      "horizons": {
+        "h1": {
+          "mae": 0.3475,
+          "rmse": 0.4592,
+          "bias": 0.0445,
+          "r2": 0.7571,
+          "n": 272,
+          "skill_mae_vs_persistence": 0.09860000014305115,
+          "persistence_mae": 0.3856000006198883
+        },
+        "h2": {
+          "mae": 0.4771,
+          "rmse": 0.6585,
+          "bias": 0.0913,
+          "r2": 0.5171,
+          "n": 272,
+          "skill_mae_vs_persistence": 0.09749999642372131,
+          "persistence_mae": 0.5286999940872192
+        },
+        "h3": {
+          "mae": 0.5717,
+          "rmse": 0.7753,
+          "bias": 0.1199,
+          "r2": 0.3457,
+          "n": 272,
+          "skill_mae_vs_persistence": 0.09319999814033508,
+          "persistence_mae": 0.6305000185966492
+        }
+      },
+      "overall": {
+        "mae": 0.4655,
+        "rmse": 0.6444,
+        "bias": 0.0852,
+        "r2": 0.5364,
+        "n": 816,
+        "skill_mae_vs_persistence": 0.096,
+        "persistence_mae": 0.5149
+      }
+    },
+    "wsi_autoregression": {
+      "horizons": {
+        "h1": {
+          "mae": 0.3475,
+          "rmse": 0.4592,
+          "bias": 0.0445,
+          "r2": 0.7571,
+          "n": 272,
+          "skill_mae_vs_persistence": 0.09860000014305115,
+          "persistence_mae": 0.3856000006198883
+        },
+        "h2": {
+          "mae": 0.4813,
+          "rmse": 0.6553,
+          "bias": 0.0972,
+          "r2": 0.5218,
+          "n": 272,
+          "skill_mae_vs_persistence": 0.08959999680519104,
+          "persistence_mae": 0.5286999940872192
+        },
+        "h3": {
+          "mae": 0.5819,
+          "rmse": 0.7711,
+          "bias": 0.1269,
+          "r2": 0.3527,
+          "n": 272,
+          "skill_mae_vs_persistence": 0.0771000012755394,
+          "persistence_mae": 0.6305000185966492
+        }
+      },
+      "overall": {
+        "mae": 0.4702,
+        "rmse": 0.6416,
+        "bias": 0.0895,
+        "r2": 0.5404,
+        "n": 816,
+        "skill_mae_vs_persistence": 0.0868,
+        "persistence_mae": 0.5149
+      }
+    },
+    "persistence": {
+      "horizons": {
+        "h1": {
+          "mae": 0.3856,
+          "rmse": 0.4892,
+          "bias": 0.0299,
+          "r2": 0.7244,
+          "n": 272,
+          "skill_mae_vs_persistence": 0.0,
+          "persistence_mae": 0.3856000006198883
+        },
+        "h2": {
+          "mae": 0.5287,
+          "rmse": 0.7197,
+          "bias": 0.0723,
+          "r2": 0.4232,
+          "n": 272,
+          "skill_mae_vs_persistence": 0.0,
+          "persistence_mae": 0.5286999940872192
+        },
+        "h3": {
+          "mae": 0.6305,
+          "rmse": 0.8749,
+          "bias": 0.0931,
+          "r2": 0.1669,
+          "n": 272,
+          "skill_mae_vs_persistence": 0.0,
+          "persistence_mae": 0.6305000185966492
+        }
+      },
+      "overall": {
+        "mae": 0.5149,
+        "rmse": 0.7124,
+        "bias": 0.0651,
+        "r2": 0.4333,
+        "n": 816,
+        "skill_mae_vs_persistence": 0.0,
+        "persistence_mae": 0.5149
+      }
+    }
+  },
+  "diagnostic_performance": {
+    "ensemble": {
+      "horizons": {
+        "h1": {
+          "mae": 0.3582,
+          "rmse": 0.4804,
+          "bias": 0.2194,
+          "r2": 0.051,
+          "n": 368,
+          "skill_mae_vs_persistence": -0.061900001019239426,
+          "persistence_mae": 0.33730000257492065
+        },
+        "h2": {
+          "mae": 0.4575,
+          "rmse": 0.6016,
+          "bias": 0.3124,
+          "r2": -0.5096,
+          "n": 368,
+          "skill_mae_vs_persistence": -0.04280000180006027,
+          "persistence_mae": 0.43869999051094055
+        },
+        "h3": {
+          "mae": 0.5631,
+          "rmse": 0.7025,
+          "bias": 0.4559,
+          "r2": -1.0757,
+          "n": 368,
+          "skill_mae_vs_persistence": -0.14839999377727509,
+          "persistence_mae": 0.4902999997138977
+        }
+      },
+      "overall": {
+        "mae": 0.4596,
+        "rmse": 0.6017,
+        "bias": 0.3292,
+        "r2": -0.5068,
+        "n": 1104,
+        "skill_mae_vs_persistence": -0.0888,
+        "persistence_mae": 0.4221
+      }
+    },
+    "wsi_autoregression": {
+      "horizons": {
+        "h1": {
+          "mae": 0.3582,
+          "rmse": 0.4804,
+          "bias": 0.2194,
+          "r2": 0.051,
+          "n": 368,
+          "skill_mae_vs_persistence": -0.061900001019239426,
+          "persistence_mae": 0.33730000257492065
+        },
+        "h2": {
+          "mae": 0.507,
+          "rmse": 0.6478,
+          "bias": 0.4071,
+          "r2": -0.7503,
+          "n": 368,
+          "skill_mae_vs_persistence": -0.15569999814033508,
+          "persistence_mae": 0.43869999051094055
+        },
+        "h3": {
+          "mae": 0.6381,
+          "rmse": 0.7707,
+          "bias": 0.57,
+          "r2": -1.498,
+          "n": 368,
+          "skill_mae_vs_persistence": -0.30149999260902405,
+          "persistence_mae": 0.4902999997138977
+        }
+      },
+      "overall": {
+        "mae": 0.5011,
+        "rmse": 0.644,
+        "bias": 0.3988,
+        "r2": -0.7261,
+        "n": 1104,
+        "skill_mae_vs_persistence": -0.1871,
+        "persistence_mae": 0.4221
+      }
+    },
+    "persistence": {
+      "horizons": {
+        "h1": {
+          "mae": 0.3373,
+          "rmse": 0.4534,
+          "bias": -0.0026,
+          "r2": 0.1545,
+          "n": 368,
+          "skill_mae_vs_persistence": 0.0,
+          "persistence_mae": 0.33730000257492065
+        },
+        "h2": {
+          "mae": 0.4387,
+          "rmse": 0.5689,
+          "bias": 0.0081,
+          "r2": -0.3499,
+          "n": 368,
+          "skill_mae_vs_persistence": 0.0,
+          "persistence_mae": 0.43869999051094055
+        },
+        "h3": {
+          "mae": 0.4903,
+          "rmse": 0.6299,
+          "bias": 0.018,
+          "r2": -0.6688,
+          "n": 368,
+          "skill_mae_vs_persistence": 0.0,
+          "persistence_mae": 0.4902999997138977
+        }
+      },
+      "overall": {
+        "mae": 0.4221,
+        "rmse": 0.5556,
+        "bias": 0.0078,
+        "r2": -0.2845,
+        "n": 1104,
+        "skill_mae_vs_persistence": 0.0,
+        "persistence_mae": 0.4221
+      }
+    }
+  },
+  "promotion_recommendation": {
+    "improves_validation_mae_over_strongest_baseline": true,
+    "val_mae_ensemble": 0.4655,
+    "val_mae_wsi_ar": 0.4702,
+    "val_mae_persistence": 0.5149,
+    "val_mae_improvement_over_ar": 0.0047,
+    "diagnostic_mae_ensemble": 0.4596,
+    "diagnostic_mae_persistence": 0.4221,
+    "merits_primary_promotion": false,
+    "rationale": "While the ensemble strictly improves validation MAE (0.4655 vs WSI-AR 0.4702 and Persistence 0.5149), Persistence achieves superior historical diagnostic MAE on 2021-2024 (0.4221 vs Ensemble 0.4596). In accordance with project integrity principles, Persistence is preserved as production champion while AR_Persistence_Ensemble is registered in Model Laboratory as the top multi-component ensemble candidate."
+  }
+}

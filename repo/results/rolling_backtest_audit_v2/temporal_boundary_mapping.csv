@@ -1,0 +1,4 @@
+fold,origin_start,origin_end,target_start,target_end,target_crosses_into_subsequent_year,targets_in_2021_count_per_model
+Fold_1_Pre_Drought,2011-01-01,2013-12-01,2011-02-01,2014-03-01,True,0
+Fold_2_Drought_Peak,2014-01-01,2016-12-01,2014-02-01,2017-03-01,True,0
+Fold_3_Recovery,2017-01-01,2020-12-01,2017-02-01,2021-03-01,True,48

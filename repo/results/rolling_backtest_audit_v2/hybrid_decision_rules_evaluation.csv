@@ -1,0 +1,5 @@
+decision_rule,total_evaluations,actual_severe,alarms_issued,tp_hits,fp_false_alarms,fn_misses,tn_correct_rejections,precision,recall_pod,f1_score,csi
+Standalone Persistence (WSI_origin >= 1.5),2880,78,78,30,48,48,2754,0.3846,0.3846,0.3846,0.2381
+Standalone WSI-AR (WSI_AR >= 1.5),2880,78,5,5,0,73,2802,1.0,0.0641,0.1205,0.0641
+Hybrid Union: (Persistence OR WSI-AR),2880,78,78,30,48,48,2754,0.3846,0.3846,0.3846,0.2381
+Hybrid Intersection: (Persistence AND WSI-AR),2880,78,5,5,0,73,2802,1.0,0.0641,0.1205,0.0641

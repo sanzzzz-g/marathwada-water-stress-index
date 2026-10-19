@@ -11,6 +11,10 @@ import {
   MapPin,
   Sliders,
   CheckCircle2,
+  ShieldAlert,
+  Waves,
+  Clock,
+  Bot,
 } from 'lucide-react';
 import { WeightingScheme } from '../../types/wsi';
 
@@ -25,8 +29,12 @@ export interface SidebarProps {
 
 const NAV_ITEMS = [
   { id: 'overview', label: 'Overview', icon: Activity, description: 'Regional summary & indicators' },
+  { id: 'war-room', label: 'Drought War Room', icon: ShieldAlert, description: 'Disaster & tanker protocol' },
   { id: 'forecasts', label: 'District Forecasts', icon: MapPin, description: '3-month forward outlook' },
+  { id: 'reservoirs', label: 'Reservoir Twin', icon: Waves, description: 'Godavari basin & dams' },
   { id: 'map', label: 'Interactive Map', icon: Compass, description: 'Spatial choropleth GIS' },
+  { id: 'time-machine', label: 'Crisis Time-Machine', icon: Clock, description: '2003–2024 drought replay' },
+  { id: 'copilot', label: 'AI Executive SITREP', icon: Bot, description: 'Gemini disaster advisory' },
   { id: 'history', label: 'Historical Analysis', icon: Calendar, description: '2003–2024 climate records' },
   { id: 'models', label: 'Model Laboratory', icon: FlaskConical, description: 'M0–M6 benchmarking' },
   { id: 'simulator', label: 'Scenario Simulator', icon: Sliders, description: 'What-if sensitivity sandbox' },
@@ -88,7 +96,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                   }`}
                 >
                   <Icon className={`w-4 h-4 shrink-0 ${isActive ? 'text-cyan-400' : 'text-slate-400'}`} />
-                  <span className="truncate">{item.label}</span>
+                  <span className="truncate flex-1">{item.label}</span>
                 </button>
               );
             })}

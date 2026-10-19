@@ -6,7 +6,7 @@ Endpoints correspond directly to Master Specification Section 17.
 from datetime import datetime
 from typing import Dict, List
 from fastapi import FastAPI, HTTPException, UploadFile, File
-from fastapi.middleware.cors import CORSMSMiddleware
+from fastapi.middleware.cors import CORSMiddleware
 
 from .models import (
     DistrictIdType,
@@ -19,6 +19,7 @@ from .models import (
     SimulationIndexResponse,
     WsiRecordSchema,
 )
+from .forecaster import forecast_district
 from .wsi_engine import compute_wsi, compute_residual_forecast, get_stress_category
 
 app = FastAPI(
@@ -28,7 +29,7 @@ app = FastAPI(
 )
 
 app.add_middleware(
-    CORSMSMiddleware,
+    CORSMiddleware,
     allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
@@ -79,11 +80,7 @@ def get_district_forecast(district_id: str):
     if not found:
         raise HTTPException(status_code=404, detail=f"District {district_id} not found.")
 
-    return [
-        {"district_id": district_id, "horizon": 1, "target_date": "2025-01", "predicted_wsi": 1.18, "predicted_residual": 0.08, "stress_category": "Moderate Stress"},
-        {"district_id": district_id, "horizon": 2, "target_date": "2025-02", "predicted_wsi": 1.29, "predicted_residual": 0.19, "stress_category": "Moderate Stress"},
-        {"district_id": district_id, "horizon": 3, "target_date": "2025-03", "predicted_wsi": 1.45, "predicted_residual": 0.35, "stress_category": "Moderate Stress"},
-    ]
+    return forecast_district(district_id)
 
 
 @app.post("/api/simulations/index", response_model=SimulationIndexResponse)

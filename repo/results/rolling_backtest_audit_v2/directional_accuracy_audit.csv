@@ -1,0 +1,7 @@
+model,flawed_old_dir_acc_pct,strict_sign_match_pct,informative_nonzero_dir_acc_pct,binary_increase_acc_pct,zero_pred_deltas_count,total_evaluations
+Persistence,100.0,0.0,0.0,51.32,2880,2880
+Seasonal_Persistence,57.88,57.88,57.88,57.88,0,2880
+WSI_Autoregression,63.16,63.16,63.16,63.16,0,2880
+Ridge_Regression,63.96,63.96,63.96,63.96,0,2880
+XGBoost,65.87,65.87,65.87,65.87,0,2880
+Residual_LSTM,63.19,63.19,63.19,63.19,0,2880

@@ -12,6 +12,10 @@ import { DataExplorerPage } from './pages/DataExplorerPage';
 import { ValidationMetricsPage } from './pages/ValidationMetricsPage';
 import { MethodologyPage } from './pages/MethodologyPage';
 import { AboutResearchPage } from './pages/AboutResearchPage';
+import { DroughtWarRoomPage } from './pages/DroughtWarRoomPage';
+import { ReservoirTwinPage } from './pages/ReservoirTwinPage';
+import { CrisisTimeMachinePage } from './pages/CrisisTimeMachinePage';
+import { AiCopilotPage } from './pages/AiCopilotPage';
 import { GITHUB_REPO_NAME, GITHUB_REPO_OWNER } from './services/githubFetcher';
 
 export default function App() {
@@ -56,6 +60,15 @@ export default function App() {
             />
           )}
 
+          {currentRoute === 'war-room' && (
+            <DroughtWarRoomPage
+              selectedDistrictId={selectedDistrictId}
+              onSelectDistrict={setSelectedDistrictId}
+              weightScheme={weightScheme}
+              onNavigate={handleNavigate}
+            />
+          )}
+
           {currentRoute === 'forecasts' && (
             <DistrictForecastPage
               selectedDistrictId={selectedDistrictId}
@@ -67,6 +80,24 @@ export default function App() {
 
           {currentRoute === 'map' && (
             <InteractiveMapPage
+              selectedDistrictId={selectedDistrictId}
+              onSelectDistrict={setSelectedDistrictId}
+              weightScheme={weightScheme}
+              onNavigate={handleNavigate}
+            />
+          )}
+
+          {currentRoute === 'reservoirs' && (
+            <ReservoirTwinPage
+              onSelectDistrict={setSelectedDistrictId}
+              onNavigate={handleNavigate}
+            />
+          )}
+
+          {currentRoute === 'time-machine' && <CrisisTimeMachinePage />}
+
+          {currentRoute === 'copilot' && (
+            <AiCopilotPage
               selectedDistrictId={selectedDistrictId}
               onSelectDistrict={setSelectedDistrictId}
               weightScheme={weightScheme}

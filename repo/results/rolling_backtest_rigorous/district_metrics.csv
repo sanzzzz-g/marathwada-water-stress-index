@@ -1,0 +1,49 @@
+district,model,evaluations,mae,rmse,skill_vs_persistence,actual_severe_events,tp_hits,fp_false_alarms,fn_misses,recall_pod,precision
+Beed,Persistence,360,0.4337,0.6039,0.0,15,4,11,11,0.2667,0.2667
+Beed,Residual_LSTM,360,0.4398,0.5969,-1.42,15,3,2,12,0.2,0.6
+Beed,Ridge_Regression,360,0.4625,0.6322,-6.64,15,1,0,14,0.0667,1.0
+Beed,Seasonal_Persistence,360,1.0812,1.3023,-149.29,15,0,15,15,0.0,0.0
+Beed,WSI_Autoregression,360,0.4049,0.5593,6.64,15,2,0,13,0.1333,1.0
+Beed,XGBoost,360,0.473,0.6129,-9.06,15,0,0,15,0.0,0.0
+Chhatrapati Sambhajinagar,Persistence,360,0.4521,0.6307,0.0,9,1,8,8,0.1111,0.1111
+Chhatrapati Sambhajinagar,Residual_LSTM,360,0.4732,0.6314,-4.67,9,1,7,8,0.1111,0.125
+Chhatrapati Sambhajinagar,Ridge_Regression,360,0.4757,0.6416,-5.2,9,1,1,8,0.1111,0.5
+Chhatrapati Sambhajinagar,Seasonal_Persistence,360,1.0908,1.3411,-141.26,9,0,9,9,0.0,0.0
+Chhatrapati Sambhajinagar,WSI_Autoregression,360,0.4471,0.6119,1.12,9,1,0,8,0.1111,1.0
+Chhatrapati Sambhajinagar,XGBoost,360,0.5128,0.6596,-13.42,9,0,0,9,0.0,0.0
+Dharashiv,Persistence,360,0.392,0.5447,0.0,6,1,5,5,0.1667,0.1667
+Dharashiv,Residual_LSTM,360,0.3954,0.5459,-0.87,6,0,0,6,0.0,0.0
+Dharashiv,Ridge_Regression,360,0.3902,0.5527,0.47,6,0,1,6,0.0,0.0
+Dharashiv,Seasonal_Persistence,360,0.9885,1.1496,-152.17,6,0,6,6,0.0,0.0
+Dharashiv,WSI_Autoregression,360,0.3798,0.5127,3.12,6,0,0,6,0.0,0.0
+Dharashiv,XGBoost,360,0.4037,0.5532,-2.99,6,0,0,6,0.0,0.0
+Hingoli,Persistence,360,0.464,0.6444,0.0,0,0,0,0,0.0,0.0
+Hingoli,Residual_LSTM,360,0.4429,0.5884,4.54,0,0,0,0,0.0,0.0
+Hingoli,Ridge_Regression,360,0.5056,0.6508,-8.95,0,0,0,0,0.0,0.0
+Hingoli,Seasonal_Persistence,360,0.9845,1.1803,-112.15,0,0,0,0,0.0,0.0
+Hingoli,WSI_Autoregression,360,0.4507,0.5936,2.88,0,0,0,0,0.0,0.0
+Hingoli,XGBoost,360,0.4716,0.5877,-1.62,0,0,0,0,0.0,0.0
+Jalna,Persistence,360,0.4508,0.6099,0.0,6,1,5,5,0.1667,0.1667
+Jalna,Residual_LSTM,360,0.4572,0.5882,-1.41,6,1,5,5,0.1667,0.1667
+Jalna,Ridge_Regression,360,0.4834,0.6306,-7.23,6,0,0,6,0.0,0.0
+Jalna,Seasonal_Persistence,360,1.1075,1.3227,-145.68,6,0,6,6,0.0,0.0
+Jalna,WSI_Autoregression,360,0.4601,0.5932,-2.07,6,1,0,5,0.1667,1.0
+Jalna,XGBoost,360,0.5252,0.6422,-16.5,6,0,0,6,0.0,0.0
+Latur,Persistence,360,0.4442,0.6172,0.0,18,12,6,6,0.6667,0.6667
+Latur,Residual_LSTM,360,0.4527,0.6166,-1.91,18,0,0,18,0.0,0.0
+Latur,Ridge_Regression,360,0.454,0.6222,-2.2,18,0,1,18,0.0,0.0
+Latur,Seasonal_Persistence,360,0.9221,1.1363,-107.56,18,0,18,18,0.0,0.0
+Latur,WSI_Autoregression,360,0.4054,0.5551,8.75,18,0,0,18,0.0,0.0
+Latur,XGBoost,360,0.396,0.5676,10.86,18,0,0,18,0.0,0.0
+Nanded,Persistence,360,0.4575,0.6008,0.0,12,6,6,6,0.5,0.5
+Nanded,Residual_LSTM,360,0.4525,0.5895,1.08,12,0,0,12,0.0,0.0
+Nanded,Ridge_Regression,360,0.5191,0.6555,-13.47,12,1,0,11,0.0833,1.0
+Nanded,Seasonal_Persistence,360,0.9675,1.1793,-111.48,12,0,12,12,0.0,0.0
+Nanded,WSI_Autoregression,360,0.4307,0.5598,5.87,12,1,0,11,0.0833,1.0
+Nanded,XGBoost,360,0.4433,0.564,3.11,12,0,0,12,0.0,0.0
+Parbhani,Persistence,360,0.443,0.5984,0.0,12,5,7,7,0.4167,0.4167
+Parbhani,Residual_LSTM,360,0.4573,0.5978,-3.25,12,0,0,12,0.0,0.0
+Parbhani,Ridge_Regression,360,0.4888,0.6436,-10.35,12,0,0,12,0.0,0.0
+Parbhani,Seasonal_Persistence,360,1.0467,1.2208,-136.3,12,0,12,12,0.0,0.0
+Parbhani,WSI_Autoregression,360,0.4233,0.5625,4.44,12,0,0,12,0.0,0.0
+Parbhani,XGBoost,360,0.4453,0.5868,-0.52,12,0,0,12,0.0,0.0

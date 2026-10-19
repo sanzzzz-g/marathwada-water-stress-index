@@ -1,0 +1,62 @@
+{
+  "analysis_comparison": {
+    "Analysis_A_Fixed_Index": {
+      "reference_period": "2003-01 to 2017-12 (Stationary benchmark calibration)",
+      "total_predictions_per_model": 2808,
+      "origin_dates": "2011-01-01 to 2020-09-01",
+      "target_dates": "2011-02-01 to 2020-12-01",
+      "persistence_mae": 0.441,
+      "wsi_ar_mae": 0.4309,
+      "mae_improvement": 0.0101,
+      "skill_pct": 2.29,
+      "cluster_robust_pvalue": 0.5137,
+      "diebold_mariano": {
+        "h1": [
+          0.0029516057692307676,
+          0.601133603665994,
+          0.5477510032683759
+        ],
+        "h2": [
+          0.013566639957264957,
+          1.4307789336785237,
+          0.15249358250452882
+        ],
+        "h3": [
+          0.01373511217948718,
+          0.9635544797502024,
+          0.3352693379754068
+        ]
+      },
+      "severe_episodes_count": 11
+    },
+    "Analysis_B_Causal_Reference": {
+      "reference_period": "2003-01 to 2010-12 (Frozen pre-evaluation calibration)",
+      "total_predictions_per_model": 2808,
+      "origin_dates": "2011-01-01 to 2020-09-01",
+      "target_dates": "2011-02-01 to 2020-12-01",
+      "persistence_mae": 0.5658,
+      "wsi_ar_mae": 0.5351,
+      "mae_improvement": 0.0308,
+      "skill_pct": 5.44,
+      "cluster_robust_pvalue": 0.0733,
+      "diebold_mariano": {
+        "h1": [
+          0.009490956196581194,
+          1.6130102424366146,
+          0.10674228256966578
+        ],
+        "h2": [
+          0.029318376068376065,
+          2.599429978196391,
+          0.009337872704466177
+        ],
+        "h3": [
+          0.05345203846153845,
+          3.499476125874158,
+          0.00046617334856891013
+        ]
+      },
+      "severe_episodes_count": 17
+    }
+  }
+}

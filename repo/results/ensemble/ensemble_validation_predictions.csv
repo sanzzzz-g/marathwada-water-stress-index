@@ -1,0 +1,817 @@
+evaluation_type,model,sequence_id,district,forecast_origin,horizon,actual_wsi,predicted_wsi,error,absolute_error,squared_error,alpha_used,pred_ar,pred_persistence
+official_validation,AR_Persistence_Ensemble,167,Beed,2017-12-01,h1,-0.568925,-0.64855,-0.079625,0.079625,0.00634,0.999996,-0.648549,-0.890513
+official_validation,AR_Persistence_Ensemble,167,Beed,2017-12-01,h2,-1.022365,-0.678609,0.343756,0.343756,0.118168,0.762551,-0.612625,-0.890513
+official_validation,AR_Persistence_Ensemble,167,Beed,2017-12-01,h3,-0.816235,-0.553761,0.262474,0.262474,0.068892,0.793288,-0.466012,-0.890513
+official_validation,AR_Persistence_Ensemble,168,Beed,2018-01-01,h1,-1.022365,-0.535074,0.487291,0.487291,0.237452,0.999996,-0.535074,-0.568925
+official_validation,AR_Persistence_Ensemble,168,Beed,2018-01-01,h2,-0.816235,-0.440793,0.375442,0.375442,0.140957,0.762551,-0.400894,-0.568925
+official_validation,AR_Persistence_Ensemble,168,Beed,2018-01-01,h3,-0.577409,-0.426274,0.151135,0.151135,0.022842,0.793288,-0.389102,-0.568925
+official_validation,AR_Persistence_Ensemble,169,Beed,2018-02-01,h1,-0.816235,-0.805652,0.010583,0.010583,0.000112,0.999996,-0.805651,-1.022365
+official_validation,AR_Persistence_Ensemble,169,Beed,2018-02-01,h2,-0.577409,-0.792325,-0.214916,0.214916,0.046189,0.762551,-0.720693,-1.022365
+official_validation,AR_Persistence_Ensemble,169,Beed,2018-02-01,h3,-0.294247,-0.65338,-0.359133,0.359133,0.128976,0.793288,-0.557231,-1.022365
+official_validation,AR_Persistence_Ensemble,170,Beed,2018-03-01,h1,-0.577409,-0.700862,-0.123453,0.123453,0.015241,0.999996,-0.700862,-0.816235
+official_validation,AR_Persistence_Ensemble,170,Beed,2018-03-01,h2,-0.294247,-0.608168,-0.313921,0.313921,0.098546,0.762551,-0.543378,-0.816235
+official_validation,AR_Persistence_Ensemble,170,Beed,2018-03-01,h3,-0.821347,-0.496001,0.325346,0.325346,0.10585,0.793288,-0.412556,-0.816235
+official_validation,AR_Persistence_Ensemble,171,Beed,2018-04-01,h1,-0.294247,-0.435809,-0.141562,0.141562,0.02004,0.999996,-0.435808,-0.577409
+official_validation,AR_Persistence_Ensemble,171,Beed,2018-04-01,h2,-0.821347,-0.384327,0.43702,0.43702,0.190987,0.762551,-0.324203,-0.577409
+official_validation,AR_Persistence_Ensemble,171,Beed,2018-04-01,h3,-0.85359,-0.376986,0.476604,0.476604,0.227151,0.793288,-0.324761,-0.577409
+official_validation,AR_Persistence_Ensemble,172,Beed,2018-05-01,h1,-0.821347,-0.241288,0.580059,0.580059,0.336468,0.999996,-0.241288,-0.294247
+official_validation,AR_Persistence_Ensemble,172,Beed,2018-05-01,h2,-0.85359,-0.261805,0.591785,0.591785,0.350209,0.762551,-0.251703,-0.294247
+official_validation,AR_Persistence_Ensemble,172,Beed,2018-05-01,h3,-0.343676,-0.226934,0.116742,0.116742,0.013629,0.793288,-0.209394,-0.294247
+official_validation,AR_Persistence_Ensemble,173,Beed,2018-06-01,h1,-0.85359,-0.713532,0.140058,0.140058,0.019616,0.999996,-0.713532,-0.821347
+official_validation,AR_Persistence_Ensemble,173,Beed,2018-06-01,h2,-0.343676,-0.645534,-0.301858,0.301858,0.091118,0.762551,-0.590788,-0.821347
+official_validation,AR_Persistence_Ensemble,173,Beed,2018-06-01,h3,1.33509,-0.481331,-1.816421,1.816421,3.299386,0.793288,-0.392731,-0.821347
+official_validation,AR_Persistence_Ensemble,174,Beed,2018-07-01,h1,-0.343676,-0.714523,-0.370847,0.370847,0.137527,0.999996,-0.714522,-0.85359
+official_validation,AR_Persistence_Ensemble,174,Beed,2018-07-01,h2,1.33509,-0.57837,-1.91346,1.91346,3.66133,0.762551,-0.49267,-0.85359
+official_validation,AR_Persistence_Ensemble,174,Beed,2018-07-01,h3,2.137192,-0.482605,-2.619797,2.619797,6.863336,0.793288,-0.385935,-0.85359
+official_validation,AR_Persistence_Ensemble,175,Beed,2018-08-01,h1,1.33509,-0.176426,-1.511516,1.511516,2.28468,0.999996,-0.176425,-0.343676
+official_validation,AR_Persistence_Ensemble,175,Beed,2018-08-01,h2,2.137192,-0.176499,-2.313691,2.313691,5.353166,0.762551,-0.124442,-0.343676
+official_validation,AR_Persistence_Ensemble,175,Beed,2018-08-01,h3,2.08584,-0.175762,-2.261602,2.261602,5.114841,0.793288,-0.132007,-0.343676
+official_validation,AR_Persistence_Ensemble,176,Beed,2018-09-01,h1,2.137192,1.140683,-0.996509,0.996509,0.993031,0.999996,1.140682,1.33509
+official_validation,AR_Persistence_Ensemble,176,Beed,2018-09-01,h2,2.08584,1.017387,-1.068453,1.068453,1.141592,0.762551,0.918458,1.33509
+official_validation,AR_Persistence_Ensemble,176,Beed,2018-09-01,h3,1.726004,0.819571,-0.906433,0.906433,0.821621,0.793288,0.685239,1.33509
+official_validation,AR_Persistence_Ensemble,177,Beed,2018-10-01,h1,2.08584,1.759767,-0.326073,0.326073,0.106324,0.999996,1.759765,2.137192
+official_validation,AR_Persistence_Ensemble,177,Beed,2018-10-01,h2,1.726004,1.567031,-0.158973,0.158973,0.025272,0.762551,1.38949,2.137192
+official_validation,AR_Persistence_Ensemble,177,Beed,2018-10-01,h3,1.371785,1.371785,-0.0,0.0,0.0,0.793288,1.172338,2.137192
+official_validation,AR_Persistence_Ensemble,178,Beed,2018-11-01,h1,1.726004,1.657214,-0.06879,0.06879,0.004732,0.999996,1.657212,2.08584
+official_validation,AR_Persistence_Ensemble,178,Beed,2018-11-01,h2,1.371785,1.563994,0.192209,0.192209,0.036944,0.762551,1.401498,2.08584
+official_validation,AR_Persistence_Ensemble,178,Beed,2018-11-01,h3,1.103122,1.421305,0.318183,0.318183,0.10124,0.793288,1.248143,2.08584
+official_validation,AR_Persistence_Ensemble,179,Beed,2018-12-01,h1,1.371785,1.471678,0.099893,0.099893,0.009979,0.999996,1.471677,1.726004
+official_validation,AR_Persistence_Ensemble,179,Beed,2018-12-01,h2,1.103122,1.405209,0.302087,0.302087,0.091257,0.762551,1.305318,1.726004
+official_validation,AR_Persistence_Ensemble,179,Beed,2018-12-01,h3,1.181063,1.220395,0.039332,0.039332,0.001547,0.793288,1.088645,1.726004
+official_validation,AR_Persistence_Ensemble,180,Beed,2019-01-01,h1,1.103122,1.211029,0.107907,0.107907,0.011644,0.999996,1.211028,1.371785
+official_validation,AR_Persistence_Ensemble,180,Beed,2019-01-01,h2,1.181063,1.091869,-0.089194,0.089194,0.007956,0.762551,1.004706,1.371785
+official_validation,AR_Persistence_Ensemble,180,Beed,2019-01-01,h3,0.593034,0.897518,0.304484,0.304484,0.09271,0.793288,0.773935,1.371785
+official_validation,AR_Persistence_Ensemble,181,Beed,2019-02-01,h1,1.181063,0.930187,-0.250876,0.250876,0.062939,0.999996,0.930186,1.103122
+official_validation,AR_Persistence_Ensemble,181,Beed,2019-02-01,h2,0.593034,0.801947,0.208913,0.208913,0.043645,0.762551,0.708165,1.103122
+official_validation,AR_Persistence_Ensemble,181,Beed,2019-02-01,h3,0.678253,0.697569,0.019316,0.019316,0.000373,0.793288,0.591892,1.103122
+official_validation,AR_Persistence_Ensemble,182,Beed,2019-03-01,h1,0.593034,0.929246,0.336212,0.336212,0.113039,0.999996,0.929245,1.181063
+official_validation,AR_Persistence_Ensemble,182,Beed,2019-03-01,h2,0.678253,0.874565,0.196312,0.196312,0.038538,0.762551,0.779125,1.181063
+official_validation,AR_Persistence_Ensemble,182,Beed,2019-03-01,h3,0.76446,0.797211,0.032751,0.032751,0.001073,0.793288,0.697188,1.181063
+official_validation,AR_Persistence_Ensemble,183,Beed,2019-04-01,h1,0.678253,0.502302,-0.175951,0.175951,0.030959,0.999996,0.502302,0.593034
+official_validation,AR_Persistence_Ensemble,183,Beed,2019-04-01,h2,0.76446,0.501951,-0.262509,0.262509,0.068911,0.762551,0.473589,0.593034
+official_validation,AR_Persistence_Ensemble,183,Beed,2019-04-01,h3,1.084044,0.498193,-0.585851,0.585851,0.343221,0.793288,0.47348,0.593034
+official_validation,AR_Persistence_Ensemble,184,Beed,2019-05-01,h1,0.76446,0.601152,-0.163308,0.163308,0.026669,0.999996,0.601152,0.678253
+official_validation,AR_Persistence_Ensemble,184,Beed,2019-05-01,h2,1.084044,0.606901,-0.477143,0.477143,0.227665,0.762551,0.584683,0.678253
+official_validation,AR_Persistence_Ensemble,184,Beed,2019-05-01,h3,0.855309,0.51087,-0.344439,0.344439,0.118638,0.793288,0.467254,0.678253
+official_validation,AR_Persistence_Ensemble,185,Beed,2019-06-01,h1,1.084044,0.724496,-0.359548,0.359548,0.129275,0.999996,0.724496,0.76446
+official_validation,AR_Persistence_Ensemble,185,Beed,2019-06-01,h2,0.855309,0.625776,-0.229533,0.229533,0.052685,0.762551,0.582592,0.76446
+official_validation,AR_Persistence_Ensemble,185,Beed,2019-06-01,h3,0.312014,0.412979,0.100965,0.100965,0.010194,0.793288,0.321392,0.76446
+official_validation,AR_Persistence_Ensemble,186,Beed,2019-07-01,h1,0.855309,0.91293,0.057621,0.057621,0.00332,0.999996,0.912929,1.084044
+official_validation,AR_Persistence_Ensemble,186,Beed,2019-07-01,h2,0.312014,0.70754,0.395526,0.395526,0.156441,0.762551,0.590301,1.084044
+official_validation,AR_Persistence_Ensemble,186,Beed,2019-07-01,h3,-0.450034,0.484724,0.934758,0.934758,0.873772,0.793288,0.328555,1.084044
+official_validation,AR_Persistence_Ensemble,187,Beed,2019-08-01,h1,0.312014,0.607074,0.29506,0.29506,0.08706,0.999996,0.607073,0.855309
+official_validation,AR_Persistence_Ensemble,187,Beed,2019-08-01,h2,-0.450034,0.459168,0.909202,0.909202,0.826649,0.762551,0.335815,0.855309
+official_validation,AR_Persistence_Ensemble,187,Beed,2019-08-01,h3,-1.058729,0.361528,1.420257,1.420257,2.017129,0.793288,0.23286,0.855309
+official_validation,AR_Persistence_Ensemble,188,Beed,2019-09-01,h1,-0.450034,0.105363,0.555397,0.555397,0.308466,0.999996,0.105362,0.312014
+official_validation,AR_Persistence_Ensemble,188,Beed,2019-09-01,h2,-1.058729,0.103235,1.161964,1.161964,1.350161,0.762551,0.038224,0.312014
+official_validation,AR_Persistence_Ensemble,188,Beed,2019-09-01,h3,-0.649272,0.037717,0.686989,0.686989,0.471954,0.793288,-0.033758,0.312014
+official_validation,AR_Persistence_Ensemble,189,Beed,2019-10-01,h1,-1.058729,-0.448195,0.610534,0.610534,0.372752,0.999996,-0.448195,-0.450034
+official_validation,AR_Persistence_Ensemble,189,Beed,2019-10-01,h2,-0.649272,-0.441148,0.208124,0.208124,0.043316,0.762551,-0.438381,-0.450034
+official_validation,AR_Persistence_Ensemble,189,Beed,2019-10-01,h3,-1.047123,-0.399622,0.647501,0.647501,0.419257,0.793288,-0.386486,-0.450034
+official_validation,AR_Persistence_Ensemble,190,Beed,2019-11-01,h1,-0.649272,-0.978564,-0.329292,0.329292,0.108433,0.999996,-0.978564,-1.058729
+official_validation,AR_Persistence_Ensemble,190,Beed,2019-11-01,h2,-1.047123,-0.888878,0.158245,0.158245,0.025042,0.762551,-0.835988,-1.058729
+official_validation,AR_Persistence_Ensemble,190,Beed,2019-11-01,h3,-0.971326,-0.805032,0.166294,0.166294,0.027654,0.793288,-0.738925,-1.058729
+official_validation,AR_Persistence_Ensemble,191,Beed,2019-12-01,h1,-1.047123,-0.582197,0.464926,0.464926,0.216156,0.999996,-0.582197,-0.649272
+official_validation,AR_Persistence_Ensemble,191,Beed,2019-12-01,h2,-0.971326,-0.555902,0.415424,0.415424,0.172577,0.762551,-0.526828,-0.649272
+official_validation,AR_Persistence_Ensemble,191,Beed,2019-12-01,h3,-0.984206,-0.560593,0.423613,0.423613,0.179448,0.793288,-0.537485,-0.649272
+official_validation,AR_Persistence_Ensemble,192,Beed,2020-01-01,h1,-0.971326,-0.940987,0.030339,0.030339,0.00092,0.999996,-0.940987,-1.047123
+official_validation,AR_Persistence_Ensemble,192,Beed,2020-01-01,h2,-0.984206,-0.916763,0.067443,0.067443,0.004549,0.762551,-0.876171,-1.047123
+official_validation,AR_Persistence_Ensemble,192,Beed,2020-01-01,h3,-0.606787,-0.757833,-0.151046,0.151046,0.022815,0.793288,-0.682451,-1.047123
+official_validation,AR_Persistence_Ensemble,193,Beed,2020-02-01,h1,-0.984206,-0.908312,0.075894,0.075894,0.00576,0.999996,-0.908312,-0.971326
+official_validation,AR_Persistence_Ensemble,193,Beed,2020-02-01,h2,-0.606787,-0.768076,-0.161289,0.161289,0.026014,0.762551,-0.704787,-0.971326
+official_validation,AR_Persistence_Ensemble,193,Beed,2020-02-01,h3,-0.463277,-0.681039,-0.217762,0.217762,0.04742,0.793288,-0.605397,-0.971326
+official_validation,AR_Persistence_Ensemble,194,Beed,2020-03-01,h1,-0.606787,-0.802278,-0.195491,0.195491,0.038217,0.999996,-0.802277,-0.984206
+official_validation,AR_Persistence_Ensemble,194,Beed,2020-03-01,h2,-0.463277,-0.753412,-0.290135,0.290135,0.084178,0.762551,-0.681545,-0.984206
+official_validation,AR_Persistence_Ensemble,194,Beed,2020-03-01,h3,-0.892467,-0.692087,0.20038,0.20038,0.040152,0.793288,-0.615968,-0.984206
+official_validation,AR_Persistence_Ensemble,195,Beed,2020-04-01,h1,-0.463277,-0.509952,-0.046675,0.046675,0.002179,0.999996,-0.509952,-0.606787
+official_validation,AR_Persistence_Ensemble,195,Beed,2020-04-01,h2,-0.892467,-0.50887,0.383597,0.383597,0.147147,0.762551,-0.47838,-0.606787
+official_validation,AR_Persistence_Ensemble,195,Beed,2020-04-01,h3,-1.460056,-0.542996,0.91706,0.91706,0.841,0.793288,-0.526373,-0.606787
+official_validation,AR_Persistence_Ensemble,196,Beed,2020-05-01,h1,-0.892467,-0.439467,0.453,0.453,0.205209,0.999996,-0.439467,-0.463277
+official_validation,AR_Persistence_Ensemble,196,Beed,2020-05-01,h2,-1.460056,-0.486989,0.973067,0.973067,0.946859,0.762551,-0.494373,-0.463277
+official_validation,AR_Persistence_Ensemble,196,Beed,2020-05-01,h3,-1.228672,-0.422427,0.806245,0.806245,0.65003,0.793288,-0.411783,-0.463277
+official_validation,AR_Persistence_Ensemble,197,Beed,2020-06-01,h1,-1.460056,-0.871842,0.588214,0.588214,0.345996,0.999996,-0.871842,-0.892467
+official_validation,AR_Persistence_Ensemble,197,Beed,2020-06-01,h2,-1.228672,-0.764198,0.464474,0.464474,0.215736,0.762551,-0.724257,-0.892467
+official_validation,AR_Persistence_Ensemble,197,Beed,2020-06-01,h3,-0.847182,-0.650006,0.197176,0.197176,0.038879,0.793288,-0.586826,-0.892467
+official_validation,AR_Persistence_Ensemble,198,Beed,2020-07-01,h1,-1.228672,-1.2373,-0.008628,0.008628,7.4e-05,0.999996,-1.237299,-1.460056
+official_validation,AR_Persistence_Ensemble,198,Beed,2020-07-01,h2,-0.847182,-1.116272,-0.26909,0.26909,0.072409,0.762551,-1.009222,-1.460056
+official_validation,AR_Persistence_Ensemble,198,Beed,2020-07-01,h3,-1.513621,-0.903215,0.610406,0.610406,0.372596,0.793288,-0.758115,-1.460056
+official_validation,AR_Persistence_Ensemble,199,Beed,2020-08-01,h1,-0.847182,-1.021256,-0.174074,0.174074,0.030302,0.999996,-1.021255,-1.228672
+official_validation,AR_Persistence_Ensemble,199,Beed,2020-08-01,h2,-1.513621,-0.877065,0.636556,0.636556,0.405203,0.762551,-0.767579,-1.228672
+official_validation,AR_Persistence_Ensemble,199,Beed,2020-08-01,h3,-1.377902,-0.753741,0.624161,0.624161,0.389577,0.793288,-0.629985,-1.228672
+official_validation,AR_Persistence_Ensemble,200,Beed,2020-09-01,h1,-1.513621,-0.649883,0.863738,0.863738,0.746044,0.999996,-0.649882,-0.847182
+official_validation,AR_Persistence_Ensemble,200,Beed,2020-09-01,h2,-1.377902,-0.604303,0.773599,0.773599,0.598455,0.762551,-0.528674,-0.847182
+official_validation,AR_Persistence_Ensemble,200,Beed,2020-09-01,h3,-1.08473,-0.542651,0.542079,0.542079,0.293849,0.793288,-0.463298,-0.847182
+official_validation,AR_Persistence_Ensemble,413,Chhatrapati Sambhajinagar,2017-12-01,h1,0.293952,-0.064895,-0.358847,0.358847,0.128771,0.999996,-0.064895,-0.156383
+official_validation,AR_Persistence_Ensemble,413,Chhatrapati Sambhajinagar,2017-12-01,h2,-0.080173,-0.155926,-0.075753,0.075753,0.005739,0.762551,-0.155784,-0.156383
+official_validation,AR_Persistence_Ensemble,413,Chhatrapati Sambhajinagar,2017-12-01,h3,0.003265,-0.155928,-0.159193,0.159193,0.025342,0.793288,-0.155809,-0.156383
+official_validation,AR_Persistence_Ensemble,414,Chhatrapati Sambhajinagar,2018-01-01,h1,-0.080173,0.153071,0.233244,0.233244,0.054403,0.999996,0.15307,0.293952
+official_validation,AR_Persistence_Ensemble,414,Chhatrapati Sambhajinagar,2018-01-01,h2,0.003265,0.146587,0.143322,0.143322,0.020541,0.762551,0.100699,0.293952
+official_validation,AR_Persistence_Ensemble,414,Chhatrapati Sambhajinagar,2018-01-01,h3,0.062537,0.101446,0.038909,0.038909,0.001514,0.793288,0.051284,0.293952
+official_validation,AR_Persistence_Ensemble,415,Chhatrapati Sambhajinagar,2018-02-01,h1,0.003265,-0.105817,-0.109082,0.109082,0.011899,0.999996,-0.105817,-0.080173
+official_validation,AR_Persistence_Ensemble,415,Chhatrapati Sambhajinagar,2018-02-01,h2,0.062537,-0.106262,-0.168799,0.168799,0.028493,0.762551,-0.114386,-0.080173
+official_validation,AR_Persistence_Ensemble,415,Chhatrapati Sambhajinagar,2018-02-01,h3,0.507522,-0.082715,-0.590237,0.590237,0.34838,0.793288,-0.083378,-0.080173
+official_validation,AR_Persistence_Ensemble,416,Chhatrapati Sambhajinagar,2018-03-01,h1,0.062537,-0.011003,-0.07354,0.07354,0.005408,0.999996,-0.011003,0.003265
+official_validation,AR_Persistence_Ensemble,416,Chhatrapati Sambhajinagar,2018-03-01,h2,0.507522,0.002985,-0.504537,0.504537,0.254557,0.762551,0.002898,0.003265
+official_validation,AR_Persistence_Ensemble,416,Chhatrapati Sambhajinagar,2018-03-01,h3,-0.122564,0.053715,0.176279,0.176279,0.031074,0.793288,0.066861,0.003265
+official_validation,AR_Persistence_Ensemble,417,Chhatrapati Sambhajinagar,2018-04-01,h1,0.507522,0.061128,-0.446394,0.446394,0.199268,0.999996,0.061128,0.062537
+official_validation,AR_Persistence_Ensemble,417,Chhatrapati Sambhajinagar,2018-04-01,h2,-0.122564,0.102051,0.224615,0.224615,0.050452,0.762551,0.114355,0.062537
+official_validation,AR_Persistence_Ensemble,417,Chhatrapati Sambhajinagar,2018-04-01,h3,0.234028,0.061054,-0.172974,0.172974,0.02992,0.793288,0.060668,0.062537
+official_validation,AR_Persistence_Ensemble,418,Chhatrapati Sambhajinagar,2018-05-01,h1,-0.122564,0.448629,0.571193,0.571193,0.326262,0.999996,0.448629,0.507522
+official_validation,AR_Persistence_Ensemble,418,Chhatrapati Sambhajinagar,2018-05-01,h2,0.234028,0.381052,0.147024,0.147024,0.021616,0.762551,0.341671,0.507522
+official_validation,AR_Persistence_Ensemble,418,Chhatrapati Sambhajinagar,2018-05-01,h3,-0.27358,0.265161,0.538741,0.538741,0.290241,0.793288,0.202007,0.507522
+official_validation,AR_Persistence_Ensemble,419,Chhatrapati Sambhajinagar,2018-06-01,h1,0.234028,-0.125791,-0.359819,0.359819,0.12947,0.999996,-0.125791,-0.122564
+official_validation,AR_Persistence_Ensemble,419,Chhatrapati Sambhajinagar,2018-06-01,h2,-0.27358,-0.16891,0.10467,0.10467,0.010956,0.762551,-0.183341,-0.122564
+official_validation,AR_Persistence_Ensemble,419,Chhatrapati Sambhajinagar,2018-06-01,h3,1.219271,-0.066259,-1.28553,1.28553,1.652587,0.793288,-0.051587,-0.122564
+official_validation,AR_Persistence_Ensemble,420,Chhatrapati Sambhajinagar,2018-07-01,h1,-0.27358,0.145026,0.418606,0.418606,0.175231,0.999996,0.145026,0.234028
+official_validation,AR_Persistence_Ensemble,420,Chhatrapati Sambhajinagar,2018-07-01,h2,1.219271,0.223567,-0.995704,0.995704,0.991427,0.762551,0.220309,0.234028
+official_validation,AR_Persistence_Ensemble,420,Chhatrapati Sambhajinagar,2018-07-01,h3,1.965851,0.162419,-1.803432,1.803432,3.252368,0.793288,0.143759,0.234028
+official_validation,AR_Persistence_Ensemble,421,Chhatrapati Sambhajinagar,2018-08-01,h1,1.219271,-0.145983,-1.365254,1.365254,1.863917,0.999996,-0.145982,-0.27358
+official_validation,AR_Persistence_Ensemble,421,Chhatrapati Sambhajinagar,2018-08-01,h2,1.965851,-0.185627,-2.151478,2.151478,4.628856,0.762551,-0.158239,-0.27358
+official_validation,AR_Persistence_Ensemble,421,Chhatrapati Sambhajinagar,2018-08-01,h3,1.746565,-0.135713,-1.882278,1.882278,3.54297,0.793288,-0.099788,-0.27358
+official_validation,AR_Persistence_Ensemble,422,Chhatrapati Sambhajinagar,2018-09-01,h1,1.965851,0.994156,-0.971695,0.971695,0.944191,0.999996,0.994155,1.219271
+official_validation,AR_Persistence_Ensemble,422,Chhatrapati Sambhajinagar,2018-09-01,h2,1.746565,0.94087,-0.805695,0.805695,0.649145,0.762551,0.854179,1.219271
+official_validation,AR_Persistence_Ensemble,422,Chhatrapati Sambhajinagar,2018-09-01,h3,1.425165,0.709628,-0.715537,0.715537,0.511993,0.793288,0.576827,1.219271
+official_validation,AR_Persistence_Ensemble,423,Chhatrapati Sambhajinagar,2018-10-01,h1,1.746565,1.668538,-0.078027,0.078027,0.006088,0.999996,1.668537,1.965851
+official_validation,AR_Persistence_Ensemble,423,Chhatrapati Sambhajinagar,2018-10-01,h2,1.425165,1.425022,-0.000143,0.000143,0.0,0.762551,1.256615,1.965851
+official_validation,AR_Persistence_Ensemble,423,Chhatrapati Sambhajinagar,2018-10-01,h3,1.281498,1.201234,-0.080264,0.080264,0.006442,0.793288,1.001993,1.965851
+official_validation,AR_Persistence_Ensemble,424,Chhatrapati Sambhajinagar,2018-11-01,h1,1.425165,1.323661,-0.101504,0.101504,0.010303,0.999996,1.323659,1.746565
+official_validation,AR_Persistence_Ensemble,424,Chhatrapati Sambhajinagar,2018-11-01,h2,1.281498,1.223493,-0.058005,0.058005,0.003365,0.762551,1.060615,1.746565
+official_validation,AR_Persistence_Ensemble,424,Chhatrapati Sambhajinagar,2018-11-01,h3,1.009998,1.087945,0.077947,0.077947,0.006076,0.793288,0.916324,1.746565
+official_validation,AR_Persistence_Ensemble,425,Chhatrapati Sambhajinagar,2018-12-01,h1,1.281498,1.154295,-0.127203,0.127203,0.016181,0.999996,1.154294,1.425165
+official_validation,AR_Persistence_Ensemble,425,Chhatrapati Sambhajinagar,2018-12-01,h2,1.009998,1.098299,0.088301,0.088301,0.007797,0.762551,0.996517,1.425165
+official_validation,AR_Persistence_Ensemble,425,Chhatrapati Sambhajinagar,2018-12-01,h3,1.267426,0.97942,-0.288006,0.288006,0.082948,0.793288,0.863269,1.425165
+official_validation,AR_Persistence_Ensemble,426,Chhatrapati Sambhajinagar,2019-01-01,h1,1.009998,1.089142,0.079144,0.079144,0.006264,0.999996,1.089141,1.281498
+official_validation,AR_Persistence_Ensemble,426,Chhatrapati Sambhajinagar,2019-01-01,h2,1.267426,1.017461,-0.249965,0.249965,0.062483,0.762551,0.935243,1.281498
+official_validation,AR_Persistence_Ensemble,426,Chhatrapati Sambhajinagar,2019-01-01,h3,0.773399,0.777195,0.003796,0.003796,1.4e-05,0.793288,0.645786,1.281498
+official_validation,AR_Persistence_Ensemble,427,Chhatrapati Sambhajinagar,2019-02-01,h1,1.267426,0.875146,-0.39228,0.39228,0.153884,0.999996,0.875145,1.009998
+official_validation,AR_Persistence_Ensemble,427,Chhatrapati Sambhajinagar,2019-02-01,h2,0.773399,0.69051,-0.082889,0.082889,0.006871,0.762551,0.591025,1.009998
+official_validation,AR_Persistence_Ensemble,427,Chhatrapati Sambhajinagar,2019-02-01,h3,0.871896,0.578278,-0.293618,0.293618,0.086212,0.793288,0.465782,1.009998
+official_validation,AR_Persistence_Ensemble,428,Chhatrapati Sambhajinagar,2019-03-01,h1,0.773399,0.919687,0.146288,0.146288,0.0214,0.999996,0.919686,1.267426
+official_validation,AR_Persistence_Ensemble,428,Chhatrapati Sambhajinagar,2019-03-01,h2,0.871896,0.866438,-0.005458,0.005458,3e-05,0.762551,0.741575,1.267426
+official_validation,AR_Persistence_Ensemble,428,Chhatrapati Sambhajinagar,2019-03-01,h3,0.91284,0.770044,-0.142796,0.142796,0.020391,0.793288,0.640438,1.267426
+official_validation,AR_Persistence_Ensemble,429,Chhatrapati Sambhajinagar,2019-04-01,h1,0.871896,0.623198,-0.248698,0.248698,0.061851,0.999996,0.623197,0.773399
+official_validation,AR_Persistence_Ensemble,429,Chhatrapati Sambhajinagar,2019-04-01,h2,0.91284,0.600972,-0.311868,0.311868,0.097262,0.762551,0.54728,0.773399
+official_validation,AR_Persistence_Ensemble,429,Chhatrapati Sambhajinagar,2019-04-01,h3,0.404708,0.512355,0.107647,0.107647,0.011588,0.793288,0.444333,0.773399
+official_validation,AR_Persistence_Ensemble,430,Chhatrapati Sambhajinagar,2019-05-01,h1,0.91284,0.728098,-0.184742,0.184742,0.03413,0.999996,0.728097,0.871896
+official_validation,AR_Persistence_Ensemble,430,Chhatrapati Sambhajinagar,2019-05-01,h2,0.404708,0.663885,0.259177,0.259177,0.067173,0.762551,0.599113,0.871896
+official_validation,AR_Persistence_Ensemble,430,Chhatrapati Sambhajinagar,2019-05-01,h3,0.059488,0.595833,0.536345,0.536345,0.287666,0.793288,0.523898,0.871896
+official_validation,AR_Persistence_Ensemble,431,Chhatrapati Sambhajinagar,2019-06-01,h1,0.404708,0.767343,0.362635,0.362635,0.131504,0.999996,0.767342,0.91284
+official_validation,AR_Persistence_Ensemble,431,Chhatrapati Sambhajinagar,2019-06-01,h2,0.059488,0.720866,0.661378,0.661378,0.437421,0.762551,0.661088,0.91284
+official_validation,AR_Persistence_Ensemble,431,Chhatrapati Sambhajinagar,2019-06-01,h3,-0.98831,0.509642,1.497952,1.497952,2.24386,0.793288,0.404578,0.91284
+official_validation,AR_Persistence_Ensemble,432,Chhatrapati Sambhajinagar,2019-07-01,h1,0.059488,0.329182,0.269694,0.269694,0.072735,0.999996,0.329182,0.404708
+official_validation,AR_Persistence_Ensemble,432,Chhatrapati Sambhajinagar,2019-07-01,h2,-0.98831,0.195365,1.183675,1.183675,1.401086,0.762551,0.130178,0.404708
+official_validation,AR_Persistence_Ensemble,432,Chhatrapati Sambhajinagar,2019-07-01,h3,-1.420631,0.08428,1.504911,1.504911,2.264757,0.793288,0.000784,0.404708
+official_validation,AR_Persistence_Ensemble,433,Chhatrapati Sambhajinagar,2019-08-01,h1,-0.98831,-0.036486,0.951824,0.951824,0.90597,0.999996,-0.036486,0.059488
+official_validation,AR_Persistence_Ensemble,433,Chhatrapati Sambhajinagar,2019-08-01,h2,-1.420631,-0.095642,1.324989,1.324989,1.755597,0.762551,-0.143947,0.059488
+official_validation,AR_Persistence_Ensemble,433,Chhatrapati Sambhajinagar,2019-08-01,h3,-1.721151,-0.10573,1.615421,1.615421,2.609585,0.793288,-0.148782,0.059488
+official_validation,AR_Persistence_Ensemble,434,Chhatrapati Sambhajinagar,2019-09-01,h1,-1.420631,-0.926118,0.494513,0.494513,0.244543,0.999996,-0.926118,-0.98831
+official_validation,AR_Persistence_Ensemble,434,Chhatrapati Sambhajinagar,2019-09-01,h2,-1.721151,-0.846091,0.87506,0.87506,0.76573,0.762551,-0.801806,-0.98831
+official_validation,AR_Persistence_Ensemble,434,Chhatrapati Sambhajinagar,2019-09-01,h3,-1.20777,-0.759318,0.448452,0.448452,0.201109,0.793288,-0.699648,-0.98831
+official_validation,AR_Persistence_Ensemble,435,Chhatrapati Sambhajinagar,2019-10-01,h1,-1.721151,-1.236721,0.48443,0.48443,0.234673,0.999996,-1.23672,-1.420631
+official_validation,AR_Persistence_Ensemble,435,Chhatrapati Sambhajinagar,2019-10-01,h2,-1.20777,-1.146582,0.061188,0.061188,0.003744,0.762551,-1.061247,-1.420631
+official_validation,AR_Persistence_Ensemble,435,Chhatrapati Sambhajinagar,2019-10-01,h3,-1.386945,-1.029953,0.356992,0.356992,0.127443,0.793288,-0.928152,-1.420631
+official_validation,AR_Persistence_Ensemble,436,Chhatrapati Sambhajinagar,2019-11-01,h1,-1.20777,-1.491373,-0.283603,0.283603,0.080431,0.999996,-1.491372,-1.721151
+official_validation,AR_Persistence_Ensemble,436,Chhatrapati Sambhajinagar,2019-11-01,h2,-1.386945,-1.387294,-0.000349,0.000349,0.0,0.762551,-1.283335,-1.721151
+official_validation,AR_Persistence_Ensemble,436,Chhatrapati Sambhajinagar,2019-11-01,h3,-1.251306,-1.216855,0.034451,0.034451,0.001187,0.793288,-1.085447,-1.721151
+official_validation,AR_Persistence_Ensemble,437,Chhatrapati Sambhajinagar,2019-12-01,h1,-1.386945,-1.056716,0.330229,0.330229,0.109051,0.999996,-1.056715,-1.20777
+official_validation,AR_Persistence_Ensemble,437,Chhatrapati Sambhajinagar,2019-12-01,h2,-1.251306,-0.969829,0.281477,0.281477,0.079229,0.762551,-0.895737,-1.20777
+official_validation,AR_Persistence_Ensemble,437,Chhatrapati Sambhajinagar,2019-12-01,h3,-1.422813,-0.934867,0.487946,0.487946,0.238091,0.793288,-0.863755,-1.20777
+official_validation,AR_Persistence_Ensemble,438,Chhatrapati Sambhajinagar,2020-01-01,h1,-1.251306,-1.195737,0.055569,0.055569,0.003088,0.999996,-1.195736,-1.386945
+official_validation,AR_Persistence_Ensemble,438,Chhatrapati Sambhajinagar,2020-01-01,h2,-1.422813,-1.173265,0.249548,0.249548,0.062274,0.762551,-1.106728,-1.386945
+official_validation,AR_Persistence_Ensemble,438,Chhatrapati Sambhajinagar,2020-01-01,h3,-0.970855,-0.973218,-0.002363,0.002363,6e-06,0.793288,-0.86541,-1.386945
+official_validation,AR_Persistence_Ensemble,439,Chhatrapati Sambhajinagar,2020-02-01,h1,-1.422813,-1.149475,0.273338,0.273338,0.074713,0.999996,-1.149475,-1.251306
+official_validation,AR_Persistence_Ensemble,439,Chhatrapati Sambhajinagar,2020-02-01,h2,-0.970855,-0.98354,-0.012685,0.012685,0.000161,0.762551,-0.900161,-1.251306
+official_validation,AR_Persistence_Ensemble,439,Chhatrapati Sambhajinagar,2020-02-01,h3,-0.718154,-0.904124,-0.18597,0.18597,0.034585,0.793288,-0.813657,-1.251306
+official_validation,AR_Persistence_Ensemble,440,Chhatrapati Sambhajinagar,2020-03-01,h1,-0.970855,-1.158967,-0.188112,0.188112,0.035386,0.999996,-1.158966,-1.422813
+official_validation,AR_Persistence_Ensemble,440,Chhatrapati Sambhajinagar,2020-03-01,h2,-0.718154,-1.120298,-0.402144,0.402144,0.16172,0.762551,-1.026099,-1.422813
+official_validation,AR_Persistence_Ensemble,440,Chhatrapati Sambhajinagar,2020-03-01,h3,-1.769568,-1.001927,0.767641,0.767641,0.589273,0.793288,-0.892254,-1.422813
+official_validation,AR_Persistence_Ensemble,441,Chhatrapati Sambhajinagar,2020-04-01,h1,-0.718154,-0.859026,-0.140872,0.140872,0.019845,0.999996,-0.859026,-0.970855
+official_validation,AR_Persistence_Ensemble,441,Chhatrapati Sambhajinagar,2020-04-01,h2,-1.769568,-0.809097,0.960471,0.960471,0.922504,0.762551,-0.758728,-0.970855
+official_validation,AR_Persistence_Ensemble,441,Chhatrapati Sambhajinagar,2020-04-01,h3,-1.897028,-0.753696,1.143332,1.143332,1.307207,0.793288,-0.69711,-0.970855
+official_validation,AR_Persistence_Ensemble,442,Chhatrapati Sambhajinagar,2020-05-01,h1,-1.769568,-0.643544,1.126024,1.126024,1.267929,0.999996,-0.643544,-0.718154
+official_validation,AR_Persistence_Ensemble,442,Chhatrapati Sambhajinagar,2020-05-01,h2,-1.897028,-0.628651,1.268377,1.268377,1.60878,0.762551,-0.600781,-0.718154
+official_validation,AR_Persistence_Ensemble,442,Chhatrapati Sambhajinagar,2020-05-01,h3,-1.94966,-0.533674,1.415986,1.415986,2.005016,0.793288,-0.485603,-0.718154
+official_validation,AR_Persistence_Ensemble,443,Chhatrapati Sambhajinagar,2020-06-01,h1,-1.897028,-1.580489,0.316539,0.316539,0.100197,0.999996,-1.580488,-1.769568
+official_validation,AR_Persistence_Ensemble,443,Chhatrapati Sambhajinagar,2020-06-01,h2,-1.94966,-1.405263,0.544397,0.544397,0.296368,0.762551,-1.291823,-1.769568
+official_validation,AR_Persistence_Ensemble,443,Chhatrapati Sambhajinagar,2020-06-01,h3,-1.479528,-1.091921,0.387607,0.387607,0.150239,0.793288,-0.915342,-1.769568
+official_validation,AR_Persistence_Ensemble,444,Chhatrapati Sambhajinagar,2020-07-01,h1,-1.94966,-1.573523,0.376137,0.376137,0.141479,0.999996,-1.573522,-1.897028
+official_validation,AR_Persistence_Ensemble,444,Chhatrapati Sambhajinagar,2020-07-01,h2,-1.479528,-1.32281,0.156718,0.156718,0.024561,0.762551,-1.144005,-1.897028
+official_validation,AR_Persistence_Ensemble,444,Chhatrapati Sambhajinagar,2020-07-01,h3,-1.952422,-1.087608,0.864814,0.864814,0.747902,0.793288,-0.876693,-1.897028
+official_validation,AR_Persistence_Ensemble,445,Chhatrapati Sambhajinagar,2020-08-01,h1,-1.479528,-1.49487,-0.015342,0.015342,0.000235,0.999996,-1.494868,-1.94966
+official_validation,AR_Persistence_Ensemble,445,Chhatrapati Sambhajinagar,2020-08-01,h2,-1.952422,-1.351054,0.601368,0.601368,0.361643,0.762551,-1.164656,-1.94966
+official_validation,AR_Persistence_Ensemble,445,Chhatrapati Sambhajinagar,2020-08-01,h3,-1.74566,-1.14544,0.60022,0.60022,0.360264,0.793288,-0.935879,-1.94966
+official_validation,AR_Persistence_Ensemble,446,Chhatrapati Sambhajinagar,2020-09-01,h1,-1.952422,-1.152549,0.799873,0.799873,0.639796,0.999996,-1.152548,-1.479528
+official_validation,AR_Persistence_Ensemble,446,Chhatrapati Sambhajinagar,2020-09-01,h2,-1.74566,-1.056368,0.689292,0.689292,0.475124,0.762551,-0.924601,-1.479528
+official_validation,AR_Persistence_Ensemble,446,Chhatrapati Sambhajinagar,2020-09-01,h3,-1.595993,-0.908549,0.687444,0.687444,0.47258,0.793288,-0.759765,-1.479528
+official_validation,AR_Persistence_Ensemble,659,Dharashiv,2017-12-01,h1,-0.806751,-0.626681,0.18007,0.18007,0.032425,0.999996,-0.62668,-0.920289
+official_validation,AR_Persistence_Ensemble,659,Dharashiv,2017-12-01,h2,-1.241147,-0.62199,0.619157,0.619157,0.383356,0.762551,-0.529103,-0.920289
+official_validation,AR_Persistence_Ensemble,659,Dharashiv,2017-12-01,h3,-0.997749,-0.589669,0.40808,0.40808,0.166529,0.793288,-0.503517,-0.920289
+official_validation,AR_Persistence_Ensemble,660,Dharashiv,2018-01-01,h1,-1.241147,-0.669798,0.571349,0.571349,0.32644,0.999996,-0.669797,-0.806751
+official_validation,AR_Persistence_Ensemble,660,Dharashiv,2018-01-01,h2,-0.997749,-0.66673,0.331019,0.331019,0.109574,0.762551,-0.623129,-0.806751
+official_validation,AR_Persistence_Ensemble,660,Dharashiv,2018-01-01,h3,-0.824412,-0.590079,0.234333,0.234333,0.054912,0.793288,-0.53362,-0.806751
+official_validation,AR_Persistence_Ensemble,661,Dharashiv,2018-02-01,h1,-0.997749,-1.084532,-0.086783,0.086783,0.007531,0.999996,-1.084531,-1.241147
+official_validation,AR_Persistence_Ensemble,661,Dharashiv,2018-02-01,h2,-0.824412,-0.991863,-0.167451,0.167451,0.02804,0.762551,-0.914239,-1.241147
+official_validation,AR_Persistence_Ensemble,661,Dharashiv,2018-02-01,h3,-0.342545,-0.826917,-0.484372,0.484372,0.234617,0.793288,-0.718979,-1.241147
+official_validation,AR_Persistence_Ensemble,662,Dharashiv,2018-03-01,h1,-0.824412,-0.815227,0.009185,0.009185,8.4e-05,0.999996,-0.815226,-0.997749
+official_validation,AR_Persistence_Ensemble,662,Dharashiv,2018-03-01,h2,-0.342545,-0.72356,-0.381015,0.381015,0.145172,0.762551,-0.638181,-0.997749
+official_validation,AR_Persistence_Ensemble,662,Dharashiv,2018-03-01,h3,-0.928905,-0.634217,0.294688,0.294688,0.086841,0.793288,-0.539489,-0.997749
+official_validation,AR_Persistence_Ensemble,663,Dharashiv,2018-04-01,h1,-0.342545,-0.644226,-0.301681,0.301681,0.091011,0.999996,-0.644225,-0.824412
+official_validation,AR_Persistence_Ensemble,663,Dharashiv,2018-04-01,h2,-0.928905,-0.610665,0.31824,0.31824,0.101277,0.762551,-0.544107,-0.824412
+official_validation,AR_Persistence_Ensemble,663,Dharashiv,2018-04-01,h3,-0.756948,-0.458344,0.298604,0.298604,0.089165,0.793288,-0.362955,-0.824412
+official_validation,AR_Persistence_Ensemble,664,Dharashiv,2018-05-01,h1,-0.928905,-0.320905,0.608,0.608,0.369664,0.999996,-0.320905,-0.342545
+official_validation,AR_Persistence_Ensemble,664,Dharashiv,2018-05-01,h2,-0.756948,-0.213186,0.543762,0.543762,0.295677,0.762551,-0.172905,-0.342545
+official_validation,AR_Persistence_Ensemble,664,Dharashiv,2018-05-01,h3,-0.538105,-0.215241,0.322864,0.322864,0.104241,0.793288,-0.182068,-0.342545
+official_validation,AR_Persistence_Ensemble,665,Dharashiv,2018-06-01,h1,-0.756948,-0.716085,0.040863,0.040863,0.00167,0.999996,-0.716084,-0.928905
+official_validation,AR_Persistence_Ensemble,665,Dharashiv,2018-06-01,h2,-0.538105,-0.696213,-0.158108,0.158108,0.024998,0.762551,-0.623755,-0.928905
+official_validation,AR_Persistence_Ensemble,665,Dharashiv,2018-06-01,h3,0.857908,-0.533477,-1.391385,1.391385,1.935953,0.793288,-0.430438,-0.928905
+official_validation,AR_Persistence_Ensemble,666,Dharashiv,2018-07-01,h1,-0.538105,-0.621178,-0.083073,0.083073,0.006901,0.999996,-0.621177,-0.756948
+official_validation,AR_Persistence_Ensemble,666,Dharashiv,2018-07-01,h2,0.857908,-0.508104,-1.366012,1.366012,1.865989,0.762551,-0.430617,-0.756948
+official_validation,AR_Persistence_Ensemble,666,Dharashiv,2018-07-01,h3,1.393911,-0.418251,-1.812162,1.812162,3.283929,0.793288,-0.329994,-0.756948
+official_validation,AR_Persistence_Ensemble,667,Dharashiv,2018-08-01,h1,0.857908,-0.344071,-1.201979,1.201979,1.444753,0.999996,-0.34407,-0.538105
+official_validation,AR_Persistence_Ensemble,667,Dharashiv,2018-08-01,h2,1.393911,-0.326198,-1.720109,1.720109,2.958776,0.762551,-0.260213,-0.538105
+official_validation,AR_Persistence_Ensemble,667,Dharashiv,2018-08-01,h3,1.290302,-0.297232,-1.587534,1.587534,2.520264,0.793288,-0.234466,-0.538105
+official_validation,AR_Persistence_Ensemble,668,Dharashiv,2018-09-01,h1,1.393911,0.740489,-0.653422,0.653422,0.42696,0.999996,0.740489,0.857908
+official_validation,AR_Persistence_Ensemble,668,Dharashiv,2018-09-01,h2,1.290302,0.658766,-0.631536,0.631536,0.398838,0.762551,0.596755,0.857908
+official_validation,AR_Persistence_Ensemble,668,Dharashiv,2018-09-01,h3,0.90312,0.519798,-0.383322,0.383322,0.146935,0.793288,0.431695,0.857908
+official_validation,AR_Persistence_Ensemble,669,Dharashiv,2018-10-01,h1,1.290302,1.160173,-0.130129,0.130129,0.016934,0.999996,1.160172,1.393911
+official_validation,AR_Persistence_Ensemble,669,Dharashiv,2018-10-01,h2,0.90312,1.020349,0.117229,0.117229,0.013743,0.762551,0.904026,1.393911
+official_validation,AR_Persistence_Ensemble,669,Dharashiv,2018-10-01,h3,0.816325,0.9272,0.110875,0.110875,0.012293,0.793288,0.805586,1.393911
+official_validation,AR_Persistence_Ensemble,670,Dharashiv,2018-11-01,h1,0.90312,1.005707,0.102587,0.102587,0.010524,0.999996,1.005706,1.290302
+official_validation,AR_Persistence_Ensemble,670,Dharashiv,2018-11-01,h2,0.816325,0.989763,0.173438,0.173438,0.030081,0.762551,0.896179,1.290302
+official_validation,AR_Persistence_Ensemble,670,Dharashiv,2018-11-01,h3,0.769802,0.917412,0.14761,0.14761,0.021789,0.793288,0.820246,1.290302
+official_validation,AR_Persistence_Ensemble,671,Dharashiv,2018-12-01,h1,0.816325,0.815103,-0.001222,0.001222,1e-06,0.999996,0.815103,0.90312
+official_validation,AR_Persistence_Ensemble,671,Dharashiv,2018-12-01,h2,0.769802,0.789433,0.019631,0.019631,0.000385,0.762551,0.754032,0.90312
+official_validation,AR_Persistence_Ensemble,671,Dharashiv,2018-12-01,h3,0.593281,0.712001,0.11872,0.11872,0.014094,0.793288,0.6622,0.90312
+official_validation,AR_Persistence_Ensemble,672,Dharashiv,2019-01-01,h1,0.769802,0.748998,-0.020804,0.020804,0.000433,0.999996,0.748998,0.816325
+official_validation,AR_Persistence_Ensemble,672,Dharashiv,2019-01-01,h2,0.593281,0.692261,0.09898,0.09898,0.009797,0.762551,0.653629,0.816325
+official_validation,AR_Persistence_Ensemble,672,Dharashiv,2019-01-01,h3,0.356699,0.553186,0.196487,0.196487,0.038607,0.793288,0.484618,0.816325
+official_validation,AR_Persistence_Ensemble,673,Dharashiv,2019-02-01,h1,0.593281,0.69097,0.097689,0.097689,0.009543,0.999996,0.69097,0.769802
+official_validation,AR_Persistence_Ensemble,673,Dharashiv,2019-02-01,h2,0.356699,0.573659,0.21696,0.21696,0.047071,0.762551,0.512582,0.769802
+official_validation,AR_Persistence_Ensemble,673,Dharashiv,2019-02-01,h3,0.44266,0.491947,0.049287,0.049287,0.002429,0.793288,0.419544,0.769802
+official_validation,AR_Persistence_Ensemble,674,Dharashiv,2019-03-01,h1,0.356699,0.439256,0.082557,0.082557,0.006816,0.999996,0.439255,0.593281
+official_validation,AR_Persistence_Ensemble,674,Dharashiv,2019-03-01,h2,0.44266,0.417548,-0.025112,0.025112,0.000631,0.762551,0.362827,0.593281
+official_validation,AR_Persistence_Ensemble,674,Dharashiv,2019-03-01,h3,0.404867,0.430463,0.025596,0.025596,0.000655,0.793288,0.388036,0.593281
+official_validation,AR_Persistence_Ensemble,675,Dharashiv,2019-04-01,h1,0.44266,0.311533,-0.131127,0.131127,0.017194,0.999996,0.311533,0.356699
+official_validation,AR_Persistence_Ensemble,675,Dharashiv,2019-04-01,h2,0.404867,0.35139,-0.053477,0.053477,0.00286,0.762551,0.349737,0.356699
+official_validation,AR_Persistence_Ensemble,675,Dharashiv,2019-04-01,h3,0.821628,0.333344,-0.488284,0.488284,0.238421,0.793288,0.327258,0.356699
+official_validation,AR_Persistence_Ensemble,676,Dharashiv,2019-05-01,h1,0.404867,0.439569,0.034702,0.034702,0.001204,0.999996,0.439569,0.44266
+official_validation,AR_Persistence_Ensemble,676,Dharashiv,2019-05-01,h2,0.821628,0.414544,-0.407084,0.407084,0.165717,0.762551,0.405789,0.44266
+official_validation,AR_Persistence_Ensemble,676,Dharashiv,2019-05-01,h3,-0.062779,0.350102,0.412881,0.412881,0.170471,0.793288,0.325984,0.44266
+official_validation,AR_Persistence_Ensemble,677,Dharashiv,2019-06-01,h1,0.821628,0.389889,-0.431739,0.431739,0.186399,0.999996,0.389889,0.404867
+official_validation,AR_Persistence_Ensemble,677,Dharashiv,2019-06-01,h2,-0.062779,0.333109,0.395888,0.395888,0.156727,0.762551,0.310764,0.404867
+official_validation,AR_Persistence_Ensemble,677,Dharashiv,2019-06-01,h3,0.02946,0.201839,0.172379,0.172379,0.029715,0.793288,0.148935,0.404867
+official_validation,AR_Persistence_Ensemble,678,Dharashiv,2019-07-01,h1,-0.062779,0.687632,0.750411,0.750411,0.563116,0.999996,0.687631,0.821628
+official_validation,AR_Persistence_Ensemble,678,Dharashiv,2019-07-01,h2,0.02946,0.546065,0.516605,0.516605,0.266881,0.762551,0.460258,0.821628
+official_validation,AR_Persistence_Ensemble,678,Dharashiv,2019-07-01,h3,-0.566217,0.383275,0.949492,0.949492,0.901536,0.793288,0.269051,0.821628
+official_validation,AR_Persistence_Ensemble,679,Dharashiv,2019-08-01,h1,0.02946,-0.117297,-0.146757,0.146757,0.021538,0.999996,-0.117297,-0.062779
+official_validation,AR_Persistence_Ensemble,679,Dharashiv,2019-08-01,h2,-0.566217,-0.1789,0.387317,0.387317,0.150015,0.762551,-0.215058,-0.062779
+official_validation,AR_Persistence_Ensemble,679,Dharashiv,2019-08-01,h3,-0.734122,-0.146904,0.587218,0.587218,0.344825,0.793288,-0.168825,-0.062779
+official_validation,AR_Persistence_Ensemble,680,Dharashiv,2019-09-01,h1,-0.566217,-0.07397,0.492247,0.492247,0.242308,0.999996,-0.07397,0.02946
+official_validation,AR_Persistence_Ensemble,680,Dharashiv,2019-09-01,h2,-0.734122,-0.034917,0.699205,0.699205,0.488888,0.762551,-0.054963,0.02946
+official_validation,AR_Persistence_Ensemble,680,Dharashiv,2019-09-01,h3,-0.371035,-0.079573,0.291462,0.291462,0.08495,0.793288,-0.107985,0.02946
+official_validation,AR_Persistence_Ensemble,681,Dharashiv,2019-10-01,h1,-0.734122,-0.48466,0.249462,0.249462,0.062231,0.999996,-0.48466,-0.566217
+official_validation,AR_Persistence_Ensemble,681,Dharashiv,2019-10-01,h2,-0.371035,-0.488905,-0.11787,0.11787,0.013893,0.762551,-0.464831,-0.566217
+official_validation,AR_Persistence_Ensemble,681,Dharashiv,2019-10-01,h3,-0.730823,-0.439398,0.291425,0.291425,0.084929,0.793288,-0.406352,-0.566217
+official_validation,AR_Persistence_Ensemble,682,Dharashiv,2019-11-01,h1,-0.371035,-0.69581,-0.324775,0.324775,0.105479,0.999996,-0.69581,-0.734122
+official_validation,AR_Persistence_Ensemble,682,Dharashiv,2019-11-01,h2,-0.730823,-0.630376,0.100447,0.100447,0.01009,0.762551,-0.598071,-0.734122
+official_validation,AR_Persistence_Ensemble,682,Dharashiv,2019-11-01,h3,-0.743528,-0.587257,0.156271,0.156271,0.02442,0.793288,-0.548988,-0.734122
+official_validation,AR_Persistence_Ensemble,683,Dharashiv,2019-12-01,h1,-0.730823,-0.336192,0.394631,0.394631,0.155734,0.999996,-0.336192,-0.371035
+official_validation,AR_Persistence_Ensemble,683,Dharashiv,2019-12-01,h2,-0.743528,-0.337933,0.405595,0.405595,0.164508,0.762551,-0.327625,-0.371035
+official_validation,AR_Persistence_Ensemble,683,Dharashiv,2019-12-01,h3,-0.349209,-0.303337,0.045872,0.045872,0.002104,0.793288,-0.285697,-0.371035
+official_validation,AR_Persistence_Ensemble,684,Dharashiv,2020-01-01,h1,-0.743528,-0.668946,0.074582,0.074582,0.005562,0.999996,-0.668946,-0.730823
+official_validation,AR_Persistence_Ensemble,684,Dharashiv,2020-01-01,h2,-0.349209,-0.605863,-0.256654,0.256654,0.065871,0.762551,-0.566952,-0.730823
+official_validation,AR_Persistence_Ensemble,684,Dharashiv,2020-01-01,h3,-0.339562,-0.538761,-0.199199,0.199199,0.03968,0.793288,-0.488714,-0.730823
+official_validation,AR_Persistence_Ensemble,685,Dharashiv,2020-02-01,h1,-0.349209,-0.642731,-0.293522,0.293522,0.086155,0.999996,-0.642731,-0.743528
+official_validation,AR_Persistence_Ensemble,685,Dharashiv,2020-02-01,h2,-0.339562,-0.594471,-0.254909,0.254909,0.064979,0.762551,-0.548057,-0.743528
+official_validation,AR_Persistence_Ensemble,685,Dharashiv,2020-02-01,h3,-0.212639,-0.504076,-0.291437,0.291437,0.084936,0.793288,-0.441681,-0.743528
+official_validation,AR_Persistence_Ensemble,686,Dharashiv,2020-03-01,h1,-0.339562,-0.312661,0.026901,0.026901,0.000724,0.999996,-0.312661,-0.349209
+official_validation,AR_Persistence_Ensemble,686,Dharashiv,2020-03-01,h2,-0.212639,-0.270181,-0.057542,0.057542,0.003311,0.762551,-0.245572,-0.349209
+official_validation,AR_Persistence_Ensemble,686,Dharashiv,2020-03-01,h3,-0.452979,-0.299006,0.153973,0.153973,0.023708,0.793288,-0.285924,-0.349209
+official_validation,AR_Persistence_Ensemble,687,Dharashiv,2020-04-01,h1,-0.212639,-0.265522,-0.052883,0.052883,0.002797,0.999996,-0.265522,-0.339562
+official_validation,AR_Persistence_Ensemble,687,Dharashiv,2020-04-01,h2,-0.452979,-0.312906,0.140073,0.140073,0.019621,0.762551,-0.304605,-0.339562
+official_validation,AR_Persistence_Ensemble,687,Dharashiv,2020-04-01,h3,-1.000568,-0.332184,0.668384,0.668384,0.446738,0.793288,-0.330261,-0.339562
+official_validation,AR_Persistence_Ensemble,688,Dharashiv,2020-05-01,h1,-0.452979,-0.263867,0.189112,0.189112,0.035763,0.999996,-0.263867,-0.212639
+official_validation,AR_Persistence_Ensemble,688,Dharashiv,2020-05-01,h2,-1.000568,-0.275071,0.725497,0.725497,0.526345,0.762551,-0.294512,-0.212639
+official_validation,AR_Persistence_Ensemble,688,Dharashiv,2020-05-01,h3,-1.233198,-0.181317,1.051881,1.051881,1.106454,0.793288,-0.173155,-0.212639
+official_validation,AR_Persistence_Ensemble,689,Dharashiv,2020-06-01,h1,-1.000568,-0.444557,0.556011,0.556011,0.309148,0.999996,-0.444557,-0.452979
+official_validation,AR_Persistence_Ensemble,689,Dharashiv,2020-06-01,h2,-1.233198,-0.333962,0.899236,0.899236,0.808626,0.762551,-0.296901,-0.452979
+official_validation,AR_Persistence_Ensemble,689,Dharashiv,2020-06-01,h3,-0.369602,-0.311732,0.05787,0.05787,0.003349,0.793288,-0.274926,-0.452979
+official_validation,AR_Persistence_Ensemble,690,Dharashiv,2020-07-01,h1,-1.233198,-0.805721,0.427477,0.427477,0.182737,0.999996,-0.80572,-1.000568
+official_validation,AR_Persistence_Ensemble,690,Dharashiv,2020-07-01,h2,-0.369602,-0.765808,-0.396206,0.396206,0.156979,0.762551,-0.692706,-1.000568
+official_validation,AR_Persistence_Ensemble,690,Dharashiv,2020-07-01,h3,-1.130574,-0.610518,0.520056,0.520056,0.270458,0.793288,-0.50888,-1.000568
+official_validation,AR_Persistence_Ensemble,691,Dharashiv,2020-08-01,h1,-0.369602,-1.043764,-0.674162,0.674162,0.454494,0.999996,-1.043763,-1.233198
+official_validation,AR_Persistence_Ensemble,691,Dharashiv,2020-08-01,h2,-1.130574,-0.903595,0.226979,0.226979,0.051519,0.762551,-0.800961,-1.233198
+official_validation,AR_Persistence_Ensemble,691,Dharashiv,2020-08-01,h3,-1.200352,-0.747738,0.452614,0.452614,0.204859,0.793288,-0.621239,-1.233198
+official_validation,AR_Persistence_Ensemble,692,Dharashiv,2020-09-01,h1,-1.130574,-0.25327,0.877304,0.877304,0.769661,0.999996,-0.25327,-0.369602
+official_validation,AR_Persistence_Ensemble,692,Dharashiv,2020-09-01,h2,-1.200352,-0.212744,0.987608,0.987608,0.97537,0.762551,-0.1639,-0.369602
+official_validation,AR_Persistence_Ensemble,692,Dharashiv,2020-09-01,h3,-1.030868,-0.262321,0.768547,0.768547,0.590665,0.793288,-0.234366,-0.369602
+official_validation,AR_Persistence_Ensemble,905,Hingoli,2017-12-01,h1,0.894481,0.241084,-0.653397,0.653397,0.426928,0.999996,0.241084,0.144387
+official_validation,AR_Persistence_Ensemble,905,Hingoli,2017-12-01,h2,0.142928,0.097492,-0.045436,0.045436,0.002064,0.762551,0.082889,0.144387
+official_validation,AR_Persistence_Ensemble,905,Hingoli,2017-12-01,h3,0.523305,0.031857,-0.491448,0.491448,0.241521,0.793288,0.002534,0.144387
+official_validation,AR_Persistence_Ensemble,906,Hingoli,2018-01-01,h1,0.142928,0.642985,0.500057,0.500057,0.250057,0.999996,0.642984,0.894481
+official_validation,AR_Persistence_Ensemble,906,Hingoli,2018-01-01,h2,0.523305,0.565157,0.041852,0.041852,0.001752,0.762551,0.46261,0.894481
+official_validation,AR_Persistence_Ensemble,906,Hingoli,2018-01-01,h3,0.341938,0.411683,0.069745,0.069745,0.004864,0.793288,0.285877,0.894481
+official_validation,AR_Persistence_Ensemble,907,Hingoli,2018-02-01,h1,0.523305,0.031813,-0.491492,0.491492,0.241564,0.999996,0.031813,0.142928
+official_validation,AR_Persistence_Ensemble,907,Hingoli,2018-02-01,h2,0.341938,-0.014482,-0.35642,0.35642,0.127035,0.762551,-0.063498,0.142928
+official_validation,AR_Persistence_Ensemble,907,Hingoli,2018-02-01,h3,0.298207,0.058694,-0.239513,0.239513,0.057366,0.793288,0.036745,0.142928
+official_validation,AR_Persistence_Ensemble,908,Hingoli,2018-03-01,h1,0.341938,0.35981,0.017872,0.017872,0.000319,0.999996,0.359809,0.523305
+official_validation,AR_Persistence_Ensemble,908,Hingoli,2018-03-01,h2,0.298207,0.421973,0.123766,0.123766,0.015318,0.762551,0.39042,0.523305
+official_validation,AR_Persistence_Ensemble,908,Hingoli,2018-03-01,h3,-0.633346,0.38358,1.016926,1.016926,1.034139,0.793288,0.347171,0.523305
+official_validation,AR_Persistence_Ensemble,909,Hingoli,2018-04-01,h1,0.298207,0.360624,0.062417,0.062417,0.003896,0.999996,0.360624,0.341938
+official_validation,AR_Persistence_Ensemble,909,Hingoli,2018-04-01,h2,-0.633346,0.327861,0.961207,0.961207,0.923919,0.762551,0.323478,0.341938
+official_validation,AR_Persistence_Ensemble,909,Hingoli,2018-04-01,h3,-1.1235,0.283512,1.407012,1.407012,1.979684,0.793288,0.268288,0.341938
+official_validation,AR_Persistence_Ensemble,910,Hingoli,2018-05-01,h1,-0.633346,0.220669,0.854015,0.854015,0.729342,0.999996,0.220669,0.298207
+official_validation,AR_Persistence_Ensemble,910,Hingoli,2018-05-01,h2,-1.1235,0.212251,1.335751,1.335751,1.784232,0.762551,0.185486,0.298207
+official_validation,AR_Persistence_Ensemble,910,Hingoli,2018-05-01,h3,-0.611859,0.11358,0.725439,0.725439,0.526262,0.793288,0.065471,0.298207
+official_validation,AR_Persistence_Ensemble,911,Hingoli,2018-06-01,h1,-1.1235,-0.523145,0.600355,0.600355,0.360426,0.999996,-0.523145,-0.633346
+official_validation,AR_Persistence_Ensemble,911,Hingoli,2018-06-01,h2,-0.611859,-0.546552,0.065307,0.065307,0.004265,0.762551,-0.519526,-0.633346
+official_validation,AR_Persistence_Ensemble,911,Hingoli,2018-06-01,h3,0.746258,-0.436872,-1.18313,1.18313,1.399796,0.793288,-0.385675,-0.633346
+official_validation,AR_Persistence_Ensemble,912,Hingoli,2018-07-01,h1,-0.611859,-0.984638,-0.372779,0.372779,0.138964,0.999996,-0.984637,-1.1235
+official_validation,AR_Persistence_Ensemble,912,Hingoli,2018-07-01,h2,0.746258,-0.85841,-1.604668,1.604668,2.574959,0.762551,-0.775864,-1.1235
+official_validation,AR_Persistence_Ensemble,912,Hingoli,2018-07-01,h3,1.383934,-0.755191,-2.139125,2.139125,4.575854,0.793288,-0.659218,-1.1235
+official_validation,AR_Persistence_Ensemble,913,Hingoli,2018-08-01,h1,0.746258,-0.435696,-1.181954,1.181954,1.397015,0.999996,-0.435695,-0.611859
+official_validation,AR_Persistence_Ensemble,913,Hingoli,2018-08-01,h2,1.383934,-0.435934,-1.819868,1.819868,3.311919,0.762551,-0.381153,-0.611859
+official_validation,AR_Persistence_Ensemble,913,Hingoli,2018-08-01,h3,1.250288,-0.426317,-1.676605,1.676605,2.811004,0.793288,-0.377969,-0.611859
+official_validation,AR_Persistence_Ensemble,914,Hingoli,2018-09-01,h1,1.383934,0.584638,-0.799296,0.799296,0.638875,0.999996,0.584637,0.746258
+official_validation,AR_Persistence_Ensemble,914,Hingoli,2018-09-01,h2,1.250288,0.501826,-0.748462,0.748462,0.560195,0.762551,0.425713,0.746258
+official_validation,AR_Persistence_Ensemble,914,Hingoli,2018-09-01,h3,0.999209,0.355332,-0.643877,0.643877,0.414578,0.793288,0.253466,0.746258
+official_validation,AR_Persistence_Ensemble,915,Hingoli,2018-10-01,h1,1.250288,1.0904,-0.159888,0.159888,0.025564,0.999996,1.090399,1.383934
+official_validation,AR_Persistence_Ensemble,915,Hingoli,2018-10-01,h2,0.999209,0.947706,-0.051503,0.051503,0.002653,0.762551,0.81187,1.383934
+official_validation,AR_Persistence_Ensemble,915,Hingoli,2018-10-01,h3,1.024765,0.785618,-0.239147,0.239147,0.057191,0.793288,0.629711,1.383934
+official_validation,AR_Persistence_Ensemble,916,Hingoli,2018-11-01,h1,0.999209,0.930021,-0.069188,0.069188,0.004787,0.999996,0.93002,1.250288
+official_validation,AR_Persistence_Ensemble,916,Hingoli,2018-11-01,h2,1.024765,0.857089,-0.167676,0.167676,0.028115,0.762551,0.734652,1.250288
+official_validation,AR_Persistence_Ensemble,916,Hingoli,2018-11-01,h3,0.942665,0.787652,-0.155013,0.155013,0.024029,0.793288,0.6671,1.250288
+official_validation,AR_Persistence_Ensemble,917,Hingoli,2018-12-01,h1,1.024765,0.81906,-0.205705,0.205705,0.042315,0.999996,0.819059,0.999209
+official_validation,AR_Persistence_Ensemble,917,Hingoli,2018-12-01,h2,0.942665,0.795044,-0.147621,0.147621,0.021792,0.762551,0.731469,0.999209
+official_validation,AR_Persistence_Ensemble,917,Hingoli,2018-12-01,h3,1.0545,0.618393,-0.436107,0.436107,0.190189,0.793288,0.519162,0.999209
+official_validation,AR_Persistence_Ensemble,918,Hingoli,2019-01-01,h1,0.942665,0.874636,-0.068029,0.068029,0.004628,0.999996,0.874635,1.024765
+official_validation,AR_Persistence_Ensemble,918,Hingoli,2019-01-01,h2,1.0545,0.725957,-0.328543,0.328543,0.10794,0.762551,0.632912,1.024765
+official_validation,AR_Persistence_Ensemble,918,Hingoli,2019-01-01,h3,0.626487,0.561751,-0.064736,0.064736,0.004191,0.793288,0.441101,1.024765
+official_validation,AR_Persistence_Ensemble,919,Hingoli,2019-02-01,h1,1.0545,0.704695,-0.349805,0.349805,0.122364,0.999996,0.704694,0.942665
+official_validation,AR_Persistence_Ensemble,919,Hingoli,2019-02-01,h2,0.626487,0.602375,-0.024112,0.024112,0.000581,0.762551,0.496413,0.942665
+official_validation,AR_Persistence_Ensemble,919,Hingoli,2019-02-01,h3,0.653244,0.508251,-0.144993,0.144993,0.021023,0.793288,0.395053,0.942665
+official_validation,AR_Persistence_Ensemble,920,Hingoli,2019-03-01,h1,0.626487,0.772192,0.145705,0.145705,0.02123,0.999996,0.772191,1.0545
+official_validation,AR_Persistence_Ensemble,920,Hingoli,2019-03-01,h2,0.653244,0.731441,0.078197,0.078197,0.006115,0.762551,0.630845,1.0545
+official_validation,AR_Persistence_Ensemble,920,Hingoli,2019-03-01,h3,0.770128,0.68686,-0.083268,0.083268,0.006934,0.793288,0.591062,1.0545
+official_validation,AR_Persistence_Ensemble,921,Hingoli,2019-04-01,h1,0.653244,0.495624,-0.15762,0.15762,0.024844,0.999996,0.495623,0.626487
+official_validation,AR_Persistence_Ensemble,921,Hingoli,2019-04-01,h2,0.770128,0.51931,-0.250818,0.250818,0.06291,0.762551,0.485936,0.626487
+official_validation,AR_Persistence_Ensemble,921,Hingoli,2019-04-01,h3,0.928194,0.52339,-0.404804,0.404804,0.163867,0.793288,0.496525,0.626487
+official_validation,AR_Persistence_Ensemble,922,Hingoli,2019-05-01,h1,0.770128,0.577803,-0.192325,0.192325,0.036989,0.999996,0.577803,0.653244
+official_validation,AR_Persistence_Ensemble,922,Hingoli,2019-05-01,h2,0.928194,0.596402,-0.331792,0.331792,0.110086,0.762551,0.578702,0.653244
+official_validation,AR_Persistence_Ensemble,922,Hingoli,2019-05-01,h3,0.416411,0.500876,0.084465,0.084465,0.007134,0.793288,0.461172,0.653244
+official_validation,AR_Persistence_Ensemble,923,Hingoli,2019-06-01,h1,0.928194,0.723552,-0.204642,0.204642,0.041878,0.999996,0.723552,0.770128
+official_validation,AR_Persistence_Ensemble,923,Hingoli,2019-06-01,h2,0.416411,0.627315,0.210904,0.210904,0.044481,0.762551,0.582845,0.770128
+official_validation,AR_Persistence_Ensemble,923,Hingoli,2019-06-01,h3,-0.405854,0.449709,0.855563,0.855563,0.731989,0.793288,0.366216,0.770128
+official_validation,AR_Persistence_Ensemble,924,Hingoli,2019-07-01,h1,0.416411,0.78306,0.366649,0.366649,0.134431,0.999996,0.783059,0.928194
+official_validation,AR_Persistence_Ensemble,924,Hingoli,2019-07-01,h2,-0.405854,0.623524,1.029378,1.029378,1.059618,0.762551,0.528653,0.928194
+official_validation,AR_Persistence_Ensemble,924,Hingoli,2019-07-01,h3,-0.877763,0.451324,1.329087,1.329087,1.766472,0.793288,0.327063,0.928194
+official_validation,AR_Persistence_Ensemble,925,Hingoli,2019-08-01,h1,-0.405854,0.273816,0.67967,0.67967,0.461951,0.999996,0.273815,0.416411
+official_validation,AR_Persistence_Ensemble,925,Hingoli,2019-08-01,h2,-0.877763,0.18387,1.061633,1.061633,1.127064,0.762551,0.111459,0.416411
+official_validation,AR_Persistence_Ensemble,925,Hingoli,2019-08-01,h3,-1.794566,0.164904,1.95947,1.95947,3.839522,0.793288,0.099367,0.416411
+official_validation,AR_Persistence_Ensemble,926,Hingoli,2019-09-01,h1,-0.877763,-0.444123,0.43364,0.43364,0.188044,0.999996,-0.444123,-0.405854
+official_validation,AR_Persistence_Ensemble,926,Hingoli,2019-09-01,h2,-1.794566,-0.37374,1.420826,1.420826,2.018747,0.762551,-0.36374,-0.405854
+official_validation,AR_Persistence_Ensemble,926,Hingoli,2019-09-01,h3,-1.476133,-0.33583,1.140303,1.140303,1.300292,0.793288,-0.317583,-0.405854
+official_validation,AR_Persistence_Ensemble,927,Hingoli,2019-10-01,h1,-1.794566,-0.741994,1.052572,1.052572,1.107909,0.999996,-0.741993,-0.877763
+official_validation,AR_Persistence_Ensemble,927,Hingoli,2019-10-01,h2,-1.476133,-0.690961,0.785172,0.785172,0.616495,0.762551,-0.632793,-0.877763
+official_validation,AR_Persistence_Ensemble,927,Hingoli,2019-10-01,h3,-1.52531,-0.644087,0.881223,0.881223,0.776553,0.793288,-0.583197,-0.877763
+official_validation,AR_Persistence_Ensemble,928,Hingoli,2019-11-01,h1,-1.476133,-1.534452,-0.058319,0.058319,0.003401,0.999996,-1.534451,-1.794566
+official_validation,AR_Persistence_Ensemble,928,Hingoli,2019-11-01,h2,-1.52531,-1.442202,0.083108,0.083108,0.006907,0.762551,-1.33248,-1.794566
+official_validation,AR_Persistence_Ensemble,928,Hingoli,2019-11-01,h3,-1.225456,-1.253018,-0.027562,0.027562,0.00076,0.793288,-1.111904,-1.794566
+official_validation,AR_Persistence_Ensemble,929,Hingoli,2019-12-01,h1,-1.52531,-1.285201,0.240109,0.240109,0.057652,0.999996,-1.2852,-1.476133
+official_validation,AR_Persistence_Ensemble,929,Hingoli,2019-12-01,h2,-1.225456,-1.167686,0.05777,0.05777,0.003337,0.762551,-1.071639,-1.476133
+official_validation,AR_Persistence_Ensemble,929,Hingoli,2019-12-01,h3,-1.330725,-1.0692,0.261525,0.261525,0.068395,0.793288,-0.963163,-1.476133
+official_validation,AR_Persistence_Ensemble,930,Hingoli,2020-01-01,h1,-1.225456,-1.284614,-0.059158,0.059158,0.0035,0.999996,-1.284613,-1.52531
+official_validation,AR_Persistence_Ensemble,930,Hingoli,2020-01-01,h2,-1.330725,-1.228105,0.10262,0.10262,0.010531,0.762551,-1.135559,-1.52531
+official_validation,AR_Persistence_Ensemble,930,Hingoli,2020-01-01,h3,-0.905591,-1.05992,-0.154329,0.154329,0.023817,0.793288,-0.93865,-1.52531
+official_validation,AR_Persistence_Ensemble,931,Hingoli,2020-02-01,h1,-1.330725,-1.084501,0.246224,0.246224,0.060626,0.999996,-1.0845,-1.225456
+official_validation,AR_Persistence_Ensemble,931,Hingoli,2020-02-01,h2,-0.905591,-0.973223,-0.067632,0.067632,0.004574,0.762551,-0.894681,-1.225456
+official_validation,AR_Persistence_Ensemble,931,Hingoli,2020-02-01,h3,-0.443491,-0.875249,-0.431758,0.431758,0.186415,0.793288,-0.783993,-1.225456
+official_validation,AR_Persistence_Ensemble,932,Hingoli,2020-03-01,h1,-0.905591,-1.129086,-0.223495,0.223495,0.04995,0.999996,-1.129085,-1.330725
+official_validation,AR_Persistence_Ensemble,932,Hingoli,2020-03-01,h2,-0.443491,-1.058195,-0.614704,0.614704,0.377861,0.762551,-0.973332,-1.330725
+official_validation,AR_Persistence_Ensemble,932,Hingoli,2020-03-01,h3,-0.956472,-0.917939,0.038533,0.038533,0.001485,0.793288,-0.810377,-1.330725
+official_validation,AR_Persistence_Ensemble,933,Hingoli,2020-04-01,h1,-0.443491,-0.783247,-0.339756,0.339756,0.115434,0.999996,-0.783247,-0.905591
+official_validation,AR_Persistence_Ensemble,933,Hingoli,2020-04-01,h2,-0.956472,-0.714907,0.241565,0.241565,0.058353,0.762551,-0.655531,-0.905591
+official_validation,AR_Persistence_Ensemble,933,Hingoli,2020-04-01,h3,-1.517859,-0.72375,0.794109,0.794109,0.630609,0.793288,-0.676367,-0.905591
+official_validation,AR_Persistence_Ensemble,934,Hingoli,2020-05-01,h1,-0.956472,-0.364376,0.592096,0.592096,0.350577,0.999996,-0.364376,-0.443491
+official_validation,AR_Persistence_Ensemble,934,Hingoli,2020-05-01,h2,-1.517859,-0.438588,1.079271,1.079271,1.164826,0.762551,-0.437061,-0.443491
+official_validation,AR_Persistence_Ensemble,934,Hingoli,2020-05-01,h3,-1.074136,-0.390448,0.683688,0.683688,0.46743,0.793288,-0.376626,-0.443491
+official_validation,AR_Persistence_Ensemble,935,Hingoli,2020-06-01,h1,-1.517859,-0.935314,0.582545,0.582545,0.339359,0.999996,-0.935314,-0.956472
+official_validation,AR_Persistence_Ensemble,935,Hingoli,2020-06-01,h2,-1.074136,-0.829407,0.244729,0.244729,0.059892,0.762551,-0.789841,-0.956472
+official_validation,AR_Persistence_Ensemble,935,Hingoli,2020-06-01,h3,-0.750244,-0.654837,0.095407,0.095407,0.009103,0.793288,-0.576238,-0.956472
+official_validation,AR_Persistence_Ensemble,936,Hingoli,2020-07-01,h1,-1.074136,-1.31217,-0.238034,0.238034,0.05666,0.999996,-1.312169,-1.517859
+official_validation,AR_Persistence_Ensemble,936,Hingoli,2020-07-01,h2,-0.750244,-1.125015,-0.374771,0.374771,0.140453,0.762551,-1.002688,-1.517859
+official_validation,AR_Persistence_Ensemble,936,Hingoli,2020-07-01,h3,-1.513537,-0.898998,0.614539,0.614539,0.377659,0.793288,-0.737737,-1.517859
+official_validation,AR_Persistence_Ensemble,937,Hingoli,2020-08-01,h1,-0.750244,-0.830518,-0.080274,0.080274,0.006444,0.999996,-0.830517,-1.074136
+official_validation,AR_Persistence_Ensemble,937,Hingoli,2020-08-01,h2,-1.513537,-0.706276,0.807261,0.807261,0.65167,0.762551,-0.591729,-1.074136
+official_validation,AR_Persistence_Ensemble,937,Hingoli,2020-08-01,h3,-1.403782,-0.590471,0.813311,0.813311,0.661474,0.793288,-0.46444,-1.074136
+official_validation,AR_Persistence_Ensemble,938,Hingoli,2020-09-01,h1,-1.513537,-0.532975,0.980562,0.980562,0.961502,0.999996,-0.532974,-0.750244
+official_validation,AR_Persistence_Ensemble,938,Hingoli,2020-09-01,h2,-1.403782,-0.494323,0.909459,0.909459,0.827115,0.762551,-0.414633,-0.750244
+official_validation,AR_Persistence_Ensemble,938,Hingoli,2020-09-01,h3,-1.327591,-0.415568,0.912023,0.912023,0.831785,0.793288,-0.32836,-0.750244
+official_validation,AR_Persistence_Ensemble,1151,Jalna,2017-12-01,h1,-0.358944,-0.445934,-0.08699,0.08699,0.007567,0.999996,-0.445933,-0.706103
+official_validation,AR_Persistence_Ensemble,1151,Jalna,2017-12-01,h2,-0.828727,-0.472639,0.356088,0.356088,0.126799,0.762551,-0.399941,-0.706103
+official_validation,AR_Persistence_Ensemble,1151,Jalna,2017-12-01,h3,-0.331293,-0.459064,-0.127771,0.127771,0.016326,0.793288,-0.394692,-0.706103
+official_validation,AR_Persistence_Ensemble,1152,Jalna,2018-01-01,h1,-0.828727,-0.308274,0.520453,0.520453,0.270871,0.999996,-0.308274,-0.358944
+official_validation,AR_Persistence_Ensemble,1152,Jalna,2018-01-01,h2,-0.331293,-0.330139,0.001154,0.001154,1e-06,0.762551,-0.32117,-0.358944
+official_validation,AR_Persistence_Ensemble,1152,Jalna,2018-01-01,h3,-0.221911,-0.289669,-0.067758,0.067758,0.004591,0.793288,-0.271617,-0.358944
+official_validation,AR_Persistence_Ensemble,1153,Jalna,2018-02-01,h1,-0.331293,-0.753132,-0.421839,0.421839,0.177948,0.999996,-0.753132,-0.828727
+official_validation,AR_Persistence_Ensemble,1153,Jalna,2018-02-01,h2,-0.221911,-0.67378,-0.451869,0.451869,0.204186,0.762551,-0.625532,-0.828727
+official_validation,AR_Persistence_Ensemble,1153,Jalna,2018-02-01,h3,0.143148,-0.563084,-0.706232,0.706232,0.498764,0.793288,-0.493864,-0.828727
+official_validation,AR_Persistence_Ensemble,1154,Jalna,2018-03-01,h1,-0.221911,-0.248301,-0.02639,0.02639,0.000696,0.999996,-0.248301,-0.331293
+official_validation,AR_Persistence_Ensemble,1154,Jalna,2018-03-01,h2,0.143148,-0.216347,-0.359495,0.359495,0.129237,0.762551,-0.180554,-0.331293
+official_validation,AR_Persistence_Ensemble,1154,Jalna,2018-03-01,h3,-0.46585,-0.187172,0.278678,0.278678,0.077662,0.793288,-0.149617,-0.331293
+official_validation,AR_Persistence_Ensemble,1155,Jalna,2018-04-01,h1,0.143148,-0.14919,-0.292338,0.292338,0.085462,0.999996,-0.14919,-0.221911
+official_validation,AR_Persistence_Ensemble,1155,Jalna,2018-04-01,h2,-0.46585,-0.148083,0.317767,0.317767,0.100976,0.762551,-0.125094,-0.221911
+official_validation,AR_Persistence_Ensemble,1155,Jalna,2018-04-01,h3,-0.808962,-0.089906,0.719056,0.719056,0.517041,0.793288,-0.055509,-0.221911
+official_validation,AR_Persistence_Ensemble,1156,Jalna,2018-05-01,h1,-0.46585,0.088625,0.554475,0.554475,0.307443,0.999996,0.088625,0.143148
+official_validation,AR_Persistence_Ensemble,1156,Jalna,2018-05-01,h2,-0.808962,0.129613,0.938575,0.938575,0.880924,0.762551,0.125399,0.143148
+official_validation,AR_Persistence_Ensemble,1156,Jalna,2018-05-01,h3,-0.083008,0.061134,0.144142,0.144142,0.020777,0.793288,0.039763,0.143148
+official_validation,AR_Persistence_Ensemble,1157,Jalna,2018-06-01,h1,-0.808962,-0.362958,0.446004,0.446004,0.198919,0.999996,-0.362958,-0.46585
+official_validation,AR_Persistence_Ensemble,1157,Jalna,2018-06-01,h2,-0.083008,-0.383697,-0.300689,0.300689,0.090414,0.762551,-0.358115,-0.46585
+official_validation,AR_Persistence_Ensemble,1157,Jalna,2018-06-01,h3,1.092279,-0.25738,-1.349659,1.349659,1.82158,0.793288,-0.203058,-0.46585
+official_validation,AR_Persistence_Ensemble,1158,Jalna,2018-07-01,h1,-0.083008,-0.690375,-0.607367,0.607367,0.368895,0.999996,-0.690375,-0.808962
+official_validation,AR_Persistence_Ensemble,1158,Jalna,2018-07-01,h2,1.092279,-0.560075,-1.652354,1.652354,2.730272,0.762551,-0.482574,-0.808962
+official_validation,AR_Persistence_Ensemble,1158,Jalna,2018-07-01,h3,1.816095,-0.469565,-2.28566,2.28566,5.224241,0.793288,-0.381126,-0.808962
+official_validation,AR_Persistence_Ensemble,1159,Jalna,2018-08-01,h1,1.092279,0.032877,-1.059402,1.059402,1.122334,0.999996,0.032877,-0.083008
+official_validation,AR_Persistence_Ensemble,1159,Jalna,2018-08-01,h2,1.816095,0.014932,-1.801163,1.801163,3.244189,0.762551,0.045429,-0.083008
+official_validation,AR_Persistence_Ensemble,1159,Jalna,2018-08-01,h3,1.611677,-0.016187,-1.627864,1.627864,2.649941,0.793288,0.001225,-0.083008
+official_validation,AR_Persistence_Ensemble,1160,Jalna,2018-09-01,h1,1.816095,0.927373,-0.888722,0.888722,0.789827,0.999996,0.927372,1.092279
+official_validation,AR_Persistence_Ensemble,1160,Jalna,2018-09-01,h2,1.611677,0.818952,-0.792725,0.792725,0.628413,0.762551,0.733841,1.092279
+official_validation,AR_Persistence_Ensemble,1160,Jalna,2018-09-01,h3,1.32168,0.655833,-0.665847,0.665847,0.443352,0.793288,0.542106,1.092279
+official_validation,AR_Persistence_Ensemble,1161,Jalna,2018-10-01,h1,1.611677,1.479385,-0.132292,0.132292,0.017501,0.999996,1.479384,1.816095
+official_validation,AR_Persistence_Ensemble,1161,Jalna,2018-10-01,h2,1.32168,1.32168,-0.0,0.0,0.0,0.762551,1.167725,1.816095
+official_validation,AR_Persistence_Ensemble,1161,Jalna,2018-10-01,h3,0.940087,1.162242,0.222155,0.222155,0.049353,0.793288,0.991863,1.816095
+official_validation,AR_Persistence_Ensemble,1162,Jalna,2018-11-01,h1,1.32168,1.274292,-0.047388,0.047388,0.002246,0.999996,1.274291,1.611677
+official_validation,AR_Persistence_Ensemble,1162,Jalna,2018-11-01,h2,0.940087,1.211882,0.271795,0.271795,0.073873,0.762551,1.087391,1.611677
+official_validation,AR_Persistence_Ensemble,1162,Jalna,2018-11-01,h3,0.717089,1.116938,0.399849,0.399849,0.159879,0.793288,0.988021,1.611677
+official_validation,AR_Persistence_Ensemble,1163,Jalna,2018-12-01,h1,0.940087,1.14249,0.202403,0.202403,0.040967,0.999996,1.142489,1.32168
+official_validation,AR_Persistence_Ensemble,1163,Jalna,2018-12-01,h2,0.717089,1.099856,0.382767,0.382767,0.146511,0.762551,1.030783,1.32168
+official_validation,AR_Persistence_Ensemble,1163,Jalna,2018-12-01,h3,1.060308,0.908893,-0.151415,0.151415,0.022927,0.793288,0.80133,1.32168
+official_validation,AR_Persistence_Ensemble,1164,Jalna,2019-01-01,h1,0.717089,0.84823,0.131141,0.131141,0.017198,0.999996,0.84823,0.940087
+official_validation,AR_Persistence_Ensemble,1164,Jalna,2019-01-01,h2,1.060308,0.715226,-0.345082,0.345082,0.119082,0.762551,0.645207,0.940087
+official_validation,AR_Persistence_Ensemble,1164,Jalna,2019-01-01,h3,0.579557,0.596565,0.017008,0.017008,0.000289,0.793288,0.507051,0.940087
+official_validation,AR_Persistence_Ensemble,1165,Jalna,2019-02-01,h1,1.060308,0.561435,-0.498873,0.498873,0.248875,0.999996,0.561434,0.717089
+official_validation,AR_Persistence_Ensemble,1165,Jalna,2019-02-01,h2,0.579557,0.500089,-0.079468,0.079468,0.006315,0.762551,0.432518,0.717089
+official_validation,AR_Persistence_Ensemble,1165,Jalna,2019-02-01,h3,0.68601,0.402862,-0.283148,0.283148,0.080173,0.793288,0.320982,0.717089
+official_validation,AR_Persistence_Ensemble,1166,Jalna,2019-03-01,h1,0.579557,0.854918,0.275361,0.275361,0.075824,0.999996,0.854917,1.060308
+official_validation,AR_Persistence_Ensemble,1166,Jalna,2019-03-01,h2,0.68601,0.767016,0.081006,0.081006,0.006562,0.762551,0.675688,1.060308
+official_validation,AR_Persistence_Ensemble,1166,Jalna,2019-03-01,h3,0.905385,0.686953,-0.218432,0.218432,0.047712,0.793288,0.589666,1.060308
+official_validation,AR_Persistence_Ensemble,1167,Jalna,2019-04-01,h1,0.68601,0.453355,-0.232655,0.232655,0.054129,0.999996,0.453354,0.579557
+official_validation,AR_Persistence_Ensemble,1167,Jalna,2019-04-01,h2,0.905385,0.449945,-0.45544,0.45544,0.207425,0.762551,0.409586,0.579557
+official_validation,AR_Persistence_Ensemble,1167,Jalna,2019-04-01,h3,0.577014,0.457073,-0.119941,0.119941,0.014386,0.793288,0.425156,0.579557
+official_validation,AR_Persistence_Ensemble,1168,Jalna,2019-05-01,h1,0.905385,0.576315,-0.32907,0.32907,0.108287,0.999996,0.576315,0.68601
+official_validation,AR_Persistence_Ensemble,1168,Jalna,2019-05-01,h2,0.577014,0.5974,0.020386,0.020386,0.000416,0.762551,0.569808,0.68601
+official_validation,AR_Persistence_Ensemble,1168,Jalna,2019-05-01,h3,0.465477,0.490312,0.024835,0.024835,0.000617,0.793288,0.439318,0.68601
+official_validation,AR_Persistence_Ensemble,1169,Jalna,2019-06-01,h1,0.577014,0.833798,0.256784,0.256784,0.065938,0.999996,0.833798,0.905385
+official_validation,AR_Persistence_Ensemble,1169,Jalna,2019-06-01,h2,0.465477,0.717841,0.252364,0.252364,0.063688,0.762551,0.659442,0.905385
+official_validation,AR_Persistence_Ensemble,1169,Jalna,2019-06-01,h3,-0.328676,0.50915,0.837826,0.837826,0.701952,0.793288,0.4059,0.905385
+official_validation,AR_Persistence_Ensemble,1170,Jalna,2019-07-01,h1,0.465477,0.478132,0.012655,0.012655,0.00016,0.999996,0.478132,0.577014
+official_validation,AR_Persistence_Ensemble,1170,Jalna,2019-07-01,h2,-0.328676,0.326863,0.655539,0.655539,0.429731,0.762551,0.248969,0.577014
+official_validation,AR_Persistence_Ensemble,1170,Jalna,2019-07-01,h3,-0.788342,0.196339,0.984681,0.984681,0.969596,0.793288,0.097144,0.577014
+official_validation,AR_Persistence_Ensemble,1171,Jalna,2019-08-01,h1,-0.328676,0.283942,0.612618,0.612618,0.3753,0.999996,0.283941,0.465477
+official_validation,AR_Persistence_Ensemble,1171,Jalna,2019-08-01,h2,-0.788342,0.203111,0.991453,0.991453,0.982978,0.762551,0.121413,0.465477
+official_validation,AR_Persistence_Ensemble,1171,Jalna,2019-08-01,h3,-1.303393,0.151052,1.454445,1.454445,2.11541,0.793288,0.06912,0.465477
+official_validation,AR_Persistence_Ensemble,1172,Jalna,2019-09-01,h1,-0.788342,-0.37751,0.410832,0.410832,0.168783,0.999996,-0.37751,-0.328676
+official_validation,AR_Persistence_Ensemble,1172,Jalna,2019-09-01,h2,-1.303393,-0.343306,0.960087,0.960087,0.921766,0.762551,-0.347862,-0.328676
+official_validation,AR_Persistence_Ensemble,1172,Jalna,2019-09-01,h3,-0.832871,-0.333723,0.499148,0.499148,0.249149,0.793288,-0.335038,-0.328676
+official_validation,AR_Persistence_Ensemble,1173,Jalna,2019-10-01,h1,-1.303393,-0.712174,0.591219,0.591219,0.34954,0.999996,-0.712174,-0.788342
+official_validation,AR_Persistence_Ensemble,1173,Jalna,2019-10-01,h2,-0.832871,-0.673649,0.159222,0.159222,0.025352,0.762551,-0.637935,-0.788342
+official_validation,AR_Persistence_Ensemble,1173,Jalna,2019-10-01,h3,-1.235293,-0.598921,0.636372,0.636372,0.404969,0.793288,-0.549563,-0.788342
+official_validation,AR_Persistence_Ensemble,1174,Jalna,2019-11-01,h1,-0.832871,-1.15763,-0.324759,0.324759,0.105468,0.999996,-1.157629,-1.303393
+official_validation,AR_Persistence_Ensemble,1174,Jalna,2019-11-01,h2,-1.235293,-1.056226,0.179067,0.179067,0.032065,0.762551,-0.979261,-1.303393
+official_validation,AR_Persistence_Ensemble,1174,Jalna,2019-11-01,h3,-1.254788,-0.912002,0.342786,0.342786,0.117502,0.793288,-0.810015,-1.303393
+official_validation,AR_Persistence_Ensemble,1175,Jalna,2019-12-01,h1,-1.235293,-0.727767,0.507526,0.507526,0.257582,0.999996,-0.727767,-0.832871
+official_validation,AR_Persistence_Ensemble,1175,Jalna,2019-12-01,h2,-1.254788,-0.654652,0.600136,0.600136,0.360163,0.762551,-0.599157,-0.832871
+official_validation,AR_Persistence_Ensemble,1175,Jalna,2019-12-01,h3,-1.280052,-0.669206,0.610846,0.610846,0.373133,0.793288,-0.626559,-0.832871
+official_validation,AR_Persistence_Ensemble,1176,Jalna,2020-01-01,h1,-1.254788,-1.043881,0.210907,0.210907,0.044482,0.999996,-1.04388,-1.235293
+official_validation,AR_Persistence_Ensemble,1176,Jalna,2020-01-01,h2,-1.280052,-1.048776,0.231276,0.231276,0.053489,0.762551,-0.990697,-1.235293
+official_validation,AR_Persistence_Ensemble,1176,Jalna,2020-01-01,h3,-0.675194,-0.855276,-0.180082,0.180082,0.032429,0.793288,-0.756252,-1.235293
+official_validation,AR_Persistence_Ensemble,1177,Jalna,2020-02-01,h1,-1.280052,-1.158886,0.121166,0.121166,0.014681,0.999996,-1.158886,-1.254788
+official_validation,AR_Persistence_Ensemble,1177,Jalna,2020-02-01,h2,-0.675194,-0.980396,-0.305202,0.305202,0.093148,0.762551,-0.894954,-1.254788
+official_validation,AR_Persistence_Ensemble,1177,Jalna,2020-02-01,h3,-0.301405,-0.880659,-0.579254,0.579254,0.335535,0.793288,-0.78317,-1.254788
+official_validation,AR_Persistence_Ensemble,1178,Jalna,2020-03-01,h1,-0.675194,-1.024609,-0.349415,0.349415,0.122091,0.999996,-1.024608,-1.280052
+official_validation,AR_Persistence_Ensemble,1178,Jalna,2020-03-01,h2,-0.301405,-0.980534,-0.679129,0.679129,0.461216,0.762551,-0.887268,-1.280052
+official_validation,AR_Persistence_Ensemble,1178,Jalna,2020-03-01,h3,-1.03964,-0.895586,0.144054,0.144054,0.020752,0.793288,-0.795403,-1.280052
+official_validation,AR_Persistence_Ensemble,1179,Jalna,2020-04-01,h1,-0.301405,-0.582233,-0.280828,0.280828,0.078865,0.999996,-0.582233,-0.675194
+official_validation,AR_Persistence_Ensemble,1179,Jalna,2020-04-01,h2,-1.03964,-0.577812,0.461828,0.461828,0.213285,0.762551,-0.547489,-0.675194
+official_validation,AR_Persistence_Ensemble,1179,Jalna,2020-04-01,h3,-1.470543,-0.575158,0.895385,0.895385,0.801714,0.793288,-0.549091,-0.675194
+official_validation,AR_Persistence_Ensemble,1180,Jalna,2020-05-01,h1,-1.03964,-0.306489,0.733151,0.733151,0.53751,0.999996,-0.306489,-0.301405
+official_validation,AR_Persistence_Ensemble,1180,Jalna,2020-05-01,h2,-1.470543,-0.337668,1.132875,1.132875,1.283406,0.762551,-0.34896,-0.301405
+official_validation,AR_Persistence_Ensemble,1180,Jalna,2020-05-01,h3,-1.222958,-0.294089,0.928869,0.928869,0.862799,0.793288,-0.292182,-0.301405
+official_validation,AR_Persistence_Ensemble,1181,Jalna,2020-06-01,h1,-1.470543,-0.992546,0.477997,0.477997,0.228481,0.999996,-0.992546,-1.03964
+official_validation,AR_Persistence_Ensemble,1181,Jalna,2020-06-01,h2,-1.222958,-0.872313,0.350645,0.350645,0.122952,0.762551,-0.820209,-1.03964
+official_validation,AR_Persistence_Ensemble,1181,Jalna,2020-06-01,h3,-1.34028,-0.679701,0.660579,0.660579,0.436364,0.793288,-0.58591,-1.03964
+official_validation,AR_Persistence_Ensemble,1182,Jalna,2020-07-01,h1,-1.222958,-1.232163,-0.009205,0.009205,8.5e-05,0.999996,-1.232162,-1.470543
+official_validation,AR_Persistence_Ensemble,1182,Jalna,2020-07-01,h2,-1.34028,-1.054193,0.286087,0.286087,0.081846,0.762551,-0.924547,-1.470543
+official_validation,AR_Persistence_Ensemble,1182,Jalna,2020-07-01,h3,-1.761822,-0.863701,0.898121,0.898121,0.80662,0.793288,-0.705573,-1.470543
+official_validation,AR_Persistence_Ensemble,1183,Jalna,2020-08-01,h1,-1.34028,-0.941879,0.398401,0.398401,0.158723,0.999996,-0.941878,-1.222958
+official_validation,AR_Persistence_Ensemble,1183,Jalna,2020-08-01,h2,-1.761822,-0.839264,0.922558,0.922558,0.851112,0.762551,-0.719787,-1.222958
+official_validation,AR_Persistence_Ensemble,1183,Jalna,2020-08-01,h3,-1.600692,-0.729653,0.871039,0.871039,0.75871,0.793288,-0.601109,-1.222958
+official_validation,AR_Persistence_Ensemble,1184,Jalna,2020-09-01,h1,-1.761822,-1.066109,0.695713,0.695713,0.484016,0.999996,-1.066108,-1.34028
+official_validation,AR_Persistence_Ensemble,1184,Jalna,2020-09-01,h2,-1.600692,-0.994828,0.605864,0.605864,0.367071,0.762551,-0.887259,-1.34028
+official_validation,AR_Persistence_Ensemble,1184,Jalna,2020-09-01,h3,-1.422869,-0.84301,0.579859,0.579859,0.336237,0.793288,-0.713433,-1.34028
+official_validation,AR_Persistence_Ensemble,1397,Latur,2017-12-01,h1,-0.301081,-0.554757,-0.253676,0.253676,0.064352,0.999996,-0.554756,-0.833981
+official_validation,AR_Persistence_Ensemble,1397,Latur,2017-12-01,h2,-0.870481,-0.543033,0.327448,0.327448,0.107222,0.762551,-0.452436,-0.833981
+official_validation,AR_Persistence_Ensemble,1397,Latur,2017-12-01,h3,-0.731305,-0.46581,0.265495,0.265495,0.070487,0.793288,-0.369874,-0.833981
+official_validation,AR_Persistence_Ensemble,1398,Latur,2018-01-01,h1,-0.870481,-0.228182,0.642299,0.642299,0.412548,0.999996,-0.228182,-0.301081
+official_validation,AR_Persistence_Ensemble,1398,Latur,2018-01-01,h2,-0.731305,-0.213453,0.517852,0.517852,0.26817,0.762551,-0.186167,-0.301081
+official_validation,AR_Persistence_Ensemble,1398,Latur,2018-01-01,h3,-0.726043,-0.249946,0.476097,0.476097,0.226669,0.793288,-0.236621,-0.301081
+official_validation,AR_Persistence_Ensemble,1399,Latur,2018-02-01,h1,-0.731305,-0.700453,0.030852,0.030852,0.000952,0.999996,-0.700452,-0.870481
+official_validation,AR_Persistence_Ensemble,1399,Latur,2018-02-01,h2,-0.726043,-0.71091,0.015133,0.015133,0.000229,0.762551,-0.661222,-0.870481
+official_validation,AR_Persistence_Ensemble,1399,Latur,2018-02-01,h3,-0.549687,-0.544046,0.005641,0.005641,3.2e-05,0.793288,-0.458985,-0.870481
+official_validation,AR_Persistence_Ensemble,1400,Latur,2018-03-01,h1,-0.726043,-0.659454,0.066589,0.066589,0.004434,0.999996,-0.659454,-0.731305
+official_validation,AR_Persistence_Ensemble,1400,Latur,2018-03-01,h2,-0.549687,-0.522925,0.026762,0.026762,0.000716,0.762551,-0.458038,-0.731305
+official_validation,AR_Persistence_Ensemble,1400,Latur,2018-03-01,h3,-0.947783,-0.437334,0.510449,0.510449,0.260558,0.793288,-0.360732,-0.731305
+official_validation,AR_Persistence_Ensemble,1401,Latur,2018-04-01,h1,-0.549687,-0.50856,0.041127,0.041127,0.001691,0.999996,-0.508559,-0.726043
+official_validation,AR_Persistence_Ensemble,1401,Latur,2018-04-01,h2,-0.947783,-0.479099,0.468684,0.468684,0.219664,0.762551,-0.402204,-0.726043
+official_validation,AR_Persistence_Ensemble,1401,Latur,2018-04-01,h3,-1.580908,-0.406292,1.174616,1.174616,1.379724,0.793288,-0.322972,-0.726043
+official_validation,AR_Persistence_Ensemble,1402,Latur,2018-05-01,h1,-0.947783,-0.459227,0.488556,0.488556,0.238687,0.999996,-0.459227,-0.549687
+official_validation,AR_Persistence_Ensemble,1402,Latur,2018-05-01,h2,-1.580908,-0.411746,1.169162,1.169162,1.36694,0.762551,-0.368793,-0.549687
+official_validation,AR_Persistence_Ensemble,1402,Latur,2018-05-01,h3,-1.071518,-0.357357,0.714161,0.714161,0.510025,0.793288,-0.307241,-0.549687
+official_validation,AR_Persistence_Ensemble,1403,Latur,2018-06-01,h1,-1.580908,-0.772646,0.808262,0.808262,0.653288,0.999996,-0.772645,-0.947783
+official_validation,AR_Persistence_Ensemble,1403,Latur,2018-06-01,h2,-1.071518,-0.71196,0.359558,0.359558,0.129282,0.762551,-0.638528,-0.947783
+official_validation,AR_Persistence_Ensemble,1403,Latur,2018-06-01,h3,0.673258,-0.574799,-1.248057,1.248057,1.557646,0.793288,-0.477608,-0.947783
+official_validation,AR_Persistence_Ensemble,1404,Latur,2018-07-01,h1,-1.071518,-1.318183,-0.246665,0.246665,0.060844,0.999996,-1.318182,-1.580908
+official_validation,AR_Persistence_Ensemble,1404,Latur,2018-07-01,h2,0.673258,-1.167448,-1.840706,1.840706,3.3882,0.762551,-1.038702,-1.580908
+official_validation,AR_Persistence_Ensemble,1404,Latur,2018-07-01,h3,1.390671,-0.954078,-2.344749,2.344749,5.497848,0.793288,-0.790741,-1.580908
+official_validation,AR_Persistence_Ensemble,1405,Latur,2018-08-01,h1,0.673258,-0.796126,-1.469384,1.469384,2.15909,0.999996,-0.796125,-1.071518
+official_validation,AR_Persistence_Ensemble,1405,Latur,2018-08-01,h2,1.390671,-0.706602,-2.097273,2.097273,4.398552,0.762551,-0.592971,-1.071518
+official_validation,AR_Persistence_Ensemble,1405,Latur,2018-08-01,h3,1.303311,-0.641239,-1.94455,1.94455,3.781276,0.793288,-0.529119,-1.071518
+official_validation,AR_Persistence_Ensemble,1406,Latur,2018-09-01,h1,1.390671,0.631788,-0.758883,0.758883,0.575903,0.999996,0.631788,0.673258
+official_validation,AR_Persistence_Ensemble,1406,Latur,2018-09-01,h2,1.303311,0.531678,-0.771633,0.771633,0.595417,0.762551,0.487592,0.673258
+official_validation,AR_Persistence_Ensemble,1406,Latur,2018-09-01,h3,0.857486,0.38653,-0.470956,0.470956,0.221799,0.793288,0.311816,0.673258
+official_validation,AR_Persistence_Ensemble,1407,Latur,2018-10-01,h1,1.303311,1.133055,-0.170256,0.170256,0.028987,0.999996,1.133054,1.390671
+official_validation,AR_Persistence_Ensemble,1407,Latur,2018-10-01,h2,0.857486,0.9798,0.122314,0.122314,0.014961,0.762551,0.85186,1.390671
+official_validation,AR_Persistence_Ensemble,1407,Latur,2018-10-01,h3,0.656969,0.853467,0.196498,0.196498,0.038611,0.793288,0.713484,1.390671
+official_validation,AR_Persistence_Ensemble,1408,Latur,2018-11-01,h1,0.857486,0.980326,0.12284,0.12284,0.01509,0.999996,0.980325,1.303311
+official_validation,AR_Persistence_Ensemble,1408,Latur,2018-11-01,h2,0.656969,0.942463,0.285494,0.285494,0.081507,0.762551,0.8301,1.303311
+official_validation,AR_Persistence_Ensemble,1408,Latur,2018-11-01,h3,0.565524,0.914568,0.349044,0.349044,0.121832,0.793288,0.813271,1.303311
+official_validation,AR_Persistence_Ensemble,1409,Latur,2018-12-01,h1,0.656969,0.747538,0.090569,0.090569,0.008203,0.999996,0.747538,0.857486
+official_validation,AR_Persistence_Ensemble,1409,Latur,2018-12-01,h2,0.565524,0.770214,0.20469,0.20469,0.041898,0.762551,0.743038,0.857486
+official_validation,AR_Persistence_Ensemble,1409,Latur,2018-12-01,h3,0.620803,0.652723,0.03192,0.03192,0.001019,0.793288,0.599366,0.857486
+official_validation,AR_Persistence_Ensemble,1410,Latur,2019-01-01,h1,0.565524,0.655412,0.089888,0.089888,0.00808,0.999996,0.655412,0.656969
+official_validation,AR_Persistence_Ensemble,1410,Latur,2019-01-01,h2,0.620803,0.552383,-0.06842,0.06842,0.004681,0.762551,0.519816,0.656969
+official_validation,AR_Persistence_Ensemble,1410,Latur,2019-01-01,h3,0.2052,0.439253,0.234053,0.234053,0.054781,0.793288,0.382521,0.656969
+official_validation,AR_Persistence_Ensemble,1411,Latur,2019-02-01,h1,0.620803,0.459824,-0.160979,0.160979,0.025914,0.999996,0.459824,0.565524
+official_validation,AR_Persistence_Ensemble,1411,Latur,2019-02-01,h2,0.2052,0.384744,0.179544,0.179544,0.032236,0.762551,0.328451,0.565524
+official_validation,AR_Persistence_Ensemble,1411,Latur,2019-02-01,h3,0.121769,0.347042,0.225273,0.225273,0.050748,0.793288,0.290111,0.565524
+official_validation,AR_Persistence_Ensemble,1412,Latur,2019-03-01,h1,0.2052,0.461924,0.256724,0.256724,0.065907,0.999996,0.461923,0.620803
+official_validation,AR_Persistence_Ensemble,1412,Latur,2019-03-01,h2,0.121769,0.457947,0.336178,0.336178,0.113016,0.762551,0.407236,0.620803
+official_validation,AR_Persistence_Ensemble,1412,Latur,2019-03-01,h3,0.177735,0.440339,0.262604,0.262604,0.068961,0.793288,0.393315,0.620803
+official_validation,AR_Persistence_Ensemble,1413,Latur,2019-04-01,h1,0.121769,0.195864,0.074095,0.074095,0.00549,0.999996,0.195864,0.2052
+official_validation,AR_Persistence_Ensemble,1413,Latur,2019-04-01,h2,0.177735,0.220687,0.042952,0.042952,0.001845,0.762551,0.225509,0.2052
+official_validation,AR_Persistence_Ensemble,1413,Latur,2019-04-01,h3,1.085176,0.300119,-0.785057,0.785057,0.616314,0.793288,0.324853,0.2052
+official_validation,AR_Persistence_Ensemble,1414,Latur,2019-05-01,h1,0.177735,0.150981,-0.026754,0.026754,0.000716,0.999996,0.150981,0.121769
+official_validation,AR_Persistence_Ensemble,1414,Latur,2019-05-01,h2,1.085176,0.232908,-0.852268,0.852268,0.726361,0.762551,0.267515,0.121769
+official_validation,AR_Persistence_Ensemble,1414,Latur,2019-05-01,h3,0.246497,0.213677,-0.03282,0.03282,0.001077,0.793288,0.237626,0.121769
+official_validation,AR_Persistence_Ensemble,1415,Latur,2019-06-01,h1,1.085176,0.270522,-0.814654,0.814654,0.663662,0.999996,0.270522,0.177735
+official_validation,AR_Persistence_Ensemble,1415,Latur,2019-06-01,h2,0.246497,0.226781,-0.019716,0.019716,0.000389,0.762551,0.242053,0.177735
+official_validation,AR_Persistence_Ensemble,1415,Latur,2019-06-01,h3,0.139519,0.090157,-0.049362,0.049362,0.002437,0.793288,0.067336,0.177735
+official_validation,AR_Persistence_Ensemble,1416,Latur,2019-07-01,h1,0.246497,0.964119,0.717622,0.717622,0.514982,0.999996,0.964119,1.085176
+official_validation,AR_Persistence_Ensemble,1416,Latur,2019-07-01,h2,0.139519,0.761848,0.622329,0.622329,0.387294,0.762551,0.661168,1.085176
+official_validation,AR_Persistence_Ensemble,1416,Latur,2019-07-01,h3,-0.547468,0.528507,1.075975,1.075975,1.157722,0.793288,0.383452,1.085176
+official_validation,AR_Persistence_Ensemble,1417,Latur,2019-08-01,h1,0.139519,0.128216,-0.011303,0.011303,0.000128,0.999996,0.128216,0.246497
+official_validation,AR_Persistence_Ensemble,1417,Latur,2019-08-01,h2,-0.547468,0.009309,0.556777,0.556777,0.310001,0.762551,-0.064548,0.246497
+official_validation,AR_Persistence_Ensemble,1417,Latur,2019-08-01,h3,-0.846399,0.039228,0.885627,0.885627,0.784336,0.793288,-0.014781,0.246497
+official_validation,AR_Persistence_Ensemble,1418,Latur,2019-09-01,h1,-0.547468,-0.033693,0.513775,0.513775,0.263964,0.999996,-0.033694,0.139519
+official_validation,AR_Persistence_Ensemble,1418,Latur,2019-09-01,h2,-0.846399,0.04026,0.886659,0.886659,0.786164,0.762551,0.009352,0.139519
+official_validation,AR_Persistence_Ensemble,1418,Latur,2019-09-01,h3,-0.713933,0.007128,0.721061,0.721061,0.519929,0.793288,-0.02737,0.139519
+official_validation,AR_Persistence_Ensemble,1419,Latur,2019-10-01,h1,-0.846399,-0.438527,0.407872,0.407872,0.166359,0.999996,-0.438527,-0.547468
+official_validation,AR_Persistence_Ensemble,1419,Latur,2019-10-01,h2,-0.713933,-0.434615,0.279318,0.279318,0.078019,0.762551,-0.399474,-0.547468
+official_validation,AR_Persistence_Ensemble,1419,Latur,2019-10-01,h3,-0.542799,-0.393668,0.149131,0.149131,0.02224,0.793288,-0.353592,-0.547468
+official_validation,AR_Persistence_Ensemble,1420,Latur,2019-11-01,h1,-0.713933,-0.761715,-0.047782,0.047782,0.002283,0.999996,-0.761715,-0.846399
+official_validation,AR_Persistence_Ensemble,1420,Latur,2019-11-01,h2,-0.542799,-0.702329,-0.15953,0.15953,0.02545,0.762551,-0.657467,-0.846399
+official_validation,AR_Persistence_Ensemble,1420,Latur,2019-11-01,h3,-0.414757,-0.653319,-0.238562,0.238562,0.056912,0.793288,-0.603007,-0.846399
+official_validation,AR_Persistence_Ensemble,1421,Latur,2019-12-01,h1,-0.542799,-0.632898,-0.090099,0.090099,0.008118,0.999996,-0.632898,-0.713933
+official_validation,AR_Persistence_Ensemble,1421,Latur,2019-12-01,h2,-0.414757,-0.610654,-0.195897,0.195897,0.038376,0.762551,-0.578494,-0.713933
+official_validation,AR_Persistence_Ensemble,1421,Latur,2019-12-01,h3,-0.213745,-0.526608,-0.312863,0.312863,0.097883,0.793288,-0.477795,-0.713933
+official_validation,AR_Persistence_Ensemble,1422,Latur,2020-01-01,h1,-0.414757,-0.512183,-0.097426,0.097426,0.009492,0.999996,-0.512183,-0.542799
+official_validation,AR_Persistence_Ensemble,1422,Latur,2020-01-01,h2,-0.213745,-0.448448,-0.234703,0.234703,0.055085,0.762551,-0.419068,-0.542799
+official_validation,AR_Persistence_Ensemble,1422,Latur,2020-01-01,h3,-0.111809,-0.420202,-0.308393,0.308393,0.095106,0.793288,-0.388256,-0.542799
+official_validation,AR_Persistence_Ensemble,1423,Latur,2020-02-01,h1,-0.213745,-0.339632,-0.125887,0.125887,0.015848,0.999996,-0.339632,-0.414757
+official_validation,AR_Persistence_Ensemble,1423,Latur,2020-02-01,h2,-0.111809,-0.34145,-0.229641,0.229641,0.052735,0.762551,-0.318623,-0.414757
+official_validation,AR_Persistence_Ensemble,1423,Latur,2020-02-01,h3,-0.361138,-0.27064,0.090498,0.090498,0.00819,0.793288,-0.233087,-0.414757
+official_validation,AR_Persistence_Ensemble,1424,Latur,2020-03-01,h1,-0.111809,-0.233652,-0.121843,0.121843,0.014846,0.999996,-0.233652,-0.213745
+official_validation,AR_Persistence_Ensemble,1424,Latur,2020-03-01,h2,-0.361138,-0.172432,0.188706,0.188706,0.03561,0.762551,-0.159567,-0.213745
+official_validation,AR_Persistence_Ensemble,1424,Latur,2020-03-01,h3,-0.63747,-0.1782,0.45927,0.45927,0.210929,0.793288,-0.168938,-0.213745
+official_validation,AR_Persistence_Ensemble,1425,Latur,2020-04-01,h1,-0.361138,-0.063389,0.297749,0.297749,0.088654,0.999996,-0.063389,-0.111809
+official_validation,AR_Persistence_Ensemble,1425,Latur,2020-04-01,h2,-0.63747,-0.094852,0.542618,0.542618,0.294434,0.762551,-0.089572,-0.111809
+official_validation,AR_Persistence_Ensemble,1425,Latur,2020-04-01,h3,-1.910826,-0.178967,1.731859,1.731859,2.999335,0.793288,-0.196467,-0.111809
+official_validation,AR_Persistence_Ensemble,1426,Latur,2020-05-01,h1,-0.63747,-0.336571,0.300899,0.300899,0.09054,0.999996,-0.336571,-0.361138
+official_validation,AR_Persistence_Ensemble,1426,Latur,2020-05-01,h2,-1.910826,-0.393046,1.51778,1.51778,2.303656,0.762551,-0.402982,-0.361138
+official_validation,AR_Persistence_Ensemble,1426,Latur,2020-05-01,h3,-0.945298,-0.304743,0.640555,0.640555,0.410311,0.793288,-0.290048,-0.361138
+official_validation,AR_Persistence_Ensemble,1427,Latur,2020-06-01,h1,-1.910826,-0.621159,1.289667,1.289667,1.663241,0.999996,-0.621159,-0.63747
+official_validation,AR_Persistence_Ensemble,1427,Latur,2020-06-01,h2,-0.945298,-0.51353,0.431768,0.431768,0.186424,0.762551,-0.474936,-0.63747
+official_validation,AR_Persistence_Ensemble,1427,Latur,2020-06-01,h3,-0.332597,-0.451571,-0.118974,0.118974,0.014155,0.793288,-0.40313,-0.63747
+official_validation,AR_Persistence_Ensemble,1428,Latur,2020-07-01,h1,-0.945298,-1.60547,-0.660172,0.660172,0.435827,0.999996,-1.605469,-1.910826
+official_validation,AR_Persistence_Ensemble,1428,Latur,2020-07-01,h2,-0.332597,-1.471832,-1.139235,1.139235,1.297857,0.762551,-1.335135,-1.910826
+official_validation,AR_Persistence_Ensemble,1428,Latur,2020-07-01,h3,-0.808747,-1.180305,-0.371558,0.371558,0.138056,0.793288,-0.989949,-1.910826
+official_validation,AR_Persistence_Ensemble,1429,Latur,2020-08-01,h1,-0.332597,-0.774269,-0.441672,0.441672,0.195074,0.999996,-0.774268,-0.945298
+official_validation,AR_Persistence_Ensemble,1429,Latur,2020-08-01,h2,-0.808747,-0.624936,0.183811,0.183811,0.033787,0.762551,-0.525179,-0.945298
+official_validation,AR_Persistence_Ensemble,1429,Latur,2020-08-01,h3,-1.005325,-0.58461,0.420715,0.420715,0.177001,0.793288,-0.490623,-0.945298
+official_validation,AR_Persistence_Ensemble,1430,Latur,2020-09-01,h1,-0.808747,-0.178949,0.629798,0.629798,0.396646,0.999996,-0.178948,-0.332597
+official_validation,AR_Persistence_Ensemble,1430,Latur,2020-09-01,h2,-1.005325,-0.230453,0.774872,0.774872,0.600427,0.762551,-0.198646,-0.332597
+official_validation,AR_Persistence_Ensemble,1430,Latur,2020-09-01,h3,-0.831957,-0.211606,0.620351,0.620351,0.384836,0.793288,-0.180078,-0.332597
+official_validation,AR_Persistence_Ensemble,1643,Nanded,2017-12-01,h1,0.924596,0.302705,-0.621891,0.621891,0.386749,0.999996,0.302705,0.189494
+official_validation,AR_Persistence_Ensemble,1643,Nanded,2017-12-01,h2,0.101434,0.206927,0.105493,0.105493,0.011129,0.762551,0.212355,0.189494
+official_validation,AR_Persistence_Ensemble,1643,Nanded,2017-12-01,h3,0.189061,0.122473,-0.066588,0.066588,0.004434,0.793288,0.105009,0.189494
+official_validation,AR_Persistence_Ensemble,1644,Nanded,2018-01-01,h1,0.101434,0.743449,0.642015,0.642015,0.412183,0.999996,0.743448,0.924596
+official_validation,AR_Persistence_Ensemble,1644,Nanded,2018-01-01,h2,0.189061,0.632133,0.443072,0.443072,0.196313,0.762551,0.541064,0.924596
+official_validation,AR_Persistence_Ensemble,1644,Nanded,2018-01-01,h3,0.000824,0.472499,0.471675,0.471675,0.222477,0.793288,0.354693,0.924596
+official_validation,AR_Persistence_Ensemble,1645,Nanded,2018-02-01,h1,0.189061,0.014932,-0.174129,0.174129,0.030321,0.999996,0.014932,0.101434
+official_validation,AR_Persistence_Ensemble,1645,Nanded,2018-02-01,h2,0.000824,-0.034511,-0.035335,0.035335,0.001249,0.762551,-0.076842,0.101434
+official_validation,AR_Persistence_Ensemble,1645,Nanded,2018-02-01,h3,-0.097796,0.059854,0.15765,0.15765,0.024853,0.793288,0.049019,0.101434
+official_validation,AR_Persistence_Ensemble,1646,Nanded,2018-03-01,h1,0.000824,0.084711,0.083887,0.083887,0.007037,0.999996,0.084711,0.189061
+official_validation,AR_Persistence_Ensemble,1646,Nanded,2018-03-01,h2,-0.097796,0.186599,0.284395,0.284395,0.080881,0.762551,0.185833,0.189061
+official_validation,AR_Persistence_Ensemble,1646,Nanded,2018-03-01,h3,-0.576295,0.193171,0.769466,0.769466,0.592078,0.793288,0.194242,0.189061
+official_validation,AR_Persistence_Ensemble,1647,Nanded,2018-04-01,h1,-0.097796,0.107067,0.204863,0.204863,0.041969,0.999996,0.107067,0.000824
+official_validation,AR_Persistence_Ensemble,1647,Nanded,2018-04-01,h2,-0.576295,0.099243,0.675538,0.675538,0.456351,0.762551,0.129889,0.000824
+official_validation,AR_Persistence_Ensemble,1647,Nanded,2018-04-01,h3,-0.193352,0.095516,0.288868,0.288868,0.083445,0.793288,0.120191,0.000824
+official_validation,AR_Persistence_Ensemble,1648,Nanded,2018-05-01,h1,-0.576295,-0.079826,0.496469,0.496469,0.246481,0.999996,-0.079826,-0.097796
+official_validation,AR_Persistence_Ensemble,1648,Nanded,2018-05-01,h2,-0.193352,-0.063381,0.129971,0.129971,0.016893,0.762551,-0.052664,-0.097796
+official_validation,AR_Persistence_Ensemble,1648,Nanded,2018-05-01,h3,-0.461823,-0.108774,0.353049,0.353049,0.124644,0.793288,-0.111634,-0.097796
+official_validation,AR_Persistence_Ensemble,1649,Nanded,2018-06-01,h1,-0.193352,-0.462994,-0.269642,0.269642,0.072707,0.999996,-0.462994,-0.576295
+official_validation,AR_Persistence_Ensemble,1649,Nanded,2018-06-01,h2,-0.461823,-0.478854,-0.017031,0.017031,0.00029,0.762551,-0.448512,-0.576295
+official_validation,AR_Persistence_Ensemble,1649,Nanded,2018-06-01,h3,0.353718,-0.40416,-0.757878,0.757878,0.574379,0.793288,-0.359306,-0.576295
+official_validation,AR_Persistence_Ensemble,1650,Nanded,2018-07-01,h1,-0.461823,-0.180973,0.28085,0.28085,0.078877,0.999996,-0.180973,-0.193352
+official_validation,AR_Persistence_Ensemble,1650,Nanded,2018-07-01,h2,0.353718,-0.15291,-0.506628,0.506628,0.256672,0.762551,-0.140317,-0.193352
+official_validation,AR_Persistence_Ensemble,1650,Nanded,2018-07-01,h3,1.019376,-0.182305,-1.201681,1.201681,1.444038,0.793288,-0.179427,-0.193352
+official_validation,AR_Persistence_Ensemble,1651,Nanded,2018-08-01,h1,0.353718,-0.344577,-0.698295,0.698295,0.487617,0.999996,-0.344577,-0.461823
+official_validation,AR_Persistence_Ensemble,1651,Nanded,2018-08-01,h2,1.019376,-0.378246,-1.397622,1.397622,1.953347,0.762551,-0.352221,-0.461823
+official_validation,AR_Persistence_Ensemble,1651,Nanded,2018-08-01,h3,0.907386,-0.316895,-1.224281,1.224281,1.498864,0.793288,-0.27913,-0.461823
+official_validation,AR_Persistence_Ensemble,1652,Nanded,2018-09-01,h1,1.019376,0.208605,-0.810771,0.810771,0.65735,0.999996,0.208604,0.353718
+official_validation,AR_Persistence_Ensemble,1652,Nanded,2018-09-01,h2,0.907386,0.228088,-0.679298,0.679298,0.461446,0.762551,0.188968,0.353718
+official_validation,AR_Persistence_Ensemble,1652,Nanded,2018-09-01,h3,0.495674,0.146759,-0.348915,0.348915,0.121742,0.793288,0.09283,0.353718
+official_validation,AR_Persistence_Ensemble,1653,Nanded,2018-10-01,h1,0.907386,0.867585,-0.039801,0.039801,0.001584,0.999996,0.867584,1.019376
+official_validation,AR_Persistence_Ensemble,1653,Nanded,2018-10-01,h2,0.495674,0.744247,0.248573,0.248573,0.061788,0.762551,0.658575,1.019376
+official_validation,AR_Persistence_Ensemble,1653,Nanded,2018-10-01,h3,0.397952,0.552968,0.155016,0.155016,0.02403,0.793288,0.431433,1.019376
+official_validation,AR_Persistence_Ensemble,1654,Nanded,2018-11-01,h1,0.495674,0.686213,0.190539,0.190539,0.036305,0.999996,0.686212,0.907386
+official_validation,AR_Persistence_Ensemble,1654,Nanded,2018-11-01,h2,0.397952,0.562594,0.164642,0.164642,0.027107,0.762551,0.45523,0.907386
+official_validation,AR_Persistence_Ensemble,1654,Nanded,2018-11-01,h3,0.498158,0.5154,0.017242,0.017242,0.000297,0.793288,0.413258,0.907386
+official_validation,AR_Persistence_Ensemble,1655,Nanded,2018-12-01,h1,0.397952,0.316831,-0.081121,0.081121,0.006581,0.999996,0.31683,0.495674
+official_validation,AR_Persistence_Ensemble,1655,Nanded,2018-12-01,h2,0.498158,0.344529,-0.153629,0.153629,0.023602,0.762551,0.297464,0.495674
+official_validation,AR_Persistence_Ensemble,1655,Nanded,2018-12-01,h3,0.681879,0.322237,-0.359642,0.359642,0.129342,0.793288,0.277044,0.495674
+official_validation,AR_Persistence_Ensemble,1656,Nanded,2019-01-01,h1,0.498158,0.325192,-0.172966,0.172966,0.029917,0.999996,0.325192,0.397952
+official_validation,AR_Persistence_Ensemble,1656,Nanded,2019-01-01,h2,0.681879,0.324497,-0.357382,0.357382,0.127722,0.762551,0.301624,0.397952
+official_validation,AR_Persistence_Ensemble,1656,Nanded,2019-01-01,h3,0.404046,0.221076,-0.18297,0.18297,0.033478,0.793288,0.174986,0.397952
+official_validation,AR_Persistence_Ensemble,1657,Nanded,2019-02-01,h1,0.681879,0.454964,-0.226915,0.226915,0.05149,0.999996,0.454964,0.498158
+official_validation,AR_Persistence_Ensemble,1657,Nanded,2019-02-01,h2,0.404046,0.345883,-0.058163,0.058163,0.003383,0.762551,0.298467,0.498158
+official_validation,AR_Persistence_Ensemble,1657,Nanded,2019-02-01,h3,0.369779,0.281644,-0.088135,0.088135,0.007768,0.793288,0.225225,0.498158
+official_validation,AR_Persistence_Ensemble,1658,Nanded,2019-03-01,h1,0.404046,0.479364,0.075318,0.075318,0.005673,0.999996,0.479363,0.681879
+official_validation,AR_Persistence_Ensemble,1658,Nanded,2019-03-01,h2,0.369779,0.450716,0.080937,0.080937,0.006551,0.762551,0.378735,0.681879
+official_validation,AR_Persistence_Ensemble,1658,Nanded,2019-03-01,h3,0.529537,0.432549,-0.096988,0.096988,0.009407,0.793288,0.367579,0.681879
+official_validation,AR_Persistence_Ensemble,1659,Nanded,2019-04-01,h1,0.369779,0.30025,-0.069529,0.069529,0.004834,0.999996,0.30025,0.404046
+official_validation,AR_Persistence_Ensemble,1659,Nanded,2019-04-01,h2,0.529537,0.332355,-0.197182,0.197182,0.038881,0.762551,0.310031,0.404046
+official_validation,AR_Persistence_Ensemble,1659,Nanded,2019-04-01,h3,0.680747,0.296358,-0.384389,0.384389,0.147755,0.793288,0.268297,0.404046
+official_validation,AR_Persistence_Ensemble,1660,Nanded,2019-05-01,h1,0.529537,0.348132,-0.181405,0.181405,0.032908,0.999996,0.348132,0.369779
+official_validation,AR_Persistence_Ensemble,1660,Nanded,2019-05-01,h2,0.680747,0.320177,-0.36057,0.36057,0.130011,0.762551,0.304731,0.369779
+official_validation,AR_Persistence_Ensemble,1660,Nanded,2019-05-01,h3,-0.101144,0.292944,0.394088,0.394088,0.155306,0.793288,0.272923,0.369779
+official_validation,AR_Persistence_Ensemble,1661,Nanded,2019-06-01,h1,0.680747,0.4796,-0.201147,0.201147,0.04046,0.999996,0.4796,0.529537
+official_validation,AR_Persistence_Ensemble,1661,Nanded,2019-06-01,h2,-0.101144,0.441534,0.542678,0.542678,0.294499,0.762551,0.414131,0.529537
+official_validation,AR_Persistence_Ensemble,1661,Nanded,2019-06-01,h3,-0.61165,0.310295,0.921945,0.921945,0.849983,0.793288,0.253166,0.529537
+official_validation,AR_Persistence_Ensemble,1662,Nanded,2019-07-01,h1,-0.101144,0.573369,0.674513,0.674513,0.454968,0.999996,0.573369,0.680747
+official_validation,AR_Persistence_Ensemble,1662,Nanded,2019-07-01,h2,-0.61165,0.4553,1.06695,1.06695,1.138381,0.762551,0.385098,0.680747
+official_validation,AR_Persistence_Ensemble,1662,Nanded,2019-07-01,h3,-1.04828,0.317796,1.366076,1.366076,1.866165,0.793288,0.22322,0.680747
+official_validation,AR_Persistence_Ensemble,1663,Nanded,2019-08-01,h1,-0.61165,-0.153037,0.458613,0.458613,0.210326,0.999996,-0.153037,-0.101144
+official_validation,AR_Persistence_Ensemble,1663,Nanded,2019-08-01,h2,-1.04828,-0.195204,0.853076,0.853076,0.727739,0.762551,-0.224493,-0.101144
+official_validation,AR_Persistence_Ensemble,1663,Nanded,2019-08-01,h3,-1.388386,-0.140606,1.24778,1.24778,1.556955,0.793288,-0.150889,-0.101144
+official_validation,AR_Persistence_Ensemble,1664,Nanded,2019-09-01,h1,-1.04828,-0.587952,0.460328,0.460328,0.211902,0.999996,-0.587952,-0.61165
+official_validation,AR_Persistence_Ensemble,1664,Nanded,2019-09-01,h2,-1.388386,-0.491585,0.896801,0.896801,0.804252,0.762551,-0.454198,-0.61165
+official_validation,AR_Persistence_Ensemble,1664,Nanded,2019-09-01,h3,-1.13912,-0.429754,0.709366,0.709366,0.5032,0.793288,-0.382356,-0.61165
+official_validation,AR_Persistence_Ensemble,1665,Nanded,2019-10-01,h1,-1.388386,-0.850143,0.538243,0.538243,0.289706,0.999996,-0.850142,-1.04828
+official_validation,AR_Persistence_Ensemble,1665,Nanded,2019-10-01,h2,-1.13912,-0.791937,0.347183,0.347183,0.120536,0.762551,-0.712115,-1.04828
+official_validation,AR_Persistence_Ensemble,1665,Nanded,2019-10-01,h3,-1.121646,-0.709361,0.412285,0.412285,0.169979,0.793288,-0.621047,-1.04828
+official_validation,AR_Persistence_Ensemble,1666,Nanded,2019-11-01,h1,-1.13912,-1.182875,-0.043755,0.043755,0.001914,0.999996,-1.182874,-1.388386
+official_validation,AR_Persistence_Ensemble,1666,Nanded,2019-11-01,h2,-1.121646,-1.101093,0.020553,0.020553,0.000422,0.762551,-1.011634,-1.388386
+official_validation,AR_Persistence_Ensemble,1666,Nanded,2019-11-01,h3,-0.702299,-0.969539,-0.26724,0.26724,0.071417,0.793288,-0.860398,-1.388386
+official_validation,AR_Persistence_Ensemble,1667,Nanded,2019-12-01,h1,-1.121646,-0.982328,0.139318,0.139318,0.01941,0.999996,-0.982327,-1.13912
+official_validation,AR_Persistence_Ensemble,1667,Nanded,2019-12-01,h2,-0.702299,-0.905053,-0.202754,0.202754,0.041109,0.762551,-0.832168,-1.13912
+official_validation,AR_Persistence_Ensemble,1667,Nanded,2019-12-01,h3,-0.789177,-0.809547,-0.02037,0.02037,0.000415,0.793288,-0.723668,-1.13912
+official_validation,AR_Persistence_Ensemble,1668,Nanded,2020-01-01,h1,-0.702299,-0.948911,-0.246612,0.246612,0.060817,0.999996,-0.94891,-1.121646
+official_validation,AR_Persistence_Ensemble,1668,Nanded,2020-01-01,h2,-0.789177,-0.889673,-0.100496,0.100496,0.0101,0.762551,-0.81744,-1.121646
+official_validation,AR_Persistence_Ensemble,1668,Nanded,2020-01-01,h3,-0.395796,-0.781049,-0.385253,0.385253,0.14842,0.793288,-0.692298,-1.121646
+official_validation,AR_Persistence_Ensemble,1669,Nanded,2020-02-01,h1,-0.789177,-0.602237,0.18694,0.18694,0.034946,0.999996,-0.602237,-0.702299
+official_validation,AR_Persistence_Ensemble,1669,Nanded,2020-02-01,h2,-0.395796,-0.558178,-0.162382,0.162382,0.026368,0.762551,-0.5133,-0.702299
+official_validation,AR_Persistence_Ensemble,1669,Nanded,2020-02-01,h3,-0.517399,-0.507245,0.010154,0.010154,0.000103,0.793288,-0.456418,-0.702299
+official_validation,AR_Persistence_Ensemble,1670,Nanded,2020-03-01,h1,-0.395796,-0.687466,-0.29167,0.29167,0.085072,0.999996,-0.687466,-0.789177
+official_validation,AR_Persistence_Ensemble,1670,Nanded,2020-03-01,h2,-0.517399,-0.644022,-0.126623,0.126623,0.016033,0.762551,-0.598823,-0.789177
+official_validation,AR_Persistence_Ensemble,1670,Nanded,2020-03-01,h3,-0.728391,-0.57574,0.152651,0.152651,0.023302,0.793288,-0.520124,-0.789177
+official_validation,AR_Persistence_Ensemble,1671,Nanded,2020-04-01,h1,-0.517399,-0.355005,0.162394,0.162394,0.026372,0.999996,-0.355005,-0.395796
+official_validation,AR_Persistence_Ensemble,1671,Nanded,2020-04-01,h2,-0.728391,-0.337277,0.391114,0.391114,0.15297,0.762551,-0.319055,-0.395796
+official_validation,AR_Persistence_Ensemble,1671,Nanded,2020-04-01,h3,-1.175448,-0.366426,0.809022,0.809022,0.654516,0.793288,-0.358773,-0.395796
+official_validation,AR_Persistence_Ensemble,1672,Nanded,2020-05-01,h1,-0.728391,-0.450821,0.27757,0.27757,0.077045,0.999996,-0.450821,-0.517399
+official_validation,AR_Persistence_Ensemble,1672,Nanded,2020-05-01,h2,-1.175448,-0.480361,0.695087,0.695087,0.483146,0.762551,-0.468828,-0.517399
+official_validation,AR_Persistence_Ensemble,1672,Nanded,2020-05-01,h3,-1.006988,-0.375353,0.631635,0.631635,0.398963,0.793288,-0.338339,-0.517399
+official_validation,AR_Persistence_Ensemble,1673,Nanded,2020-06-01,h1,-1.175448,-0.69886,0.476588,0.476588,0.227136,0.999996,-0.69886,-0.728391
+official_validation,AR_Persistence_Ensemble,1673,Nanded,2020-06-01,h2,-1.006988,-0.576733,0.430255,0.430255,0.185119,0.762551,-0.529509,-0.728391
+official_validation,AR_Persistence_Ensemble,1673,Nanded,2020-06-01,h3,-0.748807,-0.471456,0.277351,0.277351,0.076924,0.793288,-0.404505,-0.728391
+official_validation,AR_Persistence_Ensemble,1674,Nanded,2020-07-01,h1,-1.006988,-0.96968,0.037308,0.037308,0.001392,0.999996,-0.969679,-1.175448
+official_validation,AR_Persistence_Ensemble,1674,Nanded,2020-07-01,h2,-0.748807,-0.860756,-0.111949,0.111949,0.012533,0.762551,-0.762765,-1.175448
+official_validation,AR_Persistence_Ensemble,1674,Nanded,2020-07-01,h3,-1.297493,-0.670613,0.62688,0.62688,0.392979,0.793288,-0.539065,-1.175448
+official_validation,AR_Persistence_Ensemble,1675,Nanded,2020-08-01,h1,-0.748807,-0.808618,-0.059811,0.059811,0.003577,0.999996,-0.808617,-1.006988
+official_validation,AR_Persistence_Ensemble,1675,Nanded,2020-08-01,h2,-1.297493,-0.677289,0.620204,0.620204,0.384653,0.762551,-0.574625,-1.006988
+official_validation,AR_Persistence_Ensemble,1675,Nanded,2020-08-01,h3,-1.367869,-0.571724,0.796145,0.796145,0.633846,0.793288,-0.458305,-1.006988
+official_validation,AR_Persistence_Ensemble,1676,Nanded,2020-09-01,h1,-1.297493,-0.534639,0.762854,0.762854,0.581946,0.999996,-0.534638,-0.748807
+official_validation,AR_Persistence_Ensemble,1676,Nanded,2020-09-01,h2,-1.367869,-0.499031,0.868838,0.868838,0.754879,0.762551,-0.421254,-0.748807
+official_validation,AR_Persistence_Ensemble,1676,Nanded,2020-09-01,h3,-1.234806,-0.40735,0.827456,0.827456,0.684684,0.793288,-0.318374,-0.748807
+official_validation,AR_Persistence_Ensemble,1889,Parbhani,2017-12-01,h1,0.348274,0.049133,-0.299141,0.299141,0.089485,0.999996,0.049134,-0.104445
+official_validation,AR_Persistence_Ensemble,1889,Parbhani,2017-12-01,h2,-0.3704,-0.037196,0.333204,0.333204,0.111025,0.762551,-0.016256,-0.104445
+official_validation,AR_Persistence_Ensemble,1889,Parbhani,2017-12-01,h3,-0.152313,-0.083661,0.068652,0.068652,0.004713,0.793288,-0.078245,-0.104445
+official_validation,AR_Persistence_Ensemble,1890,Parbhani,2018-01-01,h1,-0.3704,0.243778,0.614178,0.614178,0.377215,0.999996,0.243778,0.348274
+official_validation,AR_Persistence_Ensemble,1890,Parbhani,2018-01-01,h2,-0.152313,0.185789,0.338102,0.338102,0.114313,0.762551,0.135193,0.348274
+official_validation,AR_Persistence_Ensemble,1890,Parbhani,2018-01-01,h3,-0.226551,0.133844,0.360395,0.360395,0.129885,0.793288,0.077969,0.348274
+official_validation,AR_Persistence_Ensemble,1891,Parbhani,2018-02-01,h1,-0.152313,-0.378173,-0.22586,0.22586,0.051013,0.999996,-0.378173,-0.3704
+official_validation,AR_Persistence_Ensemble,1891,Parbhani,2018-02-01,h2,-0.226551,-0.348981,-0.12243,0.12243,0.014989,0.762551,-0.342311,-0.3704
+official_validation,AR_Persistence_Ensemble,1891,Parbhani,2018-02-01,h3,-0.126495,-0.265957,-0.139462,0.139462,0.01945,0.793288,-0.238742,-0.3704
+official_validation,AR_Persistence_Ensemble,1892,Parbhani,2018-03-01,h1,-0.226551,-0.131251,0.0953,0.0953,0.009082,0.999996,-0.131251,-0.152313
+official_validation,AR_Persistence_Ensemble,1892,Parbhani,2018-03-01,h2,-0.126495,-0.084842,0.041653,0.041653,0.001735,0.762551,-0.063832,-0.152313
+official_validation,AR_Persistence_Ensemble,1892,Parbhani,2018-03-01,h3,-1.018471,-0.081664,0.936807,0.936807,0.877607,0.793288,-0.063255,-0.152313
+official_validation,AR_Persistence_Ensemble,1893,Parbhani,2018-04-01,h1,-0.126495,-0.137548,-0.011053,0.011053,0.000122,0.999996,-0.137548,-0.226551
+official_validation,AR_Persistence_Ensemble,1893,Parbhani,2018-04-01,h2,-1.018471,-0.149937,0.868534,0.868534,0.754352,0.762551,-0.12608,-0.226551
+official_validation,AR_Persistence_Ensemble,1893,Parbhani,2018-04-01,h3,-1.167302,-0.103033,1.064269,1.064269,1.132669,0.793288,-0.070847,-0.226551
+official_validation,AR_Persistence_Ensemble,1894,Parbhani,2018-05-01,h1,-1.018471,-0.150451,0.86802,0.86802,0.753459,0.999996,-0.150451,-0.126495
+official_validation,AR_Persistence_Ensemble,1894,Parbhani,2018-05-01,h2,-1.167302,-0.097771,1.069531,1.069531,1.143896,0.762551,-0.088827,-0.126495
+official_validation,AR_Persistence_Ensemble,1894,Parbhani,2018-05-01,h3,-0.740803,-0.157674,0.583129,0.583129,0.34004,0.793288,-0.165798,-0.126495
+official_validation,AR_Persistence_Ensemble,1895,Parbhani,2018-06-01,h1,-1.167302,-0.833291,0.334011,0.334011,0.111564,0.999996,-0.83329,-1.018471
+official_validation,AR_Persistence_Ensemble,1895,Parbhani,2018-06-01,h2,-0.740803,-0.834446,-0.093643,0.093643,0.008769,0.762551,-0.777143,-1.018471
+official_validation,AR_Persistence_Ensemble,1895,Parbhani,2018-06-01,h3,0.598767,-0.65886,-1.257627,1.257627,1.581626,0.793288,-0.565154,-1.018471
+official_validation,AR_Persistence_Ensemble,1896,Parbhani,2018-07-01,h1,-0.740803,-1.013166,-0.272363,0.272363,0.074181,0.999996,-1.013165,-1.167302
+official_validation,AR_Persistence_Ensemble,1896,Parbhani,2018-07-01,h2,0.598767,-0.86074,-1.459507,1.459507,2.130162,0.762551,-0.765281,-1.167302
+official_validation,AR_Persistence_Ensemble,1896,Parbhani,2018-07-01,h3,1.454096,-0.755041,-2.209137,2.209137,4.880288,0.793288,-0.647616,-1.167302
+official_validation,AR_Persistence_Ensemble,1897,Parbhani,2018-08-01,h1,0.598767,-0.526357,-1.125124,1.125124,1.265904,0.999996,-0.526356,-0.740803
+official_validation,AR_Persistence_Ensemble,1897,Parbhani,2018-08-01,h2,1.454096,-0.520321,-1.974417,1.974417,3.898324,0.762551,-0.451666,-0.740803
+official_validation,AR_Persistence_Ensemble,1897,Parbhani,2018-08-01,h3,1.310216,-0.495928,-1.806144,1.806144,3.262158,0.793288,-0.43212,-0.740803
+official_validation,AR_Persistence_Ensemble,1898,Parbhani,2018-09-01,h1,1.454096,0.473369,-0.980727,0.980727,0.961826,0.999996,0.473368,0.598767
+official_validation,AR_Persistence_Ensemble,1898,Parbhani,2018-09-01,h2,1.310216,0.399236,-0.91098,0.91098,0.829884,0.762551,0.337105,0.598767
+official_validation,AR_Persistence_Ensemble,1898,Parbhani,2018-09-01,h3,1.042538,0.279852,-0.762686,0.762686,0.58169,0.793288,0.19675,0.598767
+official_validation,AR_Persistence_Ensemble,1899,Parbhani,2018-10-01,h1,1.310216,1.164185,-0.146031,0.146031,0.021325,0.999996,1.164184,1.454096
+official_validation,AR_Persistence_Ensemble,1899,Parbhani,2018-10-01,h2,1.042538,1.023165,-0.019373,0.019373,0.000375,0.762551,0.888978,1.454096
+official_validation,AR_Persistence_Ensemble,1899,Parbhani,2018-10-01,h3,0.884618,0.865339,-0.019279,0.019279,0.000372,0.793288,0.711923,1.454096
+official_validation,AR_Persistence_Ensemble,1900,Parbhani,2018-11-01,h1,1.042538,0.99704,-0.045498,0.045498,0.00207,0.999996,0.997039,1.310216
+official_validation,AR_Persistence_Ensemble,1900,Parbhani,2018-11-01,h2,0.884618,0.927238,0.04262,0.04262,0.001817,0.762551,0.807984,1.310216
+official_validation,AR_Persistence_Ensemble,1900,Parbhani,2018-11-01,h3,0.764006,0.85512,0.091114,0.091114,0.008302,0.793288,0.736533,1.310216
+official_validation,AR_Persistence_Ensemble,1901,Parbhani,2018-12-01,h1,0.884618,0.861307,-0.023311,0.023311,0.000543,0.999996,0.861306,1.042538
+official_validation,AR_Persistence_Ensemble,1901,Parbhani,2018-12-01,h2,0.764006,0.840801,0.076795,0.076795,0.005897,0.762551,0.777982,1.042538
+official_validation,AR_Persistence_Ensemble,1901,Parbhani,2018-12-01,h3,0.998497,0.707648,-0.290849,0.290849,0.084593,0.793288,0.620383,1.042538
+official_validation,AR_Persistence_Ensemble,1902,Parbhani,2019-01-01,h1,0.764006,0.770532,0.006526,0.006526,4.3e-05,0.999996,0.770532,0.884618
+official_validation,AR_Persistence_Ensemble,1902,Parbhani,2019-01-01,h2,0.998497,0.675572,-0.322925,0.322925,0.10428,0.762551,0.610478,0.884618
+official_validation,AR_Persistence_Ensemble,1902,Parbhani,2019-01-01,h3,0.520011,0.536743,0.016732,0.016732,0.00028,0.793288,0.446095,0.884618
+official_validation,AR_Persistence_Ensemble,1903,Parbhani,2019-02-01,h1,0.998497,0.618089,-0.380408,0.380408,0.144711,0.999996,0.618088,0.764006
+official_validation,AR_Persistence_Ensemble,1903,Parbhani,2019-02-01,h2,0.520011,0.523269,0.003258,0.003258,1.1e-05,0.762551,0.448307,0.764006
+official_validation,AR_Persistence_Ensemble,1903,Parbhani,2019-02-01,h3,0.389185,0.441366,0.052181,0.052181,0.002723,0.793288,0.357294,0.764006
+official_validation,AR_Persistence_Ensemble,1904,Parbhani,2019-03-01,h1,0.520011,0.762007,0.241996,0.241996,0.058562,0.999996,0.762006,0.998497
+official_validation,AR_Persistence_Ensemble,1904,Parbhani,2019-03-01,h2,0.389185,0.712283,0.323098,0.323098,0.104393,0.762551,0.62316,0.998497
+official_validation,AR_Persistence_Ensemble,1904,Parbhani,2019-03-01,h3,0.395265,0.681658,0.286393,0.286393,0.082021,0.793288,0.599097,0.998497
+official_validation,AR_Persistence_Ensemble,1905,Parbhani,2019-04-01,h1,0.389185,0.415788,0.026603,0.026603,0.000708,0.999996,0.415788,0.520011
+official_validation,AR_Persistence_Ensemble,1905,Parbhani,2019-04-01,h2,0.395265,0.454416,0.059151,0.059151,0.003499,0.762551,0.43399,0.520011
+official_validation,AR_Persistence_Ensemble,1905,Parbhani,2019-04-01,h3,0.74498,0.460511,-0.284469,0.284469,0.080922,0.793288,0.445007,0.520011
+official_validation,AR_Persistence_Ensemble,1906,Parbhani,2019-05-01,h1,0.395265,0.373916,-0.021349,0.021349,0.000456,0.999996,0.373916,0.389185
+official_validation,AR_Persistence_Ensemble,1906,Parbhani,2019-05-01,h2,0.74498,0.399306,-0.345674,0.345674,0.11949,0.762551,0.402458,0.389185
+official_validation,AR_Persistence_Ensemble,1906,Parbhani,2019-05-01,h3,0.280814,0.357818,0.077004,0.077004,0.00593,0.793288,0.349645,0.389185
+official_validation,AR_Persistence_Ensemble,1907,Parbhani,2019-06-01,h1,0.74498,0.421109,-0.323871,0.323871,0.104892,0.999996,0.421109,0.395265
+official_validation,AR_Persistence_Ensemble,1907,Parbhani,2019-06-01,h2,0.280814,0.372059,0.091245,0.091245,0.008326,0.762551,0.364833,0.395265
+official_validation,AR_Persistence_Ensemble,1907,Parbhani,2019-06-01,h3,-0.320684,0.233318,0.554002,0.554002,0.306919,0.793288,0.191119,0.395265
+official_validation,AR_Persistence_Ensemble,1908,Parbhani,2019-07-01,h1,0.280814,0.665391,0.384577,0.384577,0.1479,0.999996,0.665391,0.74498
+official_validation,AR_Persistence_Ensemble,1908,Parbhani,2019-07-01,h2,-0.320684,0.509053,0.829737,0.829737,0.688463,0.762551,0.435588,0.74498
+official_validation,AR_Persistence_Ensemble,1908,Parbhani,2019-07-01,h3,-0.679433,0.322481,1.001914,1.001914,1.003832,0.793288,0.212388,0.74498
+official_validation,AR_Persistence_Ensemble,1909,Parbhani,2019-08-01,h1,-0.320684,0.167041,0.487725,0.487725,0.237876,0.999996,0.167041,0.280814
+official_validation,AR_Persistence_Ensemble,1909,Parbhani,2019-08-01,h2,-0.679433,0.055304,0.734737,0.734737,0.539839,0.762551,-0.014917,0.280814
+official_validation,AR_Persistence_Ensemble,1909,Parbhani,2019-08-01,h3,-1.418891,0.05966,1.478551,1.478551,2.186114,0.793288,0.002033,0.280814
+official_validation,AR_Persistence_Ensemble,1910,Parbhani,2019-09-01,h1,-0.679433,-0.399744,0.279689,0.279689,0.078226,0.999996,-0.399744,-0.320684
+official_validation,AR_Persistence_Ensemble,1910,Parbhani,2019-09-01,h2,-1.418891,-0.319593,1.099298,1.099298,1.208457,0.762551,-0.319253,-0.320684
+official_validation,AR_Persistence_Ensemble,1910,Parbhani,2019-09-01,h3,-1.089552,-0.294006,0.795546,0.795546,0.632894,0.793288,-0.287054,-0.320684
+official_validation,AR_Persistence_Ensemble,1911,Parbhani,2019-10-01,h1,-1.418891,-0.570171,0.84872,0.84872,0.720325,0.999996,-0.570171,-0.679433
+official_validation,AR_Persistence_Ensemble,1911,Parbhani,2019-10-01,h2,-1.089552,-0.539149,0.550403,0.550403,0.302944,0.762551,-0.495466,-0.679433
+official_validation,AR_Persistence_Ensemble,1911,Parbhani,2019-10-01,h3,-1.425748,-0.50482,0.920928,0.920928,0.848108,0.793288,-0.45932,-0.679433
+official_validation,AR_Persistence_Ensemble,1912,Parbhani,2019-11-01,h1,-1.089552,-1.225316,-0.135764,0.135764,0.018432,0.999996,-1.225315,-1.418891
+official_validation,AR_Persistence_Ensemble,1912,Parbhani,2019-11-01,h2,-1.425748,-1.15048,0.275268,0.275268,0.075773,0.762551,-1.0669,-1.418891
+official_validation,AR_Persistence_Ensemble,1912,Parbhani,2019-11-01,h3,-1.362506,-1.007455,0.355051,0.355051,0.126062,0.793288,-0.900244,-1.418891
+official_validation,AR_Persistence_Ensemble,1913,Parbhani,2019-12-01,h1,-1.425748,-0.963574,0.462174,0.462174,0.213605,0.999996,-0.963573,-1.089552
+official_validation,AR_Persistence_Ensemble,1913,Parbhani,2019-12-01,h2,-1.362506,-0.878497,0.484009,0.484009,0.234265,0.762551,-0.812777,-1.089552
+official_validation,AR_Persistence_Ensemble,1913,Parbhani,2019-12-01,h3,-1.375719,-0.816416,0.559303,0.559303,0.31282,0.793288,-0.745243,-1.089552
+official_validation,AR_Persistence_Ensemble,1914,Parbhani,2020-01-01,h1,-1.362506,-1.2154,0.147106,0.147106,0.02164,0.999996,-1.215399,-1.425748
+official_validation,AR_Persistence_Ensemble,1914,Parbhani,2020-01-01,h2,-1.375719,-1.15815,0.217569,0.217569,0.047336,0.762551,-1.074823,-1.425748
+official_validation,AR_Persistence_Ensemble,1914,Parbhani,2020-01-01,h3,-0.845423,-0.985607,-0.140184,0.140184,0.019652,0.793288,-0.870917,-1.425748
+official_validation,AR_Persistence_Ensemble,1915,Parbhani,2020-02-01,h1,-1.375719,-1.19145,0.184269,0.184269,0.033955,0.999996,-1.191449,-1.362506
+official_validation,AR_Persistence_Ensemble,1915,Parbhani,2020-02-01,h2,-0.845423,-1.060681,-0.215258,0.215258,0.046336,0.762551,-0.966696,-1.362506
+official_validation,AR_Persistence_Ensemble,1915,Parbhani,2020-02-01,h3,-0.495507,-0.92804,-0.432533,0.432533,0.187084,0.793288,-0.814828,-1.362506
+official_validation,AR_Persistence_Ensemble,1916,Parbhani,2020-03-01,h1,-0.845423,-1.147949,-0.302526,0.302526,0.091522,0.999996,-1.147948,-1.375719
+official_validation,AR_Persistence_Ensemble,1916,Parbhani,2020-03-01,h2,-0.495507,-1.059366,-0.563859,0.563859,0.317936,0.762551,-0.960857,-1.375719
+official_validation,AR_Persistence_Ensemble,1916,Parbhani,2020-03-01,h3,-0.803546,-0.92094,-0.117394,0.117394,0.013781,0.793288,-0.802435,-1.375719
+official_validation,AR_Persistence_Ensemble,1917,Parbhani,2020-04-01,h1,-0.495507,-0.709049,-0.213542,0.213542,0.0456,0.999996,-0.709048,-0.845423
+official_validation,AR_Persistence_Ensemble,1917,Parbhani,2020-04-01,h2,-0.803546,-0.654872,0.148674,0.148674,0.022104,0.762551,-0.595537,-0.845423
+official_validation,AR_Persistence_Ensemble,1917,Parbhani,2020-04-01,h3,-1.57465,-0.673437,0.901213,0.901213,0.812184,0.793288,-0.628622,-0.845423
+official_validation,AR_Persistence_Ensemble,1918,Parbhani,2020-05-01,h1,-0.803546,-0.415711,0.387835,0.387835,0.150416,0.999996,-0.415711,-0.495507
+official_validation,AR_Persistence_Ensemble,1918,Parbhani,2020-05-01,h2,-1.57465,-0.482868,1.091782,1.091782,1.191989,0.762551,-0.478932,-0.495507
+official_validation,AR_Persistence_Ensemble,1918,Parbhani,2020-05-01,h3,-1.274196,-0.400632,0.873564,0.873564,0.763114,0.793288,-0.37591,-0.495507
+official_validation,AR_Persistence_Ensemble,1919,Parbhani,2020-06-01,h1,-1.57465,-0.796071,0.778579,0.778579,0.606185,0.999996,-0.796071,-0.803546
+official_validation,AR_Persistence_Ensemble,1919,Parbhani,2020-06-01,h2,-1.274196,-0.677628,0.596568,0.596568,0.355893,0.762551,-0.638419,-0.803546
+official_validation,AR_Persistence_Ensemble,1919,Parbhani,2020-06-01,h3,-0.835875,-0.546363,0.289512,0.289512,0.083817,0.793288,-0.479347,-0.803546
+official_validation,AR_Persistence_Ensemble,1920,Parbhani,2020-07-01,h1,-1.274196,-1.322191,-0.047995,0.047995,0.002304,0.999996,-1.32219,-1.57465
+official_validation,AR_Persistence_Ensemble,1920,Parbhani,2020-07-01,h2,-0.835875,-1.167801,-0.331926,0.331926,0.110175,0.762551,-1.041113,-1.57465
+official_validation,AR_Persistence_Ensemble,1920,Parbhani,2020-07-01,h3,-1.432207,-0.941756,0.490451,0.490451,0.240542,0.793288,-0.776839,-1.57465
+official_validation,AR_Persistence_Ensemble,1921,Parbhani,2020-08-01,h1,-0.835875,-1.01725,-0.181375,0.181375,0.032897,0.999996,-1.017249,-1.274196
+official_validation,AR_Persistence_Ensemble,1921,Parbhani,2020-08-01,h2,-1.432207,-0.879541,0.552666,0.552666,0.30544,0.762551,-0.75665,-1.274196
+official_validation,AR_Persistence_Ensemble,1921,Parbhani,2020-08-01,h3,-1.399495,-0.750249,0.649246,0.649246,0.42152,0.793288,-0.613721,-1.274196
+official_validation,AR_Persistence_Ensemble,1922,Parbhani,2020-09-01,h1,-1.432207,-0.608909,0.823298,0.823298,0.67782,0.999996,-0.608908,-0.835875
+official_validation,AR_Persistence_Ensemble,1922,Parbhani,2020-09-01,h2,-1.399495,-0.572802,0.826693,0.826693,0.683422,0.762551,-0.490884,-0.835875
+official_validation,AR_Persistence_Ensemble,1922,Parbhani,2020-09-01,h3,-1.29301,-0.507336,0.785674,0.785674,0.617283,0.793288,-0.421727,-0.835875

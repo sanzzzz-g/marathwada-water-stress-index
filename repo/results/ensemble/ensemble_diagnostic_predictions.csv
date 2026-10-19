@@ -1,0 +1,1105 @@
+evaluation_type,model,sequence_id,district,forecast_origin,horizon,actual_wsi,predicted_wsi,error,absolute_error,squared_error,alpha_used,pred_ar,pred_persistence
+historical_diagnostic_evidence,AR_Persistence_Ensemble,201,Beed,2020-12-01,h1,-0.763296,-0.674597,0.088699,0.088699,0.007868,0.999996,-0.674595,-1.08473
+historical_diagnostic_evidence,AR_Persistence_Ensemble,201,Beed,2020-12-01,h2,-0.991253,-0.676716,0.314537,0.314537,0.098934,0.762551,-0.549665,-1.08473
+historical_diagnostic_evidence,AR_Persistence_Ensemble,201,Beed,2020-12-01,h3,-0.607982,-0.633548,-0.025566,0.025566,0.000654,0.793288,-0.515981,-1.08473
+historical_diagnostic_evidence,AR_Persistence_Ensemble,202,Beed,2021-01-01,h1,-0.991253,-0.597052,0.394201,0.394201,0.155395,0.999996,-0.597051,-0.763296
+historical_diagnostic_evidence,AR_Persistence_Ensemble,202,Beed,2021-01-01,h2,-0.607982,-0.61976,-0.011778,0.011778,0.000139,0.762551,-0.575065,-0.763296
+historical_diagnostic_evidence,AR_Persistence_Ensemble,202,Beed,2021-01-01,h3,-0.919128,-0.558205,0.360923,0.360923,0.130266,0.793288,-0.504763,-0.763296
+historical_diagnostic_evidence,AR_Persistence_Ensemble,203,Beed,2021-02-01,h1,-0.607982,-0.922575,-0.314593,0.314593,0.098969,0.999996,-0.922575,-0.991253
+historical_diagnostic_evidence,AR_Persistence_Ensemble,203,Beed,2021-02-01,h2,-0.919128,-0.833859,0.085269,0.085269,0.007271,0.762551,-0.784848,-0.991253
+historical_diagnostic_evidence,AR_Persistence_Ensemble,203,Beed,2021-02-01,h3,-1.078125,-0.621474,0.456651,0.456651,0.20853,0.793288,-0.525119,-0.991253
+historical_diagnostic_evidence,AR_Persistence_Ensemble,204,Beed,2021-03-01,h1,-0.919128,-0.491912,0.427216,0.427216,0.182513,0.999996,-0.491912,-0.607982
+historical_diagnostic_evidence,AR_Persistence_Ensemble,204,Beed,2021-03-01,h2,-1.078125,-0.354058,0.724067,0.724067,0.524273,0.762551,-0.274989,-0.607982
+historical_diagnostic_evidence,AR_Persistence_Ensemble,204,Beed,2021-03-01,h3,-1.572654,-0.312685,1.259969,1.259969,1.587523,0.793288,-0.235737,-0.607982
+historical_diagnostic_evidence,AR_Persistence_Ensemble,205,Beed,2021-04-01,h1,-1.078125,-0.626063,0.452062,0.452062,0.20436,0.999996,-0.626062,-0.919128
+historical_diagnostic_evidence,AR_Persistence_Ensemble,205,Beed,2021-04-01,h2,-1.572654,-0.640978,0.931676,0.931676,0.868019,0.762551,-0.554366,-0.919128
+historical_diagnostic_evidence,AR_Persistence_Ensemble,205,Beed,2021-04-01,h3,-0.900427,-0.485333,0.415094,0.415094,0.172303,0.793288,-0.372296,-0.919128
+historical_diagnostic_evidence,AR_Persistence_Ensemble,206,Beed,2021-05-01,h1,-1.572654,-0.954796,0.617858,0.617858,0.381748,0.999996,-0.954796,-1.078125
+historical_diagnostic_evidence,AR_Persistence_Ensemble,206,Beed,2021-05-01,h2,-0.900427,-0.796215,0.104212,0.104212,0.01086,0.762551,-0.708432,-1.078125
+historical_diagnostic_evidence,AR_Persistence_Ensemble,206,Beed,2021-05-01,h3,-1.040114,-0.641475,0.398639,0.398639,0.158913,0.793288,-0.527695,-1.078125
+historical_diagnostic_evidence,AR_Persistence_Ensemble,207,Beed,2021-06-01,h1,-0.900427,-1.2692,-0.368773,0.368773,0.135994,0.999996,-1.269199,-1.572654
+historical_diagnostic_evidence,AR_Persistence_Ensemble,207,Beed,2021-06-01,h2,-1.040114,-1.129658,-0.089544,0.089544,0.008018,0.762551,-0.991714,-1.572654
+historical_diagnostic_evidence,AR_Persistence_Ensemble,207,Beed,2021-06-01,h3,-1.310035,-0.894199,0.415836,0.415836,0.172919,0.793288,-0.71741,-1.572654
+historical_diagnostic_evidence,AR_Persistence_Ensemble,208,Beed,2021-07-01,h1,-1.040114,-0.634696,0.405418,0.405418,0.164364,0.999996,-0.634695,-0.900427
+historical_diagnostic_evidence,AR_Persistence_Ensemble,208,Beed,2021-07-01,h2,-1.310035,-0.537239,0.772796,0.772796,0.597213,0.762551,-0.424147,-0.900427
+historical_diagnostic_evidence,AR_Persistence_Ensemble,208,Beed,2021-07-01,h3,-1.531427,-0.462786,1.068641,1.068641,1.141994,0.793288,-0.348747,-0.900427
+historical_diagnostic_evidence,AR_Persistence_Ensemble,209,Beed,2021-08-01,h1,-1.310035,-0.748158,0.561877,0.561877,0.315706,0.999996,-0.748157,-1.040114
+historical_diagnostic_evidence,AR_Persistence_Ensemble,209,Beed,2021-08-01,h2,-1.531427,-0.733243,0.798184,0.798184,0.637098,0.762551,-0.637687,-1.040114
+historical_diagnostic_evidence,AR_Persistence_Ensemble,209,Beed,2021-08-01,h3,-1.385618,-0.542668,0.84295,0.84295,0.710565,0.793288,-0.413045,-1.040114
+historical_diagnostic_evidence,AR_Persistence_Ensemble,210,Beed,2021-09-01,h1,-1.531427,-1.150075,0.381352,0.381352,0.14543,0.999996,-1.150074,-1.310035
+historical_diagnostic_evidence,AR_Persistence_Ensemble,210,Beed,2021-09-01,h2,-1.385618,-0.943535,0.442083,0.442083,0.195437,0.762551,-0.829412,-1.310035
+historical_diagnostic_evidence,AR_Persistence_Ensemble,210,Beed,2021-09-01,h3,-1.365189,-0.743462,0.621727,0.621727,0.386545,0.793288,-0.595826,-1.310035
+historical_diagnostic_evidence,AR_Persistence_Ensemble,211,Beed,2021-10-01,h1,-1.385618,-1.150459,0.235159,0.235159,0.0553,0.999996,-1.150457,-1.531427
+historical_diagnostic_evidence,AR_Persistence_Ensemble,211,Beed,2021-10-01,h2,-1.365189,-1.029293,0.335896,0.335896,0.112826,0.762551,-0.872934,-1.531427
+historical_diagnostic_evidence,AR_Persistence_Ensemble,211,Beed,2021-10-01,h3,-1.349812,-0.858699,0.491113,0.491113,0.241192,0.793288,-0.683402,-1.531427
+historical_diagnostic_evidence,AR_Persistence_Ensemble,212,Beed,2021-11-01,h1,-1.365189,-1.040518,0.324671,0.324671,0.105411,0.999996,-1.040517,-1.385618
+historical_diagnostic_evidence,AR_Persistence_Ensemble,212,Beed,2021-11-01,h2,-1.349812,-0.976897,0.372915,0.372915,0.139066,0.762551,-0.849626,-1.385618
+historical_diagnostic_evidence,AR_Persistence_Ensemble,212,Beed,2021-11-01,h3,-1.337564,-0.881694,0.45587,0.45587,0.207817,0.793288,-0.750384,-1.385618
+historical_diagnostic_evidence,AR_Persistence_Ensemble,213,Beed,2021-12-01,h1,-1.349812,-1.104347,0.245465,0.245465,0.060253,0.999996,-1.104346,-1.365189
+historical_diagnostic_evidence,AR_Persistence_Ensemble,213,Beed,2021-12-01,h2,-1.337564,-1.071009,0.266555,0.266555,0.071052,0.762551,-0.979405,-1.365189
+historical_diagnostic_evidence,AR_Persistence_Ensemble,213,Beed,2021-12-01,h3,-0.885369,-0.892095,-0.006726,0.006726,4.5e-05,0.793288,-0.768818,-1.365189
+historical_diagnostic_evidence,AR_Persistence_Ensemble,214,Beed,2022-01-01,h1,-1.337564,-1.199351,0.138213,0.138213,0.019103,0.999996,-1.19935,-1.349812
+historical_diagnostic_evidence,AR_Persistence_Ensemble,214,Beed,2022-01-01,h2,-0.885369,-1.036756,-0.151387,0.151387,0.022918,0.762551,-0.939274,-1.349812
+historical_diagnostic_evidence,AR_Persistence_Ensemble,214,Beed,2022-01-01,h3,-0.980494,-0.819697,0.160797,0.160797,0.025856,0.793288,-0.681561,-1.349812
+historical_diagnostic_evidence,AR_Persistence_Ensemble,215,Beed,2022-02-01,h1,-0.885369,-1.040379,-0.15501,0.15501,0.024028,0.999996,-1.040378,-1.337564
+historical_diagnostic_evidence,AR_Persistence_Ensemble,215,Beed,2022-02-01,h2,-0.980494,-0.905569,0.074925,0.074925,0.005614,0.762551,-0.771051,-1.337564
+historical_diagnostic_evidence,AR_Persistence_Ensemble,215,Beed,2022-02-01,h3,-0.732434,-0.739668,-0.007234,0.007234,5.2e-05,0.793288,-0.583871,-1.337564
+historical_diagnostic_evidence,AR_Persistence_Ensemble,216,Beed,2022-03-01,h1,-0.980494,-0.621635,0.358859,0.358859,0.12878,0.999996,-0.621634,-0.885369
+historical_diagnostic_evidence,AR_Persistence_Ensemble,216,Beed,2022-03-01,h2,-0.732434,-0.566852,0.165582,0.165582,0.027417,0.762551,-0.46767,-0.885369
+historical_diagnostic_evidence,AR_Persistence_Ensemble,216,Beed,2022-03-01,h3,-0.872087,-0.474337,0.39775,0.39775,0.158205,0.793288,-0.367232,-0.885369
+historical_diagnostic_evidence,AR_Persistence_Ensemble,217,Beed,2022-04-01,h1,-0.732434,-0.774904,-0.04247,0.04247,0.001804,0.999996,-0.774903,-0.980494
+historical_diagnostic_evidence,AR_Persistence_Ensemble,217,Beed,2022-04-01,h2,-0.872087,-0.716355,0.155732,0.155732,0.024252,0.762551,-0.634106,-0.980494
+historical_diagnostic_evidence,AR_Persistence_Ensemble,217,Beed,2022-04-01,h3,-2.360202,-0.589444,1.770758,1.770758,3.135583,0.793288,-0.487546,-0.980494
+historical_diagnostic_evidence,AR_Persistence_Ensemble,218,Beed,2022-05-01,h1,-0.872087,-0.60222,0.269867,0.269867,0.072828,0.999996,-0.602219,-0.732434
+historical_diagnostic_evidence,AR_Persistence_Ensemble,218,Beed,2022-05-01,h2,-2.360202,-0.518393,1.841809,1.841809,3.392261,0.762551,-0.451743,-0.732434
+historical_diagnostic_evidence,AR_Persistence_Ensemble,218,Beed,2022-05-01,h3,-1.99196,-0.403626,1.588334,1.588334,2.522804,0.793288,-0.317947,-0.732434
+historical_diagnostic_evidence,AR_Persistence_Ensemble,219,Beed,2022-06-01,h1,-2.360202,-0.653069,1.707133,1.707133,2.914304,0.999996,-0.653068,-0.872087
+historical_diagnostic_evidence,AR_Persistence_Ensemble,219,Beed,2022-06-01,h2,-1.99196,-0.588392,1.403568,1.403568,1.970003,0.762551,-0.500053,-0.872087
+historical_diagnostic_evidence,AR_Persistence_Ensemble,219,Beed,2022-06-01,h3,-1.767666,-0.4373,1.330366,1.330366,1.769873,0.793288,-0.324005,-0.872087
+historical_diagnostic_evidence,AR_Persistence_Ensemble,220,Beed,2022-07-01,h1,-1.99196,-1.999332,-0.007372,0.007372,5.4e-05,0.999996,-1.999331,-2.360202
+historical_diagnostic_evidence,AR_Persistence_Ensemble,220,Beed,2022-07-01,h2,-1.767666,-1.776394,-0.008728,0.008728,7.6e-05,0.762551,-1.594604,-2.360202
+historical_diagnostic_evidence,AR_Persistence_Ensemble,220,Beed,2022-07-01,h3,-1.786287,-1.379631,0.406656,0.406656,0.165369,0.793288,-1.124118,-2.360202
+historical_diagnostic_evidence,AR_Persistence_Ensemble,221,Beed,2022-08-01,h1,-1.767666,-1.579671,0.187995,0.187995,0.035342,0.999996,-1.579669,-1.99196
+historical_diagnostic_evidence,AR_Persistence_Ensemble,221,Beed,2022-08-01,h2,-1.786287,-1.319711,0.466576,0.466576,0.217693,0.762551,-1.110381,-1.99196
+historical_diagnostic_evidence,AR_Persistence_Ensemble,221,Beed,2022-08-01,h3,-1.329664,-1.136518,0.193146,0.193146,0.037305,0.793288,-0.91361,-1.99196
+historical_diagnostic_evidence,AR_Persistence_Ensemble,222,Beed,2022-09-01,h1,-1.786287,-1.254196,0.532091,0.532091,0.283121,0.999996,-1.254194,-1.767666
+historical_diagnostic_evidence,AR_Persistence_Ensemble,222,Beed,2022-09-01,h2,-1.329664,-1.22183,0.107834,0.107834,0.011628,0.762551,-1.051864,-1.767666
+historical_diagnostic_evidence,AR_Persistence_Ensemble,222,Beed,2022-09-01,h3,-1.253302,-1.039048,0.214254,0.214254,0.045905,0.793288,-0.849188,-1.767666
+historical_diagnostic_evidence,AR_Persistence_Ensemble,223,Beed,2022-10-01,h1,-1.329664,-1.492846,-0.163182,0.163182,0.026628,0.999996,-1.492845,-1.786287
+historical_diagnostic_evidence,AR_Persistence_Ensemble,223,Beed,2022-10-01,h2,-1.253302,-1.35624,-0.102938,0.102938,0.010596,0.762551,-1.222328,-1.786287
+historical_diagnostic_evidence,AR_Persistence_Ensemble,223,Beed,2022-10-01,h3,-1.259245,-1.066925,0.19232,0.19232,0.036987,0.793288,-0.879476,-1.786287
+historical_diagnostic_evidence,AR_Persistence_Ensemble,224,Beed,2022-11-01,h1,-1.253302,-1.072958,0.180344,0.180344,0.032524,0.999996,-1.072957,-1.329664
+historical_diagnostic_evidence,AR_Persistence_Ensemble,224,Beed,2022-11-01,h2,-1.259245,-0.877014,0.382231,0.382231,0.1461,0.762551,-0.736065,-1.329664
+historical_diagnostic_evidence,AR_Persistence_Ensemble,224,Beed,2022-11-01,h3,-1.331864,-0.66529,0.666574,0.666574,0.444321,0.793288,-0.49217,-1.329664
+historical_diagnostic_evidence,AR_Persistence_Ensemble,225,Beed,2022-12-01,h1,-1.259245,-0.877884,0.381361,0.381361,0.145437,0.999996,-0.877882,-1.253302
+historical_diagnostic_evidence,AR_Persistence_Ensemble,225,Beed,2022-12-01,h2,-1.331864,-0.77691,0.554954,0.554954,0.307973,0.762551,-0.628568,-1.253302
+historical_diagnostic_evidence,AR_Persistence_Ensemble,225,Beed,2022-12-01,h3,-1.557681,-0.733392,0.824289,0.824289,0.679452,0.793288,-0.597916,-1.253302
+historical_diagnostic_evidence,AR_Persistence_Ensemble,226,Beed,2023-01-01,h1,-1.331864,-0.929349,0.402515,0.402515,0.162018,0.999996,-0.929348,-1.259245
+historical_diagnostic_evidence,AR_Persistence_Ensemble,226,Beed,2023-01-01,h2,-1.557681,-0.969716,0.587965,0.587965,0.345703,0.762551,-0.87956,-1.259245
+historical_diagnostic_evidence,AR_Persistence_Ensemble,226,Beed,2023-01-01,h3,-1.765735,-0.817355,0.94838,0.94838,0.899425,0.793288,-0.702209,-1.259245
+historical_diagnostic_evidence,AR_Persistence_Ensemble,227,Beed,2023-02-01,h1,-1.557681,-1.207302,0.350379,0.350379,0.122765,0.999996,-1.207302,-1.331864
+historical_diagnostic_evidence,AR_Persistence_Ensemble,227,Beed,2023-02-01,h2,-1.765735,-1.065452,0.700283,0.700283,0.490396,0.762551,-0.982495,-1.331864
+historical_diagnostic_evidence,AR_Persistence_Ensemble,227,Beed,2023-02-01,h3,-1.039115,-0.88369,0.155425,0.155425,0.024157,0.793288,-0.766906,-1.331864
+historical_diagnostic_evidence,AR_Persistence_Ensemble,228,Beed,2023-03-01,h1,-1.765735,-1.289574,0.476161,0.476161,0.226729,0.999996,-1.289573,-1.557681
+historical_diagnostic_evidence,AR_Persistence_Ensemble,228,Beed,2023-03-01,h2,-1.039115,-1.150226,-0.111111,0.111111,0.012346,0.762551,-1.023349,-1.557681
+historical_diagnostic_evidence,AR_Persistence_Ensemble,228,Beed,2023-03-01,h3,-0.209279,-0.946476,-0.737197,0.737197,0.54346,0.793288,-0.787211,-1.557681
+historical_diagnostic_evidence,AR_Persistence_Ensemble,229,Beed,2023-04-01,h1,-1.039115,-1.412847,-0.373732,0.373732,0.139676,0.999996,-1.412846,-1.765735
+historical_diagnostic_evidence,AR_Persistence_Ensemble,229,Beed,2023-04-01,h2,-0.209279,-1.275444,-1.066165,1.066165,1.136707,0.762551,-1.122773,-1.765735
+historical_diagnostic_evidence,AR_Persistence_Ensemble,229,Beed,2023-04-01,h3,-0.990097,-0.936651,0.053446,0.053446,0.002856,0.793288,-0.720612,-1.765735
+historical_diagnostic_evidence,AR_Persistence_Ensemble,230,Beed,2023-05-01,h1,-0.209279,-0.782687,-0.573408,0.573408,0.328797,0.999996,-0.782686,-1.039115
+historical_diagnostic_evidence,AR_Persistence_Ensemble,230,Beed,2023-05-01,h2,-0.990097,-0.576645,0.413452,0.413452,0.170943,0.762551,-0.432637,-1.039115
+historical_diagnostic_evidence,AR_Persistence_Ensemble,230,Beed,2023-05-01,h3,-0.668363,-0.483402,0.184961,0.184961,0.03421,0.793288,-0.338597,-1.039115
+historical_diagnostic_evidence,AR_Persistence_Ensemble,231,Beed,2023-06-01,h1,-0.990097,0.043874,1.033971,1.033971,1.069096,0.999996,0.043875,-0.209279
+historical_diagnostic_evidence,AR_Persistence_Ensemble,231,Beed,2023-06-01,h2,-0.668363,0.00514,0.673503,0.673503,0.453607,0.762551,0.071908,-0.209279
+historical_diagnostic_evidence,AR_Persistence_Ensemble,231,Beed,2023-06-01,h3,-0.253432,0.042235,0.295667,0.295667,0.087419,0.793288,0.107773,-0.209279
+historical_diagnostic_evidence,AR_Persistence_Ensemble,232,Beed,2023-07-01,h1,-0.668363,-0.810339,-0.141976,0.141976,0.020157,0.999996,-0.810338,-0.990097
+historical_diagnostic_evidence,AR_Persistence_Ensemble,232,Beed,2023-07-01,h2,-0.253432,-0.723831,-0.470399,0.470399,0.221275,0.762551,-0.640919,-0.990097
+historical_diagnostic_evidence,AR_Persistence_Ensemble,232,Beed,2023-07-01,h3,0.190173,-0.445272,-0.635445,0.635445,0.40379,0.793288,-0.303303,-0.990097
+historical_diagnostic_evidence,AR_Persistence_Ensemble,233,Beed,2023-08-01,h1,-0.253432,-0.497444,-0.244012,0.244012,0.059542,0.999996,-0.497443,-0.668363
+historical_diagnostic_evidence,AR_Persistence_Ensemble,233,Beed,2023-08-01,h2,0.190173,-0.296828,-0.487001,0.487001,0.23717,0.762551,-0.181137,-0.668363
+historical_diagnostic_evidence,AR_Persistence_Ensemble,233,Beed,2023-08-01,h3,0.05167,-0.25282,-0.30449,0.30449,0.092714,0.793288,-0.144539,-0.668363
+historical_diagnostic_evidence,AR_Persistence_Ensemble,234,Beed,2023-09-01,h1,0.190173,0.065406,-0.124767,0.124767,0.015567,0.999996,0.065407,-0.253432
+historical_diagnostic_evidence,AR_Persistence_Ensemble,234,Beed,2023-09-01,h2,0.05167,-0.034805,-0.086475,0.086475,0.007478,0.762551,0.033273,-0.253432
+historical_diagnostic_evidence,AR_Persistence_Ensemble,234,Beed,2023-09-01,h3,-0.378396,-0.077194,0.301202,0.301202,0.090723,0.793288,-0.03127,-0.253432
+historical_diagnostic_evidence,AR_Persistence_Ensemble,235,Beed,2023-10-01,h1,0.05167,0.190907,0.139237,0.139237,0.019387,0.999996,0.190907,0.190173
+historical_diagnostic_evidence,AR_Persistence_Ensemble,235,Beed,2023-10-01,h2,-0.378396,0.107464,0.48586,0.48586,0.23606,0.762551,0.08171,0.190173
+historical_diagnostic_evidence,AR_Persistence_Ensemble,235,Beed,2023-10-01,h3,-0.87605,0.123553,0.999603,0.999603,0.999207,0.793288,0.106194,0.190173
+historical_diagnostic_evidence,AR_Persistence_Ensemble,236,Beed,2023-11-01,h1,-0.378396,-0.042429,0.335967,0.335967,0.112874,0.999996,-0.042429,0.05167
+historical_diagnostic_evidence,AR_Persistence_Ensemble,236,Beed,2023-11-01,h2,-0.87605,0.030317,0.906367,0.906367,0.821501,0.762551,0.023668,0.05167
+historical_diagnostic_evidence,AR_Persistence_Ensemble,236,Beed,2023-11-01,h3,-0.69608,0.203878,0.899958,0.899958,0.809925,0.793288,0.24354,0.05167
+historical_diagnostic_evidence,AR_Persistence_Ensemble,237,Beed,2023-12-01,h1,-0.87605,-0.276704,0.599346,0.599346,0.359215,0.999996,-0.276704,-0.378396
+historical_diagnostic_evidence,AR_Persistence_Ensemble,237,Beed,2023-12-01,h2,-0.69608,-0.089844,0.606236,0.606236,0.367522,0.762551,7e-06,-0.378396
+historical_diagnostic_evidence,AR_Persistence_Ensemble,237,Beed,2023-12-01,h3,-0.542161,-0.002262,0.539899,0.539899,0.291491,0.793288,0.09575,-0.378396
+historical_diagnostic_evidence,AR_Persistence_Ensemble,238,Beed,2024-01-01,h1,-0.69608,-0.504331,0.191749,0.191749,0.036767,0.999996,-0.50433,-0.87605
+historical_diagnostic_evidence,AR_Persistence_Ensemble,238,Beed,2024-01-01,h2,-0.542161,-0.478724,0.063437,0.063437,0.004024,0.762551,-0.355001,-0.87605
+historical_diagnostic_evidence,AR_Persistence_Ensemble,238,Beed,2024-01-01,h3,-0.878338,-0.350667,0.527671,0.527671,0.278436,0.793288,-0.213765,-0.87605
+historical_diagnostic_evidence,AR_Persistence_Ensemble,239,Beed,2024-02-01,h1,-0.542161,-0.505388,0.036773,0.036773,0.001352,0.999996,-0.505387,-0.69608
+historical_diagnostic_evidence,AR_Persistence_Ensemble,239,Beed,2024-02-01,h2,-0.878338,-0.434854,0.443484,0.443484,0.196678,0.762551,-0.353512,-0.69608
+historical_diagnostic_evidence,AR_Persistence_Ensemble,239,Beed,2024-02-01,h3,-0.672243,-0.397168,0.275075,0.275075,0.075666,0.793288,-0.319279,-0.69608
+historical_diagnostic_evidence,AR_Persistence_Ensemble,240,Beed,2024-03-01,h1,-0.878338,-0.381485,0.496853,0.496853,0.246863,0.999996,-0.381484,-0.542161
+historical_diagnostic_evidence,AR_Persistence_Ensemble,240,Beed,2024-03-01,h2,-0.672243,-0.387777,0.284466,0.284466,0.080921,0.762551,-0.339704,-0.542161
+historical_diagnostic_evidence,AR_Persistence_Ensemble,240,Beed,2024-03-01,h3,-1.180469,-0.320001,0.860468,0.860468,0.740406,0.793288,-0.262111,-0.542161
+historical_diagnostic_evidence,AR_Persistence_Ensemble,241,Beed,2024-04-01,h1,-0.672243,-0.743352,-0.071109,0.071109,0.005056,0.999996,-0.743351,-0.878338
+historical_diagnostic_evidence,AR_Persistence_Ensemble,241,Beed,2024-04-01,h2,-1.180469,-0.666745,0.513724,0.513724,0.263913,0.762551,-0.600857,-0.878338
+historical_diagnostic_evidence,AR_Persistence_Ensemble,241,Beed,2024-04-01,h3,-1.901815,-0.447959,1.453856,1.453856,2.113698,0.793288,-0.335812,-0.878338
+historical_diagnostic_evidence,AR_Persistence_Ensemble,242,Beed,2024-05-01,h1,-1.180469,-0.504091,0.676378,0.676378,0.457488,0.999996,-0.50409,-0.672243
+historical_diagnostic_evidence,AR_Persistence_Ensemble,242,Beed,2024-05-01,h2,-1.901815,-0.359837,1.541978,1.541978,2.377695,0.762551,-0.262558,-0.672243
+historical_diagnostic_evidence,AR_Persistence_Ensemble,242,Beed,2024-05-01,h3,-1.597088,-0.330149,1.266939,1.266939,1.605133,0.793288,-0.241008,-0.672243
+historical_diagnostic_evidence,AR_Persistence_Ensemble,243,Beed,2024-06-01,h1,-1.901815,-0.871347,1.030468,1.030468,1.061864,0.999996,-0.871346,-1.180469
+historical_diagnostic_evidence,AR_Persistence_Ensemble,243,Beed,2024-06-01,h2,-1.597088,-0.865067,0.732021,0.732021,0.535854,0.762551,-0.766855,-1.180469
+historical_diagnostic_evidence,AR_Persistence_Ensemble,243,Beed,2024-06-01,h3,-1.208366,-0.768596,0.43977,0.43977,0.193397,0.793288,-0.661272,-1.180469
+historical_diagnostic_evidence,AR_Persistence_Ensemble,244,Beed,2024-07-01,h1,-1.597088,-1.650322,-0.053234,0.053234,0.002834,0.999996,-1.650321,-1.901815
+historical_diagnostic_evidence,AR_Persistence_Ensemble,244,Beed,2024-07-01,h2,-1.208366,-1.534474,-0.326108,0.326108,0.106347,0.762551,-1.420089,-1.901815
+historical_diagnostic_evidence,AR_Persistence_Ensemble,244,Beed,2024-07-01,h3,-1.177683,-1.321143,-0.14346,0.14346,0.020581,0.793288,-1.169834,-1.901815
+historical_diagnostic_evidence,AR_Persistence_Ensemble,245,Beed,2024-08-01,h1,-1.208366,-1.350777,-0.142411,0.142411,0.020281,0.999996,-1.350776,-1.597088
+historical_diagnostic_evidence,AR_Persistence_Ensemble,245,Beed,2024-08-01,h2,-1.177683,-1.228227,-0.050544,0.050544,0.002555,0.762551,-1.113368,-1.597088
+historical_diagnostic_evidence,AR_Persistence_Ensemble,245,Beed,2024-08-01,h3,-1.192881,-1.091607,0.101274,0.101274,0.010256,0.793288,-0.959891,-1.597088
+historical_diagnostic_evidence,AR_Persistence_Ensemble,246,Beed,2024-09-01,h1,-1.177683,-0.959343,0.21834,0.21834,0.047672,0.999996,-0.959342,-1.208366
+historical_diagnostic_evidence,AR_Persistence_Ensemble,246,Beed,2024-09-01,h2,-1.192881,-0.929004,0.263877,0.263877,0.069631,0.762551,-0.842014,-1.208366
+historical_diagnostic_evidence,AR_Persistence_Ensemble,246,Beed,2024-09-01,h3,-1.165328,-0.831198,0.33413,0.33413,0.111643,0.793288,-0.732917,-1.208366
+historical_diagnostic_evidence,AR_Persistence_Ensemble,447,Chhatrapati Sambhajinagar,2020-12-01,h1,-0.722658,-1.066823,-0.344165,0.344165,0.11845,0.999996,-1.066821,-1.595993
+historical_diagnostic_evidence,AR_Persistence_Ensemble,447,Chhatrapati Sambhajinagar,2020-12-01,h2,-0.901384,-1.077037,-0.175653,0.175653,0.030854,0.762551,-0.915441,-1.595993
+historical_diagnostic_evidence,AR_Persistence_Ensemble,447,Chhatrapati Sambhajinagar,2020-12-01,h3,-0.87235,-0.919283,-0.046933,0.046933,0.002203,0.793288,-0.742949,-1.595993
+historical_diagnostic_evidence,AR_Persistence_Ensemble,448,Chhatrapati Sambhajinagar,2021-01-01,h1,-0.901384,-0.576462,0.324922,0.324922,0.105575,0.999996,-0.576461,-0.722658
+historical_diagnostic_evidence,AR_Persistence_Ensemble,448,Chhatrapati Sambhajinagar,2021-01-01,h2,-0.87235,-0.532165,0.340185,0.340185,0.115726,0.762551,-0.472848,-0.722658
+historical_diagnostic_evidence,AR_Persistence_Ensemble,448,Chhatrapati Sambhajinagar,2021-01-01,h3,-1.212614,-0.519793,0.692821,0.692821,0.480001,0.793288,-0.466931,-0.722658
+historical_diagnostic_evidence,AR_Persistence_Ensemble,449,Chhatrapati Sambhajinagar,2021-02-01,h1,-0.87235,-0.759563,0.112787,0.112787,0.012721,0.999996,-0.759562,-0.901384
+historical_diagnostic_evidence,AR_Persistence_Ensemble,449,Chhatrapati Sambhajinagar,2021-02-01,h2,-1.212614,-0.748891,0.463723,0.463723,0.215039,0.762551,-0.701406,-0.901384
+historical_diagnostic_evidence,AR_Persistence_Ensemble,449,Chhatrapati Sambhajinagar,2021-02-01,h3,-1.602686,-0.536249,1.066437,1.066437,1.137289,0.793288,-0.441103,-0.901384
+historical_diagnostic_evidence,AR_Persistence_Ensemble,450,Chhatrapati Sambhajinagar,2021-03-01,h1,-1.212614,-0.778499,0.434115,0.434115,0.188456,0.999996,-0.778499,-0.87235
+historical_diagnostic_evidence,AR_Persistence_Ensemble,450,Chhatrapati Sambhajinagar,2021-03-01,h2,-1.602686,-0.588202,1.014484,1.014484,1.029177,0.762551,-0.499722,-0.87235
+historical_diagnostic_evidence,AR_Persistence_Ensemble,450,Chhatrapati Sambhajinagar,2021-03-01,h3,-1.609204,-0.410036,1.199168,1.199168,1.438004,0.793288,-0.289568,-0.87235
+historical_diagnostic_evidence,AR_Persistence_Ensemble,451,Chhatrapati Sambhajinagar,2021-04-01,h1,-1.602686,-0.858398,0.744288,0.744288,0.553964,0.999996,-0.858397,-1.212614
+historical_diagnostic_evidence,AR_Persistence_Ensemble,451,Chhatrapati Sambhajinagar,2021-04-01,h2,-1.609204,-0.753131,0.856073,0.856073,0.732862,0.762551,-0.610053,-1.212614
+historical_diagnostic_evidence,AR_Persistence_Ensemble,451,Chhatrapati Sambhajinagar,2021-04-01,h3,-0.935192,-0.572631,0.362561,0.362561,0.13145,0.793288,-0.405867,-1.212614
+historical_diagnostic_evidence,AR_Persistence_Ensemble,452,Chhatrapati Sambhajinagar,2021-05-01,h1,-1.609204,-1.278235,0.330969,0.330969,0.10954,0.999996,-1.278234,-1.602686
+historical_diagnostic_evidence,AR_Persistence_Ensemble,452,Chhatrapati Sambhajinagar,2021-05-01,h2,-0.935192,-1.122608,-0.187416,0.187416,0.035125,0.762551,-0.973117,-1.602686
+historical_diagnostic_evidence,AR_Persistence_Ensemble,452,Chhatrapati Sambhajinagar,2021-05-01,h3,-0.303652,-0.899665,-0.596013,0.596013,0.355231,0.793288,-0.716474,-1.602686
+historical_diagnostic_evidence,AR_Persistence_Ensemble,453,Chhatrapati Sambhajinagar,2021-06-01,h1,-0.935192,-1.250387,-0.315195,0.315195,0.099348,0.999996,-1.250386,-1.609204
+historical_diagnostic_evidence,AR_Persistence_Ensemble,453,Chhatrapati Sambhajinagar,2021-06-01,h2,-0.303652,-1.106948,-0.803296,0.803296,0.645285,0.762551,-0.950552,-1.609204
+historical_diagnostic_evidence,AR_Persistence_Ensemble,453,Chhatrapati Sambhajinagar,2021-06-01,h3,-1.210215,-0.868996,0.341219,0.341219,0.11643,0.793288,-0.676116,-1.609204
+historical_diagnostic_evidence,AR_Persistence_Ensemble,454,Chhatrapati Sambhajinagar,2021-07-01,h1,-0.303652,-0.651405,-0.347753,0.347753,0.120932,0.999996,-0.651404,-0.935192
+historical_diagnostic_evidence,AR_Persistence_Ensemble,454,Chhatrapati Sambhajinagar,2021-07-01,h2,-1.210215,-0.543192,0.667023,0.667023,0.44492,0.762551,-0.421128,-0.935192
+historical_diagnostic_evidence,AR_Persistence_Ensemble,454,Chhatrapati Sambhajinagar,2021-07-01,h3,-1.755722,-0.408209,1.347513,1.347513,1.815791,0.793288,-0.27089,-0.935192
+historical_diagnostic_evidence,AR_Persistence_Ensemble,455,Chhatrapati Sambhajinagar,2021-08-01,h1,-1.210215,-0.074989,1.135226,1.135226,1.288738,0.999996,-0.074988,-0.303652
+historical_diagnostic_evidence,AR_Persistence_Ensemble,455,Chhatrapati Sambhajinagar,2021-08-01,h2,-1.755722,-0.06442,1.691302,1.691302,2.860503,0.762551,0.010074,-0.303652
+historical_diagnostic_evidence,AR_Persistence_Ensemble,455,Chhatrapati Sambhajinagar,2021-08-01,h3,-1.585057,0.000131,1.585188,1.585188,2.512819,0.793288,0.079289,-0.303652
+historical_diagnostic_evidence,AR_Persistence_Ensemble,456,Chhatrapati Sambhajinagar,2021-09-01,h1,-1.755722,-0.996275,0.759447,0.759447,0.57676,0.999996,-0.996274,-1.210215
+historical_diagnostic_evidence,AR_Persistence_Ensemble,456,Chhatrapati Sambhajinagar,2021-09-01,h2,-1.585057,-0.870425,0.714632,0.714632,0.510698,0.762551,-0.764619,-1.210215
+historical_diagnostic_evidence,AR_Persistence_Ensemble,456,Chhatrapati Sambhajinagar,2021-09-01,h3,-1.401432,-0.592797,0.808635,0.808635,0.653891,0.793288,-0.431912,-1.210215
+historical_diagnostic_evidence,AR_Persistence_Ensemble,457,Chhatrapati Sambhajinagar,2021-10-01,h1,-1.585057,-1.417364,0.167693,0.167693,0.028121,0.999996,-1.417363,-1.755722
+historical_diagnostic_evidence,AR_Persistence_Ensemble,457,Chhatrapati Sambhajinagar,2021-10-01,h2,-1.401432,-1.171518,0.229914,0.229914,0.05286,0.762551,-0.989604,-1.755722
+historical_diagnostic_evidence,AR_Persistence_Ensemble,457,Chhatrapati Sambhajinagar,2021-10-01,h3,-1.187325,-1.013982,0.173343,0.173343,0.030048,0.793288,-0.820702,-1.755722
+historical_diagnostic_evidence,AR_Persistence_Ensemble,458,Chhatrapati Sambhajinagar,2021-11-01,h1,-1.401432,-1.096081,0.305351,0.305351,0.093239,0.999996,-1.096079,-1.585057
+historical_diagnostic_evidence,AR_Persistence_Ensemble,458,Chhatrapati Sambhajinagar,2021-11-01,h2,-1.187325,-1.09569,0.091635,0.091635,0.008397,0.762551,-0.943307,-1.585057
+historical_diagnostic_evidence,AR_Persistence_Ensemble,458,Chhatrapati Sambhajinagar,2021-11-01,h3,-1.420752,-0.999176,0.421576,0.421576,0.177727,0.793288,-0.846509,-1.585057
+historical_diagnostic_evidence,AR_Persistence_Ensemble,459,Chhatrapati Sambhajinagar,2021-12-01,h1,-1.187325,-1.150402,0.036923,0.036923,0.001363,0.999996,-1.150401,-1.401432
+historical_diagnostic_evidence,AR_Persistence_Ensemble,459,Chhatrapati Sambhajinagar,2021-12-01,h2,-1.420752,-1.13112,0.289632,0.289632,0.083887,0.762551,-1.046948,-1.401432
+historical_diagnostic_evidence,AR_Persistence_Ensemble,459,Chhatrapati Sambhajinagar,2021-12-01,h3,-0.800335,-0.957436,-0.157101,0.157101,0.024681,0.793288,-0.841741,-1.401432
+historical_diagnostic_evidence,AR_Persistence_Ensemble,460,Chhatrapati Sambhajinagar,2022-01-01,h1,-1.420752,-1.085241,0.335511,0.335511,0.112567,0.999996,-1.085241,-1.187325
+historical_diagnostic_evidence,AR_Persistence_Ensemble,460,Chhatrapati Sambhajinagar,2022-01-01,h2,-0.800335,-0.928196,-0.127861,0.127861,0.016348,0.762551,-0.847506,-1.187325
+historical_diagnostic_evidence,AR_Persistence_Ensemble,460,Chhatrapati Sambhajinagar,2022-01-01,h3,-0.672696,-0.650375,0.022321,0.022321,0.000498,0.793288,-0.510459,-1.187325
+historical_diagnostic_evidence,AR_Persistence_Ensemble,461,Chhatrapati Sambhajinagar,2022-02-01,h1,-0.800335,-1.145679,-0.345344,0.345344,0.119263,0.999996,-1.145678,-1.420752
+historical_diagnostic_evidence,AR_Persistence_Ensemble,461,Chhatrapati Sambhajinagar,2022-02-01,h2,-0.672696,-0.907735,-0.235039,0.235039,0.055243,0.762551,-0.747988,-1.420752
+historical_diagnostic_evidence,AR_Persistence_Ensemble,461,Chhatrapati Sambhajinagar,2022-02-01,h3,-0.462274,-0.679445,-0.217171,0.217171,0.047163,0.793288,-0.486278,-1.420752
+historical_diagnostic_evidence,AR_Persistence_Ensemble,462,Chhatrapati Sambhajinagar,2022-03-01,h1,-0.672696,-0.427689,0.245007,0.245007,0.060028,0.999996,-0.427688,-0.800335
+historical_diagnostic_evidence,AR_Persistence_Ensemble,462,Chhatrapati Sambhajinagar,2022-03-01,h2,-0.462274,-0.369164,0.09311,0.09311,0.008669,0.762551,-0.234903,-0.800335
+historical_diagnostic_evidence,AR_Persistence_Ensemble,462,Chhatrapati Sambhajinagar,2022-03-01,h3,-0.494102,-0.363946,0.130156,0.130156,0.01694,0.793288,-0.250234,-0.800335
+historical_diagnostic_evidence,AR_Persistence_Ensemble,463,Chhatrapati Sambhajinagar,2022-04-01,h1,-0.462274,-0.43378,0.028494,0.028494,0.000812,0.999996,-0.433779,-0.672696
+historical_diagnostic_evidence,AR_Persistence_Ensemble,463,Chhatrapati Sambhajinagar,2022-04-01,h2,-0.494102,-0.494911,-0.000809,0.000809,1e-06,0.762551,-0.439551,-0.672696
+historical_diagnostic_evidence,AR_Persistence_Ensemble,463,Chhatrapati Sambhajinagar,2022-04-01,h3,-2.112228,-0.434629,1.677599,1.677599,2.814337,0.793288,-0.372595,-0.672696
+historical_diagnostic_evidence,AR_Persistence_Ensemble,464,Chhatrapati Sambhajinagar,2022-05-01,h1,-0.494102,-0.454777,0.039325,0.039325,0.001546,0.999996,-0.454777,-0.462274
+historical_diagnostic_evidence,AR_Persistence_Ensemble,464,Chhatrapati Sambhajinagar,2022-05-01,h2,-2.112228,-0.400276,1.711952,1.711952,2.930779,0.762551,-0.380971,-0.462274
+historical_diagnostic_evidence,AR_Persistence_Ensemble,464,Chhatrapati Sambhajinagar,2022-05-01,h3,-1.34669,-0.341217,1.005473,1.005473,1.010975,0.793288,-0.309673,-0.462274
+historical_diagnostic_evidence,AR_Persistence_Ensemble,465,Chhatrapati Sambhajinagar,2022-06-01,h1,-2.112228,-0.385262,1.726966,1.726966,2.98241,0.999996,-0.385262,-0.494102
+historical_diagnostic_evidence,AR_Persistence_Ensemble,465,Chhatrapati Sambhajinagar,2022-06-01,h2,-1.34669,-0.356908,0.989782,0.989782,0.979669,0.762551,-0.314187,-0.494102
+historical_diagnostic_evidence,AR_Persistence_Ensemble,465,Chhatrapati Sambhajinagar,2022-06-01,h3,-1.597277,-0.196118,1.401159,1.401159,1.963248,0.793288,-0.11847,-0.494102
+historical_diagnostic_evidence,AR_Persistence_Ensemble,466,Chhatrapati Sambhajinagar,2022-07-01,h1,-1.34669,-1.80915,-0.46246,0.46246,0.213869,0.999996,-1.809149,-2.112228
+historical_diagnostic_evidence,AR_Persistence_Ensemble,466,Chhatrapati Sambhajinagar,2022-07-01,h2,-1.597277,-1.563394,0.033883,0.033883,0.001148,0.762551,-1.392494,-2.112228
+historical_diagnostic_evidence,AR_Persistence_Ensemble,466,Chhatrapati Sambhajinagar,2022-07-01,h3,-1.940291,-1.187362,0.752929,0.752929,0.566902,0.793288,-0.946364,-2.112228
+historical_diagnostic_evidence,AR_Persistence_Ensemble,467,Chhatrapati Sambhajinagar,2022-08-01,h1,-1.597277,-0.996577,0.6007,0.6007,0.36084,0.999996,-0.996576,-1.34669
+historical_diagnostic_evidence,AR_Persistence_Ensemble,467,Chhatrapati Sambhajinagar,2022-08-01,h2,-1.940291,-0.78415,1.156141,1.156141,1.336662,0.762551,-0.608982,-1.34669
+historical_diagnostic_evidence,AR_Persistence_Ensemble,467,Chhatrapati Sambhajinagar,2022-08-01,h3,-1.561697,-0.708858,0.852839,0.852839,0.727335,0.793288,-0.542654,-1.34669
+historical_diagnostic_evidence,AR_Persistence_Ensemble,468,Chhatrapati Sambhajinagar,2022-09-01,h1,-1.940291,-1.130455,0.809836,0.809836,0.655835,0.999996,-1.130453,-1.597277
+historical_diagnostic_evidence,AR_Persistence_Ensemble,468,Chhatrapati Sambhajinagar,2022-09-01,h2,-1.561697,-1.139113,0.422584,0.422584,0.178577,0.762551,-0.996446,-1.597277
+historical_diagnostic_evidence,AR_Persistence_Ensemble,468,Chhatrapati Sambhajinagar,2022-09-01,h3,-1.444408,-0.915518,0.52889,0.52889,0.279724,0.793288,-0.737868,-1.597277
+historical_diagnostic_evidence,AR_Persistence_Ensemble,469,Chhatrapati Sambhajinagar,2022-10-01,h1,-1.561697,-1.688583,-0.126886,0.126886,0.0161,0.999996,-1.688582,-1.940291
+historical_diagnostic_evidence,AR_Persistence_Ensemble,469,Chhatrapati Sambhajinagar,2022-10-01,h2,-1.444408,-1.463377,-0.018969,0.018969,0.00036,0.762551,-1.314872,-1.940291
+historical_diagnostic_evidence,AR_Persistence_Ensemble,469,Chhatrapati Sambhajinagar,2022-10-01,h3,-1.019117,-1.149945,-0.130828,0.130828,0.017116,0.793288,-0.944,-1.940291
+historical_diagnostic_evidence,AR_Persistence_Ensemble,470,Chhatrapati Sambhajinagar,2022-11-01,h1,-1.444408,-1.189045,0.255363,0.255363,0.06521,0.999996,-1.189044,-1.561697
+historical_diagnostic_evidence,AR_Persistence_Ensemble,470,Chhatrapati Sambhajinagar,2022-11-01,h2,-1.019117,-1.001009,0.018108,0.018108,0.000328,0.762551,-0.826418,-1.561697
+historical_diagnostic_evidence,AR_Persistence_Ensemble,470,Chhatrapati Sambhajinagar,2022-11-01,h3,-1.085541,-0.768387,0.317154,0.317154,0.100587,0.793288,-0.561669,-1.561697
+historical_diagnostic_evidence,AR_Persistence_Ensemble,471,Chhatrapati Sambhajinagar,2022-12-01,h1,-1.019117,-1.020207,-0.00109,0.00109,1e-06,0.999996,-1.020205,-1.444408
+historical_diagnostic_evidence,AR_Persistence_Ensemble,471,Chhatrapati Sambhajinagar,2022-12-01,h2,-1.085541,-0.916499,0.169042,0.169042,0.028575,0.762551,-0.752115,-1.444408
+historical_diagnostic_evidence,AR_Persistence_Ensemble,471,Chhatrapati Sambhajinagar,2022-12-01,h3,-1.566303,-0.896305,0.669998,0.669998,0.448898,0.793288,-0.753482,-1.444408
+historical_diagnostic_evidence,AR_Persistence_Ensemble,472,Chhatrapati Sambhajinagar,2023-01-01,h1,-1.085541,-0.723593,0.361948,0.361948,0.131006,0.999996,-0.723592,-1.019117
+historical_diagnostic_evidence,AR_Persistence_Ensemble,472,Chhatrapati Sambhajinagar,2023-01-01,h2,-1.566303,-0.814134,0.752169,0.752169,0.565758,0.762551,-0.750305,-1.019117
+historical_diagnostic_evidence,AR_Persistence_Ensemble,472,Chhatrapati Sambhajinagar,2023-01-01,h3,-1.734646,-0.692106,1.04254,1.04254,1.086889,0.793288,-0.606895,-1.019117
+historical_diagnostic_evidence,AR_Persistence_Ensemble,473,Chhatrapati Sambhajinagar,2023-02-01,h1,-1.566303,-1.043799,0.522504,0.522504,0.27301,0.999996,-1.043799,-1.085541
+historical_diagnostic_evidence,AR_Persistence_Ensemble,473,Chhatrapati Sambhajinagar,2023-02-01,h2,-1.734646,-0.906851,0.827795,0.827795,0.685245,0.762551,-0.851209,-1.085541
+historical_diagnostic_evidence,AR_Persistence_Ensemble,473,Chhatrapati Sambhajinagar,2023-02-01,h3,-1.075118,-0.739928,0.33519,0.33519,0.112352,0.793288,-0.64987,-1.085541
+historical_diagnostic_evidence,AR_Persistence_Ensemble,474,Chhatrapati Sambhajinagar,2023-03-01,h1,-1.734646,-1.307448,0.427198,0.427198,0.182498,0.999996,-1.307447,-1.566303
+historical_diagnostic_evidence,AR_Persistence_Ensemble,474,Chhatrapati Sambhajinagar,2023-03-01,h2,-1.075118,-1.161441,-0.086323,0.086323,0.007452,0.762551,-1.035372,-1.566303
+historical_diagnostic_evidence,AR_Persistence_Ensemble,474,Chhatrapati Sambhajinagar,2023-03-01,h3,-0.084688,-0.971926,-0.887238,0.887238,0.787192,0.793288,-0.817046,-1.566303
+historical_diagnostic_evidence,AR_Persistence_Ensemble,475,Chhatrapati Sambhajinagar,2023-04-01,h1,-1.075118,-1.380436,-0.305318,0.305318,0.093219,0.999996,-1.380435,-1.734646
+historical_diagnostic_evidence,AR_Persistence_Ensemble,475,Chhatrapati Sambhajinagar,2023-04-01,h2,-0.084688,-1.267391,-1.182703,1.182703,1.398787,0.762551,-1.121894,-1.734646
+historical_diagnostic_evidence,AR_Persistence_Ensemble,475,Chhatrapati Sambhajinagar,2023-04-01,h3,-0.264452,-0.970825,-0.706373,0.706373,0.498963,0.793288,-0.771792,-1.734646
+historical_diagnostic_evidence,AR_Persistence_Ensemble,476,Chhatrapati Sambhajinagar,2023-05-01,h1,-0.084688,-0.838249,-0.753561,0.753561,0.567854,0.999996,-0.838248,-1.075118
+historical_diagnostic_evidence,AR_Persistence_Ensemble,476,Chhatrapati Sambhajinagar,2023-05-01,h2,-0.264452,-0.667042,-0.40259,0.40259,0.162079,0.762551,-0.539972,-1.075118
+historical_diagnostic_evidence,AR_Persistence_Ensemble,476,Chhatrapati Sambhajinagar,2023-05-01,h3,-0.096381,-0.623473,-0.527092,0.527092,0.277826,0.793288,-0.505785,-1.075118
+historical_diagnostic_evidence,AR_Persistence_Ensemble,477,Chhatrapati Sambhajinagar,2023-06-01,h1,-0.264452,0.089508,0.35396,0.35396,0.125288,0.999996,0.089509,-0.084688
+historical_diagnostic_evidence,AR_Persistence_Ensemble,477,Chhatrapati Sambhajinagar,2023-06-01,h2,-0.096381,0.01086,0.107241,0.107241,0.011501,0.762551,0.040612,-0.084688
+historical_diagnostic_evidence,AR_Persistence_Ensemble,477,Chhatrapati Sambhajinagar,2023-06-01,h3,-0.399514,0.068004,0.467518,0.467518,0.218573,0.793288,0.107792,-0.084688
+historical_diagnostic_evidence,AR_Persistence_Ensemble,478,Chhatrapati Sambhajinagar,2023-07-01,h1,-0.096381,-0.235433,-0.139052,0.139052,0.019335,0.999996,-0.235433,-0.264452
+historical_diagnostic_evidence,AR_Persistence_Ensemble,478,Chhatrapati Sambhajinagar,2023-07-01,h2,-0.399514,-0.156129,0.243385,0.243385,0.059236,0.762551,-0.122398,-0.264452
+historical_diagnostic_evidence,AR_Persistence_Ensemble,478,Chhatrapati Sambhajinagar,2023-07-01,h3,-0.151739,0.040528,0.192267,0.192267,0.036967,0.793288,0.119999,-0.264452
+historical_diagnostic_evidence,AR_Persistence_Ensemble,479,Chhatrapati Sambhajinagar,2023-08-01,h1,-0.399514,-0.004877,0.394637,0.394637,0.155738,0.999996,-0.004877,-0.096381
+historical_diagnostic_evidence,AR_Persistence_Ensemble,479,Chhatrapati Sambhajinagar,2023-08-01,h2,-0.151739,0.149902,0.301641,0.301641,0.090987,0.762551,0.226591,-0.096381
+historical_diagnostic_evidence,AR_Persistence_Ensemble,479,Chhatrapati Sambhajinagar,2023-08-01,h3,-0.390781,0.162142,0.552923,0.552923,0.305724,0.793288,0.229507,-0.096381
+historical_diagnostic_evidence,AR_Persistence_Ensemble,480,Chhatrapati Sambhajinagar,2023-09-01,h1,-0.151739,-0.106461,0.045278,0.045278,0.00205,0.999996,-0.10646,-0.399514
+historical_diagnostic_evidence,AR_Persistence_Ensemble,480,Chhatrapati Sambhajinagar,2023-09-01,h2,-0.390781,-0.153266,0.237515,0.237515,0.056413,0.762551,-0.076588,-0.399514
+historical_diagnostic_evidence,AR_Persistence_Ensemble,480,Chhatrapati Sambhajinagar,2023-09-01,h3,-0.605908,-0.118942,0.486966,0.486966,0.237136,0.793288,-0.045831,-0.399514
+historical_diagnostic_evidence,AR_Persistence_Ensemble,481,Chhatrapati Sambhajinagar,2023-10-01,h1,-0.390781,-0.07287,0.317911,0.317911,0.101067,0.999996,-0.07287,-0.151739
+historical_diagnostic_evidence,AR_Persistence_Ensemble,481,Chhatrapati Sambhajinagar,2023-10-01,h2,-0.605908,-0.086147,0.519761,0.519761,0.270151,0.762551,-0.065723,-0.151739
+historical_diagnostic_evidence,AR_Persistence_Ensemble,481,Chhatrapati Sambhajinagar,2023-10-01,h3,-1.119045,-0.093125,1.02592,1.02592,1.052511,0.793288,-0.077852,-0.151739
+historical_diagnostic_evidence,AR_Persistence_Ensemble,482,Chhatrapati Sambhajinagar,2023-11-01,h1,-0.605908,-0.33388,0.272028,0.272028,0.073999,0.999996,-0.33388,-0.390781
+historical_diagnostic_evidence,AR_Persistence_Ensemble,482,Chhatrapati Sambhajinagar,2023-11-01,h2,-1.119045,-0.31982,0.799225,0.799225,0.63876,0.762551,-0.297724,-0.390781
+historical_diagnostic_evidence,AR_Persistence_Ensemble,482,Chhatrapati Sambhajinagar,2023-11-01,h3,-0.894783,-0.140505,0.754278,0.754278,0.568935,0.793288,-0.075289,-0.390781
+historical_diagnostic_evidence,AR_Persistence_Ensemble,483,Chhatrapati Sambhajinagar,2023-12-01,h1,-1.119045,-0.521116,0.597929,0.597929,0.357519,0.999996,-0.521116,-0.605908
+historical_diagnostic_evidence,AR_Persistence_Ensemble,483,Chhatrapati Sambhajinagar,2023-12-01,h2,-0.894783,-0.337506,0.557277,0.557277,0.310558,0.762551,-0.253929,-0.605908
+historical_diagnostic_evidence,AR_Persistence_Ensemble,483,Chhatrapati Sambhajinagar,2023-12-01,h3,-0.753684,-0.184716,0.568968,0.568968,0.323725,0.793288,-0.074963,-0.605908
+historical_diagnostic_evidence,AR_Persistence_Ensemble,484,Chhatrapati Sambhajinagar,2024-01-01,h1,-0.894783,-0.770441,0.124342,0.124342,0.015461,0.999996,-0.77044,-1.119045
+historical_diagnostic_evidence,AR_Persistence_Ensemble,484,Chhatrapati Sambhajinagar,2024-01-01,h2,-0.753684,-0.660352,0.093332,0.093332,0.008711,0.762551,-0.517521,-1.119045
+historical_diagnostic_evidence,AR_Persistence_Ensemble,484,Chhatrapati Sambhajinagar,2024-01-01,h3,-0.553116,-0.459609,0.093507,0.093507,0.008744,0.793288,-0.287776,-1.119045
+historical_diagnostic_evidence,AR_Persistence_Ensemble,485,Chhatrapati Sambhajinagar,2024-02-01,h1,-0.753684,-0.621021,0.132663,0.132663,0.017599,0.999996,-0.62102,-0.894783
+historical_diagnostic_evidence,AR_Persistence_Ensemble,485,Chhatrapati Sambhajinagar,2024-02-01,h2,-0.553116,-0.505052,0.048064,0.048064,0.00231,0.762551,-0.383695,-0.894783
+historical_diagnostic_evidence,AR_Persistence_Ensemble,485,Chhatrapati Sambhajinagar,2024-02-01,h3,-0.553166,-0.477493,0.075673,0.075673,0.005726,0.793288,-0.368757,-0.894783
+historical_diagnostic_evidence,AR_Persistence_Ensemble,486,Chhatrapati Sambhajinagar,2024-03-01,h1,-0.553116,-0.485493,0.067623,0.067623,0.004573,0.999996,-0.485492,-0.753684
+historical_diagnostic_evidence,AR_Persistence_Ensemble,486,Chhatrapati Sambhajinagar,2024-03-01,h2,-0.553166,-0.534619,0.018547,0.018547,0.000344,0.762551,-0.466405,-0.753684
+historical_diagnostic_evidence,AR_Persistence_Ensemble,486,Chhatrapati Sambhajinagar,2024-03-01,h3,-0.879648,-0.486252,0.393396,0.393396,0.15476,0.793288,-0.416566,-0.753684
+historical_diagnostic_evidence,AR_Persistence_Ensemble,487,Chhatrapati Sambhajinagar,2024-04-01,h1,-0.553166,-0.488827,0.064339,0.064339,0.004139,0.999996,-0.488827,-0.553116
+historical_diagnostic_evidence,AR_Persistence_Ensemble,487,Chhatrapati Sambhajinagar,2024-04-01,h2,-0.879648,-0.466474,0.413174,0.413174,0.170713,0.762551,-0.439495,-0.553116
+historical_diagnostic_evidence,AR_Persistence_Ensemble,487,Chhatrapati Sambhajinagar,2024-04-01,h3,-0.275423,-0.384157,-0.108734,0.108734,0.011823,0.793288,-0.34013,-0.553116
+historical_diagnostic_evidence,AR_Persistence_Ensemble,488,Chhatrapati Sambhajinagar,2024-05-01,h1,-0.879648,-0.460022,0.419626,0.419626,0.176086,0.999996,-0.460022,-0.553166
+historical_diagnostic_evidence,AR_Persistence_Ensemble,488,Chhatrapati Sambhajinagar,2024-05-01,h2,-0.275423,-0.410351,-0.134928,0.134928,0.018206,0.762551,-0.36588,-0.553166
+historical_diagnostic_evidence,AR_Persistence_Ensemble,488,Chhatrapati Sambhajinagar,2024-05-01,h3,-1.480146,-0.350199,1.129947,1.129947,1.276781,0.793288,-0.29731,-0.553166
+historical_diagnostic_evidence,AR_Persistence_Ensemble,489,Chhatrapati Sambhajinagar,2024-06-01,h1,-0.275423,-0.735153,-0.45973,0.45973,0.211351,0.999996,-0.735152,-0.879648
+historical_diagnostic_evidence,AR_Persistence_Ensemble,489,Chhatrapati Sambhajinagar,2024-06-01,h2,-1.480146,-0.677866,0.80228,0.80228,0.643653,0.762551,-0.615034,-0.879648
+historical_diagnostic_evidence,AR_Persistence_Ensemble,489,Chhatrapati Sambhajinagar,2024-06-01,h3,-1.334362,-0.585119,0.749243,0.749243,0.561365,0.793288,-0.508372,-0.879648
+historical_diagnostic_evidence,AR_Persistence_Ensemble,490,Chhatrapati Sambhajinagar,2024-07-01,h1,-1.480146,-0.191154,1.288992,1.288992,1.6615,0.999996,-0.191154,-0.275423
+historical_diagnostic_evidence,AR_Persistence_Ensemble,490,Chhatrapati Sambhajinagar,2024-07-01,h2,-1.334362,-0.189715,1.144647,1.144647,1.310216,0.762551,-0.163027,-0.275423
+historical_diagnostic_evidence,AR_Persistence_Ensemble,490,Chhatrapati Sambhajinagar,2024-07-01,h3,-1.430122,-0.242866,1.187256,1.187256,1.409578,0.793288,-0.234382,-0.275423
+historical_diagnostic_evidence,AR_Persistence_Ensemble,491,Chhatrapati Sambhajinagar,2024-08-01,h1,-1.334362,-1.307065,0.027297,0.027297,0.000745,0.999996,-1.307064,-1.480146
+historical_diagnostic_evidence,AR_Persistence_Ensemble,491,Chhatrapati Sambhajinagar,2024-08-01,h2,-1.430122,-1.267345,0.162777,0.162777,0.026496,0.762551,-1.201081,-1.480146
+historical_diagnostic_evidence,AR_Persistence_Ensemble,491,Chhatrapati Sambhajinagar,2024-08-01,h3,-1.33475,-0.980102,0.354648,0.354648,0.125775,0.793288,-0.849802,-1.480146
+historical_diagnostic_evidence,AR_Persistence_Ensemble,492,Chhatrapati Sambhajinagar,2024-09-01,h1,-1.430122,-1.216334,0.213788,0.213788,0.045705,0.999996,-1.216334,-1.334362
+historical_diagnostic_evidence,AR_Persistence_Ensemble,492,Chhatrapati Sambhajinagar,2024-09-01,h2,-1.33475,-0.966645,0.368105,0.368105,0.135501,0.762551,-0.852143,-1.334362
+historical_diagnostic_evidence,AR_Persistence_Ensemble,492,Chhatrapati Sambhajinagar,2024-09-01,h3,-1.503817,-0.823159,0.680658,0.680658,0.463295,0.793288,-0.689952,-1.334362
+historical_diagnostic_evidence,AR_Persistence_Ensemble,693,Dharashiv,2020-12-01,h1,-0.778714,-0.673522,0.105192,0.105192,0.011065,0.999996,-0.673521,-1.030868
+historical_diagnostic_evidence,AR_Persistence_Ensemble,693,Dharashiv,2020-12-01,h2,-0.925367,-0.635484,0.289883,0.289883,0.084032,0.762551,-0.512366,-1.030868
+historical_diagnostic_evidence,AR_Persistence_Ensemble,693,Dharashiv,2020-12-01,h3,-0.483298,-0.613854,-0.130556,0.130556,0.017045,0.793288,-0.50519,-1.030868
+historical_diagnostic_evidence,AR_Persistence_Ensemble,694,Dharashiv,2021-01-01,h1,-0.925367,-0.575792,0.349575,0.349575,0.122203,0.999996,-0.575791,-0.778714
+historical_diagnostic_evidence,AR_Persistence_Ensemble,694,Dharashiv,2021-01-01,h2,-0.483298,-0.630219,-0.146921,0.146921,0.021586,0.762551,-0.58398,-0.778714
+historical_diagnostic_evidence,AR_Persistence_Ensemble,694,Dharashiv,2021-01-01,h3,-0.786925,-0.612258,0.174667,0.174667,0.030508,0.793288,-0.568884,-0.778714
+historical_diagnostic_evidence,AR_Persistence_Ensemble,695,Dharashiv,2021-02-01,h1,-0.483298,-0.873273,-0.389975,0.389975,0.152081,0.999996,-0.873273,-0.925367
+historical_diagnostic_evidence,AR_Persistence_Ensemble,695,Dharashiv,2021-02-01,h2,-0.786925,-0.837581,-0.050656,0.050656,0.002566,0.762551,-0.810246,-0.925367
+historical_diagnostic_evidence,AR_Persistence_Ensemble,695,Dharashiv,2021-02-01,h3,-1.037942,-0.636033,0.401909,0.401909,0.16153,0.793288,-0.56064,-0.925367
+historical_diagnostic_evidence,AR_Persistence_Ensemble,696,Dharashiv,2021-03-01,h1,-0.786925,-0.47333,0.313595,0.313595,0.098342,0.999996,-0.47333,-0.483298
+historical_diagnostic_evidence,AR_Persistence_Ensemble,696,Dharashiv,2021-03-01,h2,-1.037942,-0.31272,0.725222,0.725222,0.525947,0.762551,-0.259604,-0.483298
+historical_diagnostic_evidence,AR_Persistence_Ensemble,696,Dharashiv,2021-03-01,h3,-1.112037,-0.289035,0.823002,0.823002,0.677332,0.793288,-0.238415,-0.483298
+historical_diagnostic_evidence,AR_Persistence_Ensemble,697,Dharashiv,2021-04-01,h1,-1.037942,-0.518672,0.51927,0.51927,0.269641,0.999996,-0.518671,-0.786925
+historical_diagnostic_evidence,AR_Persistence_Ensemble,697,Dharashiv,2021-04-01,h2,-1.112037,-0.54903,0.563007,0.563007,0.316977,0.762551,-0.474952,-0.786925
+historical_diagnostic_evidence,AR_Persistence_Ensemble,697,Dharashiv,2021-04-01,h3,-1.025305,-0.424398,0.600907,0.600907,0.361089,0.793288,-0.329932,-0.786925
+historical_diagnostic_evidence,AR_Persistence_Ensemble,698,Dharashiv,2021-05-01,h1,-1.112037,-0.92708,0.184957,0.184957,0.034209,0.999996,-0.92708,-1.037942
+historical_diagnostic_evidence,AR_Persistence_Ensemble,698,Dharashiv,2021-05-01,h2,-1.025305,-0.791365,0.23394,0.23394,0.054728,0.762551,-0.714584,-1.037942
+historical_diagnostic_evidence,AR_Persistence_Ensemble,698,Dharashiv,2021-05-01,h3,-0.790949,-0.629277,0.161672,0.161672,0.026138,0.793288,-0.522789,-1.037942
+historical_diagnostic_evidence,AR_Persistence_Ensemble,699,Dharashiv,2021-06-01,h1,-1.025305,-0.895225,0.13008,0.13008,0.016921,0.999996,-0.895224,-1.112037
+historical_diagnostic_evidence,AR_Persistence_Ensemble,699,Dharashiv,2021-06-01,h2,-0.790949,-0.773824,0.017125,0.017125,0.000293,0.762551,-0.668509,-1.112037
+historical_diagnostic_evidence,AR_Persistence_Ensemble,699,Dharashiv,2021-06-01,h3,-1.008118,-0.671714,0.336404,0.336404,0.113168,0.793288,-0.556976,-1.112037
+historical_diagnostic_evidence,AR_Persistence_Ensemble,700,Dharashiv,2021-07-01,h1,-0.790949,-0.771633,0.019316,0.019316,0.000373,0.999996,-0.771632,-1.025305
+historical_diagnostic_evidence,AR_Persistence_Ensemble,700,Dharashiv,2021-07-01,h2,-1.008118,-0.73816,0.269958,0.269958,0.072877,0.762551,-0.648747,-1.025305
+historical_diagnostic_evidence,AR_Persistence_Ensemble,700,Dharashiv,2021-07-01,h3,-1.107112,-0.596403,0.510709,0.510709,0.260824,0.793288,-0.484641,-1.025305
+historical_diagnostic_evidence,AR_Persistence_Ensemble,701,Dharashiv,2021-08-01,h1,-1.008118,-0.619837,0.388281,0.388281,0.150762,0.999996,-0.619836,-0.790949
+historical_diagnostic_evidence,AR_Persistence_Ensemble,701,Dharashiv,2021-08-01,h2,-1.107112,-0.547801,0.559311,0.559311,0.312829,0.762551,-0.472088,-0.790949
+historical_diagnostic_evidence,AR_Persistence_Ensemble,701,Dharashiv,2021-08-01,h3,-1.170155,-0.414725,0.75543,0.75543,0.570674,0.793288,-0.31669,-0.790949
+historical_diagnostic_evidence,AR_Persistence_Ensemble,702,Dharashiv,2021-09-01,h1,-1.107112,-0.837567,0.269545,0.269545,0.072655,0.999996,-0.837566,-1.008118
+historical_diagnostic_evidence,AR_Persistence_Ensemble,702,Dharashiv,2021-09-01,h2,-1.170155,-0.705911,0.464244,0.464244,0.215523,0.762551,-0.611807,-1.008118
+historical_diagnostic_evidence,AR_Persistence_Ensemble,702,Dharashiv,2021-09-01,h3,-1.343819,-0.543541,0.800278,0.800278,0.640445,0.793288,-0.422483,-1.008118
+historical_diagnostic_evidence,AR_Persistence_Ensemble,703,Dharashiv,2021-10-01,h1,-1.170155,-0.840497,0.329658,0.329658,0.108674,0.999996,-0.840496,-1.107112
+historical_diagnostic_evidence,AR_Persistence_Ensemble,703,Dharashiv,2021-10-01,h2,-1.343819,-0.73558,0.608239,0.608239,0.369954,0.762551,-0.61989,-1.107112
+historical_diagnostic_evidence,AR_Persistence_Ensemble,703,Dharashiv,2021-10-01,h3,-1.315075,-0.622153,0.692922,0.692922,0.480141,0.793288,-0.495784,-1.107112
+historical_diagnostic_evidence,AR_Persistence_Ensemble,704,Dharashiv,2021-11-01,h1,-1.343819,-0.882901,0.460918,0.460918,0.212445,0.999996,-0.8829,-1.170155
+historical_diagnostic_evidence,AR_Persistence_Ensemble,704,Dharashiv,2021-11-01,h2,-1.315075,-0.837704,0.477371,0.477371,0.227883,0.762551,-0.734183,-1.170155
+historical_diagnostic_evidence,AR_Persistence_Ensemble,704,Dharashiv,2021-11-01,h3,-1.059334,-0.707835,0.351499,0.351499,0.123552,0.793288,-0.587365,-1.170155
+historical_diagnostic_evidence,AR_Persistence_Ensemble,705,Dharashiv,2021-12-01,h1,-1.315075,-1.117221,0.197854,0.197854,0.039146,0.999996,-1.11722,-1.343819
+historical_diagnostic_evidence,AR_Persistence_Ensemble,705,Dharashiv,2021-12-01,h2,-1.059334,-1.021794,0.03754,0.03754,0.001409,0.762551,-0.92152,-1.343819
+historical_diagnostic_evidence,AR_Persistence_Ensemble,705,Dharashiv,2021-12-01,h3,-0.678753,-0.880616,-0.201863,0.201863,0.040749,0.793288,-0.759916,-1.343819
+historical_diagnostic_evidence,AR_Persistence_Ensemble,706,Dharashiv,2022-01-01,h1,-1.059334,-1.090272,-0.030938,0.030938,0.000957,0.999996,-1.090271,-1.315075
+historical_diagnostic_evidence,AR_Persistence_Ensemble,706,Dharashiv,2022-01-01,h2,-0.678753,-0.997378,-0.318625,0.318625,0.101522,0.762551,-0.898451,-1.315075
+historical_diagnostic_evidence,AR_Persistence_Ensemble,706,Dharashiv,2022-01-01,h3,-1.011028,-0.803714,0.207314,0.207314,0.042979,0.793288,-0.670465,-1.315075
+historical_diagnostic_evidence,AR_Persistence_Ensemble,707,Dharashiv,2022-02-01,h1,-0.678753,-0.844896,-0.166143,0.166143,0.027603,0.999996,-0.844895,-1.059334
+historical_diagnostic_evidence,AR_Persistence_Ensemble,707,Dharashiv,2022-02-01,h2,-1.011028,-0.731929,0.279099,0.279099,0.077896,0.762551,-0.629979,-1.059334
+historical_diagnostic_evidence,AR_Persistence_Ensemble,707,Dharashiv,2022-02-01,h3,-0.864825,-0.607445,0.25738,0.25738,0.066244,0.793288,-0.489694,-1.059334
+historical_diagnostic_evidence,AR_Persistence_Ensemble,708,Dharashiv,2022-03-01,h1,-1.011028,-0.479233,0.531795,0.531795,0.282806,0.999996,-0.479232,-0.678753
+historical_diagnostic_evidence,AR_Persistence_Ensemble,708,Dharashiv,2022-03-01,h2,-0.864825,-0.43995,0.424875,0.424875,0.180519,0.762551,-0.36559,-0.678753
+historical_diagnostic_evidence,AR_Persistence_Ensemble,708,Dharashiv,2022-03-01,h3,-0.674226,-0.362599,0.311627,0.311627,0.097111,0.793288,-0.280217,-0.678753
+historical_diagnostic_evidence,AR_Persistence_Ensemble,709,Dharashiv,2022-04-01,h1,-0.864825,-0.832925,0.0319,0.0319,0.001018,0.999996,-0.832924,-1.011028
+historical_diagnostic_evidence,AR_Persistence_Ensemble,709,Dharashiv,2022-04-01,h2,-0.674226,-0.754626,-0.0804,0.0804,0.006464,0.762551,-0.674785,-1.011028
+historical_diagnostic_evidence,AR_Persistence_Ensemble,709,Dharashiv,2022-04-01,h3,-1.718629,-0.576171,1.142458,1.142458,1.305211,0.793288,-0.462857,-1.011028
+historical_diagnostic_evidence,AR_Persistence_Ensemble,710,Dharashiv,2022-05-01,h1,-0.674226,-0.696156,-0.02193,0.02193,0.000481,0.999996,-0.696155,-0.864825
+historical_diagnostic_evidence,AR_Persistence_Ensemble,710,Dharashiv,2022-05-01,h2,-1.718629,-0.572082,1.146547,1.146547,1.314569,0.762551,-0.480926,-0.864825
+historical_diagnostic_evidence,AR_Persistence_Ensemble,710,Dharashiv,2022-05-01,h3,-1.900719,-0.496461,1.404258,1.404258,1.971941,0.793288,-0.400474,-0.864825
+historical_diagnostic_evidence,AR_Persistence_Ensemble,711,Dharashiv,2022-06-01,h1,-1.718629,-0.43863,1.279999,1.279999,1.638398,0.999996,-0.438629,-0.674226
+historical_diagnostic_evidence,AR_Persistence_Ensemble,711,Dharashiv,2022-06-01,h2,-1.900719,-0.449775,1.450944,1.450944,2.105238,0.762551,-0.379884,-0.674226
+historical_diagnostic_evidence,AR_Persistence_Ensemble,711,Dharashiv,2022-06-01,h3,-1.326715,-0.379541,0.947174,0.947174,0.897139,0.793288,-0.302753,-0.674226
+historical_diagnostic_evidence,AR_Persistence_Ensemble,712,Dharashiv,2022-07-01,h1,-1.900719,-1.487866,0.412853,0.412853,0.170448,0.999996,-1.487865,-1.718629
+historical_diagnostic_evidence,AR_Persistence_Ensemble,712,Dharashiv,2022-07-01,h2,-1.326715,-1.358449,-0.031734,0.031734,0.001007,0.762551,-1.246293,-1.718629
+historical_diagnostic_evidence,AR_Persistence_Ensemble,712,Dharashiv,2022-07-01,h3,-1.357456,-1.049313,0.308143,0.308143,0.094952,0.793288,-0.874905,-1.718629
+historical_diagnostic_evidence,AR_Persistence_Ensemble,713,Dharashiv,2022-08-01,h1,-1.326715,-1.613244,-0.286529,0.286529,0.082099,0.999996,-1.613243,-1.900719
+historical_diagnostic_evidence,AR_Persistence_Ensemble,713,Dharashiv,2022-08-01,h2,-1.357456,-1.34495,0.012506,0.012506,0.000156,0.762551,-1.171891,-1.900719
+historical_diagnostic_evidence,AR_Persistence_Ensemble,713,Dharashiv,2022-08-01,h3,-1.057977,-1.085969,-0.027992,0.027992,0.000784,0.793288,-0.873665,-1.900719
+historical_diagnostic_evidence,AR_Persistence_Ensemble,714,Dharashiv,2022-09-01,h1,-1.357456,-0.901023,0.456433,0.456433,0.208331,0.999996,-0.901021,-1.326715
+historical_diagnostic_evidence,AR_Persistence_Ensemble,714,Dharashiv,2022-09-01,h2,-1.057977,-0.815466,0.242511,0.242511,0.058812,0.762551,-0.656269,-1.326715
+historical_diagnostic_evidence,AR_Persistence_Ensemble,714,Dharashiv,2022-09-01,h3,-0.976196,-0.727914,0.248282,0.248282,0.061644,0.793288,-0.571881,-1.326715
+historical_diagnostic_evidence,AR_Persistence_Ensemble,715,Dharashiv,2022-10-01,h1,-1.057977,-1.032563,0.025414,0.025414,0.000646,0.999996,-1.032562,-1.357456
+historical_diagnostic_evidence,AR_Persistence_Ensemble,715,Dharashiv,2022-10-01,h2,-0.976196,-1.011888,-0.035692,0.035692,0.001274,0.762551,-0.904282,-1.357456
+historical_diagnostic_evidence,AR_Persistence_Ensemble,715,Dharashiv,2022-10-01,h3,-1.156812,-0.809844,0.346968,0.346968,0.120387,0.793288,-0.667149,-1.357456
+historical_diagnostic_evidence,AR_Persistence_Ensemble,716,Dharashiv,2022-11-01,h1,-0.976196,-0.925999,0.050197,0.050197,0.00252,0.999996,-0.925998,-1.057977
+historical_diagnostic_evidence,AR_Persistence_Ensemble,716,Dharashiv,2022-11-01,h2,-1.156812,-0.760796,0.396016,0.396016,0.156828,0.762551,-0.668258,-1.057977
+historical_diagnostic_evidence,AR_Persistence_Ensemble,716,Dharashiv,2022-11-01,h3,-1.063274,-0.570959,0.492315,0.492315,0.242374,0.793288,-0.444054,-1.057977
+historical_diagnostic_evidence,AR_Persistence_Ensemble,717,Dharashiv,2022-12-01,h1,-1.156812,-0.705878,0.450934,0.450934,0.203341,0.999996,-0.705877,-0.976196
+historical_diagnostic_evidence,AR_Persistence_Ensemble,717,Dharashiv,2022-12-01,h2,-1.063274,-0.596298,0.466976,0.466976,0.218067,0.762551,-0.478002,-0.976196
+historical_diagnostic_evidence,AR_Persistence_Ensemble,717,Dharashiv,2022-12-01,h3,-1.160185,-0.535367,0.624818,0.624818,0.390397,0.793288,-0.420498,-0.976196
+historical_diagnostic_evidence,AR_Persistence_Ensemble,718,Dharashiv,2023-01-01,h1,-1.063274,-0.8371,0.226174,0.226174,0.051155,0.999996,-0.837099,-1.156812
+historical_diagnostic_evidence,AR_Persistence_Ensemble,718,Dharashiv,2023-01-01,h2,-1.160185,-0.848481,0.311704,0.311704,0.097159,0.762551,-0.752471,-1.156812
+historical_diagnostic_evidence,AR_Persistence_Ensemble,718,Dharashiv,2023-01-01,h3,-1.195078,-0.725017,0.470061,0.470061,0.220958,0.793288,-0.612501,-1.156812
+historical_diagnostic_evidence,AR_Persistence_Ensemble,719,Dharashiv,2023-02-01,h1,-1.160185,-0.920838,0.239347,0.239347,0.057287,0.999996,-0.920837,-1.063274
+historical_diagnostic_evidence,AR_Persistence_Ensemble,719,Dharashiv,2023-02-01,h2,-1.195078,-0.836113,0.358965,0.358965,0.128856,0.762551,-0.765378,-1.063274
+historical_diagnostic_evidence,AR_Persistence_Ensemble,719,Dharashiv,2023-02-01,h3,-0.678428,-0.693822,-0.015394,0.015394,0.000237,0.793288,-0.597551,-1.063274
+historical_diagnostic_evidence,AR_Persistence_Ensemble,720,Dharashiv,2023-03-01,h1,-1.195078,-0.98474,0.210338,0.210338,0.044242,0.999996,-0.984739,-1.160185
+historical_diagnostic_evidence,AR_Persistence_Ensemble,720,Dharashiv,2023-03-01,h2,-0.678428,-0.866592,-0.188164,0.188164,0.035406,0.762551,-0.775171,-1.160185
+historical_diagnostic_evidence,AR_Persistence_Ensemble,720,Dharashiv,2023-03-01,h3,0.030571,-0.718954,-0.749525,0.749525,0.561788,0.793288,-0.60398,-1.160185
+historical_diagnostic_evidence,AR_Persistence_Ensemble,721,Dharashiv,2023-04-01,h1,-0.678428,-0.9397,-0.261272,0.261272,0.068263,0.999996,-0.939699,-1.195078
+historical_diagnostic_evidence,AR_Persistence_Ensemble,721,Dharashiv,2023-04-01,h2,0.030571,-0.85186,-0.882431,0.882431,0.778684,0.762551,-0.744986,-1.195078
+historical_diagnostic_evidence,AR_Persistence_Ensemble,721,Dharashiv,2023-04-01,h3,-0.795612,-0.617476,0.178136,0.178136,0.031732,0.793288,-0.466967,-1.195078
+historical_diagnostic_evidence,AR_Persistence_Ensemble,722,Dharashiv,2023-05-01,h1,0.030571,-0.493151,-0.523722,0.523722,0.274284,0.999996,-0.49315,-0.678428
+historical_diagnostic_evidence,AR_Persistence_Ensemble,722,Dharashiv,2023-05-01,h2,-0.795612,-0.357002,0.43861,0.43861,0.192379,0.762551,-0.256914,-0.678428
+historical_diagnostic_evidence,AR_Persistence_Ensemble,722,Dharashiv,2023-05-01,h3,-0.451253,-0.257427,0.193826,0.193826,0.037569,0.793288,-0.147724,-0.678428
+historical_diagnostic_evidence,AR_Persistence_Ensemble,723,Dharashiv,2023-06-01,h1,-0.795612,0.184416,0.980028,0.980028,0.960456,0.999996,0.184417,0.030571
+historical_diagnostic_evidence,AR_Persistence_Ensemble,723,Dharashiv,2023-06-01,h2,-0.451253,0.181728,0.632981,0.632981,0.400665,0.762551,0.228796,0.030571
+historical_diagnostic_evidence,AR_Persistence_Ensemble,723,Dharashiv,2023-06-01,h3,-0.124314,0.146575,0.270889,0.270889,0.073381,0.793288,0.176803,0.030571
+historical_diagnostic_evidence,AR_Persistence_Ensemble,724,Dharashiv,2023-07-01,h1,-0.451253,-0.6267,-0.175447,0.175447,0.030782,0.999996,-0.626699,-0.795612
+historical_diagnostic_evidence,AR_Persistence_Ensemble,724,Dharashiv,2023-07-01,h2,-0.124314,-0.606713,-0.482399,0.482399,0.232709,0.762551,-0.547892,-0.795612
+historical_diagnostic_evidence,AR_Persistence_Ensemble,724,Dharashiv,2023-07-01,h3,0.484405,-0.370997,-0.855402,0.855402,0.731712,0.793288,-0.260352,-0.795612
+historical_diagnostic_evidence,AR_Persistence_Ensemble,725,Dharashiv,2023-08-01,h1,-0.124314,-0.363061,-0.238747,0.238747,0.057,0.999996,-0.363061,-0.451253
+historical_diagnostic_evidence,AR_Persistence_Ensemble,725,Dharashiv,2023-08-01,h2,0.484405,-0.188442,-0.672847,0.672847,0.452723,0.762551,-0.106606,-0.451253
+historical_diagnostic_evidence,AR_Persistence_Ensemble,725,Dharashiv,2023-08-01,h3,0.038974,-0.171187,-0.210161,0.210161,0.044167,0.793288,-0.098208,-0.451253
+historical_diagnostic_evidence,AR_Persistence_Ensemble,726,Dharashiv,2023-09-01,h1,0.484405,0.126583,-0.357822,0.357822,0.128037,0.999996,0.126584,-0.124314
+historical_diagnostic_evidence,AR_Persistence_Ensemble,726,Dharashiv,2023-09-01,h2,0.038974,0.028092,-0.010882,0.010882,0.000118,0.762551,0.07555,-0.124314
+historical_diagnostic_evidence,AR_Persistence_Ensemble,726,Dharashiv,2023-09-01,h3,-0.143573,-0.007905,0.135668,0.135668,0.018406,0.793288,0.022429,-0.124314
+historical_diagnostic_evidence,AR_Persistence_Ensemble,727,Dharashiv,2023-10-01,h1,0.038974,0.427777,0.388803,0.388803,0.151168,0.999996,0.427777,0.484405
+historical_diagnostic_evidence,AR_Persistence_Ensemble,727,Dharashiv,2023-10-01,h2,-0.143573,0.348609,0.492182,0.492182,0.242243,0.762551,0.306324,0.484405
+historical_diagnostic_evidence,AR_Persistence_Ensemble,727,Dharashiv,2023-10-01,h3,-0.622017,0.317791,0.939808,0.939808,0.883239,0.793288,0.274375,0.484405
+historical_diagnostic_evidence,AR_Persistence_Ensemble,728,Dharashiv,2023-11-01,h1,-0.143573,-0.040089,0.103484,0.103484,0.010709,0.999996,-0.040089,0.038974
+historical_diagnostic_evidence,AR_Persistence_Ensemble,728,Dharashiv,2023-11-01,h2,-0.622017,0.009286,0.631303,0.631303,0.398544,0.762551,4.2e-05,0.038974
+historical_diagnostic_evidence,AR_Persistence_Ensemble,728,Dharashiv,2023-11-01,h3,-0.520353,0.18116,0.701513,0.701513,0.49212,0.793288,0.21821,0.038974
+historical_diagnostic_evidence,AR_Persistence_Ensemble,729,Dharashiv,2023-12-01,h1,-0.622017,-0.101283,0.520734,0.520734,0.271164,0.999996,-0.101283,-0.143573
+historical_diagnostic_evidence,AR_Persistence_Ensemble,729,Dharashiv,2023-12-01,h2,-0.520353,0.075738,0.596091,0.596091,0.355325,0.762551,0.144029,-0.143573
+historical_diagnostic_evidence,AR_Persistence_Ensemble,729,Dharashiv,2023-12-01,h3,-0.07049,0.088791,0.159281,0.159281,0.025371,0.793288,0.14934,-0.143573
+historical_diagnostic_evidence,AR_Persistence_Ensemble,730,Dharashiv,2024-01-01,h1,-0.520353,-0.287463,0.23289,0.23289,0.054238,0.999996,-0.287462,-0.622017
+historical_diagnostic_evidence,AR_Persistence_Ensemble,730,Dharashiv,2024-01-01,h2,-0.07049,-0.333783,-0.263293,0.263293,0.069323,0.762551,-0.244031,-0.622017
+historical_diagnostic_evidence,AR_Persistence_Ensemble,730,Dharashiv,2024-01-01,h3,-0.432588,-0.254956,0.177632,0.177632,0.031553,0.793288,-0.159308,-0.622017
+historical_diagnostic_evidence,AR_Persistence_Ensemble,731,Dharashiv,2024-02-01,h1,-0.07049,-0.429912,-0.359422,0.359422,0.129184,0.999996,-0.429912,-0.520353
+historical_diagnostic_evidence,AR_Persistence_Ensemble,731,Dharashiv,2024-02-01,h2,-0.432588,-0.37321,0.059378,0.059378,0.003526,0.762551,-0.327391,-0.520353
+historical_diagnostic_evidence,AR_Persistence_Ensemble,731,Dharashiv,2024-02-01,h3,-0.588232,-0.350602,0.23763,0.23763,0.056468,0.793288,-0.306369,-0.520353
+historical_diagnostic_evidence,AR_Persistence_Ensemble,732,Dharashiv,2024-03-01,h1,-0.432588,-0.006099,0.426489,0.426489,0.181893,0.999996,-0.006099,-0.07049
+historical_diagnostic_evidence,AR_Persistence_Ensemble,732,Dharashiv,2024-03-01,h2,-0.588232,-0.038878,0.549354,0.549354,0.30179,0.762551,-0.029034,-0.07049
+historical_diagnostic_evidence,AR_Persistence_Ensemble,732,Dharashiv,2024-03-01,h3,-1.270592,-0.035001,1.235591,1.235591,1.526684,0.793288,-0.025754,-0.07049
+historical_diagnostic_evidence,AR_Persistence_Ensemble,733,Dharashiv,2024-04-01,h1,-0.588232,-0.382519,0.205713,0.205713,0.042318,0.999996,-0.382519,-0.432588
+historical_diagnostic_evidence,AR_Persistence_Ensemble,733,Dharashiv,2024-04-01,h2,-1.270592,-0.347798,0.922794,0.922794,0.851548,0.762551,-0.321396,-0.432588
+historical_diagnostic_evidence,AR_Persistence_Ensemble,733,Dharashiv,2024-04-01,h3,-2.091565,-0.196705,1.89486,1.89486,3.590496,0.793288,-0.135239,-0.432588
+historical_diagnostic_evidence,AR_Persistence_Ensemble,734,Dharashiv,2024-05-01,h1,-1.270592,-0.477136,0.793456,0.793456,0.629572,0.999996,-0.477136,-0.588232
+historical_diagnostic_evidence,AR_Persistence_Ensemble,734,Dharashiv,2024-05-01,h2,-2.091565,-0.348198,1.743367,1.743367,3.039327,0.762551,-0.273455,-0.588232
+historical_diagnostic_evidence,AR_Persistence_Ensemble,734,Dharashiv,2024-05-01,h3,-1.655419,-0.296626,1.358793,1.358793,1.846317,0.793288,-0.220641,-0.588232
+historical_diagnostic_evidence,AR_Persistence_Ensemble,735,Dharashiv,2024-06-01,h1,-2.091565,-0.993114,1.098451,1.098451,1.206594,0.999996,-0.993113,-1.270592
+historical_diagnostic_evidence,AR_Persistence_Ensemble,735,Dharashiv,2024-06-01,h2,-1.655419,-0.938182,0.717237,0.717237,0.51443,0.762551,-0.834673,-1.270592
+historical_diagnostic_evidence,AR_Persistence_Ensemble,735,Dharashiv,2024-06-01,h3,-0.833192,-0.828116,0.005076,0.005076,2.6e-05,0.793288,-0.712817,-1.270592
+historical_diagnostic_evidence,AR_Persistence_Ensemble,736,Dharashiv,2024-07-01,h1,-1.655419,-1.777708,-0.122289,0.122289,0.014955,0.999996,-1.777707,-2.091565
+historical_diagnostic_evidence,AR_Persistence_Ensemble,736,Dharashiv,2024-07-01,h2,-0.833192,-1.661316,-0.828124,0.828124,0.68579,0.762551,-1.527342,-2.091565
+historical_diagnostic_evidence,AR_Persistence_Ensemble,736,Dharashiv,2024-07-01,h3,-0.893157,-1.470137,-0.57698,0.57698,0.332906,0.793288,-1.308208,-2.091565
+historical_diagnostic_evidence,AR_Persistence_Ensemble,737,Dharashiv,2024-08-01,h1,-0.833192,-1.394811,-0.561619,0.561619,0.315416,0.999996,-1.39481,-1.655419
+historical_diagnostic_evidence,AR_Persistence_Ensemble,737,Dharashiv,2024-08-01,h2,-0.893157,-1.307765,-0.414608,0.414608,0.1719,0.762551,-1.19951,-1.655419
+historical_diagnostic_evidence,AR_Persistence_Ensemble,737,Dharashiv,2024-08-01,h3,-0.858376,-1.151335,-0.292959,0.292959,0.085825,0.793288,-1.019983,-1.655419
+historical_diagnostic_evidence,AR_Persistence_Ensemble,738,Dharashiv,2024-09-01,h1,-0.893157,-0.675124,0.218033,0.218033,0.047539,0.999996,-0.675123,-0.833192
+historical_diagnostic_evidence,AR_Persistence_Ensemble,738,Dharashiv,2024-09-01,h2,-0.858376,-0.642518,0.215858,0.215858,0.046595,0.762551,-0.583144,-0.833192
+historical_diagnostic_evidence,AR_Persistence_Ensemble,738,Dharashiv,2024-09-01,h3,-1.064045,-0.608774,0.455271,0.455271,0.207272,0.793288,-0.550296,-0.833192
+historical_diagnostic_evidence,AR_Persistence_Ensemble,939,Hingoli,2020-12-01,h1,-0.490261,-0.814755,-0.324494,0.324494,0.105296,0.999996,-0.814753,-1.327591
+historical_diagnostic_evidence,AR_Persistence_Ensemble,939,Hingoli,2020-12-01,h2,-0.58886,-0.822827,-0.233967,0.233967,0.054741,0.762551,-0.66565,-1.327591
+historical_diagnostic_evidence,AR_Persistence_Ensemble,939,Hingoli,2020-12-01,h3,-0.574969,-0.736339,-0.16137,0.16137,0.02604,0.793288,-0.582273,-1.327591
+historical_diagnostic_evidence,AR_Persistence_Ensemble,940,Hingoli,2021-01-01,h1,-0.58886,-0.332576,0.256284,0.256284,0.065682,0.999996,-0.332575,-0.490261
+historical_diagnostic_evidence,AR_Persistence_Ensemble,940,Hingoli,2021-01-01,h2,-0.574969,-0.363601,0.211368,0.211368,0.044677,0.762551,-0.32416,-0.490261
+historical_diagnostic_evidence,AR_Persistence_Ensemble,940,Hingoli,2021-01-01,h3,-0.639672,-0.357346,0.282326,0.282326,0.079708,0.793288,-0.322711,-0.490261
+historical_diagnostic_evidence,AR_Persistence_Ensemble,941,Hingoli,2021-02-01,h1,-0.574969,-0.553014,0.021955,0.021955,0.000482,0.999996,-0.553014,-0.58886
+historical_diagnostic_evidence,AR_Persistence_Ensemble,941,Hingoli,2021-02-01,h2,-0.639672,-0.522227,0.117445,0.117445,0.013793,0.762551,-0.501478,-0.58886
+historical_diagnostic_evidence,AR_Persistence_Ensemble,941,Hingoli,2021-02-01,h3,-0.863956,-0.352616,0.51134,0.51134,0.261468,0.793288,-0.291057,-0.58886
+historical_diagnostic_evidence,AR_Persistence_Ensemble,942,Hingoli,2021-03-01,h1,-0.639672,-0.506145,0.133527,0.133527,0.017829,0.999996,-0.506145,-0.574969
+historical_diagnostic_evidence,AR_Persistence_Ensemble,942,Hingoli,2021-03-01,h2,-0.863956,-0.356169,0.507787,0.507787,0.257847,0.762551,-0.288038,-0.574969
+historical_diagnostic_evidence,AR_Persistence_Ensemble,942,Hingoli,2021-03-01,h3,-1.613695,-0.266643,1.347052,1.347052,1.81455,0.793288,-0.1863,-0.574969
+historical_diagnostic_evidence,AR_Persistence_Ensemble,943,Hingoli,2021-04-01,h1,-0.863956,-0.36998,0.493976,0.493976,0.244012,0.999996,-0.369979,-0.639672
+historical_diagnostic_evidence,AR_Persistence_Ensemble,943,Hingoli,2021-04-01,h2,-1.613695,-0.365256,1.248439,1.248439,1.5586,0.762551,-0.279806,-0.639672
+historical_diagnostic_evidence,AR_Persistence_Ensemble,943,Hingoli,2021-04-01,h3,-0.925624,-0.271455,0.654169,0.654169,0.427937,0.793288,-0.175506,-0.639672
+historical_diagnostic_evidence,AR_Persistence_Ensemble,944,Hingoli,2021-05-01,h1,-1.613695,-0.715003,0.898692,0.898692,0.807648,0.999996,-0.715002,-0.863956
+historical_diagnostic_evidence,AR_Persistence_Ensemble,944,Hingoli,2021-05-01,h2,-0.925624,-0.626553,0.299071,0.299071,0.089444,0.762551,-0.552628,-0.863956
+historical_diagnostic_evidence,AR_Persistence_Ensemble,944,Hingoli,2021-05-01,h3,-0.873509,-0.542229,0.33128,0.33128,0.109746,0.793288,-0.458395,-0.863956
+historical_diagnostic_evidence,AR_Persistence_Ensemble,945,Hingoli,2021-06-01,h1,-0.925624,-1.358007,-0.432383,0.432383,0.186955,0.999996,-1.358006,-1.613695
+historical_diagnostic_evidence,AR_Persistence_Ensemble,945,Hingoli,2021-06-01,h2,-0.873509,-1.244371,-0.370862,0.370862,0.137539,0.762551,-1.129368,-1.613695
+historical_diagnostic_evidence,AR_Persistence_Ensemble,945,Hingoli,2021-06-01,h3,-0.840391,-0.957018,-0.116627,0.116627,0.013602,0.793288,-0.785904,-1.613695
+historical_diagnostic_evidence,AR_Persistence_Ensemble,946,Hingoli,2021-07-01,h1,-0.873509,-0.717847,0.155662,0.155662,0.024231,0.999996,-0.717846,-0.925624
+historical_diagnostic_evidence,AR_Persistence_Ensemble,946,Hingoli,2021-07-01,h2,-0.840391,-0.552076,0.288315,0.288315,0.083125,0.762551,-0.435758,-0.925624
+historical_diagnostic_evidence,AR_Persistence_Ensemble,946,Hingoli,2021-07-01,h3,-1.552016,-0.44874,1.103276,1.103276,1.217219,0.793288,-0.324475,-0.925624
+historical_diagnostic_evidence,AR_Persistence_Ensemble,947,Hingoli,2021-08-01,h1,-0.840391,-0.542277,0.298114,0.298114,0.088872,0.999996,-0.542276,-0.873509
+historical_diagnostic_evidence,AR_Persistence_Ensemble,947,Hingoli,2021-08-01,h2,-1.552016,-0.536801,1.015215,1.015215,1.030662,0.762551,-0.431954,-0.873509
+historical_diagnostic_evidence,AR_Persistence_Ensemble,947,Hingoli,2021-08-01,h3,-1.345644,-0.41241,0.933234,0.933234,0.870927,0.793288,-0.292258,-0.873509
+historical_diagnostic_evidence,AR_Persistence_Ensemble,948,Hingoli,2021-09-01,h1,-1.552016,-0.706258,0.845758,0.845758,0.715307,0.999996,-0.706257,-0.840391
+historical_diagnostic_evidence,AR_Persistence_Ensemble,948,Hingoli,2021-09-01,h2,-1.345644,-0.591007,0.754637,0.754637,0.569477,0.762551,-0.513352,-0.840391
+historical_diagnostic_evidence,AR_Persistence_Ensemble,948,Hingoli,2021-09-01,h3,-1.110448,-0.434612,0.675836,0.675836,0.456754,0.793288,-0.328876,-0.840391
+historical_diagnostic_evidence,AR_Persistence_Ensemble,949,Hingoli,2021-10-01,h1,-1.345644,-1.253758,0.091886,0.091886,0.008443,0.999996,-1.253757,-1.552016
+historical_diagnostic_evidence,AR_Persistence_Ensemble,949,Hingoli,2021-10-01,h2,-1.110448,-1.094942,0.015506,0.015506,0.00024,0.762551,-0.952615,-1.552016
+historical_diagnostic_evidence,AR_Persistence_Ensemble,949,Hingoli,2021-10-01,h3,-1.119442,-0.883366,0.236076,0.236076,0.055732,0.793288,-0.709132,-1.552016
+historical_diagnostic_evidence,AR_Persistence_Ensemble,950,Hingoli,2021-11-01,h1,-1.110448,-1.007113,0.103335,0.103335,0.010678,0.999996,-1.007112,-1.345644
+historical_diagnostic_evidence,AR_Persistence_Ensemble,950,Hingoli,2021-11-01,h2,-1.119442,-0.909286,0.210156,0.210156,0.044166,0.762551,-0.773409,-1.345644
+historical_diagnostic_evidence,AR_Persistence_Ensemble,950,Hingoli,2021-11-01,h3,-0.947181,-0.865594,0.081587,0.081587,0.006656,0.793288,-0.740505,-1.345644
+historical_diagnostic_evidence,AR_Persistence_Ensemble,951,Hingoli,2021-12-01,h1,-1.119442,-0.805006,0.314436,0.314436,0.09887,0.999996,-0.805005,-1.110448
+historical_diagnostic_evidence,AR_Persistence_Ensemble,951,Hingoli,2021-12-01,h2,-0.947181,-0.873685,0.073496,0.073496,0.005402,0.762551,-0.79996,-1.110448
+historical_diagnostic_evidence,AR_Persistence_Ensemble,951,Hingoli,2021-12-01,h3,-0.42456,-0.757997,-0.333437,0.333437,0.11118,0.793288,-0.666157,-1.110448
+historical_diagnostic_evidence,AR_Persistence_Ensemble,952,Hingoli,2022-01-01,h1,-0.947181,-1.075427,-0.128246,0.128246,0.016447,0.999996,-1.075427,-1.119442
+historical_diagnostic_evidence,AR_Persistence_Ensemble,952,Hingoli,2022-01-01,h2,-0.42456,-0.942114,-0.517554,0.517554,0.267862,0.762551,-0.886896,-1.119442
+historical_diagnostic_evidence,AR_Persistence_Ensemble,952,Hingoli,2022-01-01,h3,-0.450531,-0.753979,-0.303448,0.303448,0.092081,0.793288,-0.658748,-1.119442
+historical_diagnostic_evidence,AR_Persistence_Ensemble,953,Hingoli,2022-02-01,h1,-0.42456,-0.776879,-0.352319,0.352319,0.124128,0.999996,-0.776878,-0.947181
+historical_diagnostic_evidence,AR_Persistence_Ensemble,953,Hingoli,2022-02-01,h2,-0.450531,-0.645478,-0.194947,0.194947,0.038004,0.762551,-0.551531,-0.947181
+historical_diagnostic_evidence,AR_Persistence_Ensemble,953,Hingoli,2022-02-01,h3,-0.567104,-0.485191,0.081913,0.081913,0.00671,0.793288,-0.364807,-0.947181
+historical_diagnostic_evidence,AR_Persistence_Ensemble,954,Hingoli,2022-03-01,h1,-0.450531,-0.22566,0.224871,0.224871,0.050567,0.999996,-0.225659,-0.42456
+historical_diagnostic_evidence,AR_Persistence_Ensemble,954,Hingoli,2022-03-01,h2,-0.567104,-0.176305,0.390799,0.390799,0.152724,0.762551,-0.099001,-0.42456
+historical_diagnostic_evidence,AR_Persistence_Ensemble,954,Hingoli,2022-03-01,h3,-0.288783,-0.149608,0.139175,0.139175,0.01937,0.793288,-0.077962,-0.42456
+historical_diagnostic_evidence,AR_Persistence_Ensemble,955,Hingoli,2022-04-01,h1,-0.567104,-0.286727,0.280377,0.280377,0.078611,0.999996,-0.286726,-0.450531
+historical_diagnostic_evidence,AR_Persistence_Ensemble,955,Hingoli,2022-04-01,h2,-0.288783,-0.299273,-0.01049,0.01049,0.00011,0.762551,-0.252173,-0.450531
+historical_diagnostic_evidence,AR_Persistence_Ensemble,955,Hingoli,2022-04-01,h3,-2.072833,-0.252583,1.82025,1.82025,3.313311,0.793288,-0.201002,-0.450531
+historical_diagnostic_evidence,AR_Persistence_Ensemble,956,Hingoli,2022-05-01,h1,-0.288783,-0.516773,-0.22799,0.22799,0.05198,0.999996,-0.516773,-0.567104
+historical_diagnostic_evidence,AR_Persistence_Ensemble,956,Hingoli,2022-05-01,h2,-2.072833,-0.449163,1.62367,1.62367,2.636306,0.762551,-0.412437,-0.567104
+historical_diagnostic_evidence,AR_Persistence_Ensemble,956,Hingoli,2022-05-01,h3,-1.568348,-0.321276,1.247072,1.247072,1.555189,0.793288,-0.257219,-0.567104
+historical_diagnostic_evidence,AR_Persistence_Ensemble,957,Hingoli,2022-06-01,h1,-2.072833,-0.179162,1.893671,1.893671,3.585988,0.999996,-0.179162,-0.288783
+historical_diagnostic_evidence,AR_Persistence_Ensemble,957,Hingoli,2022-06-01,h2,-1.568348,-0.120374,1.447974,1.447974,2.09663,0.762551,-0.067933,-0.288783
+historical_diagnostic_evidence,AR_Persistence_Ensemble,957,Hingoli,2022-06-01,h3,-1.300487,-0.101917,1.19857,1.19857,1.43657,0.793288,-0.053224,-0.288783
+historical_diagnostic_evidence,AR_Persistence_Ensemble,958,Hingoli,2022-07-01,h1,-1.568348,-1.723205,-0.154857,0.154857,0.023981,0.999996,-1.723204,-2.072833
+historical_diagnostic_evidence,AR_Persistence_Ensemble,958,Hingoli,2022-07-01,h2,-1.300487,-1.607412,-0.306925,0.306925,0.094203,0.762551,-1.462485,-2.072833
+historical_diagnostic_evidence,AR_Persistence_Ensemble,958,Hingoli,2022-07-01,h3,-1.419324,-1.19012,0.229204,0.229204,0.052534,0.793288,-0.960106,-2.072833
+historical_diagnostic_evidence,AR_Persistence_Ensemble,959,Hingoli,2022-08-01,h1,-1.300487,-1.311509,-0.011022,0.011022,0.000121,0.999996,-1.311508,-1.568348
+historical_diagnostic_evidence,AR_Persistence_Ensemble,959,Hingoli,2022-08-01,h2,-1.419324,-1.003568,0.415756,0.415756,0.172853,0.762551,-0.827702,-1.568348
+historical_diagnostic_evidence,AR_Persistence_Ensemble,959,Hingoli,2022-08-01,h3,-1.194139,-0.87535,0.318789,0.318789,0.101627,0.793288,-0.694771,-1.568348
+historical_diagnostic_evidence,AR_Persistence_Ensemble,960,Hingoli,2022-09-01,h1,-1.419324,-0.820775,0.598549,0.598549,0.358261,0.999996,-0.820773,-1.300487
+historical_diagnostic_evidence,AR_Persistence_Ensemble,960,Hingoli,2022-09-01,h2,-1.194139,-0.840913,0.353226,0.353226,0.124769,0.762551,-0.697807,-1.300487
+historical_diagnostic_evidence,AR_Persistence_Ensemble,960,Hingoli,2022-09-01,h3,-1.258018,-0.715448,0.54257,0.54257,0.294382,0.793288,-0.563001,-1.300487
+historical_diagnostic_evidence,AR_Persistence_Ensemble,961,Hingoli,2022-10-01,h1,-1.194139,-1.194251,-0.000112,0.000112,0.0,0.999996,-1.19425,-1.419324
+historical_diagnostic_evidence,AR_Persistence_Ensemble,961,Hingoli,2022-10-01,h2,-1.258018,-1.090016,0.168002,0.168002,0.028225,0.762551,-0.987473,-1.419324
+historical_diagnostic_evidence,AR_Persistence_Ensemble,961,Hingoli,2022-10-01,h3,-1.290343,-0.868167,0.422176,0.422176,0.178232,0.793288,-0.724549,-1.419324
+historical_diagnostic_evidence,AR_Persistence_Ensemble,962,Hingoli,2022-11-01,h1,-1.258018,-0.976778,0.28124,0.28124,0.079096,0.999996,-0.976777,-1.194139
+historical_diagnostic_evidence,AR_Persistence_Ensemble,962,Hingoli,2022-11-01,h2,-1.290343,-0.818088,0.472255,0.472255,0.223025,0.762551,-0.70099,-1.194139
+historical_diagnostic_evidence,AR_Persistence_Ensemble,962,Hingoli,2022-11-01,h3,-1.079439,-0.602214,0.477225,0.477225,0.227744,0.793288,-0.447972,-1.194139
+historical_diagnostic_evidence,AR_Persistence_Ensemble,963,Hingoli,2022-12-01,h1,-1.290343,-0.938989,0.351354,0.351354,0.123449,0.999996,-0.938988,-1.258018
+historical_diagnostic_evidence,AR_Persistence_Ensemble,963,Hingoli,2022-12-01,h2,-1.079439,-0.803231,0.276208,0.276208,0.076291,0.762551,-0.661616,-1.258018
+historical_diagnostic_evidence,AR_Persistence_Ensemble,963,Hingoli,2022-12-01,h3,-1.061776,-0.789171,0.272605,0.272605,0.074314,0.793288,-0.667,-1.258018
+historical_diagnostic_evidence,AR_Persistence_Ensemble,964,Hingoli,2023-01-01,h1,-1.079439,-0.931149,0.14829,0.14829,0.02199,0.999996,-0.931148,-1.290343
+historical_diagnostic_evidence,AR_Persistence_Ensemble,964,Hingoli,2023-01-01,h2,-1.061776,-1.014093,0.047683,0.047683,0.002274,0.762551,-0.928072,-1.290343
+historical_diagnostic_evidence,AR_Persistence_Ensemble,964,Hingoli,2023-01-01,h3,-1.311137,-0.888859,0.422278,0.422278,0.178319,0.793288,-0.784242,-1.290343
+historical_diagnostic_evidence,AR_Persistence_Ensemble,965,Hingoli,2023-02-01,h1,-1.061776,-1.028186,0.03359,0.03359,0.001128,0.999996,-1.028186,-1.079439
+historical_diagnostic_evidence,AR_Persistence_Ensemble,965,Hingoli,2023-02-01,h2,-1.311137,-0.920952,0.390185,0.390185,0.152244,0.762551,-0.871601,-1.079439
+historical_diagnostic_evidence,AR_Persistence_Ensemble,965,Hingoli,2023-02-01,h3,-1.272599,-0.772337,0.500262,0.500262,0.250262,0.793288,-0.692314,-1.079439
+historical_diagnostic_evidence,AR_Persistence_Ensemble,966,Hingoli,2023-03-01,h1,-1.311137,-0.905779,0.405358,0.405358,0.164315,0.999996,-0.905778,-1.061776
+historical_diagnostic_evidence,AR_Persistence_Ensemble,966,Hingoli,2023-03-01,h2,-1.272599,-0.796558,0.476041,0.476041,0.226615,0.762551,-0.713973,-1.061776
+historical_diagnostic_evidence,AR_Persistence_Ensemble,966,Hingoli,2023-03-01,h3,-0.172713,-0.682855,-0.510142,0.510142,0.260245,0.793288,-0.584117,-1.061776
+historical_diagnostic_evidence,AR_Persistence_Ensemble,967,Hingoli,2023-04-01,h1,-1.272599,-1.059603,0.212996,0.212996,0.045367,0.999996,-1.059602,-1.311137
+historical_diagnostic_evidence,AR_Persistence_Ensemble,967,Hingoli,2023-04-01,h2,-0.172713,-0.978802,-0.806089,0.806089,0.64978,0.762551,-0.875317,-1.311137
+historical_diagnostic_evidence,AR_Persistence_Ensemble,967,Hingoli,2023-04-01,h3,-1.498485,-0.674406,0.824079,0.824079,0.679106,0.793288,-0.508489,-1.311137
+historical_diagnostic_evidence,AR_Persistence_Ensemble,968,Hingoli,2023-05-01,h1,-0.172713,-1.046295,-0.873582,0.873582,0.763145,0.999996,-1.046294,-1.272599
+historical_diagnostic_evidence,AR_Persistence_Ensemble,968,Hingoli,2023-05-01,h2,-1.498485,-0.802861,0.695624,0.695624,0.483893,0.762551,-0.65659,-1.272599
+historical_diagnostic_evidence,AR_Persistence_Ensemble,968,Hingoli,2023-05-01,h3,-0.567348,-0.667809,-0.100461,0.100461,0.010092,0.793288,-0.510215,-1.272599
+historical_diagnostic_evidence,AR_Persistence_Ensemble,969,Hingoli,2023-06-01,h1,-1.498485,0.073643,1.572128,1.572128,2.471586,0.999996,0.073644,-0.172713
+historical_diagnostic_evidence,AR_Persistence_Ensemble,969,Hingoli,2023-06-01,h2,-0.567348,0.045682,0.61303,0.61303,0.375806,0.762551,0.113688,-0.172713
+historical_diagnostic_evidence,AR_Persistence_Ensemble,969,Hingoli,2023-06-01,h3,-0.82369,-0.006662,0.817028,0.817028,0.667535,0.793288,0.036607,-0.172713
+historical_diagnostic_evidence,AR_Persistence_Ensemble,970,Hingoli,2023-07-01,h1,-0.567348,-1.236173,-0.668825,0.668825,0.447327,0.999996,-1.236172,-1.498485
+historical_diagnostic_evidence,AR_Persistence_Ensemble,970,Hingoli,2023-07-01,h2,-0.82369,-1.207689,-0.383999,0.383999,0.147455,0.762551,-1.117139,-1.498485
+historical_diagnostic_evidence,AR_Persistence_Ensemble,970,Hingoli,2023-07-01,h3,-0.356734,-0.844277,-0.487543,0.487543,0.237698,0.793288,-0.673806,-1.498485
+historical_diagnostic_evidence,AR_Persistence_Ensemble,971,Hingoli,2023-08-01,h1,-0.82369,-0.510595,0.313095,0.313095,0.098028,0.999996,-0.510595,-0.567348
+historical_diagnostic_evidence,AR_Persistence_Ensemble,971,Hingoli,2023-08-01,h2,-0.356734,-0.248214,0.10852,0.10852,0.011777,0.762551,-0.14884,-0.567348
+historical_diagnostic_evidence,AR_Persistence_Ensemble,971,Hingoli,2023-08-01,h3,-0.658419,-0.236071,0.422348,0.422348,0.178378,0.793288,-0.149748,-0.567348
+historical_diagnostic_evidence,AR_Persistence_Ensemble,972,Hingoli,2023-09-01,h1,-0.356734,-0.409131,-0.052397,0.052397,0.002745,0.999996,-0.409129,-0.82369
+historical_diagnostic_evidence,AR_Persistence_Ensemble,972,Hingoli,2023-09-01,h2,-0.658419,-0.494011,0.164408,0.164408,0.02703,0.762551,-0.391353,-0.82369
+historical_diagnostic_evidence,AR_Persistence_Ensemble,972,Hingoli,2023-09-01,h3,-1.007658,-0.381664,0.625994,0.625994,0.391868,0.793288,-0.266483,-0.82369
+historical_diagnostic_evidence,AR_Persistence_Ensemble,973,Hingoli,2023-10-01,h1,-0.658419,-0.307214,0.351205,0.351205,0.123345,0.999996,-0.307214,-0.356734
+historical_diagnostic_evidence,AR_Persistence_Ensemble,973,Hingoli,2023-10-01,h2,-1.007658,-0.245105,0.762553,0.762553,0.581487,0.762551,-0.210345,-0.356734
+historical_diagnostic_evidence,AR_Persistence_Ensemble,973,Hingoli,2023-10-01,h3,-1.46656,-0.227304,1.239256,1.239256,1.535757,0.793288,-0.193577,-0.356734
+historical_diagnostic_evidence,AR_Persistence_Ensemble,974,Hingoli,2023-11-01,h1,-1.007658,-0.519971,0.487687,0.487687,0.237839,0.999996,-0.51997,-0.658419
+historical_diagnostic_evidence,AR_Persistence_Ensemble,974,Hingoli,2023-11-01,h2,-1.46656,-0.495049,0.971511,0.971511,0.943835,0.762551,-0.444177,-0.658419
+historical_diagnostic_evidence,AR_Persistence_Ensemble,974,Hingoli,2023-11-01,h3,-1.067525,-0.259376,0.808149,0.808149,0.653105,0.793288,-0.155395,-0.658419
+historical_diagnostic_evidence,AR_Persistence_Ensemble,975,Hingoli,2023-12-01,h1,-1.46656,-0.873071,0.593489,0.593489,0.35223,0.999996,-0.87307,-1.007658
+historical_diagnostic_evidence,AR_Persistence_Ensemble,975,Hingoli,2023-12-01,h2,-1.067525,-0.629375,0.43815,0.43815,0.191976,0.762551,-0.511582,-1.007658
+historical_diagnostic_evidence,AR_Persistence_Ensemble,975,Hingoli,2023-12-01,h3,-0.761897,-0.546775,0.215122,0.215122,0.046277,0.793288,-0.42668,-1.007658
+historical_diagnostic_evidence,AR_Persistence_Ensemble,976,Hingoli,2024-01-01,h1,-1.067525,-1.001931,0.065594,0.065594,0.004303,0.999996,-1.001929,-1.46656
+historical_diagnostic_evidence,AR_Persistence_Ensemble,976,Hingoli,2024-01-01,h2,-0.761897,-1.008044,-0.246147,0.246147,0.060588,0.762551,-0.865268,-1.46656
+historical_diagnostic_evidence,AR_Persistence_Ensemble,976,Hingoli,2024-01-01,h3,-1.023078,-0.777497,0.245581,0.245581,0.06031,0.793288,-0.597943,-1.46656
+historical_diagnostic_evidence,AR_Persistence_Ensemble,977,Hingoli,2024-02-01,h1,-0.761897,-0.899524,-0.137627,0.137627,0.018941,0.999996,-0.899523,-1.067525
+historical_diagnostic_evidence,AR_Persistence_Ensemble,977,Hingoli,2024-02-01,h2,-1.023078,-0.736283,0.286795,0.286795,0.082252,0.762551,-0.633138,-1.067525
+historical_diagnostic_evidence,AR_Persistence_Ensemble,977,Hingoli,2024-02-01,h3,-1.24441,-0.656956,0.587454,0.587454,0.345103,0.793288,-0.549971,-1.067525
+historical_diagnostic_evidence,AR_Persistence_Ensemble,978,Hingoli,2024-03-01,h1,-1.023078,-0.510511,0.512567,0.512567,0.262725,0.999996,-0.51051,-0.761897
+historical_diagnostic_evidence,AR_Persistence_Ensemble,978,Hingoli,2024-03-01,h2,-1.24441,-0.52208,0.72233,0.72233,0.521761,0.762551,-0.447404,-0.761897
+historical_diagnostic_evidence,AR_Persistence_Ensemble,978,Hingoli,2024-03-01,h3,-1.122982,-0.458137,0.664845,0.664845,0.442019,0.793288,-0.378984,-0.761897
+historical_diagnostic_evidence,AR_Persistence_Ensemble,979,Hingoli,2024-04-01,h1,-1.24441,-0.883729,0.360681,0.360681,0.130091,0.999996,-0.883728,-1.023078
+historical_diagnostic_evidence,AR_Persistence_Ensemble,979,Hingoli,2024-04-01,h2,-1.122982,-0.806965,0.316017,0.316017,0.099867,0.762551,-0.73967,-1.023078
+historical_diagnostic_evidence,AR_Persistence_Ensemble,979,Hingoli,2024-04-01,h3,-1.306816,-0.540618,0.766198,0.766198,0.58706,0.793288,-0.4149,-1.023078
+historical_diagnostic_evidence,AR_Persistence_Ensemble,980,Hingoli,2024-05-01,h1,-1.122982,-1.019268,0.103714,0.103714,0.010757,0.999996,-1.019267,-1.24441
+historical_diagnostic_evidence,AR_Persistence_Ensemble,980,Hingoli,2024-05-01,h2,-1.306816,-0.79997,0.506846,0.506846,0.256893,0.762551,-0.661577,-1.24441
+historical_diagnostic_evidence,AR_Persistence_Ensemble,980,Hingoli,2024-05-01,h3,-1.685414,-0.699303,0.986111,0.986111,0.972415,0.793288,-0.557261,-1.24441
+historical_diagnostic_evidence,AR_Persistence_Ensemble,981,Hingoli,2024-06-01,h1,-1.306816,-0.776605,0.530211,0.530211,0.281123,0.999996,-0.776604,-1.122982
+historical_diagnostic_evidence,AR_Persistence_Ensemble,981,Hingoli,2024-06-01,h2,-1.685414,-0.770468,0.914946,0.914946,0.837127,0.762551,-0.660699,-1.122982
+historical_diagnostic_evidence,AR_Persistence_Ensemble,981,Hingoli,2024-06-01,h3,-1.091652,-0.699143,0.392509,0.392509,0.154063,0.793288,-0.588701,-1.122982
+historical_diagnostic_evidence,AR_Persistence_Ensemble,982,Hingoli,2024-07-01,h1,-1.685414,-1.07293,0.612484,0.612484,0.375137,0.999996,-1.072929,-1.306816
+historical_diagnostic_evidence,AR_Persistence_Ensemble,982,Hingoli,2024-07-01,h2,-1.091652,-1.045009,0.046643,0.046643,0.002176,0.762551,-0.963486,-1.306816
+historical_diagnostic_evidence,AR_Persistence_Ensemble,982,Hingoli,2024-07-01,h3,-1.101871,-0.904947,0.196924,0.196924,0.038779,0.793288,-0.800229,-1.306816
+historical_diagnostic_evidence,AR_Persistence_Ensemble,983,Hingoli,2024-08-01,h1,-1.091652,-1.508915,-0.417263,0.417263,0.174108,0.999996,-1.508914,-1.685414
+historical_diagnostic_evidence,AR_Persistence_Ensemble,983,Hingoli,2024-08-01,h2,-1.101871,-1.351035,-0.249164,0.249164,0.062083,0.762551,-1.246913,-1.685414
+historical_diagnostic_evidence,AR_Persistence_Ensemble,983,Hingoli,2024-08-01,h3,-1.146379,-1.067334,0.079045,0.079045,0.006248,0.793288,-0.906277,-1.685414
+historical_diagnostic_evidence,AR_Persistence_Ensemble,984,Hingoli,2024-09-01,h1,-1.101871,-0.856433,0.245438,0.245438,0.06024,0.999996,-0.856432,-1.091652
+historical_diagnostic_evidence,AR_Persistence_Ensemble,984,Hingoli,2024-09-01,h2,-1.146379,-0.698311,0.448068,0.448068,0.200765,0.762551,-0.575829,-1.091652
+historical_diagnostic_evidence,AR_Persistence_Ensemble,984,Hingoli,2024-09-01,h3,-1.219497,-0.604873,0.614624,0.614624,0.377763,0.793288,-0.47803,-1.091652
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1185,Jalna,2020-12-01,h1,-0.929903,-0.952787,-0.022884,0.022884,0.000524,0.999996,-0.952785,-1.422869
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1185,Jalna,2020-12-01,h2,-1.084933,-0.940012,0.144921,0.144921,0.021002,0.762551,-0.789656,-1.422869
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1185,Jalna,2020-12-01,h3,-0.77881,-0.83062,-0.05181,0.05181,0.002684,0.793288,-0.676294,-1.422869
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1186,Jalna,2021-01-01,h1,-1.084933,-0.743959,0.340974,0.340974,0.116263,0.999996,-0.743958,-0.929903
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1186,Jalna,2021-01-01,h2,-0.77881,-0.715946,0.062864,0.062864,0.003952,0.762551,-0.649322,-0.929903
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1186,Jalna,2021-01-01,h3,-0.892222,-0.635064,0.257158,0.257158,0.06613,0.793288,-0.558236,-0.929903
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1187,Jalna,2021-02-01,h1,-0.77881,-0.948156,-0.169346,0.169346,0.028678,0.999996,-0.948155,-1.084933
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1187,Jalna,2021-02-01,h2,-0.892222,-0.86929,0.022932,0.022932,0.000526,0.762551,-0.802142,-1.084933
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1187,Jalna,2021-02-01,h3,-1.313019,-0.698043,0.614976,0.614976,0.378195,0.793288,-0.597229,-1.084933
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1188,Jalna,2021-03-01,h1,-0.892222,-0.620577,0.271645,0.271645,0.073791,0.999996,-0.620576,-0.77881
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1188,Jalna,2021-03-01,h2,-1.313019,-0.528247,0.784772,0.784772,0.615867,0.762551,-0.450225,-0.77881
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1188,Jalna,2021-03-01,h3,-1.321961,-0.437008,0.884953,0.884953,0.783143,0.793288,-0.347942,-0.77881
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1189,Jalna,2021-04-01,h1,-1.313019,-0.658898,0.654121,0.654121,0.427874,0.999996,-0.658897,-0.892222
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1189,Jalna,2021-04-01,h2,-1.321961,-0.626199,0.695762,0.695762,0.484084,0.762551,-0.543363,-0.892222
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1189,Jalna,2021-04-01,h3,-0.957447,-0.48333,0.474117,0.474117,0.224787,0.793288,-0.376782,-0.892222
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1190,Jalna,2021-05-01,h1,-1.321961,-1.135972,0.185989,0.185989,0.034592,0.999996,-1.135971,-1.313019
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1190,Jalna,2021-05-01,h2,-0.957447,-0.976996,-0.019549,0.019549,0.000382,0.762551,-0.872363,-1.313019
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1190,Jalna,2021-05-01,h3,-0.583822,-0.783067,-0.199245,0.199245,0.039699,0.793288,-0.644974,-1.313019
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1191,Jalna,2021-06-01,h1,-0.957447,-1.040419,-0.082972,0.082972,0.006884,0.999996,-1.040418,-1.321961
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1191,Jalna,2021-06-01,h2,-0.583822,-0.908363,-0.324541,0.324541,0.105327,0.762551,-0.779574,-1.321961
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1191,Jalna,2021-06-01,h3,-1.388171,-0.703119,0.685052,0.685052,0.469297,0.793288,-0.541863,-1.321961
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1192,Jalna,2021-07-01,h1,-0.583822,-0.67618,-0.092358,0.092358,0.00853,0.999996,-0.676179,-0.957447
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1192,Jalna,2021-07-01,h2,-1.388171,-0.580933,0.807238,0.807238,0.651633,0.762551,-0.463691,-0.957447
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1192,Jalna,2021-07-01,h3,-1.893021,-0.460774,1.432247,1.432247,2.051331,0.793288,-0.331353,-0.957447
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1193,Jalna,2021-08-01,h1,-1.388171,-0.365111,1.02306,1.02306,1.046652,0.999996,-0.36511,-0.583822
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1193,Jalna,2021-08-01,h2,-1.893021,-0.332067,1.560954,1.560954,2.436579,0.762551,-0.253673,-0.583822
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1193,Jalna,2021-08-01,h3,-1.659952,-0.225648,1.434304,1.434304,2.057229,0.793288,-0.132316,-0.583822
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1194,Jalna,2021-09-01,h1,-1.893021,-1.162906,0.730115,0.730115,0.533068,0.999996,-1.162905,-1.388171
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1194,Jalna,2021-09-01,h2,-1.659952,-1.008375,0.651577,0.651577,0.424553,0.762551,-0.890111,-1.388171
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1194,Jalna,2021-09-01,h3,-1.415569,-0.720464,0.695105,0.695105,0.483171,0.793288,-0.546475,-1.388171
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1195,Jalna,2021-10-01,h1,-1.659952,-1.518169,0.141783,0.141783,0.020102,0.999996,-1.518168,-1.893021
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1195,Jalna,2021-10-01,h2,-1.415569,-1.273702,0.141867,0.141867,0.020126,0.762551,-1.080854,-1.893021
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1195,Jalna,2021-10-01,h3,-1.551115,-1.078289,0.472826,0.472826,0.223565,0.793288,-0.865989,-1.893021
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1196,Jalna,2021-11-01,h1,-1.415569,-1.165031,0.250538,0.250538,0.062769,0.999996,-1.165029,-1.659952
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1196,Jalna,2021-11-01,h2,-1.551115,-1.130807,0.420308,0.420308,0.176659,0.762551,-0.966038,-1.659952
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1196,Jalna,2021-11-01,h3,-1.687502,-1.010104,0.677398,0.677398,0.458868,0.793288,-0.840769,-1.659952
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1197,Jalna,2021-12-01,h1,-1.551115,-1.140646,0.410469,0.410469,0.168485,0.999996,-1.140645,-1.415569
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1197,Jalna,2021-12-01,h2,-1.687502,-1.105079,0.582423,0.582423,0.339217,0.762551,-1.008396,-1.415569
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1197,Jalna,2021-12-01,h3,-1.025407,-0.952655,0.072752,0.072752,0.005293,0.793288,-0.83203,-1.415569
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1198,Jalna,2022-01-01,h1,-1.687502,-1.372943,0.314559,0.314559,0.098948,0.999996,-1.372942,-1.551115
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1198,Jalna,2022-01-01,h2,-1.025407,-1.222545,-0.197138,0.197138,0.038863,0.762551,-1.120232,-1.551115
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1198,Jalna,2022-01-01,h3,-0.852789,-0.920318,-0.067529,0.067529,0.00456,0.793288,-0.755947,-1.551115
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1199,Jalna,2022-02-01,h1,-1.025407,-1.385744,-0.360337,0.360337,0.129843,0.999996,-1.385743,-1.687502
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1199,Jalna,2022-02-01,h2,-0.852789,-1.142202,-0.289413,0.289413,0.08376,0.762551,-0.972402,-1.687502
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1199,Jalna,2022-02-01,h3,-0.475177,-0.913944,-0.438767,0.438767,0.192516,0.793288,-0.712373,-1.687502
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1200,Jalna,2022-03-01,h1,-0.852789,-0.631124,0.221665,0.221665,0.049136,0.999996,-0.631122,-1.025407
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1200,Jalna,2022-03-01,h2,-0.475177,-0.584451,-0.109274,0.109274,0.011941,0.762551,-0.447143,-1.025407
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1200,Jalna,2022-03-01,h3,-0.555113,-0.569143,-0.01403,0.01403,0.000197,0.793288,-0.450251,-1.025407
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1201,Jalna,2022-04-01,h1,-0.475177,-0.62814,-0.152963,0.152963,0.023398,0.999996,-0.628139,-0.852789
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1201,Jalna,2022-04-01,h2,-0.555113,-0.675394,-0.120281,0.120281,0.014468,0.762551,-0.620156,-0.852789
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1201,Jalna,2022-04-01,h3,-1.813084,-0.573555,1.239529,1.239529,1.536433,0.793288,-0.500793,-0.852789
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1202,Jalna,2022-05-01,h1,-0.555113,-0.479474,0.075639,0.075639,0.005721,0.999996,-0.479474,-0.475177
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1202,Jalna,2022-05-01,h2,-1.813084,-0.395723,1.417361,1.417361,2.008912,0.762551,-0.370982,-0.475177
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1202,Jalna,2022-05-01,h3,-1.687787,-0.30926,1.378527,1.378527,1.900337,0.793288,-0.266026,-0.475177
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1203,Jalna,2022-06-01,h1,-1.813084,-0.420287,1.392797,1.392797,1.939885,0.999996,-0.420286,-0.555113
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1203,Jalna,2022-06-01,h2,-1.687787,-0.365202,1.322585,1.322585,1.749231,0.762551,-0.306066,-0.555113
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1203,Jalna,2022-06-01,h3,-1.693944,-0.209903,1.484041,1.484041,2.202376,0.793288,-0.11995,-0.555113
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1204,Jalna,2022-07-01,h1,-1.687787,-1.509362,0.178425,0.178425,0.031835,0.999996,-1.509361,-1.813084
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1204,Jalna,2022-07-01,h2,-1.693944,-1.307433,0.386511,0.386511,0.14939,0.762551,-1.14998,-1.813084
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1204,Jalna,2022-07-01,h3,-1.874008,-0.991075,0.882933,0.882933,0.779571,0.793288,-0.776879,-1.813084
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1205,Jalna,2022-08-01,h1,-1.693944,-1.316187,0.377757,0.377757,0.1427,0.999996,-1.316186,-1.687787
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1205,Jalna,2022-08-01,h2,-1.874008,-1.099747,0.774261,0.774261,0.59948,0.762551,-0.916639,-1.687787
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1205,Jalna,2022-08-01,h3,-1.489064,-0.924996,0.564068,0.564068,0.318173,0.793288,-0.726231,-1.687787
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1206,Jalna,2022-09-01,h1,-1.874008,-1.241429,0.632579,0.632579,0.400156,0.999996,-1.241427,-1.693944
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1206,Jalna,2022-09-01,h2,-1.489064,-1.171825,0.317239,0.317239,0.10064,0.762551,-1.009244,-1.693944
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1206,Jalna,2022-09-01,h3,-1.371654,-0.97282,0.398834,0.398834,0.159069,0.793288,-0.784912,-1.693944
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1207,Jalna,2022-10-01,h1,-1.489064,-1.53649,-0.047426,0.047426,0.002249,0.999996,-1.536489,-1.874008
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1207,Jalna,2022-10-01,h2,-1.371654,-1.382985,-0.011331,0.011331,0.000128,0.762551,-1.230087,-1.874008
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1207,Jalna,2022-10-01,h3,-1.557353,-1.064957,0.492396,0.492396,0.242453,0.793288,-0.854138,-1.874008
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1208,Jalna,2022-11-01,h1,-1.371654,-1.169313,0.202341,0.202341,0.040942,0.999996,-1.169312,-1.489064
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1208,Jalna,2022-11-01,h2,-1.557353,-0.957349,0.600004,0.600004,0.360005,0.762551,-0.791779,-1.489064
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1208,Jalna,2022-11-01,h3,-1.532346,-0.722761,0.809585,0.809585,0.655427,0.793288,-0.523081,-1.489064
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1209,Jalna,2022-12-01,h1,-1.557353,-0.95614,0.601213,0.601213,0.361457,0.999996,-0.956138,-1.371654
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1209,Jalna,2022-12-01,h2,-1.532346,-0.840939,0.691407,0.691407,0.478044,0.762551,-0.675681,-1.371654
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1209,Jalna,2022-12-01,h3,-1.57631,-0.772555,0.803755,0.803755,0.646022,0.793288,-0.616444,-1.371654
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1210,Jalna,2023-01-01,h1,-1.532346,-1.177798,0.354548,0.354548,0.125705,0.999996,-1.177796,-1.557353
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1210,Jalna,2023-01-01,h2,-1.57631,-1.180047,0.396263,0.396263,0.157024,0.762551,-1.062559,-1.557353
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1210,Jalna,2023-01-01,h3,-1.695428,-0.99022,0.705208,0.705208,0.497318,0.793288,-0.842439,-1.557353
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1211,Jalna,2023-02-01,h1,-1.57631,-1.337852,0.238458,0.238458,0.056862,0.999996,-1.337851,-1.532346
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1211,Jalna,2023-02-01,h2,-1.695428,-1.18963,0.505798,0.505798,0.255831,0.762551,-1.082913,-1.532346
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1211,Jalna,2023-02-01,h3,-1.086681,-1.02315,0.063531,0.063531,0.004036,0.793288,-0.890465,-1.532346
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1212,Jalna,2023-03-01,h1,-1.695428,-1.276374,0.419054,0.419054,0.175606,0.999996,-1.276373,-1.57631
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1212,Jalna,2023-03-01,h2,-1.086681,-1.183167,-0.096486,0.096486,0.00931,0.762551,-1.060747,-1.57631
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1212,Jalna,2023-03-01,h3,-0.162401,-1.017802,-0.855401,0.855401,0.731711,0.793288,-0.872268,-1.57631
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1213,Jalna,2023-04-01,h1,-1.086681,-1.396073,-0.309392,0.309392,0.095724,0.999996,-1.396072,-1.695428
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1213,Jalna,2023-04-01,h2,-0.162401,-1.290696,-1.128295,1.128295,1.273051,0.762551,-1.164668,-1.695428
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1213,Jalna,2023-04-01,h3,-0.50462,-0.987743,-0.483123,0.483123,0.233408,0.793288,-0.803337,-1.695428
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1214,Jalna,2023-05-01,h1,-0.162401,-0.885136,-0.722735,0.722735,0.522346,0.999996,-0.885135,-1.086681
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1214,Jalna,2023-05-01,h2,-0.50462,-0.686414,-0.181794,0.181794,0.033049,0.762551,-0.561776,-1.086681
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1214,Jalna,2023-05-01,h3,-0.466112,-0.560372,-0.09426,0.09426,0.008885,0.793288,-0.423229,-1.086681
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1215,Jalna,2023-06-01,h1,-0.50462,0.049634,0.554254,0.554254,0.307198,0.999996,0.049635,-0.162401
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1215,Jalna,2023-06-01,h2,-0.466112,0.03847,0.504582,0.504582,0.254603,0.762551,0.101019,-0.162401
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1215,Jalna,2023-06-01,h3,-0.227014,0.050418,0.277432,0.277432,0.076969,0.793288,0.105874,-0.162401
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1216,Jalna,2023-07-01,h1,-0.466112,-0.364301,0.101811,0.101811,0.010366,0.999996,-0.3643,-0.50462
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1216,Jalna,2023-07-01,h2,-0.227014,-0.343545,-0.116531,0.116531,0.013579,0.762551,-0.293388,-0.50462
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1216,Jalna,2023-07-01,h3,0.167087,-0.151838,-0.318925,0.318925,0.101713,0.793288,-0.059911,-0.50462
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1217,Jalna,2023-08-01,h1,-0.227014,-0.375298,-0.148284,0.148284,0.021988,0.999996,-0.375298,-0.466112
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1217,Jalna,2023-08-01,h2,0.167087,-0.20539,-0.372477,0.372477,0.138739,0.762551,-0.124205,-0.466112
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1217,Jalna,2023-08-01,h3,-0.01928,-0.124642,-0.105362,0.105362,0.011101,0.793288,-0.035663,-0.466112
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1218,Jalna,2023-09-01,h1,0.167087,0.023088,-0.143999,0.143999,0.020736,0.999996,0.023089,-0.227014
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1218,Jalna,2023-09-01,h2,-0.01928,0.000357,0.019637,0.019637,0.000386,0.762551,0.071158,-0.227014
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1218,Jalna,2023-09-01,h3,-0.555578,-0.013393,0.542185,0.542185,0.293965,0.793288,0.042272,-0.227014
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1219,Jalna,2023-10-01,h1,-0.01928,0.244224,0.263504,0.263504,0.069434,0.999996,0.244224,0.167087
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1219,Jalna,2023-10-01,h2,-0.555578,0.165805,0.721383,0.721383,0.520394,0.762551,0.165406,0.167087
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1219,Jalna,2023-10-01,h3,-1.443007,0.17351,1.616517,1.616517,2.613128,0.793288,0.175184,0.167087
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1220,Jalna,2023-11-01,h1,-0.555578,-0.057422,0.498156,0.498156,0.24816,0.999996,-0.057422,-0.01928
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1220,Jalna,2023-11-01,h2,-1.443007,-0.005771,1.437236,1.437236,2.065646,0.762551,-0.001565,-0.01928
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1220,Jalna,2023-11-01,h3,-1.111587,0.157823,1.26941,1.26941,1.611402,0.793288,0.203972,-0.01928
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1221,Jalna,2023-12-01,h1,-1.443007,-0.450888,0.992119,0.992119,0.984299,0.999996,-0.450888,-0.555578
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1221,Jalna,2023-12-01,h2,-1.111587,-0.25314,0.858447,0.858447,0.736932,0.762551,-0.158964,-0.555578
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1221,Jalna,2023-12-01,h3,-0.727681,-0.103904,0.623777,0.623777,0.389098,0.793288,0.013792,-0.555578
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1222,Jalna,2024-01-01,h1,-1.111587,-1.013048,0.098539,0.098539,0.00971,0.999996,-1.013046,-1.443007
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1222,Jalna,2024-01-01,h2,-0.727681,-0.895191,-0.16751,0.16751,0.02806,0.762551,-0.724608,-1.443007
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1222,Jalna,2024-01-01,h3,-0.756189,-0.680566,0.075623,0.075623,0.005719,0.793288,-0.481892,-1.443007
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1223,Jalna,2024-02-01,h1,-0.727681,-0.781125,-0.053444,0.053444,0.002856,0.999996,-0.781124,-1.111587
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1223,Jalna,2024-02-01,h2,-0.756189,-0.682681,0.073508,0.073508,0.005403,0.762551,-0.549125,-1.111587
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1223,Jalna,2024-02-01,h3,-0.53955,-0.64015,-0.1006,0.1006,0.01012,0.793288,-0.517305,-1.111587
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1224,Jalna,2024-03-01,h1,-0.756189,-0.484876,0.271313,0.271313,0.073611,0.999996,-0.484875,-0.727681
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1224,Jalna,2024-03-01,h2,-0.53955,-0.531529,0.008021,0.008021,6.4e-05,0.762551,-0.47045,-0.727681
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1224,Jalna,2024-03-01,h3,-0.622275,-0.478102,0.144173,0.144173,0.020786,0.793288,-0.413068,-0.727681
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1225,Jalna,2024-04-01,h1,-0.53955,-0.679921,-0.140371,0.140371,0.019704,0.999996,-0.679921,-0.756189
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1225,Jalna,2024-04-01,h2,-0.622275,-0.624901,-0.002626,0.002626,7e-06,0.762551,-0.58402,-0.756189
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1225,Jalna,2024-04-01,h3,-0.293043,-0.450852,-0.157809,0.157809,0.024904,0.793288,-0.371289,-0.756189
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1226,Jalna,2024-05-01,h1,-0.622275,-0.428391,0.193884,0.193884,0.037591,0.999996,-0.428391,-0.53955
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1226,Jalna,2024-05-01,h2,-0.293043,-0.312693,-0.01965,0.01965,0.000386,0.762551,-0.242052,-0.53955
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1226,Jalna,2024-05-01,h3,-1.813465,-0.261967,1.551498,1.551498,2.407147,0.793288,-0.189635,-0.53955
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1227,Jalna,2024-06-01,h1,-0.293043,-0.411974,-0.118931,0.118931,0.014145,0.999996,-0.411973,-0.622275
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1227,Jalna,2024-06-01,h2,-1.813465,-0.414604,1.398861,1.398861,1.956812,0.762551,-0.349938,-0.622275
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1227,Jalna,2024-06-01,h3,-1.240877,-0.432915,0.807962,0.807962,0.652803,0.793288,-0.383572,-0.622275
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1228,Jalna,2024-07-01,h1,-1.813465,-0.22378,1.589685,1.589685,2.527098,0.999996,-0.22378,-0.293043
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1228,Jalna,2024-07-01,h2,-1.240877,-0.295659,0.945218,0.945218,0.893438,0.762551,-0.296473,-0.293043
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1228,Jalna,2024-07-01,h3,-1.216326,-0.333558,0.882768,0.882768,0.77928,0.793288,-0.344115,-0.293043
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1229,Jalna,2024-08-01,h1,-1.240877,-1.69388,-0.453003,0.453003,0.205212,0.999996,-1.69388,-1.813465
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1229,Jalna,2024-08-01,h2,-1.216326,-1.590525,-0.374199,0.374199,0.140025,0.762551,-1.521104,-1.813465
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1229,Jalna,2024-08-01,h3,-1.331815,-1.232769,0.099046,0.099046,0.00981,0.793288,-1.081453,-1.813465
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1230,Jalna,2024-09-01,h1,-1.216326,-1.109628,0.106698,0.106698,0.011385,0.999996,-1.109627,-1.240877
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1230,Jalna,2024-09-01,h2,-1.331815,-0.846882,0.484933,0.484933,0.23516,0.762551,-0.724197,-1.240877
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1230,Jalna,2024-09-01,h3,-1.465196,-0.772289,0.692907,0.692907,0.48012,0.793288,-0.650186,-1.240877
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1431,Latur,2020-12-01,h1,-0.502564,-0.523481,-0.020917,0.020917,0.000438,0.999996,-0.52348,-0.831957
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1431,Latur,2020-12-01,h2,-0.473082,-0.500494,-0.027412,0.027412,0.000751,0.762551,-0.397281,-0.831957
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1431,Latur,2020-12-01,h3,-0.388585,-0.587117,-0.198532,0.198532,0.039415,0.793288,-0.523317,-0.831957
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1432,Latur,2021-01-01,h1,-0.473082,-0.341007,0.132075,0.132075,0.017444,0.999996,-0.341006,-0.502564
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1432,Latur,2021-01-01,h2,-0.388585,-0.506651,-0.118066,0.118066,0.013939,0.762551,-0.507923,-0.502564
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1432,Latur,2021-01-01,h3,-0.725314,-0.482923,0.242391,0.242391,0.058753,0.793288,-0.477805,-0.502564
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1433,Latur,2021-02-01,h1,-0.388585,-0.622039,-0.233454,0.233454,0.054501,0.999996,-0.62204,-0.473082
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1433,Latur,2021-02-01,h2,-0.725314,-0.534528,0.190786,0.190786,0.036399,0.762551,-0.553662,-0.473082
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1433,Latur,2021-02-01,h3,-0.829665,-0.361016,0.468649,0.468649,0.219632,0.793288,-0.331814,-0.473082
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1434,Latur,2021-03-01,h1,-0.725314,-0.360395,0.364919,0.364919,0.133166,0.999996,-0.360395,-0.388585
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1434,Latur,2021-03-01,h2,-0.829665,-0.205649,0.624016,0.624016,0.389396,0.762551,-0.148685,-0.388585
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1434,Latur,2021-03-01,h3,-1.327054,-0.136619,1.190435,1.190435,1.417135,0.793288,-0.070963,-0.388585
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1435,Latur,2021-04-01,h1,-0.829665,-0.462719,0.366946,0.366946,0.134649,0.999996,-0.462718,-0.725314
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1435,Latur,2021-04-01,h2,-1.327054,-0.437716,0.889338,0.889338,0.790923,0.762551,-0.348161,-0.725314
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1435,Latur,2021-04-01,h3,-0.942042,-0.278077,0.663965,0.663965,0.440849,0.793288,-0.161538,-0.725314
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1436,Latur,2021-05-01,h1,-1.327054,-0.666744,0.66031,0.66031,0.43601,0.999996,-0.666743,-0.829665
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1436,Latur,2021-05-01,h2,-0.942042,-0.533325,0.408717,0.408717,0.167049,0.762551,-0.441049,-0.829665
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1436,Latur,2021-05-01,h3,-1.242447,-0.485285,0.757162,0.757162,0.573294,0.793288,-0.395548,-0.829665
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1437,Latur,2021-06-01,h1,-0.942042,-1.058362,-0.11632,0.11632,0.01353,0.999996,-1.058361,-1.327054
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1437,Latur,2021-06-01,h2,-1.242447,-1.00669,0.235757,0.235757,0.055582,0.762551,-0.906932,-1.327054
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1437,Latur,2021-06-01,h3,-1.074094,-0.826642,0.247452,0.247452,0.061233,0.793288,-0.696246,-1.327054
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1438,Latur,2021-07-01,h1,-1.242447,-0.752853,0.489594,0.489594,0.239703,0.999996,-0.752852,-0.942042
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1438,Latur,2021-07-01,h2,-1.074094,-0.662611,0.411483,0.411483,0.169318,0.762551,-0.5756,-0.942042
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1438,Latur,2021-07-01,h3,-1.267526,-0.558126,0.7094,0.7094,0.503249,0.793288,-0.458086,-0.942042
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1439,Latur,2021-08-01,h1,-1.074094,-0.974384,0.09971,0.09971,0.009942,0.999996,-0.974383,-1.242447
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1439,Latur,2021-08-01,h2,-1.267526,-0.909472,0.358054,0.358054,0.128202,0.762551,-0.805788,-1.242447
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1439,Latur,2021-08-01,h3,-1.35856,-0.704015,0.654545,0.654545,0.428429,0.793288,-0.563713,-1.242447
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1440,Latur,2021-09-01,h1,-1.267526,-0.901899,0.365627,0.365627,0.133683,0.999996,-0.901898,-1.074094
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1440,Latur,2021-09-01,h2,-1.35856,-0.740974,0.617586,0.617586,0.381413,0.762551,-0.637244,-1.074094
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1440,Latur,2021-09-01,h3,-1.277225,-0.634436,0.642789,0.642789,0.413177,0.793288,-0.519872,-1.074094
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1441,Latur,2021-10-01,h1,-1.35856,-0.955914,0.402646,0.402646,0.162124,0.999996,-0.955913,-1.267526
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1441,Latur,2021-10-01,h2,-1.277225,-0.906629,0.370596,0.370596,0.137341,0.762551,-0.79425,-1.267526
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1441,Latur,2021-10-01,h3,-1.508318,-0.758561,0.749757,0.749757,0.562135,0.793288,-0.625937,-1.267526
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1442,Latur,2021-11-01,h1,-1.277225,-1.126284,0.150941,0.150941,0.022783,0.999996,-1.126283,-1.35856
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1442,Latur,2021-11-01,h2,-1.508318,-1.022508,0.48581,0.48581,0.236011,0.762551,-0.917866,-1.35856
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1442,Latur,2021-11-01,h3,-1.086189,-0.906752,0.179437,0.179437,0.032198,0.793288,-0.789022,-1.35856
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1443,Latur,2021-12-01,h1,-1.508318,-1.025445,0.482873,0.482873,0.233166,0.999996,-1.025444,-1.277225
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1443,Latur,2021-12-01,h2,-1.086189,-0.982395,0.103794,0.103794,0.010773,0.762551,-0.890589,-1.277225
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1443,Latur,2021-12-01,h3,-0.807308,-0.835993,-0.028685,0.028685,0.000823,0.793288,-0.721019,-1.277225
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1444,Latur,2022-01-01,h1,-1.086189,-1.306928,-0.220739,0.220739,0.048726,0.999996,-1.306927,-1.508318
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1444,Latur,2022-01-01,h2,-0.807308,-1.176028,-0.36872,0.36872,0.135954,0.762551,-1.072557,-1.508318
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1444,Latur,2022-01-01,h3,-1.051906,-0.97474,0.077166,0.077166,0.005955,0.793288,-0.835702,-1.508318
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1445,Latur,2022-02-01,h1,-0.807308,-0.865209,-0.057901,0.057901,0.003353,0.999996,-0.865208,-1.086189
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1445,Latur,2022-02-01,h2,-1.051906,-0.762599,0.289307,0.289307,0.083699,0.762551,-0.661837,-1.086189
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1445,Latur,2022-02-01,h3,-1.102535,-0.649451,0.453084,0.453084,0.205285,0.793288,-0.535648,-1.086189
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1446,Latur,2022-03-01,h1,-1.051906,-0.608083,0.443823,0.443823,0.196979,0.999996,-0.608082,-0.807308
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1446,Latur,2022-03-01,h2,-1.102535,-0.566408,0.536127,0.536127,0.287432,0.762551,-0.491395,-0.807308
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1446,Latur,2022-03-01,h3,-1.009426,-0.44142,0.568006,0.568006,0.322631,0.793288,-0.346078,-0.807308
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1447,Latur,2022-04-01,h1,-1.102535,-0.878112,0.224423,0.224423,0.050366,0.999996,-0.878111,-1.051906
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1447,Latur,2022-04-01,h2,-1.009426,-0.763596,0.24583,0.24583,0.060432,0.762551,-0.67382,-1.051906
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1447,Latur,2022-04-01,h3,-1.794731,-0.613395,1.181336,1.181336,1.395554,0.793288,-0.49913,-1.051906
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1448,Latur,2022-05-01,h1,-1.009426,-0.8777,0.131726,0.131726,0.017352,0.999996,-0.877699,-1.102535
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1448,Latur,2022-05-01,h2,-1.794731,-0.76963,1.025101,1.025101,1.050833,0.762551,-0.665967,-1.102535
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1448,Latur,2022-05-01,h3,-1.899216,-0.594716,1.3045,1.3045,1.701719,0.793288,-0.462391,-1.102535
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1449,Latur,2022-06-01,h1,-1.794731,-0.751474,1.043257,1.043257,1.088385,0.999996,-0.751473,-1.009426
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1449,Latur,2022-06-01,h2,-1.899216,-0.659356,1.23986,1.23986,1.537254,0.762551,-0.550348,-1.009426
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1449,Latur,2022-06-01,h3,-1.5984,-0.580142,1.018258,1.018258,1.036849,0.793288,-0.468281,-1.009426
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1450,Latur,2022-07-01,h1,-1.899216,-1.462235,0.436981,0.436981,0.190952,0.999996,-1.462234,-1.794731
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1450,Latur,2022-07-01,h2,-1.5984,-1.375734,0.222666,0.222666,0.04958,0.762551,-1.245263,-1.794731
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1450,Latur,2022-07-01,h3,-1.468791,-1.069734,0.399057,0.399057,0.159246,0.793288,-0.880817,-1.794731
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1451,Latur,2022-08-01,h1,-1.5984,-1.614143,-0.015743,0.015743,0.000248,0.999996,-1.614142,-1.899216
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1451,Latur,2022-08-01,h2,-1.468791,-1.355355,0.113436,0.113436,0.012868,0.762551,-1.186003,-1.899216
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1451,Latur,2022-08-01,h3,-1.200625,-1.091251,0.109374,0.109374,0.011963,0.793288,-0.880715,-1.899216
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1452,Latur,2022-09-01,h1,-1.468791,-1.161592,0.307199,0.307199,0.094371,0.999996,-1.16159,-1.5984
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1452,Latur,2022-09-01,h2,-1.200625,-1.039516,0.161109,0.161109,0.025956,0.762551,-0.865487,-1.5984
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1452,Latur,2022-09-01,h3,-1.236884,-0.8894,0.347484,0.347484,0.120745,0.793288,-0.704651,-1.5984
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1453,Latur,2022-10-01,h1,-1.200625,-1.110705,0.08992,0.08992,0.008086,0.999996,-1.110704,-1.468791
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1453,Latur,2022-10-01,h2,-1.236884,-1.053151,0.183733,0.183733,0.033758,0.762551,-0.923726,-1.468791
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1453,Latur,2022-10-01,h3,-1.348149,-0.849856,0.498293,0.498293,0.248296,0.793288,-0.688576,-1.468791
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1454,Latur,2022-11-01,h1,-1.236884,-0.987676,0.249208,0.249208,0.062105,0.999996,-0.987675,-1.200625
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1454,Latur,2022-11-01,h2,-1.348149,-0.847963,0.500186,0.500186,0.250186,0.762551,-0.738148,-1.200625
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1454,Latur,2022-11-01,h3,-1.074304,-0.672947,0.401357,0.401357,0.161087,0.793288,-0.535447,-1.200625
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1455,Latur,2022-12-01,h1,-1.348149,-0.956344,0.391805,0.391805,0.153511,0.999996,-0.956343,-1.236884
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1455,Latur,2022-12-01,h2,-1.074304,-0.842486,0.231818,0.231818,0.05374,0.762551,-0.719675,-1.236884
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1455,Latur,2022-12-01,h3,-1.272316,-0.718885,0.553431,0.553431,0.306286,0.793288,-0.583907,-1.236884
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1456,Latur,2023-01-01,h1,-1.074304,-1.025426,0.048878,0.048878,0.002389,0.999996,-1.025425,-1.348149
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1456,Latur,2023-01-01,h2,-1.272316,-0.979419,0.292897,0.292897,0.085789,0.762551,-0.864601,-1.348149
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1456,Latur,2023-01-01,h3,-1.215608,-0.824527,0.391081,0.391081,0.152944,0.793288,-0.688084,-1.348149
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1457,Latur,2023-02-01,h1,-1.272316,-0.87782,0.394496,0.394496,0.155627,0.999996,-0.877819,-1.074304
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1457,Latur,2023-02-01,h2,-1.215608,-0.797268,0.41834,0.41834,0.175009,0.762551,-0.711002,-1.074304
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1457,Latur,2023-02-01,h3,-0.807146,-0.672001,0.135145,0.135145,0.018264,0.793288,-0.567171,-1.074304
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1458,Latur,2023-03-01,h1,-1.215608,-1.058499,0.157109,0.157109,0.024683,0.999996,-1.058498,-1.272316
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1458,Latur,2023-03-01,h2,-0.807146,-0.956685,-0.149539,0.149539,0.022362,0.762551,-0.858401,-1.272316
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1458,Latur,2023-03-01,h3,-0.304694,-0.764583,-0.459889,0.459889,0.211498,0.793288,-0.63228,-1.272316
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1459,Latur,2023-04-01,h1,-0.807146,-0.985018,-0.177872,0.177872,0.031638,0.999996,-0.985017,-1.215608
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1459,Latur,2023-04-01,h2,-0.304694,-0.848739,-0.544045,0.544045,0.295985,0.762551,-0.7345,-1.215608
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1459,Latur,2023-04-01,h3,-0.923662,-0.617677,0.305985,0.305985,0.093627,0.793288,-0.46187,-1.215608
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1460,Latur,2023-05-01,h1,-0.304694,-0.558954,-0.25426,0.25426,0.064648,0.999996,-0.558953,-0.807146
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1460,Latur,2023-05-01,h2,-0.923662,-0.433845,0.489817,0.489817,0.23992,0.762551,-0.317604,-0.807146
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1460,Latur,2023-05-01,h3,-0.656814,-0.323964,0.33285,0.33285,0.110789,0.793288,-0.198058,-0.807146
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1461,Latur,2023-06-01,h1,-0.923662,-0.098995,0.824667,0.824667,0.680076,0.999996,-0.098994,-0.304694
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1461,Latur,2023-06-01,h2,-0.656814,-0.084592,0.572222,0.572222,0.327438,0.762551,-0.016055,-0.304694
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1461,Latur,2023-06-01,h3,-0.221499,-0.056968,0.164531,0.164531,0.027071,0.793288,0.007584,-0.304694
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1462,Latur,2023-07-01,h1,-0.656814,-0.730971,-0.074157,0.074157,0.005499,0.999996,-0.73097,-0.923662
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1462,Latur,2023-07-01,h2,-0.221499,-0.675211,-0.453712,0.453712,0.205854,0.762551,-0.597846,-0.923662
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1462,Latur,2023-07-01,h3,0.399457,-0.440339,-0.839796,0.839796,0.705258,0.793288,-0.314397,-0.923662
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1463,Latur,2023-08-01,h1,-0.221499,-0.510583,-0.289084,0.289084,0.083569,0.999996,-0.510582,-0.656814
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1463,Latur,2023-08-01,h2,0.399457,-0.339649,-0.739106,0.739106,0.546278,0.762551,-0.240888,-0.656814
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1463,Latur,2023-08-01,h3,-0.132963,-0.287071,-0.154108,0.154108,0.023749,0.793288,-0.190725,-0.656814
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1464,Latur,2023-09-01,h1,0.399457,0.045102,-0.354355,0.354355,0.125568,0.999996,0.045103,-0.221499
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1464,Latur,2023-09-01,h2,-0.132963,-0.031294,0.101669,0.101669,0.010337,0.762551,0.027934,-0.221499
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1464,Latur,2023-09-01,h3,-0.218241,-0.039588,0.178653,0.178653,0.031917,0.793288,0.007814,-0.221499
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1465,Latur,2023-10-01,h1,-0.132963,0.375535,0.508498,0.508498,0.25857,0.999996,0.375535,0.399457
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1465,Latur,2023-10-01,h2,-0.218241,0.315447,0.533688,0.533688,0.284823,0.762551,0.289287,0.399457
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1465,Latur,2023-10-01,h3,-0.624966,0.300033,0.924999,0.924999,0.855624,0.793288,0.274126,0.399457
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1466,Latur,2023-11-01,h1,-0.218241,-0.164401,0.05384,0.05384,0.002899,0.999996,-0.164401,-0.132963
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1466,Latur,2023-11-01,h2,-0.624966,-0.102716,0.52225,0.52225,0.272745,0.762551,-0.093298,-0.132963
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1466,Latur,2023-11-01,h3,-0.699745,0.069644,0.769389,0.769389,0.591959,0.793288,0.122438,-0.132963
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1467,Latur,2023-12-01,h1,-0.624966,-0.143113,0.481853,0.481853,0.232182,0.999996,-0.143113,-0.218241
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1467,Latur,2023-12-01,h2,-0.699745,0.015433,0.715178,0.715178,0.511479,0.762551,0.088196,-0.218241
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1467,Latur,2023-12-01,h3,-0.388636,0.043202,0.431838,0.431838,0.186484,0.793288,0.111328,-0.218241
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1468,Latur,2024-01-01,h1,-0.699745,-0.302264,0.397481,0.397481,0.157991,0.999996,-0.302263,-0.624966
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1468,Latur,2024-01-01,h2,-0.388636,-0.33822,0.050416,0.050416,0.002542,0.762551,-0.248931,-0.624966
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1468,Latur,2024-01-01,h3,-0.836742,-0.268547,0.568195,0.568195,0.322845,0.793288,-0.175673,-0.624966
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1469,Latur,2024-02-01,h1,-0.388636,-0.583976,-0.19534,0.19534,0.038158,0.999996,-0.583976,-0.699745
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1469,Latur,2024-02-01,h2,-0.836742,-0.522605,0.314137,0.314137,0.098682,0.762551,-0.467446,-0.699745
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1469,Latur,2024-02-01,h3,-0.55064,-0.447038,0.103602,0.103602,0.010733,0.793288,-0.381188,-0.699745
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1470,Latur,2024-03-01,h1,-0.836742,-0.288028,0.548714,0.548714,0.301087,0.999996,-0.288028,-0.388636
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1470,Latur,2024-03-01,h2,-0.55064,-0.261279,0.289361,0.289361,0.08373,0.762551,-0.221622,-0.388636
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1470,Latur,2024-03-01,h3,-1.097466,-0.1943,0.903166,0.903166,0.815708,0.793288,-0.143661,-0.388636
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1471,Latur,2024-04-01,h1,-0.55064,-0.685366,-0.134726,0.134726,0.018151,0.999996,-0.685365,-0.836742
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1471,Latur,2024-04-01,h2,-1.097466,-0.606104,0.491362,0.491362,0.241437,0.762551,-0.534286,-0.836742
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1471,Latur,2024-04-01,h3,-1.947929,-0.430154,1.517775,1.517775,2.303641,0.793288,-0.324207,-0.836742
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1472,Latur,2024-05-01,h1,-1.097466,-0.387974,0.709492,0.709492,0.503379,0.999996,-0.387973,-0.55064
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1472,Latur,2024-05-01,h2,-1.947929,-0.290818,1.657111,1.657111,2.746018,0.762551,-0.209912,-0.55064
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1472,Latur,2024-05-01,h3,-1.412266,-0.270028,1.142238,1.142238,1.304708,0.793288,-0.196907,-0.55064
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1473,Latur,2024-06-01,h1,-1.947929,-0.846108,1.101821,1.101821,1.21401,0.999996,-0.846107,-1.097466
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1473,Latur,2024-06-01,h2,-1.412266,-0.826013,0.586253,0.586253,0.343692,0.762551,-0.741486,-1.097466
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1473,Latur,2024-06-01,h3,-1.008846,-0.713669,0.295177,0.295177,0.08713,0.793288,-0.61366,-1.097466
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1474,Latur,2024-07-01,h1,-1.412266,-1.694992,-0.282726,0.282726,0.079934,0.999996,-1.694991,-1.947929
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1474,Latur,2024-07-01,h2,-1.008846,-1.552003,-0.543157,0.543157,0.295019,0.762551,-1.428716,-1.947929
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1474,Latur,2024-07-01,h3,-1.090186,-1.352643,-0.262457,0.262457,0.068884,0.793288,-1.197526,-1.947929
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1475,Latur,2024-08-01,h1,-1.008846,-1.150818,-0.141972,0.141972,0.020156,0.999996,-1.150817,-1.412266
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1475,Latur,2024-08-01,h2,-1.090186,-1.074133,0.016053,0.016053,0.000258,0.762551,-0.968842,-1.412266
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1475,Latur,2024-08-01,h3,-1.100223,-0.956003,0.14422,0.14422,0.020799,0.793288,-0.837112,-1.412266
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1476,Latur,2024-09-01,h1,-1.090186,-0.809979,0.280207,0.280207,0.078516,0.999996,-0.809978,-1.008846
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1476,Latur,2024-09-01,h2,-1.100223,-0.787535,0.312688,0.312688,0.097774,0.762551,-0.718622,-1.008846
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1476,Latur,2024-09-01,h3,-1.078854,-0.733519,0.345335,0.345335,0.119256,0.793288,-0.661775,-1.008846
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1677,Nanded,2020-12-01,h1,-0.268892,-0.867248,-0.598356,0.598356,0.35803,0.999996,-0.867247,-1.234806
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1677,Nanded,2020-12-01,h2,-0.243768,-0.840139,-0.596371,0.596371,0.355658,0.762551,-0.717244,-1.234806
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1677,Nanded,2020-12-01,h3,-0.30948,-0.755965,-0.446485,0.446485,0.199349,0.793288,-0.63119,-1.234806
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1678,Nanded,2021-01-01,h1,-0.243768,-0.148549,0.095219,0.095219,0.009067,0.999996,-0.148549,-0.268892
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1678,Nanded,2021-01-01,h2,-0.30948,-0.194216,0.115264,0.115264,0.013286,0.762551,-0.170963,-0.268892
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1678,Nanded,2021-01-01,h3,-0.532606,-0.249886,0.28272,0.28272,0.07993,0.793288,-0.244934,-0.268892
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1679,Nanded,2021-02-01,h1,-0.30948,-0.253677,0.055803,0.055803,0.003114,0.999996,-0.253677,-0.243768
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1679,Nanded,2021-02-01,h2,-0.532606,-0.291557,0.241049,0.241049,0.058105,0.762551,-0.306438,-0.243768
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1679,Nanded,2021-02-01,h3,-0.669454,-0.160023,0.509431,0.509431,0.25952,0.793288,-0.138201,-0.243768
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1680,Nanded,2021-03-01,h1,-0.532606,-0.34856,0.184046,0.184046,0.033873,0.999996,-0.34856,-0.30948
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1680,Nanded,2021-03-01,h2,-0.669454,-0.198129,0.471325,0.471325,0.222147,0.762551,-0.163456,-0.30948
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1680,Nanded,2021-03-01,h3,-1.442475,-0.12922,1.313255,1.313255,1.72464,0.793288,-0.082248,-0.30948
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1681,Nanded,2021-04-01,h1,-0.669454,-0.319622,0.349832,0.349832,0.122383,0.999996,-0.319621,-0.532606
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1681,Nanded,2021-04-01,h2,-1.442475,-0.299152,1.143323,1.143323,1.307188,0.762551,-0.226457,-0.532606
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1681,Nanded,2021-04-01,h3,-0.676418,-0.224515,0.451903,0.451903,0.204216,0.793288,-0.144234,-0.532606
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1682,Nanded,2021-05-01,h1,-1.442475,-0.521853,0.920622,0.920622,0.847546,0.999996,-0.521852,-0.669454
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1682,Nanded,2021-05-01,h2,-0.676418,-0.472001,0.204417,0.204417,0.041786,0.762551,-0.410516,-0.669454
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1682,Nanded,2021-05-01,h3,-1.055703,-0.425203,0.6305,0.6305,0.39753,0.793288,-0.361557,-0.669454
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1683,Nanded,2021-06-01,h1,-0.676418,-1.230051,-0.553633,0.553633,0.306509,0.999996,-1.23005,-1.442475
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1683,Nanded,2021-06-01,h2,-1.055703,-1.142004,-0.086301,0.086301,0.007448,0.762551,-1.048441,-1.442475
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1683,Nanded,2021-06-01,h3,-0.818098,-0.869534,-0.051436,0.051436,0.002646,0.793288,-0.720239,-1.442475
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1684,Nanded,2021-07-01,h1,-1.055703,-0.545271,0.510432,0.510432,0.260541,0.999996,-0.54527,-0.676418
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1684,Nanded,2021-07-01,h2,-0.818098,-0.377206,0.440892,0.440892,0.194386,0.762551,-0.284035,-0.676418
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1684,Nanded,2021-07-01,h3,-1.255908,-0.303251,0.952657,0.952657,0.907555,0.793288,-0.206013,-0.676418
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1685,Nanded,2021-08-01,h1,-0.818098,-0.711122,0.106976,0.106976,0.011444,0.999996,-0.711121,-1.055703
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1685,Nanded,2021-08-01,h2,-1.255908,-0.692572,0.563336,0.563336,0.317348,0.762551,-0.579497,-1.055703
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1685,Nanded,2021-08-01,h3,-1.224085,-0.502886,0.721199,0.721199,0.520128,0.793288,-0.358835,-1.055703
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1686,Nanded,2021-09-01,h1,-1.255908,-0.677057,0.578851,0.578851,0.335069,0.999996,-0.677056,-0.818098
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1686,Nanded,2021-09-01,h2,-1.224085,-0.525471,0.698614,0.698614,0.488061,0.762551,-0.434351,-0.818098
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1686,Nanded,2021-09-01,h3,-1.010821,-0.424887,0.585934,0.585934,0.343318,0.793288,-0.322426,-0.818098
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1687,Nanded,2021-10-01,h1,-1.224085,-0.940675,0.28341,0.28341,0.080321,0.999996,-0.940674,-1.255908
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1687,Nanded,2021-10-01,h2,-1.010821,-0.873702,0.137119,0.137119,0.018802,0.762551,-0.754688,-1.255908
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1687,Nanded,2021-10-01,h3,-0.999292,-0.730991,0.268301,0.268301,0.071985,0.793288,-0.59421,-1.255908
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1688,Nanded,2021-11-01,h1,-1.010821,-0.97836,0.032461,0.032461,0.001054,0.999996,-0.978359,-1.224085
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1688,Nanded,2021-11-01,h2,-0.999292,-0.899967,0.099325,0.099325,0.009865,0.762551,-0.799041,-1.224085
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1688,Nanded,2021-11-01,h3,-0.736928,-0.849986,-0.113058,0.113058,0.012782,0.793288,-0.752505,-1.224085
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1689,Nanded,2021-12-01,h1,-0.999292,-0.772943,0.226349,0.226349,0.051234,0.999996,-0.772942,-1.010821
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1689,Nanded,2021-12-01,h2,-0.736928,-0.815279,-0.078351,0.078351,0.006139,0.762551,-0.754389,-1.010821
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1689,Nanded,2021-12-01,h3,-0.316169,-0.691446,-0.375277,0.375277,0.140833,0.793288,-0.608224,-1.010821
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1690,Nanded,2022-01-01,h1,-0.736928,-0.949639,-0.212711,0.212711,0.045246,0.999996,-0.949639,-0.999292
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1690,Nanded,2022-01-01,h2,-0.316169,-0.821719,-0.50555,0.50555,0.255581,0.762551,-0.766425,-0.999292
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1690,Nanded,2022-01-01,h3,-0.294063,-0.689151,-0.395088,0.395088,0.156095,0.793288,-0.608336,-0.999292
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1691,Nanded,2022-02-01,h1,-0.316169,-0.579537,-0.263368,0.263368,0.069363,0.999996,-0.579536,-0.736928
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1691,Nanded,2022-02-01,h2,-0.294063,-0.514129,-0.220066,0.220066,0.048429,0.762551,-0.444752,-0.736928
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1691,Nanded,2022-02-01,h3,-0.547762,-0.405346,0.142416,0.142416,0.020282,0.793288,-0.318944,-0.736928
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1692,Nanded,2022-03-01,h1,-0.294063,-0.207069,0.086994,0.086994,0.007568,0.999996,-0.207069,-0.316169
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1692,Nanded,2022-03-01,h2,-0.547762,-0.166528,0.381234,0.381234,0.145339,0.762551,-0.119932,-0.316169
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1692,Nanded,2022-03-01,h3,-0.546943,-0.113485,0.433458,0.433458,0.187886,0.793288,-0.06067,-0.316169
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1693,Nanded,2022-04-01,h1,-0.547762,-0.192175,0.355587,0.355587,0.126442,0.999996,-0.192175,-0.294063
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1693,Nanded,2022-04-01,h2,-0.546943,-0.168983,0.37796,0.37796,0.142854,0.762551,-0.130035,-0.294063
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1693,Nanded,2022-04-01,h3,-1.984708,-0.154895,1.829813,1.829813,3.348216,0.793288,-0.118631,-0.294063
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1694,Nanded,2022-05-01,h1,-0.546943,-0.460277,0.086666,0.086666,0.007511,0.999996,-0.460277,-0.547762
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1694,Nanded,2022-05-01,h2,-1.984708,-0.426831,1.557877,1.557877,2.426982,0.762551,-0.389174,-0.547762
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1694,Nanded,2022-05-01,h3,-1.658001,-0.280481,1.37752,1.37752,1.897561,0.793288,-0.210834,-0.547762
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1695,Nanded,2022-06-01,h1,-1.984708,-0.431152,1.553556,1.553556,2.413535,0.999996,-0.431152,-0.546943
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1695,Nanded,2022-06-01,h2,-1.658001,-0.325491,1.33251,1.33251,1.775582,0.762551,-0.256534,-0.546943
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1695,Nanded,2022-06-01,h3,-1.797948,-0.278273,1.519675,1.519675,2.309412,0.793288,-0.208264,-0.546943
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1696,Nanded,2022-07-01,h1,-1.658001,-1.627818,0.030183,0.030183,0.000911,0.999996,-1.627817,-1.984708
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1696,Nanded,2022-07-01,h2,-1.797948,-1.517428,0.28052,0.28052,0.078691,0.762551,-1.371923,-1.984708
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1696,Nanded,2022-07-01,h3,-1.814412,-1.157474,0.656938,0.656938,0.431567,0.793288,-0.941917,-1.984708
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1697,Nanded,2022-08-01,h1,-1.797948,-1.374837,0.423111,0.423111,0.179023,0.999996,-1.374836,-1.658001
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1697,Nanded,2022-08-01,h2,-1.814412,-1.113815,0.700597,0.700597,0.490836,0.762551,-0.944362,-1.658001
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1697,Nanded,2022-08-01,h3,-1.442533,-0.955686,0.486847,0.486847,0.23702,0.793288,-0.77268,-1.658001
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1698,Nanded,2022-09-01,h1,-1.814412,-1.315066,0.499346,0.499346,0.249346,0.999996,-1.315064,-1.797948
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1698,Nanded,2022-09-01,h2,-1.442533,-1.259617,0.182916,0.182916,0.033458,0.762551,-1.091987,-1.797948
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1698,Nanded,2022-09-01,h3,-1.296071,-1.041404,0.254667,0.254667,0.064855,0.793288,-0.844267,-1.797948
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1699,Nanded,2022-10-01,h1,-1.442533,-1.51069,-0.068157,0.068157,0.004645,0.999996,-1.510689,-1.814412
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1699,Nanded,2022-10-01,h2,-1.296071,-1.344855,-0.048784,0.048784,0.00238,0.762551,-1.198641,-1.814412
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1699,Nanded,2022-10-01,h3,-1.007008,-1.112926,-0.105918,0.105918,0.011219,0.793288,-0.930136,-1.814412
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1700,Nanded,2022-11-01,h1,-1.296071,-1.1215,0.174571,0.174571,0.030475,0.999996,-1.121499,-1.442533
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1700,Nanded,2022-11-01,h2,-1.007008,-0.999463,0.007545,0.007545,5.7e-05,0.762551,-0.861496,-1.442533
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1700,Nanded,2022-11-01,h3,-0.686082,-0.817694,-0.131612,0.131612,0.017322,0.793288,-0.654876,-1.442533
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1701,Nanded,2022-12-01,h1,-1.007008,-0.999853,0.007155,0.007155,5.1e-05,0.999996,-0.999852,-1.296071
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1701,Nanded,2022-12-01,h2,-0.686082,-0.906263,-0.220181,0.220181,0.04848,0.762551,-0.784882,-1.296071
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1701,Nanded,2022-12-01,h3,-0.860004,-0.867661,-0.007657,0.007657,5.9e-05,0.793288,-0.756028,-1.296071
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1702,Nanded,2023-01-01,h1,-0.686082,-0.756782,-0.0707,0.0707,0.004998,0.999996,-0.756781,-1.007008
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1702,Nanded,2023-01-01,h2,-0.860004,-0.814441,0.045563,0.045563,0.002076,0.762551,-0.754478,-1.007008
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1702,Nanded,2023-01-01,h3,-1.224165,-0.719917,0.504248,0.504248,0.254266,0.793288,-0.645108,-1.007008
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1703,Nanded,2023-02-01,h1,-0.860004,-0.668522,0.191482,0.191482,0.036665,0.999996,-0.668522,-0.686082
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1703,Nanded,2023-02-01,h2,-1.224165,-0.601635,0.62253,0.62253,0.387544,0.762551,-0.575339,-0.686082
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1703,Nanded,2023-02-01,h3,-0.991943,-0.514525,0.477418,0.477418,0.227928,0.793288,-0.469821,-0.686082
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1704,Nanded,2023-03-01,h1,-1.224165,-0.743664,0.480501,0.480501,0.230881,0.999996,-0.743664,-0.860004
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1704,Nanded,2023-03-01,h2,-0.991943,-0.67047,0.321473,0.321473,0.103345,0.762551,-0.611452,-0.860004
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1704,Nanded,2023-03-01,h3,-0.075345,-0.550793,-0.475448,0.475448,0.226051,0.793288,-0.47022,-0.860004
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1705,Nanded,2023-04-01,h1,-0.991943,-1.032053,-0.04011,0.04011,0.001609,0.999996,-1.032052,-1.224165
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1705,Nanded,2023-04-01,h2,-0.075345,-0.917921,-0.842576,0.842576,0.709935,0.762551,-0.822561,-1.224165
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1705,Nanded,2023-04-01,h3,-0.461445,-0.637388,-0.175943,0.175943,0.030956,0.793288,-0.484488,-1.224165
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1706,Nanded,2023-05-01,h1,-0.075345,-0.778222,-0.702877,0.702877,0.494036,0.999996,-0.778221,-0.991943
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1706,Nanded,2023-05-01,h2,-0.461445,-0.578151,-0.116706,0.116706,0.01362,0.762551,-0.449301,-0.991943
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1706,Nanded,2023-05-01,h3,-0.545395,-0.482991,0.062404,0.062404,0.003894,0.793288,-0.35037,-0.991943
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1707,Nanded,2023-06-01,h1,-0.461445,0.144916,0.606361,0.606361,0.367674,0.999996,0.144917,-0.075345
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1707,Nanded,2023-06-01,h2,-0.545395,0.101141,0.646536,0.646536,0.418009,0.762551,0.156097,-0.075345
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1707,Nanded,2023-06-01,h3,-1.168921,0.106945,1.275866,1.275866,1.627833,0.793288,0.154445,-0.075345
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1708,Nanded,2023-07-01,h1,-0.545395,-0.350436,0.194959,0.194959,0.038009,0.999996,-0.350436,-0.461445
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1708,Nanded,2023-07-01,h2,-1.168921,-0.320132,0.848789,0.848789,0.720443,0.762551,-0.276129,-0.461445
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1708,Nanded,2023-07-01,h3,-0.325495,-0.110676,0.214819,0.214819,0.046147,0.793288,-0.019274,-0.461445
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1709,Nanded,2023-08-01,h1,-1.168921,-0.450517,0.718404,0.718404,0.516104,0.999996,-0.450517,-0.545395
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1709,Nanded,2023-08-01,h2,-0.325495,-0.245183,0.080312,0.080312,0.00645,0.762551,-0.151701,-0.545395
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1709,Nanded,2023-08-01,h3,-0.827834,-0.132795,0.695039,0.695039,0.483079,0.793288,-0.025281,-0.545395
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1710,Nanded,2023-09-01,h1,-0.325495,-0.766706,-0.441211,0.441211,0.194667,0.999996,-0.766704,-1.168921
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1710,Nanded,2023-09-01,h2,-0.827834,-0.707093,0.120741,0.120741,0.014578,0.762551,-0.563285,-1.168921
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1710,Nanded,2023-09-01,h3,-1.117531,-0.569643,0.547888,0.547888,0.300181,0.793288,-0.413486,-1.168921
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1711,Nanded,2023-10-01,h1,-0.827834,-0.123218,0.704616,0.704616,0.496484,0.999996,-0.123217,-0.325495
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1711,Nanded,2023-10-01,h2,-1.117531,-0.131651,0.98588,0.98588,0.971958,0.762551,-0.071291,-0.325495
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1711,Nanded,2023-10-01,h3,-1.193442,-0.206363,0.987079,0.987079,0.974325,0.793288,-0.17532,-0.325495
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1712,Nanded,2023-11-01,h1,-1.117531,-0.673312,0.444219,0.444219,0.197331,0.999996,-0.673311,-0.827834
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1712,Nanded,2023-11-01,h2,-1.193442,-0.721252,0.47219,0.47219,0.222963,0.762551,-0.688064,-0.827834
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1712,Nanded,2023-11-01,h3,-1.061826,-0.494127,0.567699,0.567699,0.322282,0.793288,-0.407171,-0.827834
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1713,Nanded,2023-12-01,h1,-1.193442,-1.074597,0.118845,0.118845,0.014124,0.999996,-1.074597,-1.117531
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1713,Nanded,2023-12-01,h2,-1.061826,-0.80858,0.253246,0.253246,0.064134,0.762551,-0.712376,-1.117531
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1713,Nanded,2023-12-01,h3,-0.672207,-0.613891,0.058316,0.058316,0.003401,0.793288,-0.482654,-1.117531
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1714,Nanded,2024-01-01,h1,-1.061826,-0.795442,0.266384,0.266384,0.070961,0.999996,-0.79544,-1.193442
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1714,Nanded,2024-01-01,h2,-0.672207,-0.713136,-0.040929,0.040929,0.001675,0.762551,-0.563574,-1.193442
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1714,Nanded,2024-01-01,h3,-0.771966,-0.565023,0.206943,0.206943,0.042825,0.793288,-0.401272,-1.193442
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1715,Nanded,2024-02-01,h1,-0.672207,-0.775701,-0.103494,0.103494,0.010711,0.999996,-0.7757,-1.061826
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1715,Nanded,2024-02-01,h2,-0.771966,-0.712581,0.059385,0.059385,0.003527,0.762551,-0.603831,-1.061826
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1715,Nanded,2024-02-01,h3,-0.881096,-0.681173,0.199923,0.199923,0.039969,0.793288,-0.581984,-1.061826
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1716,Nanded,2024-03-01,h1,-0.771966,-0.508451,0.263515,0.263515,0.06944,0.999996,-0.50845,-0.672207
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1716,Nanded,2024-03-01,h2,-0.881096,-0.544023,0.337073,0.337073,0.113618,0.762551,-0.504108,-0.672207
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1716,Nanded,2024-03-01,h3,-0.832193,-0.47457,0.357623,0.357623,0.127894,0.793288,-0.423071,-0.672207
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1717,Nanded,2024-04-01,h1,-0.881096,-0.726584,0.154512,0.154512,0.023874,0.999996,-0.726584,-0.771966
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1717,Nanded,2024-04-01,h2,-0.832193,-0.640908,0.191285,0.191285,0.03659,0.762551,-0.600098,-0.771966
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1717,Nanded,2024-04-01,h3,-1.395622,-0.489515,0.906107,0.906107,0.82103,0.793288,-0.415915,-0.771966
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1718,Nanded,2024-05-01,h1,-0.832193,-0.700532,0.131661,0.131661,0.017335,0.999996,-0.700531,-0.881096
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1718,Nanded,2024-05-01,h2,-1.395622,-0.599835,0.795787,0.795787,0.633277,0.762551,-0.512254,-0.881096
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1718,Nanded,2024-05-01,h3,-1.107504,-0.508117,0.599387,0.599387,0.359264,0.793288,-0.410928,-0.881096
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1719,Nanded,2024-06-01,h1,-1.395622,-0.62414,0.771482,0.771482,0.595185,0.999996,-0.624139,-0.832193
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1719,Nanded,2024-06-01,h2,-1.107504,-0.590415,0.517089,0.517089,0.267381,0.762551,-0.515128,-0.832193
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1719,Nanded,2024-06-01,h3,-1.075043,-0.487861,0.587182,0.587182,0.344783,0.793288,-0.398136,-0.832193
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1720,Nanded,2024-07-01,h1,-1.107504,-1.190553,-0.083049,0.083049,0.006897,0.999996,-1.190552,-1.395622
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1720,Nanded,2024-07-01,h2,-1.075043,-1.075904,-0.000861,0.000861,1e-06,0.762551,-0.976348,-1.395622
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1720,Nanded,2024-07-01,h3,-1.098037,-0.925299,0.172738,0.172738,0.029838,0.793288,-0.802744,-1.395622
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1721,Nanded,2024-08-01,h1,-1.075043,-0.913292,0.161751,0.161751,0.026163,0.999996,-0.913291,-1.107504
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1721,Nanded,2024-08-01,h2,-1.098037,-0.826156,0.271881,0.271881,0.073919,0.762551,-0.738548,-1.107504
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1721,Nanded,2024-08-01,h3,-1.059154,-0.669181,0.389973,0.389973,0.152079,0.793288,-0.554964,-1.107504
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1722,Nanded,2024-09-01,h1,-1.098037,-0.840542,0.257495,0.257495,0.066304,0.999996,-0.840541,-1.075043
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1722,Nanded,2024-09-01,h2,-1.059154,-0.752565,0.306589,0.306589,0.093997,0.762551,-0.652149,-1.075043
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1722,Nanded,2024-09-01,h3,-1.103211,-0.598858,0.504353,0.504353,0.254372,0.793288,-0.474775,-1.075043
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1923,Parbhani,2020-12-01,h1,-0.538732,-0.818654,-0.279922,0.279922,0.078356,0.999996,-0.818652,-1.29301
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1923,Parbhani,2020-12-01,h2,-0.823652,-0.770235,0.053417,0.053417,0.002853,0.762551,-0.607449,-1.29301
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1923,Parbhani,2020-12-01,h3,-0.773763,-0.693486,0.080277,0.080277,0.006444,0.793288,-0.537264,-1.29301
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1924,Parbhani,2021-01-01,h1,-0.823652,-0.320948,0.502704,0.502704,0.252711,0.999996,-0.320947,-0.538732
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1924,Parbhani,2021-01-01,h2,-0.773763,-0.373115,0.400648,0.400648,0.160519,0.762551,-0.321544,-0.538732
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1924,Parbhani,2021-01-01,h3,-0.891927,-0.383273,0.508654,0.508654,0.258729,0.793288,-0.342764,-0.538732
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1925,Parbhani,2021-02-01,h1,-0.773763,-0.759093,0.01467,0.01467,0.000215,0.999996,-0.759093,-0.823652
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1925,Parbhani,2021-02-01,h2,-0.891927,-0.732138,0.159789,0.159789,0.025532,0.762551,-0.703642,-0.823652
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1925,Parbhani,2021-02-01,h3,-0.967354,-0.523728,0.443626,0.443626,0.196804,0.793288,-0.445575,-0.823652
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1926,Parbhani,2021-03-01,h1,-0.891927,-0.700219,0.191708,0.191708,0.036752,0.999996,-0.700219,-0.773763
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1926,Parbhani,2021-03-01,h2,-0.967354,-0.514422,0.452932,0.452932,0.205148,0.762551,-0.433666,-0.773763
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1926,Parbhani,2021-03-01,h3,-1.544187,-0.411382,1.132805,1.132805,1.283247,0.793288,-0.316954,-0.773763
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1927,Parbhani,2021-04-01,h1,-0.967354,-0.571175,0.396179,0.396179,0.156958,0.999996,-0.571174,-0.891927
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1927,Parbhani,2021-04-01,h2,-1.544187,-0.558683,0.985504,0.985504,0.971218,0.762551,-0.454915,-0.891927
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1927,Parbhani,2021-04-01,h3,-0.880017,-0.425078,0.454939,0.454939,0.20697,0.793288,-0.303428,-0.891927
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1928,Parbhani,2021-05-01,h1,-1.544187,-0.794371,0.749816,0.749816,0.562224,0.999996,-0.79437,-0.967354
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1928,Parbhani,2021-05-01,h2,-0.880017,-0.688365,0.191652,0.191652,0.036731,0.762551,-0.601491,-0.967354
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1928,Parbhani,2021-05-01,h3,-1.049633,-0.589988,0.459645,0.459645,0.211273,0.793288,-0.491656,-0.967354
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1929,Parbhani,2021-06-01,h1,-0.880017,-1.283117,-0.4031,0.4031,0.16249,0.999996,-1.283116,-1.544187
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1929,Parbhani,2021-06-01,h2,-1.049633,-1.171294,-0.121661,0.121661,0.014801,0.762551,-1.05518,-1.544187
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1929,Parbhani,2021-06-01,h3,-1.208647,-0.899126,0.309521,0.309521,0.095803,0.793288,-0.731039,-1.544187
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1930,Parbhani,2021-07-01,h1,-1.049633,-0.674486,0.375147,0.375147,0.140735,0.999996,-0.674485,-0.880017
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1930,Parbhani,2021-07-01,h2,-1.208647,-0.518819,0.689828,0.689828,0.475862,0.762551,-0.406347,-0.880017
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1930,Parbhani,2021-07-01,h3,-1.370457,-0.428622,0.941835,0.941835,0.887053,0.793288,-0.310999,-0.880017
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1931,Parbhani,2021-08-01,h1,-1.208647,-0.701867,0.50678,0.50678,0.256826,0.999996,-0.701866,-1.049633
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1931,Parbhani,2021-08-01,h2,-1.370457,-0.691531,0.678926,0.678926,0.460941,0.762551,-0.580022,-1.049633
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1931,Parbhani,2021-08-01,h3,-1.19618,-0.52621,0.66997,0.66997,0.448859,0.793288,-0.389819,-1.049633
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1932,Parbhani,2021-09-01,h1,-1.370457,-1.032921,0.337536,0.337536,0.113931,0.999996,-1.03292,-1.208647
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1932,Parbhani,2021-09-01,h2,-1.19618,-0.870103,0.326077,0.326077,0.106326,0.762551,-0.764684,-1.208647
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1932,Parbhani,2021-09-01,h3,-0.956805,-0.681936,0.274869,0.274869,0.075553,0.793288,-0.544688,-1.208647
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1933,Parbhani,2021-10-01,h1,-1.19618,-1.053866,0.142314,0.142314,0.020253,0.999996,-1.053865,-1.370457
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1933,Parbhani,2021-10-01,h2,-0.956805,-0.928347,0.028458,0.028458,0.00081,0.762551,-0.79068,-1.370457
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1933,Parbhani,2021-10-01,h3,-1.478693,-0.785467,0.693226,0.693226,0.480563,0.793288,-0.633032,-1.370457
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1934,Parbhani,2021-11-01,h1,-0.956805,-0.886512,0.070293,0.070293,0.004941,0.999996,-0.886511,-1.19618
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1934,Parbhani,2021-11-01,h2,-1.478693,-0.842607,0.636086,0.636086,0.404605,0.762551,-0.732509,-1.19618
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1934,Parbhani,2021-11-01,h3,-1.345712,-0.764022,0.58169,0.58169,0.338363,0.793288,-0.651412,-1.19618
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1935,Parbhani,2021-12-01,h1,-1.478693,-0.745718,0.732975,0.732975,0.537253,0.999996,-0.745717,-0.956805
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1935,Parbhani,2021-12-01,h2,-1.345712,-0.747311,0.598401,0.598401,0.358084,0.762551,-0.682077,-0.956805
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1935,Parbhani,2021-12-01,h3,-0.937379,-0.613752,0.323627,0.323627,0.104734,0.793288,-0.524361,-0.956805
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1936,Parbhani,2022-01-01,h1,-1.345712,-1.337731,0.007981,0.007981,6.4e-05,0.999996,-1.33773,-1.478693
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1936,Parbhani,2022-01-01,h2,-0.937379,-1.162378,-0.224999,0.224999,0.050625,0.762551,-1.063882,-1.478693
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1936,Parbhani,2022-01-01,h3,-0.927963,-0.901449,0.026514,0.026514,0.000703,0.793288,-0.751033,-1.478693
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1937,Parbhani,2022-02-01,h1,-0.937379,-1.063351,-0.125972,0.125972,0.015869,0.999996,-1.06335,-1.345712
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1937,Parbhani,2022-02-01,h2,-0.927963,-0.890238,0.037725,0.037725,0.001423,0.762551,-0.748409,-1.345712
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1937,Parbhani,2022-02-01,h3,-0.966004,-0.749625,0.216379,0.216379,0.04682,0.793288,-0.594299,-1.345712
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1938,Parbhani,2022-03-01,h1,-0.927963,-0.614927,0.313036,0.313036,0.097991,0.999996,-0.614926,-0.937379
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1938,Parbhani,2022-03-01,h2,-0.966004,-0.602782,0.363222,0.363222,0.131931,0.762551,-0.498592,-0.937379
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1938,Parbhani,2022-03-01,h3,-0.856223,-0.507209,0.349014,0.349014,0.121811,0.793288,-0.395117,-0.937379
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1939,Parbhani,2022-04-01,h1,-0.966004,-0.76032,0.205684,0.205684,0.042306,0.999996,-0.760319,-0.927963
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1939,Parbhani,2022-04-01,h2,-0.856223,-0.696144,0.160079,0.160079,0.025625,0.762551,-0.623958,-0.927963
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1939,Parbhani,2022-04-01,h3,-2.42137,-0.581206,1.840164,1.840164,3.386205,0.793288,-0.490849,-0.927963
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1940,Parbhani,2022-05-01,h1,-0.856223,-0.819652,0.036571,0.036571,0.001337,0.999996,-0.819651,-0.966004
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1940,Parbhani,2022-05-01,h2,-2.42137,-0.716854,1.704516,1.704516,2.905374,0.762551,-0.639272,-0.966004
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1940,Parbhani,2022-05-01,h3,-2.195737,-0.516173,1.679564,1.679564,2.820935,0.793288,-0.398958,-0.966004
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1941,Parbhani,2022-06-01,h1,-2.42137,-0.637503,1.783867,1.783867,3.182182,0.999996,-0.637502,-0.856223
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1941,Parbhani,2022-06-01,h2,-2.195737,-0.513896,1.681841,1.681841,2.828588,0.762551,-0.4073,-0.856223
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1941,Parbhani,2022-06-01,h3,-1.604258,-0.428918,1.17534,1.17534,1.381425,0.793288,-0.317572,-0.856223
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1942,Parbhani,2022-07-01,h1,-2.195737,-1.968708,0.227029,0.227029,0.051542,0.999996,-1.968706,-2.42137
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1942,Parbhani,2022-07-01,h2,-1.604258,-1.834579,-0.230321,0.230321,0.053048,0.762551,-1.651859,-2.42137
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1942,Parbhani,2022-07-01,h3,-1.397967,-1.43944,-0.041473,0.041473,0.00172,0.793288,-1.183572,-2.42137
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1943,Parbhani,2022-08-01,h1,-1.604258,-1.839414,-0.235156,0.235156,0.055299,0.999996,-1.839413,-2.195737
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1943,Parbhani,2022-08-01,h2,-1.397967,-1.543006,-0.145039,0.145039,0.021036,0.762551,-1.339754,-2.195737
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1943,Parbhani,2022-08-01,h3,-1.103062,-1.329267,-0.226205,0.226205,0.051169,0.793288,-1.103486,-2.195737
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1944,Parbhani,2022-09-01,h1,-1.397967,-1.114067,0.2839,0.2839,0.080599,0.999996,-1.114065,-1.604258
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1944,Parbhani,2022-09-01,h2,-1.103062,-1.086474,0.016588,0.016588,0.000275,0.762551,-0.925243,-1.604258
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1944,Parbhani,2022-09-01,h3,-1.124712,-0.960204,0.164508,0.164508,0.027063,0.793288,-0.792379,-1.604258
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1945,Parbhani,2022-10-01,h1,-1.103062,-1.142929,-0.039867,0.039867,0.001589,0.999996,-1.142928,-1.397967
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1945,Parbhani,2022-10-01,h2,-1.124712,-1.080164,0.044548,0.044548,0.001985,0.762551,-0.981204,-1.397967
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1945,Parbhani,2022-10-01,h3,-1.451603,-0.837687,0.613916,0.613916,0.376893,0.793288,-0.691691,-1.397967
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1946,Parbhani,2022-11-01,h1,-1.124712,-0.936314,0.188398,0.188398,0.035494,0.999996,-0.936313,-1.103062
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1946,Parbhani,2022-11-01,h2,-1.451603,-0.747761,0.703842,0.703842,0.495394,0.762551,-0.637124,-1.103062
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1946,Parbhani,2022-11-01,h3,-1.367015,-0.52654,0.840475,0.840475,0.706398,0.793288,-0.376312,-1.103062
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1947,Parbhani,2022-12-01,h1,-1.451603,-0.813273,0.63833,0.63833,0.407465,0.999996,-0.813272,-1.124712
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1947,Parbhani,2022-12-01,h2,-1.367015,-0.669707,0.697308,0.697308,0.486238,0.762551,-0.528024,-1.124712
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1947,Parbhani,2022-12-01,h3,-1.581225,-0.624325,0.9569,0.9569,0.915658,0.793288,-0.493936,-1.124712
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1948,Parbhani,2023-01-01,h1,-1.367015,-1.050996,0.316019,0.316019,0.099868,0.999996,-1.050994,-1.451603
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1948,Parbhani,2023-01-01,h2,-1.581225,-1.085174,0.496051,0.496051,0.246066,0.762551,-0.971073,-1.451603
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1948,Parbhani,2023-01-01,h3,-1.781829,-0.932117,0.849712,0.849712,0.722011,0.793288,-0.796751,-1.451603
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1949,Parbhani,2023-02-01,h1,-1.581225,-1.215037,0.366188,0.366188,0.134094,0.999996,-1.215036,-1.367015
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1949,Parbhani,2023-02-01,h2,-1.781829,-1.096123,0.685706,0.685706,0.470193,0.762551,-1.01177,-1.367015
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1949,Parbhani,2023-02-01,h3,-1.219545,-0.911206,0.308339,0.308339,0.095073,0.793288,-0.792433,-1.367015
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1950,Parbhani,2023-03-01,h1,-1.781829,-1.331499,0.45033,0.45033,0.202797,0.999996,-1.331498,-1.581225
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1950,Parbhani,2023-03-01,h2,-1.219545,-1.180892,0.038653,0.038653,0.001494,0.762551,-1.056233,-1.581225
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1950,Parbhani,2023-03-01,h3,-0.427768,-0.957475,-0.529707,0.529707,0.280589,0.793288,-0.79494,-1.581225
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1951,Parbhani,2023-04-01,h1,-1.219545,-1.437189,-0.217644,0.217644,0.047369,0.999996,-1.437188,-1.781829
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1951,Parbhani,2023-04-01,h2,-0.427768,-1.271496,-0.843728,0.843728,0.711877,0.762551,-1.112585,-1.781829
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1951,Parbhani,2023-04-01,h3,-1.789542,-0.913252,0.87629,0.87629,0.767885,0.793288,-0.686921,-1.781829
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1952,Parbhani,2023-05-01,h1,-0.427768,-0.901044,-0.473276,0.473276,0.22399,0.999996,-0.901043,-1.219545
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1952,Parbhani,2023-05-01,h2,-1.789542,-0.678757,1.110785,1.110785,1.233844,0.762551,-0.510362,-1.219545
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1952,Parbhani,2023-05-01,h3,-0.799252,-0.543003,0.256249,0.256249,0.065664,0.793288,-0.366712,-1.219545
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1953,Parbhani,2023-06-01,h1,-1.789542,-0.122442,1.6671,1.6671,2.779222,0.999996,-0.122441,-0.427768
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1953,Parbhani,2023-06-01,h2,-0.799252,-0.128977,0.670275,0.670275,0.449269,0.762551,-0.035937,-0.427768
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1953,Parbhani,2023-06-01,h3,-0.750914,-0.12144,0.629474,0.629474,0.396238,0.793288,-0.041618,-0.427768
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1954,Parbhani,2023-07-01,h1,-0.799252,-1.478807,-0.679555,0.679555,0.461795,0.999996,-1.478806,-1.789542
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1954,Parbhani,2023-07-01,h2,-0.750914,-1.392206,-0.641292,0.641292,0.411255,0.762551,-1.26848,-1.789542
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1954,Parbhani,2023-07-01,h3,-0.088494,-1.007334,-0.91884,0.91884,0.844267,0.793288,-0.803509,-1.789542
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1955,Parbhani,2023-08-01,h1,-0.750914,-0.634194,0.11672,0.11672,0.013624,0.999996,-0.634193,-0.799252
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1955,Parbhani,2023-08-01,h2,-0.088494,-0.393774,-0.30528,0.30528,0.093196,0.762551,-0.267513,-0.799252
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1955,Parbhani,2023-08-01,h3,-0.334244,-0.399563,-0.065319,0.065319,0.004267,0.793288,-0.295414,-0.799252
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1956,Parbhani,2023-09-01,h1,-0.088494,-0.332771,-0.244277,0.244277,0.059671,0.999996,-0.332769,-0.750914
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1956,Parbhani,2023-09-01,h2,-0.334244,-0.472549,-0.138305,0.138305,0.019128,0.762551,-0.385869,-0.750914
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1956,Parbhani,2023-09-01,h3,-0.650745,-0.41527,0.235475,0.235475,0.055449,0.793288,-0.327809,-0.750914
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1957,Parbhani,2023-10-01,h1,-0.334244,-0.130825,0.203419,0.203419,0.041379,0.999996,-0.130825,-0.088494
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1957,Parbhani,2023-10-01,h2,-0.650745,-0.113566,0.537179,0.537179,0.288561,0.762551,-0.121373,-0.088494
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1957,Parbhani,2023-10-01,h3,-1.421044,-0.061012,1.360032,1.360032,1.849687,0.793288,-0.053851,-0.088494
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1958,Parbhani,2023-11-01,h1,-0.650745,-0.310116,0.340629,0.340629,0.116028,0.999996,-0.310116,-0.334244
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1958,Parbhani,2023-11-01,h2,-1.421044,-0.224226,1.196818,1.196818,1.432373,0.762551,-0.189968,-0.334244
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1958,Parbhani,2023-11-01,h3,-1.148436,0.000217,1.148653,1.148653,1.319403,0.793288,0.087369,-0.334244
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1959,Parbhani,2023-12-01,h1,-1.421044,-0.498918,0.922126,0.922126,0.850317,0.999996,-0.498917,-0.650745
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1959,Parbhani,2023-12-01,h2,-1.148436,-0.282542,0.865894,0.865894,0.749773,0.762551,-0.167888,-0.650745
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1959,Parbhani,2023-12-01,h3,-0.854776,-0.228586,0.62619,0.62619,0.392114,0.793288,-0.118581,-0.650745
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1960,Parbhani,2024-01-01,h1,-1.148436,-0.946698,0.201738,0.201738,0.040698,0.999996,-0.946696,-1.421044
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1960,Parbhani,2024-01-01,h2,-0.854776,-0.952844,-0.098068,0.098068,0.009617,0.762551,-0.807052,-1.421044
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1960,Parbhani,2024-01-01,h3,-0.956638,-0.706629,0.250009,0.250009,0.062504,0.793288,-0.52047,-1.421044
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1961,Parbhani,2024-02-01,h1,-0.854776,-0.968877,-0.114101,0.114101,0.013019,0.999996,-0.968876,-1.148436
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1961,Parbhani,2024-02-01,h2,-0.956638,-0.776964,0.179674,0.179674,0.032283,0.762551,-0.661292,-1.148436
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1961,Parbhani,2024-02-01,h3,-0.722429,-0.69981,0.022619,0.022619,0.000512,0.793288,-0.582909,-1.148436
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1962,Parbhani,2024-03-01,h1,-0.956638,-0.553319,0.403319,0.403319,0.162666,0.999996,-0.553318,-0.854776
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1962,Parbhani,2024-03-01,h2,-0.722429,-0.578586,0.143843,0.143843,0.020691,0.762551,-0.492584,-0.854776
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1962,Parbhani,2024-03-01,h3,-1.080126,-0.476318,0.603808,0.603808,0.364584,0.793288,-0.377701,-0.854776
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1963,Parbhani,2024-04-01,h1,-0.722429,-0.810987,-0.088558,0.088558,0.007842,0.999996,-0.810986,-0.956638
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1963,Parbhani,2024-04-01,h2,-1.080126,-0.717741,0.362385,0.362385,0.131323,0.762551,-0.643352,-0.956638
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1963,Parbhani,2024-04-01,h3,-1.879651,-0.455887,1.423764,1.423764,2.027104,0.793288,-0.325403,-0.956638
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1964,Parbhani,2024-05-01,h1,-1.080126,-0.536263,0.543863,0.543863,0.295787,0.999996,-0.536262,-0.722429
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1964,Parbhani,2024-05-01,h2,-1.879651,-0.354233,1.525418,1.525418,2.326901,0.762551,-0.239581,-0.722429
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1964,Parbhani,2024-05-01,h3,-1.519184,-0.316043,1.203141,1.203141,1.447547,0.793288,-0.210149,-0.722429
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1965,Parbhani,2024-06-01,h1,-1.879651,-0.747457,1.132194,1.132194,1.281863,0.999996,-0.747456,-1.080126
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1965,Parbhani,2024-06-01,h2,-1.519184,-0.747748,0.771436,0.771436,0.595113,0.762551,-0.64425,-1.080126
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1965,Parbhani,2024-06-01,h3,-1.12221,-0.648694,0.473516,0.473516,0.224217,0.793288,-0.536273,-1.080126
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1966,Parbhani,2024-07-01,h1,-1.519184,-1.587946,-0.068762,0.068762,0.004728,0.999996,-1.587945,-1.879651
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1966,Parbhani,2024-07-01,h2,-1.12221,-1.483664,-0.361454,0.361454,0.130649,0.762551,-1.360358,-1.879651
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1966,Parbhani,2024-07-01,h3,-0.844416,-1.273724,-0.429308,0.429308,0.184305,0.793288,-1.115834,-1.879651
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1967,Parbhani,2024-08-01,h1,-1.12221,-1.285438,-0.163228,0.163228,0.026643,0.999996,-1.285437,-1.519184
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1967,Parbhani,2024-08-01,h2,-0.844416,-1.162842,-0.318426,0.318426,0.101395,0.762551,-1.051882,-1.519184
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1967,Parbhani,2024-08-01,h3,-0.933659,-1.018872,-0.085213,0.085213,0.007261,0.793288,-0.888503,-1.519184
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1968,Parbhani,2024-09-01,h1,-0.844416,-0.871011,-0.026595,0.026595,0.000707,0.999996,-0.87101,-1.12221
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1968,Parbhani,2024-09-01,h2,-0.933659,-0.83758,0.096079,0.096079,0.009231,0.762551,-0.74895,-1.12221
+historical_diagnostic_evidence,AR_Persistence_Ensemble,1968,Parbhani,2024-09-01,h3,-1.057159,-0.729997,0.327162,0.327162,0.107035,0.793288,-0.627795,-1.12221

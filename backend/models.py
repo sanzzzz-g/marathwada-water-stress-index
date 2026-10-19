@@ -8,7 +8,7 @@ from pydantic import BaseModel, Field
 
 DistrictIdType = Literal['csn', 'jalna', 'beed', 'dharashiv', 'latur', 'nanded', 'parbhani', 'hingoli']
 WeightingSchemeType = Literal['W0', 'W1', 'custom']
-StressCategoryType = Literal['Low / Normal', 'Moderate Stress', 'Severe Stress']
+StressCategoryType = Literal['Very Wet', 'Wet', 'Normal', 'Moderate Stress', 'Severe Stress']
 ForecastHorizonType = Literal[1, 2, 3]
 
 

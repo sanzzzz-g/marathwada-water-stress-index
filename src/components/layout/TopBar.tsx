@@ -38,8 +38,8 @@ export const TopBar: React.FC<TopBarProps> = ({
         </button>
       </div>
 
-      {/* Zone 2: 4–5 clean single-line text navigation links */}
-      <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-slate-400">
+      {/* Zone 2: clean single-line text navigation links */}
+      <nav className="hidden md:flex items-center gap-5 text-sm font-medium text-slate-400">
         <button
           onClick={() => onNavigate('overview')}
           className={`whitespace-nowrap shrink-0 transition-colors hover:text-slate-200 ${
@@ -47,6 +47,15 @@ export const TopBar: React.FC<TopBarProps> = ({
           }`}
         >
           Overview
+        </button>
+        <button
+          onClick={() => onNavigate('war-room')}
+          className={`whitespace-nowrap shrink-0 transition-colors hover:text-slate-200 flex items-center gap-1.5 ${
+            currentRoute === 'war-room' ? 'text-rose-400 font-semibold' : ''
+          }`}
+        >
+          <span>War Room</span>
+          <span className="w-1.5 h-1.5 rounded-full bg-rose-400 animate-ping" />
         </button>
         <button
           onClick={() => onNavigate('forecasts')}
@@ -57,12 +66,36 @@ export const TopBar: React.FC<TopBarProps> = ({
           Forecasts
         </button>
         <button
+          onClick={() => onNavigate('reservoirs')}
+          className={`whitespace-nowrap shrink-0 transition-colors hover:text-slate-200 ${
+            currentRoute === 'reservoirs' ? 'text-cyan-400 font-semibold' : ''
+          }`}
+        >
+          Reservoirs
+        </button>
+        <button
           onClick={() => onNavigate('map')}
           className={`whitespace-nowrap shrink-0 transition-colors hover:text-slate-200 ${
             currentRoute === 'map' ? 'text-cyan-400 font-semibold' : ''
           }`}
         >
           Map
+        </button>
+        <button
+          onClick={() => onNavigate('time-machine')}
+          className={`whitespace-nowrap shrink-0 transition-colors hover:text-slate-200 ${
+            currentRoute === 'time-machine' ? 'text-indigo-400 font-semibold' : ''
+          }`}
+        >
+          Time-Machine
+        </button>
+        <button
+          onClick={() => onNavigate('copilot')}
+          className={`whitespace-nowrap shrink-0 transition-colors hover:text-slate-200 flex items-center gap-1 ${
+            currentRoute === 'copilot' ? 'text-emerald-400 font-semibold' : ''
+          }`}
+        >
+          <span>AI SITREP</span>
         </button>
         <button
           onClick={() => onNavigate('simulator')}
@@ -72,14 +105,6 @@ export const TopBar: React.FC<TopBarProps> = ({
         >
           Simulator
         </button>
-        <button
-          onClick={() => onNavigate('metrics')}
-          className={`whitespace-nowrap shrink-0 transition-colors hover:text-slate-200 ${
-            currentRoute === 'metrics' ? 'text-cyan-400 font-semibold' : ''
-          }`}
-        >
-          Validation
-        </button>
       </nav>
 
       {/* Zone 3: 1 primary action */}
@@ -87,7 +112,7 @@ export const TopBar: React.FC<TopBarProps> = ({
         <div className="hidden xl:flex items-center text-xs font-mono text-slate-400 mr-2">
           <span>Target: {LATEST_DATASET_DATE}</span>
           <span className="mx-2 text-slate-600">·</span>
-          <span className="text-teal-400">Model M5 Ridge</span>
+          <span className="text-teal-400">Reference: Persistence</span>
         </div>
         <button
           onClick={onQuickSimulate || (() => onNavigate('simulator'))}
