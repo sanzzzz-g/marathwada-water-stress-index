@@ -2,21 +2,21 @@
   "lookback_months": 12,
   "horizon_months": 3,
   "train_sequences": 1328,
-  "validation_sequences": 288,
-  "test_sequences": 360,
-  "total_sequences": 1976,
+  "validation_sequences": 272,
+  "test_sequences": 368,
+  "total_sequences": 1968,
   "train_shape": [
     1328,
     12,
     6
   ],
   "validation_shape": [
-    288,
+    272,
     12,
     6
   ],
   "test_shape": [
-    360,
+    368,
     12,
     6
   ],
@@ -26,11 +26,11 @@
       3
     ],
     "validation": [
-      288,
+      272,
       3
     ],
     "test": [
-      360,
+      368,
       3
     ]
   },

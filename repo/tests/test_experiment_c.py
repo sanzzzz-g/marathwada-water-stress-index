@@ -123,7 +123,7 @@ def test_input_arrays_immutability():
         "wsi_origin_input": data["wsi_origin_val"][:, None],
     }
     preds = model.predict(val_inputs, verbose=0)
-    assert preds.shape == (288, 3)
+    assert preds.shape == (len(data["x_val"]), 3)
     assert np.isfinite(preds).all()
 
     eval_res = evaluate_predictions(preds, data)

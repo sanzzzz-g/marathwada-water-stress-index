@@ -81,70 +81,88 @@ def calc_event_f1(y_true: np.ndarray, y_pred: np.ndarray, threshold: float) -> D
 
 # Statistical Significance: Moving Block Bootstrap & Diebold-Mariano
 
+
 def moving_block_bootstrap_significance(
     df: pd.DataFrame,
     candidate_model: str,
     champion_model: str,
     block_length: int = 3,
-    n_boot: int = 1000,
+    n_boot: int = 2000,
     random_state: int = 42,
 ) -> Dict[str, Any]:
-    """
-    Moving block bootstrap over consecutive forecast-origin months:
-    - Retains all 8 districts clustered within each sampled month.
-    - Preserves cross-district spatial dependence and temporal autocorrelation.
-    - Evaluates paired difference: Diff_MAE = MAE(candidate) - MAE(champion).
-    """
+    """Paired moving-block bootstrap of MAE differences across forecast origins."""
     rng = np.random.default_rng(random_state)
+    keys = ["forecast_origin", "district", "horizon"]
 
-    cand_df = df[df["model"] == candidate_model].sort_values(by=["forecast_origin", "district", "horizon"]).reset_index(drop=True)
-    champ_df = df[df["model"] == champion_model].sort_values(by=["forecast_origin", "district", "horizon"]).reset_index(drop=True)
+    cand = df.loc[df["model"] == candidate_model, keys + ["absolute_error"]].copy()
+    champ = df.loc[df["model"] == champion_model, keys + ["absolute_error"]].copy()
 
-    origins = sorted(cand_df["forecast_origin"].unique())
+    if cand.empty or champ.empty:
+        return {"error": "Candidate or champion model has no predictions"}
+
+    if cand.duplicated(keys).any() or champ.duplicated(keys).any():
+        return {"error": "Duplicate prediction keys found for a model"}
+
+    paired = cand.merge(
+        champ,
+        on=keys,
+        how="inner",
+        suffixes=("_candidate", "_champion"),
+        validate="one_to_one",
+    )
+
+    if len(paired) != len(cand) or len(paired) != len(champ):
+        return {"error": "Models do not have identical prediction keys"}
+
+    if paired["absolute_error_candidate"].isna().any() or paired["absolute_error_champion"].isna().any():
+        return {"error": "Missing absolute errors found"}
+
+    origins = sorted(paired["forecast_origin"].unique())
     n_origins = len(origins)
 
-    if n_origins <= block_length:
-        return {"error": "Not enough origins for block bootstrap"}
+    if block_length < 1 or n_origins <= block_length:
+        return {"error": "Not enough origins for the requested block length"}
+    if n_boot < 1:
+        return {"error": "n_boot must be positive"}
 
-    # Group records by origin
-    cand_by_origin = {o: cand_df[cand_df["forecast_origin"] == o]["absolute_error"].values for o in origins}
-    champ_by_origin = {o: champ_df[champ_df["forecast_origin"] == o]["absolute_error"].values for o in origins}
+    paired["error_diff"] = (
+        paired["absolute_error_candidate"] - paired["absolute_error_champion"]
+    )
+    diff_by_origin = {
+        origin: group["error_diff"].to_numpy()
+        for origin, group in paired.groupby("forecast_origin", sort=False)
+    }
 
-    observed_diff = np.mean(cand_df["absolute_error"]) - np.mean(champ_df["absolute_error"])
-    boot_diffs = []
+    observed_diff = float(paired["error_diff"].mean())
+    n_blocks = int(np.ceil(n_origins / block_length))
+    max_start = n_origins - block_length
+    boot_diffs = np.empty(n_boot)
 
-    # Number of blocks needed to cover n_origins
-    n_blocks_needed = int(np.ceil(n_origins / block_length))
-    max_start_idx = n_origins - block_length + 1
+    for b in range(n_boot):
+        starts = rng.integers(0, max_start + 1, size=n_blocks)
+        sampled_origins = []
+        for start in starts:
+            sampled_origins.extend(origins[start:start + block_length])
+        sampled_origins = sampled_origins[:n_origins]
 
-    for _ in range(n_boot):
-        start_indices = rng.integers(0, max_start_idx, size=n_blocks_needed)
-        sampled_cand_errors = []
-        sampled_champ_errors = []
+        sampled_diffs = np.concatenate([diff_by_origin[o] for o in sampled_origins])
+        boot_diffs[b] = sampled_diffs.mean()
 
-        for s_idx in start_indices:
-            for b in range(block_length):
-                o = origins[s_idx + b]
-                sampled_cand_errors.extend(cand_by_origin[o])
-                sampled_champ_errors.extend(champ_by_origin[o])
+    ci_lower, ci_upper = np.percentile(boot_diffs, [2.5, 97.5])
 
-        # Trim to exact length
-        boot_diff = np.mean(sampled_cand_errors) - np.mean(sampled_champ_errors)
-        boot_diffs.append(boot_diff)
-
-    boot_diffs = np.array(boot_diffs)
-    ci_lower = float(np.percentile(boot_diffs, 2.5))
-    ci_upper = float(np.percentile(boot_diffs, 97.5))
-    p_value = float(np.mean(boot_diffs <= 0) if observed_diff > 0 else np.mean(boot_diffs >= 0)) * 2
-    p_value = min(1.0, max(0.0, p_value))
+    # Approximate two-sided bootstrap test centered under the null hypothesis.
+    centered = boot_diffs - observed_diff
+    p_value = (
+        1 + np.sum(np.abs(centered) >= abs(observed_diff))
+    ) / (n_boot + 1)
 
     return {
         "candidate_model": candidate_model,
         "champion_model": champion_model,
-        "observed_mae_diff": round(float(observed_diff), 5),
-        "ci_95_lower": round(ci_lower, 5),
-        "ci_95_upper": round(ci_upper, 5),
-        "bootstrap_p_value": round(p_value, 4),
+        "observed_mae_diff": round(observed_diff, 5),
+        "ci_95_lower": round(float(ci_lower), 5),
+        "ci_95_upper": round(float(ci_upper), 5),
+        "bootstrap_p_value": round(float(p_value), 4),
         "significantly_different": bool(ci_lower > 0 or ci_upper < 0),
         "candidate_is_better": bool(observed_diff < 0 and ci_upper < 0),
     }

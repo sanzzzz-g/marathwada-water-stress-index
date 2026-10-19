@@ -27,8 +27,8 @@ REQUIRED_META = [
 
 EXPECTED_COUNTS = {
     "train": 1328,
-    "validation": 288,
-    "test": 360,
+    "validation": 272,
+    "test": 368,
 }
 
 
